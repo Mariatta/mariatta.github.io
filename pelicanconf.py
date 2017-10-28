@@ -7,7 +7,7 @@ AUTHORS = {
     'Mariatta': 'http://mariatta.ca'
 }
 SITENAME = 'mariatta.ca'
-SITEURL = 'http://localhost:8000'
+SITEURL = 'http://mariatta.ca'
 
 PATH = 'content'
 
@@ -55,12 +55,6 @@ FAVICON = SITEURL + '/img/favicon.ico'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
 
-CC_LICENSE = {
-    'name': 'Creative Commons Attribution-ShareAlike',
-    'version': '4.0',
-    'slug': 'by-sa'
-}
-
 COPYRIGHT_YEAR = 2017
 
 EXTRA_PATH_METADATA = {
@@ -78,3 +72,5 @@ I18N_TEMPLATES_LANG = 'en'
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
              ('Tags', '/tags.html'),)
+
+GOOGLE_ANALYTICS = 'UA-89118970-2'
