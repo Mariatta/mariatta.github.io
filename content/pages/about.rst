@@ -28,6 +28,8 @@ Other appearances
 - Several `movies`_ have my name at the end credit, if you wait long enough for it
   to appear... 😜
 
+- I had the honor of writing the foreword to Dan Bader's book, Python Tricks: A
+  Buffet of Awesome Python Features. You can buy the book from `Amazon`_.
 
 You can `paypal.me <https://paypal.me/mariatta>`_ if you want to.
 
@@ -42,3 +44,4 @@ You can `paypal.me <https://paypal.me/mariatta>`_ if you want to.
 .. _Castalio Podcast: http://castalio.info/episodio-114-mariatta-wijaya-cpython.html
 .. _Python Core Developer: https://mail.python.org/pipermail/python-committers/2017-January/004175.html
 .. _movies: http://www.imdb.com/name/nm7641957/
+.. _Amazon: https://dbader.org/python-tricks-amzn
