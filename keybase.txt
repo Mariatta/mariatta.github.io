@@ -1,0 +1,52 @@
+https://keybase.io/mariatta
+--------------------------------------------------------------------
+
+I hereby claim:
+
+  * I am an admin of http://mariatta.ca
+  * I am mariatta (https://keybase.io/mariatta) on keybase.
+  * I have a public key ASAaSGIc-nFjWTmcpjStyg4wFa2yqaTBVUgI8JV2IDZ9Mgo
+
+To do so, I am signing this object:
+
+{
+  "body": {
+    "key": {
+      "eldest_kid": "01201a48621cfa716359399ca634adca0e3015adb2a9a4c1554808f0957620367d320a",
+      "host": "keybase.io",
+      "kid": "01201a48621cfa716359399ca634adca0e3015adb2a9a4c1554808f0957620367d320a",
+      "uid": "1dd4aceefb61234cd9db25bcf8cf0819",
+      "username": "mariatta"
+    },
+    "merkle_root": {
+      "ctime": 1501043293,
+      "hash": "6f65f40220bdf77bc7ad150de9cde14284705cf1e930b3446337481ee6a0646ca065fdd82f96aff999dc621bab2b3188ac81a1670d3f7267845828c0dfffbe52",
+      "hash_meta": "4271aa59d9deca745123e9b4f19a7649f380764c49d337206067d3f42f2fde61",
+      "seqno": 1280959
+    },
+    "service": {
+      "hostname": "mariatta.ca",
+      "protocol": "http:"
+    },
+    "type": "web_service_binding",
+    "version": 1
+  },
+  "client": {
+    "name": "keybase.io go client",
+    "version": "1.0.25"
+  },
+  "ctime": 1501043363,
+  "expire_in": 504576000,
+  "prev": "a7225d76ab0b1490534427d38e3a328b87aaaf14c43b08d10f7e554de2a71232",
+  "seqno": 10,
+  "tag": "signature"
+}
+
+which yields the signature:
+
+hKRib2R5hqhkZXRhY2hlZMOpaGFzaF90eXBlCqNrZXnEIwEgGkhiHPpxY1k5nKY0rcoOMBWtsqmkwVVICPCVdiA2fTIKp3BheWxvYWTFA0N7ImJvZHkiOnsia2V5Ijp7ImVsZGVzdF9raWQiOiIwMTIwMWE0ODYyMWNmYTcxNjM1OTM5OWNhNjM0YWRjYTBlMzAxNWFkYjJhOWE0YzE1NTQ4MDhmMDk1NzYyMDM2N2QzMjBhIiwiaG9zdCI6ImtleWJhc2UuaW8iLCJraWQiOiIwMTIwMWE0ODYyMWNmYTcxNjM1OTM5OWNhNjM0YWRjYTBlMzAxNWFkYjJhOWE0YzE1NTQ4MDhmMDk1NzYyMDM2N2QzMjBhIiwidWlkIjoiMWRkNGFjZWVmYjYxMjM0Y2Q5ZGIyNWJjZjhjZjA4MTkiLCJ1c2VybmFtZSI6Im1hcmlhdHRhIn0sIm1lcmtsZV9yb290Ijp7ImN0aW1lIjoxNTAxMDQzMjkzLCJoYXNoIjoiNmY2NWY0MDIyMGJkZjc3YmM3YWQxNTBkZTljZGUxNDI4NDcwNWNmMWU5MzBiMzQ0NjMzNzQ4MWVlNmEwNjQ2Y2EwNjVmZGQ4MmY5NmFmZjk5OWRjNjIxYmFiMmIzMTg4YWM4MWExNjcwZDNmNzI2Nzg0NTgyOGMwZGZmZmJlNTIiLCJoYXNoX21ldGEiOiI0MjcxYWE1OWQ5ZGVjYTc0NTEyM2U5YjRmMTlhNzY0OWYzODA3NjRjNDlkMzM3MjA2MDY3ZDNmNDJmMmZkZTYxIiwic2Vxbm8iOjEyODA5NTl9LCJzZXJ2aWNlIjp7Imhvc3RuYW1lIjoibWFyaWF0dGEuY2EiLCJwcm90b2NvbCI6Imh0dHA6In0sInR5cGUiOiJ3ZWJfc2VydmljZV9iaW5kaW5nIiwidmVyc2lvbiI6MX0sImNsaWVudCI6eyJuYW1lIjoia2V5YmFzZS5pbyBnbyBjbGllbnQiLCJ2ZXJzaW9uIjoiMS4wLjI1In0sImN0aW1lIjoxNTAxMDQzMzYzLCJleHBpcmVfaW4iOjUwNDU3NjAwMCwicHJldiI6ImE3MjI1ZDc2YWIwYjE0OTA1MzQ0MjdkMzhlM2EzMjhiODdhYWFmMTRjNDNiMDhkMTBmN2U1NTRkZTJhNzEyMzIiLCJzZXFubyI6MTAsInRhZyI6InNpZ25hdHVyZSJ9o3NpZ8RAwtw0Ixgufeh9wp0pAiEkWCqM9SsHgG8RtRMf+0YynABZCo+ycl5AKNNwtq7oHKUq6iz/T/z/rz0TB5pUIgYEC6hzaWdfdHlwZSCkaGFzaIKkdHlwZQildmFsdWXEIK0ZV5RpMXVoYtGM1Qui9jF/8niuu5sVgKk15xLSx8hio3RhZ80CAqd2ZXJzaW9uAQ==
+
+And finally, I am proving ownership of this host by posting or
+appending to this document.
+
+View my publicly-auditable identity here: https://keybase.io/mariatta
