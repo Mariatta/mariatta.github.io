@@ -11,7 +11,7 @@ Timeline of all the talks I've given, all around the world 🌎.
 Upcoming conferences
 ====================
 
-- None! We'll see what's in store 2018 brings. ☺️
+- None! We'll see what's in store for 2018. ☺️
 
 
 Upcoming meetups / talks
