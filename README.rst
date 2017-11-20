@@ -31,7 +31,7 @@ Committing local changes
 
 ::
 
-   git push origin config
+   git push origin configuration
 
 Publish to GitHub Pages
 =======================

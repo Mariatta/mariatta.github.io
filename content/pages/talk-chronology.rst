@@ -7,12 +7,12 @@ Talk Chronology
 
 Timeline of all the talks I've given, all around the world 🌎.
 
+
 Upcoming conferences
 ====================
 
-- `PyCon Canada`_, November 18-19, 2017 in Montréal 2017. I'm one of the keynote
-  speakers! 😱  I'm just a newbie compared to the other world renowned keynote
-  speakers 😳
+- None! We'll see what's in store 2018 brings. ☺️
+
 
 Upcoming meetups / talks
 ========================
@@ -26,6 +26,10 @@ Upcoming meetups / talks
 
 Past conferences
 ================
+
+- `PyCon Canada`_, November 18-19, 2017 in Montréal 2017. I was the closing
+  keynote speaker! 😱  I was just a newbie compared to the other world-renowned
+  keynote speakers 😳
 
 - `PyCon Australia 2017`_, August 5, 2017 in Melbourne. I gave a literal PEP talk!
   PEP 498: the Monologue. It was great! I'm looking for opportunities to give
@@ -51,9 +55,9 @@ Past conferences
 
 See also: `#IceCreamSelfie <../pages/ice-cream-selfie.html>`_.
 
+
 Past meetups
 ============
-
 
 - `Code and Coffee YVR`_, October 19, 2017 in Vancouver. I gave a talk
   about how I built my Savage Garden hotline with Python. I had a lot of fun
