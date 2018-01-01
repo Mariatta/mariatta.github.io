@@ -236,7 +236,7 @@ He agreed. Thanks Brett.
 `PyCon Canada <https://2017.pycon.ca/>`_ asked me to give a keynote. What an honor.
 
 Two different friends wanted to nominate me for some kind of `award <https://www.redhat.com/en/about/women-in-open-source>`_.
-Wow! Thanks Gloria and Victor. Don't think I stack up against the other nominee
+Wow! Thanks Gloria and Victor. Don't think I stack up against the other nominees
 but it meant a lot that you both thought of me.
 
 Gregory nominated me for `Google Open Source Peer Bonus <https://opensource.googleblog.com/2017/10/more-open-source-peer-bonus-winners.html>`_ award. That felt great.
