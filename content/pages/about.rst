@@ -11,8 +11,9 @@ About
 I'm Mariatta. I work as a software engineer in Vancouver, BC 🇨🇦. I'm a
 co-organizer of `Vancouver PyLadies`_ and `PyCascades`_ conference.
 
-I'm a new Python Core Developer. I contribute to `Python documentation`_,
-`Python Developer's Guide`_, `Python core workflow`_, and `Python.org`_.
+I'm a Python Core Developer. I contribute to `Python documentation`_,
+`Python Developer's Guide`_, `Python core workflow`_, and `Python.org`_. I help
+maintain Core Python's GitHub bots: `bedevere`_ and `miss-islington`_.
 
 Other appearances
 -----------------
@@ -31,7 +32,8 @@ Other appearances
 - I had the honor of writing the foreword to Dan Bader's book, Python Tricks: A
   Buffet of Awesome Python Features. You can buy the book from `Amazon`_.
 
-You can `paypal.me <https://paypal.me/mariatta>`_ if you want to.
+You can send me a `Happiness Packet <https://www.happinesspackets.io/send/>`_,
+`paypal.me <https://paypal.me/mariatta>`_, or support me on `Patreon <https://www.patreon.com/Mariatta>`_.
 
 
 .. _Vancouver PyLadies: https://www.meetup.com/preview/PyLadies-Vancouver
@@ -45,3 +47,5 @@ You can `paypal.me <https://paypal.me/mariatta>`_ if you want to.
 .. _Python Core Developer: https://mail.python.org/pipermail/python-committers/2017-January/004175.html
 .. _movies: http://www.imdb.com/name/nm7641957/
 .. _Amazon: https://dbader.org/python-tricks-amzn
+.. _bedevere: https://github.com/python/bedevere
+.. _miss-islington: https://github.com/python/miss-islington

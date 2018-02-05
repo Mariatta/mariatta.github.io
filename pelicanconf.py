@@ -49,7 +49,7 @@ STATIC_PATHS = ['img', 'extra']
 SITETITLE = 'Mariatta'
 SITESUBTITLE = ''
 SITEDESCRIPTION = ''
-SITELOGO = SITEURL + '/img/mariatta.jpeg'
+SITELOGO = SITEURL + '/img/mariatta.jpg'
 FAVICON = SITEURL + '/img/favicon.ico'
 
 BROWSER_COLOR = '#333'

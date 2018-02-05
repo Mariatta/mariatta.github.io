@@ -11,23 +11,24 @@ Timeline of all the talks I've given, all around the world 🌎.
 Upcoming conferences
 ====================
 
-- None! We'll see what's in store for 2018. ☺️
-
+- `PyCon US 2018`_, I will give a tutorial titled Build-a-GitHub-Bot Workshop.
+  This will be the first time I ever give a formal tutorial. I'll probably do
+  a dry run at PyLadies Vancouver in April.
 
 Upcoming meetups / talks
 ========================
 
-- Hour of Code, December 7, 2017. I will give a talk to the high school students
-  of New Westminster Secondary School. I haven't prepared anything yet, but it's
-  part of the *Meet a Computer Scientist* segment. I'm planning to talk about
-  my career so far, what lead me to study computer science, and try to inspire
-  the students to study programming. 😆
-
+- `Code and Coffee Pop-Up Richmond`_, Feb 28, 2018 in Vancouver. Not sure what I
+  will talk about yet. I really want to talk about f-strings maybe about building
+  GitHub bots.
 
 Past conferences
 ================
 
-- `PyCon Canada`_, November 18-19, 2017 in Montréal 2017. I was the closing
+- `PyCascades 2018`_, January 22, 2018 in Vancouver. I gave a quick lightning talk
+  about (what else) f-strings.
+
+- `PyCon Canada`_, November 18-19, 2017 in Montréal. I was the closing
   keynote speaker! 😱  I was just a newbie compared to the other world-renowned
   keynote speakers 😳
 
@@ -59,6 +60,11 @@ See also: `#IceCreamSelfie <../pages/ice-cream-selfie.html>`_.
 Past meetups
 ============
 
+- Hour of Code, December 7, 2017. I will give a talk to the high school students
+  of New Westminster Secondary School. I talked about
+  my career so far, what lead me to study computer science, and inspired
+  the students to study programming. 😆
+
 - `Code and Coffee YVR`_, October 19, 2017 in Vancouver. I gave a talk
   about how I built my Savage Garden hotline with Python. I had a lot of fun
   doing this project.
@@ -76,6 +82,13 @@ Past meetups
 
 - `PyLadies Vancouver Talk Night (January)`_, January 31, 2017 in Vancouver.
   The première of my talk: Dial M for Mentor.
+
+
+.. _Code and Coffee Pop-Up Richmond: http://meetu.ps/e/DCNNs/81Pb8/d
+
+.. _PyCascades 2018: https://www.pycascades.com
+
+.. _PyCon US 2018: https://us.pycon.org/2018
 
 .. _Code and Coffee YVR: https://www.meetup.com/preview/codecoffeeyvr/events/237554866
 
