@@ -5,50 +5,48 @@ Talk Chronology
 :author: Mariatta
 
 
-Timeline of all the talks I've given, all around the world 🌎.
-
-
 Upcoming conferences
 ====================
 
-- `PyCon US 2018`_, I will give a tutorial titled Build-a-GitHub-Bot Workshop.
+- `PyCon US 2018 Tutorial`_, I will give a tutorial titled **Build-a-GitHub-Bot Workshop**.
   This will be the first time I ever give a formal tutorial. I'll probably do
   a dry run at PyLadies Vancouver in April.
 
-Upcoming meetups / talks
-========================
+- `PyCon US 2018`_, I will give a talk titled **What is a Python Core Developer?**.
 
-- `Code and Coffee Pop-Up Richmond`_, Feb 28, 2018 in Vancouver. Not sure what I
-  will talk about yet. I really want to talk about f-strings maybe about building
-  GitHub bots.
+Upcoming meetups
+================
+
+- `Code and Coffee Pop-Up Richmond`_, Feb 28, 2018 in Richmond. I will present
+  a brand new talk: **Automating GitHub Workflow with Bots**.
 
 Past conferences
 ================
 
 - `PyCascades 2018`_, January 22, 2018 in Vancouver. I gave a quick lightning talk
-  about (what else) f-strings.
+  about (what else) **f-strings**.
 
 - `PyCon Canada`_, November 18-19, 2017 in Montréal. I was the closing
   keynote speaker! 😱  I was just a newbie compared to the other world-renowned
   keynote speakers 😳
 
 - `PyCon Australia 2017`_, August 5, 2017 in Melbourne. I gave a literal PEP talk!
-  PEP 498: the Monologue. It was great! I'm looking for opportunities to give
+  **PEP 498: the Monologue**. It was great! I'm looking for opportunities to give
   this talk again! 😝
 
-- `PyCon US 2017`_, May 19, 2017 in Portland. The grand finale of my talk, Dial
-  M For Mentor. It is reviewed as one of `10 top talks`_ of PyCon US 2017 by Brett
+- `PyCon US 2017`_, May 19, 2017 in Portland. The grand finale of my talk, **Dial
+  M For Mentor**. It is reviewed as one of `10 top talks`_ of PyCon US 2017 by Brett
   Slatkin for Talk Python podcast. ☺️ Thanks!
   After giving it at PyCon, I'm just no longer mentally or
   emotionally able to deliver this talk ever again. 😔
 
-- PyCon Italy 2017, April 7, 2017 in Florence. I gave the talk Dial M For Mentor.
+- PyCon Italy 2017, April 7, 2017 in Florence. I gave the talk **Dial M For Mentor**.
 
 - `DjangoCon Europe 2017`_, April 5, 2017 in Florence. The European première of
-  Dial M For Mentor.
+  **Dial M For Mentor**.
 
-- PyCaribbean 2017, February 18, 2017 in Puerto Rico. First time giving Dial
-  M For Mentor at an actual conference.
+- PyCaribbean 2017, February 18, 2017 in Puerto Rico. First time giving **Dial
+  M For Mentor** at an actual conference.
 
 - `DjangoCon US 2016`_, July 19, 2016 in Philadelphia. My first ever real
   conference talk! 😱 I think it went well. It gave me confidence to try
@@ -89,6 +87,8 @@ Past meetups
 .. _PyCascades 2018: https://www.pycascades.com
 
 .. _PyCon US 2018: https://us.pycon.org/2018
+
+.. _PyCon US 2018 Tutorial: https://us.pycon.org/2018/schedule/presentation/41/
 
 .. _Code and Coffee YVR: https://www.meetup.com/preview/codecoffeeyvr/events/237554866
 
