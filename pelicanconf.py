@@ -4,10 +4,10 @@ from __future__ import unicode_literals
 
 AUTHOR = 'Mariatta'
 AUTHORS = {
-    'Mariatta': 'http://mariatta.ca'
+    'Mariatta': 'https://mariatta.ca'
 }
 SITENAME = 'mariatta.ca'
-SITEURL = 'http://mariatta.ca'
+SITEURL = 'https://mariatta.ca'
 
 PATH = 'content'
 

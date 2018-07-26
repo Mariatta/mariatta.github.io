@@ -8,20 +8,19 @@ Talk Chronology
 Upcoming conferences
 ====================
 
-- `PyCon US 2018 Tutorial`_, I will give a tutorial titled **Build-a-GitHub-Bot Workshop**.
-  This will be the first time I ever give a formal tutorial. I'll probably do
-  a dry run at PyLadies Vancouver in April.
-
-- `PyCon US 2018`_, I will give a talk titled **What is a Python Core Developer?**.
+- Keynoting at two conferences later this year, and that'll be all for 2018!
 
 Upcoming meetups
 ================
 
-- `Code and Coffee Pop-Up Richmond`_, Feb 28, 2018 in Richmond. I will present
-  a brand new talk: **Automating GitHub Workflow with Bots**.
+Nothing for the rest of 2018.
 
 Past conferences
 ================
+
+- `PyCon US 2018 Tutorial`_, I gave a tutorial titled **Build-a-GitHub-Bot Workshop**.
+
+- `PyCon US 2018`_, I gave a talk titled **What is a Python Core Developer?**.
 
 - `PyCascades 2018`_, January 22, 2018 in Vancouver. I gave a quick lightning talk
   about (what else) **f-strings**.
@@ -57,6 +56,9 @@ See also: `#IceCreamSelfie <../pages/ice-cream-selfie.html>`_.
 
 Past meetups
 ============
+
+- `Code and Coffee Pop-Up Richmond`_, Feb 28, 2018 in Richmond. I will present
+  a brand new talk: **Automating GitHub Workflow with Bots**.
 
 - Hour of Code, December 7, 2017. I will give a talk to the high school students
   of New Westminster Secondary School. I talked about
