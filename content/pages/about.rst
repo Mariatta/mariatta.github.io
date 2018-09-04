@@ -15,10 +15,15 @@ I'm a Python Core Developer. I contribute to `Python documentation`_,
 `Python Developer's Guide`_, `Python core workflow`_, and `Python.org`_. I help
 maintain Core Python's GitHub bots: `bedevere`_ and `miss-islington`_.
 
+My current big projects are: `PEP 581`_ and `black out`_.
+
+
 Other appearances
 -----------------
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
+
+- `Python Community Interview by Real Python`_, August 27, 2018.
 
 - `PyDev of the Week`_ interview, September 25, 2017.
 
@@ -33,7 +38,8 @@ Other appearances
   Buffet of Awesome Python Features. You can buy the book from `Amazon`_.
 
 You can send me a `Happiness Packet <https://www.happinesspackets.io/send/>`_,
-`paypal.me <https://paypal.me/mariatta>`_, or support me on `Patreon <https://www.patreon.com/Mariatta>`_.
+`paypal.me <https://paypal.me/mariatta>`_, support me on `Patreon <https://www.patreon.com/Mariatta>`_,
+or just `say thanks <https://saythanks.io/to/Mariatta>`_.
 
 
 .. _Vancouver PyLadies: https://www.meetup.com/preview/PyLadies-Vancouver
@@ -49,3 +55,6 @@ You can send me a `Happiness Packet <https://www.happinesspackets.io/send/>`_,
 .. _Amazon: https://dbader.org/python-tricks-amzn
 .. _bedevere: https://github.com/python/bedevere
 .. _miss-islington: https://github.com/python/miss-islington
+.. _Python Community Interview by Real Python: https://realpython.com/interview-mariatta-wijaya/
+.. _PEP 581: https://www.python.org/dev/peps/pep-0581/
+.. _black out: https://github.com/mariatta/black_out

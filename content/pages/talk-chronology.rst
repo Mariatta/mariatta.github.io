@@ -4,11 +4,16 @@ Talk Chronology
 :slug: talk-chronology
 :author: Mariatta
 
+You might also be interested in the `talk proposals`_ I've written.
 
 Upcoming conferences
 ====================
 
-- Keynoting at two conferences later this year, and that'll be all for 2018!
+- November 2018, Keynote speaker at a regional Python conference. And that will
+  be all for 2018.
+
+- `DjangoCon US 2018`_, October 2018 in San Diego. I'm one of the Keynote speakers.
+  I will give a brand new talk, **Don't Be a Robot; Build the Bot!**
 
 Upcoming meetups
 ================
@@ -84,7 +89,11 @@ Past meetups
   The première of my talk: Dial M for Mentor.
 
 
+.. _talk proposals: https://talk-talk-talk.readthedocs.io
+
 .. _Code and Coffee Pop-Up Richmond: http://meetu.ps/e/DCNNs/81Pb8/d
+
+.. _DjangoCon US 2018: https://2018.djangocon.us
 
 .. _PyCascades 2018: https://www.pycascades.com
 
