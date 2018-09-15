@@ -215,7 +215,7 @@ There are still more work to be done for blurb_it:
 - Add travis CI integration to the repo
 - Transfer app ownership to The PSF
 - Make it as a GitHub App instead of an OAuth App
-- Add form validation that the news entry has to be 30 characters
+- Add form validation that the news entry has to be more than 30 characters
 - Ask for Andrew's feedback on best practises when using aiohttp-session
 
 
