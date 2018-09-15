@@ -3,6 +3,8 @@ PyCon 2018
 
 :date: 2018-05-19 14:00
 :slug: pycon-2018
+:category: Python
+:tags: Python, conference, PyCon, sprint
 :author: Mariatta
 
 
