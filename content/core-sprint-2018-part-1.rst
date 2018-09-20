@@ -199,7 +199,7 @@ it all in Python 3.7, using fine libraries like `aiohttp
 Before starting to write this project, I needed to come up with a project name,
 and of course it was the hardest part of the process. I had thought of unimaginative
 names like, "Blurb on the web" or "blurb_ee (ee: extended edition, pronounced *blurbee*)".
-Eric V. Smith suggested "Blurb 2.0". It sounds okay, except that I'm not actually implementing
+Gregory P. Smith suggested "Blurb 2.0". It sounds okay, except that I'm not actually implementing
 a new "blurb". I'm trying to provide an enhancement of "blurb add" command, so it
 is only a subset of the full "blurb". "Blurb 2.0" sounds incorrect to me. Larry
 himself suggested: "webLurb" (pronounced webblurb, or maybe we blurb?). In the end,

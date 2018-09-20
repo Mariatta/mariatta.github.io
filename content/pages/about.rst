@@ -23,6 +23,8 @@ Other appearances
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
 
+- Mentioned in `New Yorker article`_, September 19, 2018.
+
 - `Python Community Interview by Real Python`_, August 27, 2018.
 
 - `PyDev of the Week`_ interview, September 25, 2017.
@@ -58,3 +60,4 @@ or just `say thanks <https://saythanks.io/to/Mariatta>`_.
 .. _Python Community Interview by Real Python: https://realpython.com/interview-mariatta-wijaya/
 .. _PEP 581: https://www.python.org/dev/peps/pep-0581/
 .. _black out: https://github.com/mariatta/black_out
+.. _New Yorker article:  https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside

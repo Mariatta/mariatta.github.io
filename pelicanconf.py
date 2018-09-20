@@ -1,6 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*- #
 from __future__ import unicode_literals
+from datetime import datetime
 
 AUTHOR = 'Mariatta'
 AUTHORS = {
@@ -16,17 +17,16 @@ TIMEZONE = 'America/Vancouver'
 DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
-FEED_ALL_ATOM = None
-CATEGORY_FEED_ATOM = None
-TRANSLATION_FEED_ATOM = None
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = None
+AUTHOR_FEED_RSS = 'feeds/%s.author.xml'
+FEED_ALL_ATOM = 'feeds/all.atom.xml'
+TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
 
 
-# LINKS = (('Pelican', 'http://getpelican.com/'),
-#          ('Python.org', 'http://python.org/'),
-#          ('Jinja2', 'http://jinja.pocoo.org/'),
-#          ('You can modify those links in your config file', '#'),)
+LINKS = (
+         ('RSS', "feeds/all.atom.xml"),
+         )
 
 # Social widget
 SOCIAL = (('twitter', 'https://twitter.com/mariatta'),
@@ -36,7 +36,7 @@ SOCIAL = (('twitter', 'https://twitter.com/mariatta'),
           ('instagram', 'https://www.instagram.com/mariatta81/'),
           )
 
-DEFAULT_PAGINATION = 10
+DEFAULT_PAGINATION = 5
 
 # Uncomment following line if you want document-relative URLs when developing
 RELATIVE_URLS = True
@@ -55,7 +55,7 @@ FAVICON = SITEURL + '/img/favicon.ico'
 BROWSER_COLOR = '#333'
 ROBOTS = 'index, follow'
 
-COPYRIGHT_YEAR = 2017
+COPYRIGHT_YEAR = "2017 - {}".format(datetime.now().strftime('%Y'))
 
 EXTRA_PATH_METADATA = {
     'extra/custom.css': {'path': 'static/custom.css'},
@@ -71,6 +71,7 @@ I18N_TEMPLATES_LANG = 'en'
 
 MENUITEMS = (('Archives', '/archives.html'),
              ('Categories', '/categories.html'),
-             ('Tags', '/tags.html'),)
+             ('Tags', '/tags.html'),
+             )
 
 GOOGLE_ANALYTICS = 'UA-89118970-2'
