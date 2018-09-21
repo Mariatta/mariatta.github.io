@@ -226,4 +226,6 @@ That is all the time I have to write up about the sprint. I'm heading back to
 Vancouver, and will be out-of-open source for the rest of the month. But I plan
 to continue with more details of some of the other projects.
 
+**Update**: `Part 2 <https://mariatta.ca/core-sprint-2018-part-2.html>`_.
+
 Thanks for reading.
