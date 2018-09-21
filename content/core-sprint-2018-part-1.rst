@@ -97,7 +97,7 @@ Here's the copy-pasta 🍝 version:
 
 - miss-islington rate limit issues 😕
 - `self-declaration <https://github.com/python/devguide/pull/414>`_ as "interested in emoji" 😎
-- Python language summit planning with Lukasz
+- Python language summit planning with Łukasz
 - deployed unofficial blurb_it
 - exhausted 😩
 - three shots of tequila 🥃

@@ -9,7 +9,7 @@ Python Core Sprint 2018: Part Two
 
 Read up on `Part one <https://mariatta.ca/core-sprint-2018-part-1.html>`_ first.
 
-Here are additional discussions and projects that I got involved in during the
+Here are additional discussions and projects that I got involved with during the
 sprint.
 
 PEP 581
@@ -248,7 +248,7 @@ There was slight hesitation from core devs in answering such question.
 
 *"It should work?"*
 
-*"I think so?"*.
+*"I think so?"*
 
 So Brett wrote us a small script to see if it will really work, with myself and
 Eric V. Smith as witness. The result is, this works for Python 3.7+.
@@ -257,6 +257,13 @@ I found out later that it does not work in Python 3.6, but I don't actually know
 the reason why. Something changed with how ``await`` works between 3.6 and 3.7?
 
 🤷🏻‍♀
+
+
+**Update:** Yury `commented on twitter <https://twitter.com/1st1/status/1042858310641152001>`_:
+*"yes, this needs Python 3.7+ to work. Before 3.7 async and await were not proper
+keywords, so the interpreter did not recognize them in some contexts."*
+
+Thanks Yury! Now we have new reason to start using Python 3.7+!
 
 
 To be continued
