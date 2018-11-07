@@ -9,11 +9,7 @@ You might also be interested in the `talk proposals`_ I've written.
 Upcoming conferences
 ====================
 
-- November 2018, Keynote speaker at a regional Python conference. And that will
-  be all for 2018.
-
-- `DjangoCon US 2018`_, October 2018 in San Diego. I'm one of the Keynote speakers.
-  I will give a brand new talk, **Don't Be a Robot; Build the Bot!**
+Nothing for the rest of 2018.
 
 Upcoming meetups
 ================
@@ -22,6 +18,12 @@ Nothing for the rest of 2018.
 
 Past conferences
 ================
+
+- `North Bay Python 2018`_, November 2018, in Petaluma. I was the opening Keynote speaker.
+  I gave an updated version of **What is a Python Core Developer?**.
+
+- `DjangoCon US 2018`_, October 2018 in San Diego. I was one of the Keynote speakers.
+  I gave a brand new talk, **Don't Be a Robot; Build the Bot!**
 
 - `PyCon US 2018 Tutorial`_, I gave a tutorial titled **Build-a-GitHub-Bot Workshop**.
 
@@ -122,3 +124,5 @@ Past meetups
 .. _PyCon Australia 2017: https://pycon-au.org/schedule/presentation/24/
 
 .. _DjangoCon US 2016: https://2016.djangocon.us/schedule/presentation/39/
+
+.. _North Bay Python 2018: https://2018.northbaypython.org/schedule/
