@@ -23,6 +23,8 @@ Other appearances
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
 
+- `Talk Python Episode 179`_ podcast, September 26, 2018.
+
 - Mentioned in `New Yorker article`_, September 19, 2018.
 
 - `Python Community Interview by Real Python`_, August 27, 2018.
@@ -61,3 +63,4 @@ or just `say thanks <https://saythanks.io/to/Mariatta>`_.
 .. _PEP 581: https://www.python.org/dev/peps/pep-0581/
 .. _black out: https://github.com/mariatta/black_out
 .. _New Yorker article:  https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside
+.. _Talk Python Episode 179: https://talkpython.fm/episodes/show/179/python-language-summit-2018
