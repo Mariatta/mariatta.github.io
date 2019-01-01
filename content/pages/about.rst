@@ -23,6 +23,9 @@ Other appearances
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
 
+- Guest contributor for `Nexmo Developer Spotlight <https://www.nexmo.com/blog/2018/11/15/pycascades-code-of-conduct-hotline-nexmo-voice-api-dr/>`_ tutorial
+  on enhanching the `PyCascades Code of Conduct Hotline <https://github.com/mariatta/enhanced-coc-hotline/>`_, November 15, 2018.
+
 - `Talk Python Episode 179`_ podcast, September 26, 2018.
 
 - Mentioned in `New Yorker article`_, September 19, 2018.
