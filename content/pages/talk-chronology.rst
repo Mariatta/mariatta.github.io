@@ -9,12 +9,18 @@ You might also be interested in the `talk proposals`_ I've written.
 Upcoming conferences
 ====================
 
-Nothing for the rest of 2018.
+- PyCon US 2019 Tutorial, I will give a tutorial, with Andrew Svetlov titled **Hands-on Intro to aiohttp**.
+
+- PyCon US 2019, I will reprise my favorite talk, **Don't Be a Robot; Build the Bot**.
+
+- PyCon DE 2019? 😉🤞
 
 Upcoming meetups
 ================
 
-Nothing for the rest of 2018.
+- A meetup in Vancouver, March 11, 2019. I will give my talk about GitHub bots, **Don't Be a Robot; Build the Bot**
+  to a new kind of audience. I've almost always given talk to Python community,
+  so this feels new to me.
 
 Past conferences
 ================
