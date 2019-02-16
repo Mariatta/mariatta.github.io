@@ -18,9 +18,7 @@ Upcoming conferences
 Upcoming meetups
 ================
 
-- A meetup in Vancouver, March 11, 2019. I will give my talk about GitHub bots, **Don't Be a Robot; Build the Bot**
-  to a new kind of audience. I've almost always given talk to Python community,
-  so this feels new to me.
+Nothing scheduled.
 
 Past conferences
 ================
