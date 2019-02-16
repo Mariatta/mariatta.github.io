@@ -6,7 +6,7 @@ Weekly Update, Feb 16, 2019
 :author: Mariatta
 
 
-This is the first of my Weekly Updates post. `Background on this topic. <../pages/weekly-updates.html>`_.
+This is the first of my Weekly Updates post. `Background on this topic <../pages/weekly-updates.html>`_.
 I'll try my best to keep this up.
 
 PyCascades
@@ -102,9 +102,9 @@ etc.
   is something I learned from Ned Batchelder's talk, `Machete-Mode Debugging <https://nedbatchelder.com/text/machete.html>`_.
   Sometimes you just want to test and debug, and see if your code is running and
   reached the part that you want it to reach. There are several ways to do this.
-  You can raise Exception, you can add things like print("here it is"), you can
-  write a nittest, you can even write to log file. But those aren't as simple as
-  typing out mere 3 characters: 1/0. This for sure will cause your program to
+  You can ``raise Exception``, you can add things like ``print("here it is")``, you can
+  write a unittest, you can even write to log file. But those aren't as simple as
+  typing out mere 3 characters: ``1/0``. This for sure will cause your program to
   stop (because nobody ever really tries to catch the ``ZeroDivisionError``) and bonus,
   you get full stack trace. Now you're debugging! Of course NSFP: Not Safe for
   Production 😛).
