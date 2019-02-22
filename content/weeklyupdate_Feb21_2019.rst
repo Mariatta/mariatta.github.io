@@ -46,6 +46,11 @@ PyCascades
 
 - Yes, I will bring f-string related stickers!
 
+- Lots and lots of things are happening last minute 😳 A friend joked that perhaps
+  we should have Netflix film us for `7 Days Out <https://en.wikipedia.org/wiki/7_Days_Out>`_.
+  I didn't know about this show before, but perhaps we'll do it for next year! 😛
+  Any fund raised can go towards more financial aid.
+
 Python
 ------
 
