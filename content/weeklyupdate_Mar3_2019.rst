@@ -72,8 +72,8 @@ Work
 
 - Booked my flights to Zapier's summer retreat. Sadly, the retreat is happening
   on the same week of Python Core Sprint in London. I've thought about splitting
-  time of half week wit Core Python team, and half week with Zapier, but I've
-  decided that I want to prioritize my work for now. I'm sad to miss the sprint
+  time of half week with Core Python team, and half week with Zapier, but in
+  the end I've decided to prioritize my work. I'm sad to miss the sprint
   this year, but I'll be spending the week in the hometown of Prince: Minneapolis!
 
 - Attended a D&I roundtable discussion. I'm really glad that we have this going
