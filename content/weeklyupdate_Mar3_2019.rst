@@ -42,7 +42,7 @@ in person 😝 I'm sorry we didn't have much time to connect 😢
 - Impromptu photo shoot with `Veronica Hanus <https://twitter.com/veronica_hanus>`_.
   I love `all the photos <https://twitter.com/mariatta/status/1100844919134908416>`_ she took!! 😍
 
-- Formed the Tequila Think Tank was formed.
+- Formed the Tequila Think Tank.
 
 - I had way too much tequila than I'm willing to admit.
 
