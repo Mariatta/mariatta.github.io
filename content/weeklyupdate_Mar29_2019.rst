@@ -1,44 +1,54 @@
-Weekly Update, April 5, 2019
-############################
+Weekly Update, March 29, 2019
+#############################
 
-:date: 2019-04-05 00:00
+:date: 2019-03-29 00:00
 :category: weekly-updates
 :author: Mariatta
 
+I missed writing last week's update because I've been on vacation.
 
 Work
 ----
 
-- Some bug fixing. Learning new things about our codebase. Discussions with other
-  teams. Code reviewing.
+- Last week I shipped a thing.
 
-- Completed a sprint. Did a couple quick demos.
+- Looking into bug fixing this week and next week. Writing script to automate stuff.
 
 Python and the community
 ------------------------
 
-- Still out-of-open-source 😃
+I started `OOOS <https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973>`_
+last week, so there shouldn't be anything interesting in this section for the next month.
 
-- Correspondence about giving keynote at conferences. Really grateful for these
-  opportunities! Do people want to hear me talk about PEP 581/588?
+- Started going through language summit sign ups and reviewing the topic proposals.
 
-- Signed the paperwork to dissolve the PyCascades non-profit society, transferring
-  assets to The PSF. The end of an era 😢 but a new one begins
+- Correspondence with Python Steering Council about `PEP 581 <https://www.python.org/dev/peps/pep-0588/>`_.
+  They said it should be split up into two PEPs.
 
-- Gossiped about ... *things* ... 🤫
+- Reserved `PEP 588 <https://www.python.org/dev/peps/pep-0588/>`_ because I think
+  `88 is a lucky number <https://en.wikipedia.org/wiki/88_(number)>`_ 😇
 
-- Starting to plan my time at PyCon. It's gonna be a full busy week 😔 Why do I
-  do this to myself?
+- Open Source Initiative run-off election closed early this week. I came
+  `real close <https://opensource.org/node/976>`_ but in the end I was not chosen.
+
+- Received three invitations to give keynote at conferences. I declined two of
+  them because time and space wouldn't permit. Still considering the last one.
+
+- Published the next `PyLadies Vancouver event <https://www.meetup.com/PyLadies-Vancouver/events/259859957/>`_,
+  where I get to give practise run of my `intro to aiohttp PyCon tutorial <https://us.pycon.org/2019/schedule/presentation/68/>`_, which
+  is now full btw.
+
 
 etc
 ---
 
-- More paperwork for our new house! Found a lawyer. Got insurance coverage. Signed
-  up for utilities. etc. 😵
+- Spent a week in Cancún. I got sunburnt, but totally worth it. I ate lots of
+  tacos and consumed lots of tequila. Feeling recharged now. 💪
 
-- My kids are finally registered to their new school. Such relief!
+- We baked gingerbread cookies. Kids found my `one-of-a-kind emoji cookiecutter
+  <https://twitter.com/mariatta/status/1111479352649121792>`_,
+  so we put it to good use 😅
 
-- Looked into transferring my oldest son to another dojo closer to our new home.
+- Started scheming the move to our new home, getting home insurance quotes,
+  looking into kids' piano and karate lessons closer to the new home.
 
-- Enjoying all the cherry blossoms in our neighbourhood 🌸 The magnolias are starting
-  to bloom as well. It's spring!
