@@ -18,10 +18,10 @@ DEFAULT_LANG = 'en'
 
 # Feed generation is usually not desired when developing
 AUTHOR_FEED_ATOM = None
-AUTHOR_FEED_RSS = 'feeds/%s.author.xml'
+AUTHOR_FEED_RSS = 'feeds/{slug}.author.xml'
 FEED_ALL_ATOM = 'feeds/all.atom.xml'
-TAG_FEED_ATOM = 'feeds/%s.tag.atom.xml'
-CATEGORY_FEED_ATOM = 'feeds/%s.atom.xml'
+TAG_FEED_ATOM = 'feeds/{slug}.tag.atom.xml'
+CATEGORY_FEED_ATOM = 'feeds/{slug}.atom.xml'
 
 
 LINKS = (
