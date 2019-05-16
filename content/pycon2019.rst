@@ -48,5 +48,5 @@ I'll be even more busier for the unplanned ones! 😅
 Ice Cream Selfie
 ----------------
 
-So unlike me, I have not decided where to go for `Ice Cream Selfie <../ics-pyconus-2018.html>`_!!
-😱 Last year I went to `Mitchell's Homemade Ice Cream <../>`_.
+So unlike me, I have not decided where to go for `Ice Cream Selfie <../pages/ice-cream-selfie.html>`_!!
+😱 Last year I went to `Mitchell's Homemade Ice Cream <../ics-pyconus-2018.html>`_.
