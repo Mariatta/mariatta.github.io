@@ -48,8 +48,9 @@ with PyCon staff ... (image from `PyCon's twitter account <https://twitter.com/p
 PEP 581
 -------
 
-One of the topic of discussion was `PEP 581 <https://www.python.org/dev/peps/pep-0581/>`_. Since Jesse is writing up the
-post about it, I won't duplicate the effort. But you can see `my slides here <https://speakerdeck.com/mariatta/pep-581>`_.
+One of the topic of discussion was `PEP 581 <https://www.python.org/dev/peps/pep-0581/>`_.
+Since Jesse is writing up the post about it, I won't duplicate the effort.
+But you can see `my slides here <https://speakerdeck.com/mariatta/pep-581>`_.
 
 I'd really like to see us making progress with this before the next Python
 Language Summit. There were lots of action items, and things we still need
