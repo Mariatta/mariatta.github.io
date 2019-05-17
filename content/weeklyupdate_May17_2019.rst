@@ -4,7 +4,6 @@ Weekly Update, May 17, 2019
 :date: 2019-05-17 00:00
 :category: weekly-updates
 :author: Mariatta
-:tags: pep581
 
 Been a while since my last `weekly update <../weekly-update-april-30-2019.html>`_ 😅
 I spent a week in Cleveland for PyCon US, and I've
