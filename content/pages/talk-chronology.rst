@@ -9,11 +9,9 @@ You might also be interested in the `talk proposals`_ I've written.
 Upcoming conferences
 ====================
 
-- PyCon US 2019 Tutorial, I will give a tutorial, with Andrew Svetlov titled **Hands-on Intro to aiohttp**.
+- PyBay 2019
 
-- PyCon US 2019, I will reprise my favorite talk, **Don't Be a Robot; Build the Bot**.
-
-- PyCon DE 2019? 😉🤞
+- PyCon DE 2019
 
 Upcoming meetups
 ================
@@ -22,6 +20,11 @@ Nothing scheduled.
 
 Past conferences
 ================
+
+- `PyCon US 2019 Tutorial`_, Andrew Svetlov and I gave a tutorial titled **Hands-on
+  Intro to aiohttp**.
+
+- `PyCon US 2019`_, I gave one of my favorite talk, **Don't Be a Robot; Build the Bot**.
 
 - `North Bay Python 2018`_, November 2018, in Petaluma. I was the opening Keynote speaker.
   I gave an updated version of **What is a Python Core Developer?**.
@@ -130,3 +133,7 @@ Past meetups
 .. _DjangoCon US 2016: https://2016.djangocon.us/schedule/presentation/39/
 
 .. _North Bay Python 2018: https://2018.northbaypython.org/schedule/
+
+.. _PyCon US 2019: https://us.pycon.org/2019/schedule/presentation/218/
+
+.. _PyCon US 2019 Tutorial: https://us.pycon.org/2019/schedule/presentation/68/

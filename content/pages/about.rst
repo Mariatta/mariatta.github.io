@@ -13,15 +13,93 @@ co-organizer of `Vancouver PyLadies`_ and `PyCascades`_ conference.
 
 I'm a Python Core Developer. I contribute to `Python documentation`_,
 `Python Developer's Guide`_, `Python core workflow`_, and `Python.org`_. I help
-maintain Core Python's GitHub bots: `bedevere`_ and `miss-islington`_.
+maintain Core Python's GitHub bots: `bedevere`_, `miss-islington`_ and `blurb_it`_.
 
-My current big projects are: `PEP 581`_ and `black out`_.
+My current big projects are: `PEP 581`_, `PEP 588`_, and `black out`_.
+
+
+My GitHub Sponsors ❤️
+---------------------
+
+You too can `sponsor me on GitHub <https://github.com/users/Mariatta/sponsorship>`_
+for as little as 5$ per month.
+
+.. image:: https://avatars2.githubusercontent.com/u/56260?v=4
+    :width: 100
+    :target: https://github.com/nat
+
+.. image:: https://avatars0.githubusercontent.com/u/1610?v=4
+    :width: 50
+    :target: https://github.com/jezdez
+
+.. image:: https://avatars2.githubusercontent.com/u/567771?v=4
+    :width: 50
+    :target: https://github.com/jrgifford
+
+
+.. image:: https://avatars3.githubusercontent.com/u/39992?v=4
+    :width: 30
+    :target: https://github.com/gr2m
+
+.. image:: https://avatars1.githubusercontent.com/u/50527?v=4
+    :width: 30
+    :target: https://github.com/jefftriplett
+
+.. image:: https://avatars0.githubusercontent.com/u/111631?v=4
+    :width: 30
+    :target: https://github.com/max
+
+.. image:: https://avatars2.githubusercontent.com/u/183380?v=4
+    :width: 30
+    :target: https://github.com/yuichielectric
+
+.. image:: https://avatars0.githubusercontent.com/u/285352?v=4
+    :width: 30
+    :target: https://github.com/treyhunner
+
+.. image:: https://avatars0.githubusercontent.com/u/502770?v=4
+    :width: 30
+    :target: https://github.com/y3rsh
+
+.. image:: https://avatars3.githubusercontent.com/u/527589?v=4
+    :width: 30
+    :target: https://github.com/sopshep
+
+.. image:: https://avatars1.githubusercontent.com/u/700615?v=4
+    :width: 30
+    :target: https://github.com/kvimber
+
+.. image:: https://avatars0.githubusercontent.com/u/1918027?v=4
+    :width: 30
+    :target: https://github.com/froi
+
+.. image:: https://avatars1.githubusercontent.com/u/6979755?v=4
+    :width: 30
+    :target: https://github.com/devonzuegel
+
+.. image:: https://avatars2.githubusercontent.com/u/7103229?v=4
+    :width: 30
+    :target: https://github.com/stuartmccoll
+
+.. image:: https://avatars0.githubusercontent.com/u/8713246?v=4
+    :width: 30
+    :target: https://github.com/shankuniyogi
+
+.. image:: https://avatars2.githubusercontent.com/u/16127123?v=4
+    :width: 30
+    :target: https://github.com/ClayNelson
 
 
 Other appearances
 -----------------
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
+
+- Special appearance in `GitHub Satellite`_ keynote, May 23rd, 2019.
+
+- `Business Insider`_ article, March 16, 2019.
+
+- Recipient of `Python Software Foundation's Community Service Award`_, September 2018.
 
 - Guest contributor for `Nexmo Developer Spotlight <https://www.nexmo.com/blog/2018/11/15/pycascades-code-of-conduct-hotline-nexmo-voice-api-dr/>`_ tutorial
   on enhanching the `PyCascades Code of Conduct Hotline <https://github.com/mariatta/enhanced-coc-hotline/>`_, November 15, 2018.
@@ -64,6 +142,11 @@ or just `say thanks <https://saythanks.io/to/Mariatta>`_.
 .. _miss-islington: https://github.com/python/miss-islington
 .. _Python Community Interview by Real Python: https://realpython.com/interview-mariatta-wijaya/
 .. _PEP 581: https://www.python.org/dev/peps/pep-0581/
+.. _PEP 588: https://www.python.org/dev/peps/pep-0588/
 .. _black out: https://github.com/mariatta/black_out
 .. _New Yorker article:  https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside
 .. _Talk Python Episode 179: https://talkpython.fm/episodes/show/179/python-language-summit-2018
+.. _blurb_it: https://blurb-it.herokuapp.com/
+.. _Python Software Foundation's Community Service Award: http://pyfound.blogspot.com/2019/02/the-north-star-of-pycascades-core.html
+.. _Business Insider: https://www.businessinsider.com/women-running-for-the-open-source-initiative-face-online-harassment-2019-3
+.. _GitHub Satellite: https://youtu.be/sGC2rwOiaWc
