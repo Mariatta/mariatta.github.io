@@ -24,9 +24,17 @@ My GitHub Sponsors ❤️
 You too can `sponsor me on GitHub <https://github.com/users/Mariatta/sponsorship>`_
 for as little as 5$ per month.
 
+--
+🧁
+--
+
 .. image:: https://avatars2.githubusercontent.com/u/56260?v=4
     :width: 100
     :target: https://github.com/nat
+
+--
+🍩
+--
 
 .. image:: https://avatars0.githubusercontent.com/u/1610?v=4
     :width: 50
@@ -36,6 +44,9 @@ for as little as 5$ per month.
     :width: 50
     :target: https://github.com/jrgifford
 
+--
+🍪
+--
 
 .. image:: https://avatars3.githubusercontent.com/u/39992?v=4
     :width: 30
