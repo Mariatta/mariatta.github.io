@@ -101,7 +101,7 @@ for as little as 5$ per month.
     :target: https://github.com/ClayNelson
 
 .. image:: https://avatars0.githubusercontent.com/u/5768468?v=4
-    :width:30
+    :width: 30
     :target: https://github.com/lynncyrin
 
 
