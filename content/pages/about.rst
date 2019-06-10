@@ -104,6 +104,15 @@ for as little as 5$ per month.
     :width: 30
     :target: https://github.com/lynncyrin
 
+.. image:: https://avatars0.githubusercontent.com/u/16411?v=4
+    :width: 30
+    :target: https://github.com/aeschright
+
+.. image:: https://avatars0.githubusercontent.com/u/205482?v=4
+    :width: 30
+    :target: https://github.com/Qard
+
+
 
 Other appearances
 -----------------
