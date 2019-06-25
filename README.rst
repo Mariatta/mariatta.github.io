@@ -22,8 +22,7 @@ Viewing local changes
 ::
 
    pelican content
-   cd output
-   python -m pelican.server
+   pelican --listen
 
 
 Committing local changes
