@@ -38,8 +38,9 @@ Python and the community
 
 - Reviewed and merged various small PRs in CPython.
 
-- I received my first GitHub sponsors payout! 🤑 Thanks to GitHub for matching
-  the fund! The payout is once a month, and only if we have at least 100$ balance
+- I received my first `GitHub sponsors <https://github.com/users/Mariatta/sponsorship>`_
+  payout! 🤑 Thanks to GitHub for matching the fund! The payout is once a month,
+  and only if we have at least 100$ balance
   to be paid out. And yes, I will be reporting this in my income tax.
 
 - Practised for my `webinar with PyCharm <https://blog.jetbrains.com/pycharm/2019/06/build-a-github-bot-with-mariatta-wijaya/>`_.
