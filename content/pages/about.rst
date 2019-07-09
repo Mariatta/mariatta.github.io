@@ -112,12 +112,24 @@ for as little as 5$ per month.
     :width: 30
     :target: https://github.com/Qard
 
+.. image:: https://avatars0.githubusercontent.com/u/5347038?v=4
+    :width: 30
+    :target: https://github.com/Salakar
+
+.. image:: https://avatars2.githubusercontent.com/u/6799989?v=4
+    :width: 30
+    :target: https://github.com/non-binary
 
 
 Other appearances
 -----------------
 
 - Sometimes I give `talks <../pages/talk-chronology.html>`_ at meetups and conferences.
+
+- `"Build-a-GitHub-Bot" webinar with PyCharm <https://blog.jetbrains.com/pycharm/2019/06/webinar-recording-build-a-github-bot-with-mariatta-wijaya/>`_,
+  June 2019.
+
+- `Maintainer Spotlight <https://github.blog/2019-05-31-maintainer-spotlight-mariatta-wijaya/>`_ on The GitHub Blog.
 
 - Special appearance in `GitHub Satellite`_ keynote, May 23rd, 2019.
 
