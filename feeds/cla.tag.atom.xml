@@ -1,0 +1,197 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>mariatta.ca - cla</title><link href="https://mariatta.ca/" rel="alternate"></link><link href="https://mariatta.ca/feeds/cla.tag.atom.xml" rel="self"></link><id>https://mariatta.ca/</id><updated>2018-09-21T09:14:06-07:00</updated><subtitle></subtitle><entry><title>Python Core Sprint 2018: Part Two</title><link href="https://mariatta.ca/core-sprint-2018-part-2.html" rel="alternate"></link><published>2018-09-21T09:14:06-07:00</published><updated>2018-09-21T09:14:06-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2018-09-21:/core-sprint-2018-part-2.html</id><summary type="html">&lt;p&gt;Read up on &lt;a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-1.html"&gt;Part one&lt;/a&gt; first.&lt;/p&gt;
+&lt;p&gt;Here are additional discussions and projects that I got involved with during the
+sprint.&lt;/p&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; is a PEP I wrote about using
+GitHub issues instead of Roundup as CPython's issue tracker.&lt;/p&gt;
+&lt;p&gt;During the sprint, I discussed this topic mainly with Ezio …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Read up on &lt;a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-1.html"&gt;Part one&lt;/a&gt; first.&lt;/p&gt;
+&lt;p&gt;Here are additional discussions and projects that I got involved with during the
+sprint.&lt;/p&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; is a PEP I wrote about using
+GitHub issues instead of Roundup as CPython's issue tracker.&lt;/p&gt;
+&lt;p&gt;During the sprint, I discussed this topic mainly with Ezio Melotti, as well as
+with a group of other core devs: Ned Deily, Kushal Das, Petr Viktorin, Pablo Galindo,
+and one-on-one with Zachary Ware.&lt;/p&gt;
+&lt;p&gt;Thanks all of you who came and discussed this with me, I really appreciate your
+input and feedback.&lt;/p&gt;
+&lt;p&gt;Reflecting back, my tone might have been unkind, impatient, and unempathetic during
+certain parts of the group discussion, and I'm sorry.&lt;/p&gt;
+&lt;p&gt;Unlike most other PEPs, the idea for this PEP did not go through rounds of
+discussions over at python-ideas. And unlike other PEPs, I did not post this PEP
+into python-dev after it has been written. It was my own choice. Instead, this idea
+was discussed at Python Language Summit, as a thread at python-committers, and
+I also chatted privately with a few other Python core developers.&lt;/p&gt;
+&lt;p&gt;Ezio, who maintains Roundup for CPython, talked to various core devs individually
+to get a sense whether people are warm to the idea of moving to GitHub. It seems
+like people are postive about it, or at least not strongly opposing the idea,  but
+we still need to iron out additional details.&lt;/p&gt;
+&lt;p&gt;These are some of the concerns raised during the discussions with core devs at
+the sprint:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What if GitHub disappear suddenly?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I realize that my response to this question had been unkind, impatient,
+unempathetic, and I'm sorry.&lt;/p&gt;
+&lt;p&gt;My response was &lt;em&gt;&amp;quot;I don't care&amp;quot;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;What I really meant is, &lt;em&gt;&amp;quot;I don't believe GitHub will go away all that suddenly&amp;quot;&lt;/em&gt;,
+and that is my personal opinion, and I know there are people who thinks otherwise,
+and I respect the difference in opinion.&lt;/p&gt;
+&lt;p&gt;But the actual question needing actual answer is: &lt;em&gt;&amp;quot;What is our fail safe plan?&amp;quot;&lt;/em&gt;.
+This is something that the PEP needs to address. At the moment, we'll just going to get
+daily backups of GitHub data. But eventually we will need a more concrete
+plan and we will need to be able to easily spin up another issue tracker / repository
+so Python world does not stop and people can continue
+contributing and developing.&lt;/p&gt;
+&lt;p&gt;However, this problem is not unique to CPython. Lack of fail-safe solution should
+not blocking the PEP's acceptance, and should not stop us from using GitHub issues.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What about current bug triage permission?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With Roundup currently, we have a separate &amp;quot;bug triage&amp;quot; permission that is different
+than the core developer / commit access. The bug triage permission allows them
+to close and categorize issues on the issue tracker, but does not give the
+permission to commit or merge pull requests to CPython.&lt;/p&gt;
+&lt;p&gt;The bug triage permission is definitely valuable for the team. Historically,
+we've been able to give this permission easily to people without much formality,
+whereas giving commit access is not so trivial.&lt;/p&gt;
+&lt;p&gt;We definitely need bug triage help, and the question is, how will this be managed
+with GitHub?&lt;/p&gt;
+&lt;p&gt;There are a couple ideas. Donald Stufft commented in Zulip that we can give
+people write access, invite them as team collaborators, this will allow them to
+edit and close issues, but use the GitHub branch protection feature to restrict
+pushing codes to only Python core developers. BTW, we have been using this
+feature, just didn't quite realize it. Python &lt;tt class="docutils literal"&gt;3.4&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;3.5&lt;/tt&gt; branches on GitHub
+are currently &amp;quot;protected&amp;quot;, and only the release manager, Larry Hastings, can
+push codes to those branches.&lt;/p&gt;
+&lt;p&gt;So what we can do is to invite the current bug triagers as collaborators for
+CPython repository, give them that write access, and add branch protection
+such that only Python core developers can push / commit into the active branches.&lt;/p&gt;
+&lt;p&gt;Another idea that came up while chatting with Zach, now that miss-islington
+can automerge, maybe we let only miss-islington to merge and commit from now on.&lt;/p&gt;
+&lt;p&gt;🤔&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Nosy list&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Steve Dower commented that one nice feature of the existing issue tracker is
+the nosy list, where he can get notified only in issues he's interested in. For
+example, if someone creates an issue with &amp;quot;Windows&amp;quot; component in the current issue
+tracker, he and Zach will be automatically notified and added to the nosy list.&lt;/p&gt;
+&lt;p&gt;There is not yet similar functionality on GitHub. So we're going to build out a
+bot that does this somehow.&lt;/p&gt;
+&lt;p&gt;I have started researching GitHub's &lt;a class="reference external" href="https://developer.github.com/v3/activity/notifications/"&gt;notification and subscription APIs&lt;/a&gt;, but I don't have
+clear idea or solution to this problem yet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Involve the Python Release manager in the transition&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ned Deily, Release Manager for Python 3.6 and 3.7, reminded us that we will need
+to include the release managers for any changes in our workflow and issue tracker.&lt;/p&gt;
+&lt;p&gt;✅&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub can lower the barrier to contribute, but also makes it easier for people to submit unrelevant issues&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some core devs were concerned that the ease of using GitHub can also mean easier
+for people to use and abuse it for things other than discussing bugs and features of
+Python. It means that we will need to spend more time into triaging issues, marking
+things as off topic, duplicate, telling people to file their issue somewhere else,
+and so on. I think this is a valid concern. But I think this is an existing problem
+anyway, regardless of what issue tracker we use.&lt;/p&gt;
+&lt;p&gt;I have been experimenting with &lt;a class="reference external" href="http://gitmate.io/"&gt;GitMate.io&lt;/a&gt; myself.
+One of Gitmate's ability is to identify if an issue is a duplicate of other previously
+reported issues. GitMate is currently installed in devguide, core-workflow, and
+miss-islington repos. I've seen it help several people, but sometimes it is not
+so helpful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CoC enforcement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We need to have better and clearer policy on CoC enforcement for handling comments
+on GitHub. I know that there is the PSF's CoC work group now, and Brett is part of that
+group. I'm glad that there is some progress, and I look forward hearing more from the
+CoC work group.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cla"&gt;
+&lt;h2&gt;CLA&lt;/h2&gt;
+&lt;p&gt;Another aspect of CPython's workflow that could use an improvement is the way we
+handle CLA (Contributor License Agreement).&lt;/p&gt;
+&lt;p&gt;The way it works, for every contribution and pull request you made to Python
+(CPython, DevGuide, PEPs, core-workflow, and all the bots), you'll need to
+sign the CLA before we can accept and merge the pull request.&lt;/p&gt;
+&lt;p&gt;There are currently several problems with this workflow:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Signing the CLA also requires creating an account in the bug tracker. So
+people making pull requests on GitHub needs to go to bugs.python.org, create
+an account, and then add in their GitHub username. While this makes sense
+for contributors to CPython, there is really no reason for contributors to
+DevGuide or cherry-picker to do this. It just slows down the process of
+contributing.&lt;/li&gt;
+&lt;li&gt;It requires manual work by members of The PSF (Ewa and Betsy) to check if the CLA
+has been signed, and they have to manually update the record in bugs.python.org.&lt;/li&gt;
+&lt;li&gt;After the CLA has been signed, the pull request does not get automatically
+updated with this new information. Contributors used to have to ping a core
+developer to update the label on the PR, and a core developer has to come back
+to the PR and remove the label. This has gotten better recently, with the
+&lt;a class="reference external" href="https://check-python-cla.herokuapp.com/"&gt;check-python-cla&lt;/a&gt; website. But it
+still is somewhat manual process.&lt;/li&gt;
+&lt;li&gt;It could take at least a day, sometimes more, for the CLA process to clear. It
+blocks pull requests from being merged.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It really would be nice if this whole process can be automated, not requires much
+human involvement, and if it can be completed in seconds instead of days.&lt;/p&gt;
+&lt;p&gt;I've been discussing this issue with Brett since early this year. I've also
+started a &lt;a class="reference external" href="https://mail.python.org/mm3/archives/list/core-workflow&amp;#64;python.org/thread/JBV3XJVD2DLDX5DY7TZEA6CO5YPNHJ2C/"&gt;couple threads&lt;/a&gt;
+in core-workflow mailing list. Per Yury's suggestion, I've started looking into
+&lt;a class="reference external" href="https://cla-assistant.io/"&gt;cla-assistant&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the sprint, I got to discuss this more with Brett on how to proceed.&lt;/p&gt;
+&lt;p&gt;My personal preference is actually use the hosted version of cla-assistant,
+so we don't have to maintain it. (&lt;strong&gt;We&lt;/strong&gt; here really means only myself, Brett,
+and Ernest).&lt;/p&gt;
+&lt;p&gt;People expressed concern that the system could go away quite suddenly, so
+we're going to need to have some fail-safe mechanism if that ever happens.&lt;/p&gt;
+&lt;p&gt;I think the problem of &amp;quot;what if this goes away suddenly&amp;quot; is not be unique problem
+to Python. I'm now actually curious to hear from other projects that use hosted
+cla-assistant, and if they have their own backup plan in place.&lt;/p&gt;
+&lt;p&gt;I chatted with Ernest, and he said it will be easy enough for us to host our
+own instance of CLA assistant. Ernest has started looking into it.&lt;/p&gt;
+&lt;p&gt;Several outstanding issues with cla-assistant:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;How does it handle people who signed on behalf of an organization?&lt;/li&gt;
+&lt;li&gt;It allows us to &lt;a class="reference external" href="https://github.com/cla-assistant/cla-assistant#request-more-information-from-the-cla-signer"&gt;request more information from the CLA signer&lt;/a&gt;,
+but when we export the data, the additional metada were not returned. It seems
+like a bug.&lt;/li&gt;
+&lt;li&gt;How do we get daily backups automatically? It seems like the only way to get the
+backup is by going to the website, and click on a menu item that says &amp;quot;Export&amp;quot;.
+Is there an API endpoint we can use, or do we need to build it ourselves?&lt;/li&gt;
+&lt;li&gt;How do we export out current signed CLAs from the bug tracker to cla-assistant?
+Ezio had actually started working on getting me a &lt;tt class="docutils literal"&gt;.csv&lt;/tt&gt; for it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ran out of time and energy to follow through with all of the above during the
+sprint, so sadly we're still not yet using this new system.&lt;/p&gt;
+&lt;p&gt;Thanks Brett, Ernest, and Ezio for looking into this with me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fake-f-strings"&gt;
+&lt;h2&gt;Fake f-strings&lt;/h2&gt;
+&lt;p&gt;I selfishly wanted Larry to &lt;a class="reference external" href="https://github.com/python/core-workflow/issues/283"&gt;drop Python 3.5 support&lt;/a&gt; in blurb. Blurb was
+initially written with f-strings, but later on, all f-strings were replaced with
+&lt;a class="reference external" href="https://github.com/python/core-workflow/pull/146"&gt;str.format&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I've been quite disappointed about it since last year, and I know I actually
+have better things to do than being sad about a tool so crucial for CPython does
+not have any f-strings in it.&lt;/p&gt;
+&lt;p&gt;Anyways, Larry entertained my selfish request and came up with &lt;a class="reference external" href="https://github.com/python/core-workflow/pull/288"&gt;fake f-strings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'll take it. Thanks Larry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="real-f-strings-and-asyncio"&gt;
+&lt;h2&gt;Real f-strings and asyncio&lt;/h2&gt;
+&lt;p&gt;Up until the sprint, I had never tried doing something like &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;f&amp;quot;{await&lt;/span&gt; &lt;span class="pre"&gt;somecoroutine()}&amp;quot;&lt;/span&gt;&lt;/tt&gt;,
+so I didn't know if it would even work. Since the creators and maintainers of
+f-strings and asyncio are in the room, I thought I'll just ask them if it can work,
+and I should get a quick firm &amp;quot;yes/no&amp;quot; answer.&lt;/p&gt;
+&lt;p&gt;There was slight hesitation from core devs in answering such question.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;It should work?&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;I think so?&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So Brett wrote us a small script to see if it will really work, with myself and
+Eric V. Smith as witness. The result is, this works for Python 3.7+.&lt;/p&gt;
+&lt;p&gt;I found out later that it does not work in Python 3.6, but I don't actually know
+the reason why. Something changed with how &lt;tt class="docutils literal"&gt;await&lt;/tt&gt; works between 3.6 and 3.7?&lt;/p&gt;
+&lt;p&gt;🤷🏻‍♀&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Yury &lt;a class="reference external" href="https://twitter.com/1st1/status/1042858310641152001"&gt;commented on twitter&lt;/a&gt;:
+&lt;em&gt;&amp;quot;yes, this needs Python 3.7+ to work. Before 3.7 async and await were not proper
+keywords, so the interpreter did not recognize them in some contexts.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Thanks Yury! Now we have new reason to start using Python 3.7+!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="to-be-continued"&gt;
+&lt;h2&gt;To be continued&lt;/h2&gt;
+&lt;p&gt;There will be Part 3, &lt;em&gt;someday&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Python"></category><category term="sprint"></category><category term="cla"></category><category term="pep581"></category></entry></feed>

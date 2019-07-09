@@ -1,0 +1,348 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link href='//fonts.googleapis.com/css?family=Source+Sans+Pro:300,400,700,400italic' rel='stylesheet' type='text/css'>
+
+    <link rel="stylesheet" type="text/css" href="./theme/stylesheet/style.min.css">
+
+  <link rel="stylesheet" type="text/css" href="./theme/pygments/github.min.css">
+  <link rel="stylesheet" type="text/css" href="./theme/font-awesome/css/font-awesome.min.css">
+
+    <link href="./static/custom.css" rel="stylesheet">
+
+    <link href="https://mariatta.ca/feeds/all.atom.xml" type="application/atom+xml" rel="alternate" title="mariatta.ca Atom">
+
+
+    <link rel="shortcut icon" href="https://mariatta.ca/img/favicon.ico" type="image/x-icon">
+    <link rel="icon" href="https://mariatta.ca/img/favicon.ico" type="image/x-icon">
+
+  <meta charset="utf-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="HandheldFriendly" content="True" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <meta name="robots" content="index, follow" />
+
+    <!-- Chrome, Firefox OS and Opera -->
+    <meta name="theme-color" content="#333">
+    <!-- Windows Phone -->
+    <meta name="msapplication-navbutton-color" content="#333">
+    <!-- iOS Safari -->
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+
+<meta name="author" content="Mariatta" />
+<meta name="description" content="For the past week (September 9-14), I've been down in Bellevue, WA for my second Core Python sprint. The sprint is hosted by Microsoft, and funded by The PSF. Thanks Last year, I was only able to stay for the sprint for three days. This year I'm able to stay …" />
+<meta name="keywords" content="Python, sprint, miss-islington, blurb_it">
+<meta property="og:site_name" content="mariatta.ca"/>
+<meta property="og:title" content="Python Core Sprint 2018: Part One"/>
+<meta property="og:description" content="For the past week (September 9-14), I've been down in Bellevue, WA for my second Core Python sprint. The sprint is hosted by Microsoft, and funded by The PSF. Thanks Last year, I was only able to stay for the sprint for three days. This year I'm able to stay …"/>
+<meta property="og:locale" content="en_US"/>
+<meta property="og:url" content="./core-sprint-2018-part-1.html"/>
+<meta property="og:type" content="article"/>
+<meta property="article:published_time" content="2018-09-15 11:20:00-07:00"/>
+<meta property="article:modified_time" content=""/>
+<meta property="article:author" content="./author/mariatta.html">
+<meta property="article:section" content="Python"/>
+<meta property="article:tag" content="Python"/>
+<meta property="article:tag" content="sprint"/>
+<meta property="article:tag" content="miss-islington"/>
+<meta property="article:tag" content="blurb_it"/>
+<meta property="og:image" content="https://mariatta.ca/img/mariatta.jpg">
+
+  <title>mariatta.ca &ndash; Python Core Sprint 2018: Part One</title>
+
+</head>
+<body>
+  <aside>
+    <div>
+      <a href=".">
+        <img src="https://mariatta.ca/img/mariatta.jpg" alt="Mariatta" title="Mariatta">
+      </a>
+      <h1><a href=".">Mariatta</a></h1>
+
+
+      <nav>
+        <ul class="list">
+          <li><a href="./pages/about.html#about">About</a></li>
+          <li><a href="./pages/ice-cream-selfie.html#ice-cream-selfie">Ice Cream Selfie</a></li>
+          <li><a href="./pages/talk-chronology.html#talk-chronology">Talk Chronology</a></li>
+          <li><a href="./pages/weekly-updates.html#weekly-updates">Weekly Updates</a></li>
+
+          <li><a href="feeds/all.atom.xml" target="_blank">RSS</a></li>
+        </ul>
+      </nav>
+
+      <ul class="social">
+        <li><a class="sc-twitter" href="https://twitter.com/mariatta" target="_blank"><i class="fa fa-twitter"></i></a></li>
+        <li><a class="sc-github" href="https://github.com/Mariatta" target="_blank"><i class="fa fa-github"></i></a></li>
+        <li><a class="sc-linkedin" href="https://linkedin.com/in/mariatta" target="_blank"><i class="fa fa-linkedin"></i></a></li>
+        <li><a class="sc-paypal" href="https://www.paypal.me/mariatta" target="_blank"><i class="fa fa-paypal"></i></a></li>
+        <li><a class="sc-instagram" href="https://www.instagram.com/mariatta81/" target="_blank"><i class="fa fa-instagram"></i></a></li>
+      </ul>
+    </div>
+
+
+  </aside>
+  <main>
+
+    <nav>
+      <a href=".">    Home
+</a>
+
+      <a href="/archives.html">Archives</a>
+      <a href="/categories.html">Categories</a>
+      <a href="/tags.html">Tags</a>
+
+      <a href="https://mariatta.ca/feeds/all.atom.xml">    Atom
+</a>
+
+    </nav>
+
+<article class="single">
+  <header>
+    <h1 id="core-sprint-2018-part-1">Python Core Sprint 2018: Part One</h1>
+    <p>
+          Posted on Sat 15 September 2018 in <a href="./category/python.html">Python</a>
+
+
+    </p>
+  </header>
+
+
+  <div>
+    <p>For the past week (September 9-14), I've been down in Bellevue, WA for my second
+Core Python sprint. The sprint is hosted by Microsoft, and funded by The PSF.</p>
+<div class="section" id="thanks">
+<h2>Thanks</h2>
+<p>Last year, I was only able to stay for the sprint for three days. This year
+I'm able to stay for the entire week. I got a lot more things done.</p>
+<p>Thanks Steve Dower, for organizing this sprint and figuring out all the
+logistics for us. Coordinating this is no easy task, and everything runs smoothly.</p>
+<p>Big thanks to Microsoft for hosting us in Reactor Redmond B20. The facility and the
+campus was really awesome. (Ice cream at the back of the room!) I got to
+try out the Hololens! Thanks for treating us for a nice dinner, with guest speaker
+<a class="reference external" href="https://en.wikipedia.org/wiki/Anders_Hejlsberg">Anders Hejlsberg</a>.</p>
+<p>Thanks to The PSF for providing the fund, getting many core devs from all over the
+world. It's been valuable being able to spend the whole week collaborating and
+talk face-to-face. We really don't get too many opportunities to do this. Sprints
+at conferences are normally our opportunity to help onboard new contributors
+to Python. Core sprint like this serves a different purpose where we get to focus
+on some of our bigger projects, brainstorm with each other, and make decisions.</p>
+<p>Thanks to Zapier, especially my manager, and my teammates at the Partner Engagement
+Team, for being supportive and giving me the time away from work. Zapier has
+flexible time off policy, so I'm not limited to only taking X days off from work
+each year. In addition, I get to focus on Python for the whole week, and not
+needed to keep doing daily standup or weekly team meetings.</p>
+<p>Thanks to my family, for supporting and being able to manage themselves while
+I'm away. I have been traveling away without them, for work and for Python, once
+a month each month since January of this year, and even more of such trips that's
+been arranged all the way until August 2019. It really has not been easy for
+all of us. But it motivated me to make the most of my time at the sprint.</p>
+<p>Thanks to the core developers who came, away from their home, from their family and work,
+for Python. We had many great discussions and chats during the past week, they've
+all been very productive, and I really enjoyed being able to spend time with everyone
+for Python.</p>
+</div>
+<div class="section" id="daily-updates">
+<h2>Daily Updates</h2>
+<p>I've posted my daily updates on twitter.</p>
+<p>Here's the copy-pasta 🍝 version:</p>
+<p><a class="reference external" href="https://twitter.com/mariatta/status/1039506319676387330">Day 1</a> report:</p>
+<ul class="simple">
+<li>automerge bot</li>
+<li>reviewed Larry's fake f-strings hack</li>
+<li>CLA discussion with Brett</li>
+<li>#PEP581 discussion with Ezio</li>
+<li>helped Ethan/Carol with git</li>
+<li>trying to name project</li>
+<li>started new unnamed project</li>
+<li>wrote emails</li>
+</ul>
+<p><a class="reference external" href="https://twitter.com/mariatta/status/1039742549727031304">Day 2</a> report:</p>
+<ul class="simple">
+<li>show off automerge bot</li>
+<li>CLA discussion with Brett</li>
+<li>chat about workflow, bots, #PEP581 with Kushal, Victor, Pablo, and Guido</li>
+<li>helped Ethan with git</li>
+<li>decided on new project name: blurb_it</li>
+<li>wrote emails</li>
+</ul>
+<p><a class="reference external" href="https://twitter.com/mariatta/status/1040062970728837120">Day 3</a> report:</p>
+<ul class="simple">
+<li>#PEP581 group chat with Ezio, Ned, Pablo, Petr</li>
+<li>work on blurb_it</li>
+<li>core dev group chat</li>
+<li>small enhancement to automerge bot</li>
+<li>bought an xbox</li>
+</ul>
+<p><a class="reference external" href="https://twitter.com/mariatta/status/1040433812407107584">Day 4</a> report:</p>
+<ul class="simple">
+<li>dealt with CoC case</li>
+<li>chat about aiohttp async task queues with Andrew</li>
+<li>work on blurb_it</li>
+<li>PSF infra chat with Ernest</li>
+<li>core dev group chats</li>
+<li>gave lightning talk about miss-islington and blurb_it at Microsoft meetup</li>
+</ul>
+<p><a class="reference external" href="https://twitter.com/mariatta/status/1040765915518754816">Day 5</a> report:</p>
+<ul class="simple">
+<li>miss-islington rate limit issues 😕</li>
+<li><a class="reference external" href="https://github.com/python/devguide/pull/414">self-declaration</a> as &quot;interested in emoji&quot; 😎</li>
+<li>Python language summit planning with Łukasz</li>
+<li>deployed unofficial blurb_it</li>
+<li>exhausted 😩</li>
+<li>three shots of tequila 🥃</li>
+</ul>
+</div>
+<div class="section" id="new-python-core-developers">
+<h2>New Python Core Developers</h2>
+<p>Welcome Emily Morehouse-Valcarcel and Lisa Roach as new Python core developers!
+They're both brilliant, and have been <a class="reference external" href="https://mail.python.org/pipermail/python-committers/2018-September/006059.html">contributing to Python</a>
+in the past couple years.</p>
+</div>
+<div class="section" id="miss-islington">
+<h2>miss-islington</h2>
+<p>miss-islington is a GitHub bot that first developed at last year's core sprint.
+The original task of miss-islington was to automatically create backport PRs.</p>
+<p>Over time, she gained new privilege. She's been allowed to merge her own PR once
+it has been approved by another core dev.</p>
+<p>This week, miss-islington gained a new superpower. She can now automatically
+merge any pull requests that core dev wants her to merge.</p>
+<p>As context, there had been long and lengthy discussion about this &quot;automerge&quot;
+ability. Discussion started in <a class="reference external" href="https://github.com/python/core-workflow/issues/29">core-workflow issue #29</a>,
+opened by Donald Stufft February 2017. It is one functionality that GitLab
+has that improves productivity, that GitHub does not yet provide. And as indication
+of how complicated CPython workflow is, further discussion about this spilled over to
+<a class="reference external" href="https://github.com/python/bedevere/issues/14">bedevere issue #14</a>.</p>
+<p>While we have come to the resolution and decision of <a class="reference external" href="https://github.com/python/bedevere/issues/14#issuecomment-399585735">how the automerge</a> should
+work, I guess I just have not find any time to completely focus and work
+on implementing it. I spent almost the whole day of the first day of sprint
+to implement this. I don't normally have that &quot;one full day to focus and undisturbed to work on Python&quot;
+thing, so needless to say, I might never get this done without coming to the sprint.</p>
+<p>If you're curious of how this was implemented, miss-islington is <a class="reference external" href="https://github.com/python/miss-islington">open source</a>.
+In addition, I will give a keynote speech at <a class="reference external" href="https://2018.djangocon.us/news/mariatta-wijaya/">DjangoCon US 2018</a>,
+titled <strong>Don't Be a Robot; Build the Bot</strong>
+where I plan to describe some of miss-islington's architecture and challenges in
+building it.</p>
+<p>These are the pull requests related to automerge feature:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/python/miss-islington/pull/146">Automerge PR labeled with &quot;automerge&quot;</a></li>
+<li><a class="reference external" href="https://github.com/python/miss-islington/pull/151">Normalize commit messages on automerge</a></li>
+<li><a class="reference external" href="https://github.com/python/miss-islington/pull/152">Don't automerge if there is &quot;DO-NOT-MERGE&quot; label and &quot;CLA not signed&quot; label</a></li>
+</ul>
+<p>Open issues that we will need to address, eventually:</p>
+<ul class="simple">
+<li><a class="reference external" href="https://github.com/python/miss-islington/issues/153">Rate limited since the automerge has been deployed.</a></li>
+<li><a class="reference external" href="https://github.com/python/miss-islington/issues/155">Keep track of who triggered the automerge</a></li>
+<li><a class="reference external" href="https://github.com/python/miss-islington/issues/154">Miss-islington should not self-assign PR that failed to backport</a></li>
+<li><a class="reference external" href="https://github.com/python/miss-islington/issues/159">automerge shouldn't let GH wrap the first line of the commit message</a></li>
+</ul>
+<p>You can also read my announcement to <a class="reference external" href="https://mail.python.org/pipermail/python-committers/2018-September/006043.html">python-committers</a> about the automerge,
+as well as watch a <a class="reference external" href="https://youtu.be/p85YtKKLNno">YouTube demo video</a>.</p>
+</div>
+<div class="section" id="blurb-it">
+<h2>Blurb it!</h2>
+<p>Part of our requirement for every pull requests that you send to CPython, is a news
+entry describing the change. This had been heavily discussed and designed in
+<a class="reference external" href="https://github.com/python/core-workflow/issues/6">core-workflow issue #6</a>,
+and we now have Larry Hasting's tool, <a class="reference external" href="https://pypi.org/project/blurb/">blurb</a>
+(available on PyPI), to help with this. In addition, we have a status check in place
+by <a class="reference external" href="https://github.com/python/bedevere">bedevere</a> to ensure that the news
+file exists, and that we don't forget to add it.</p>
+<p>Larry's blurb works really great, and everyone has been using it without issues.</p>
+<p>My personal nitpick about this, is that (and it's because I'm very lazy), blurb
+is a command line tool, and so I have to be on my computer in order to use it.
+A lot of time, I found myself reviewing a pull request while on my phone,
+and all it needed was a news entry. But since I was on my phone, on transit,
+by the beach, or whatever, I could not complete this process, and had to
+wait until I'm back on the computer.</p>
+<p>So I've been thinking that it would be nice and convenient if there was a web
+interface for blurb. A place for me to fill in a form, and the news file automatically
+gets added to the pull request. I had asked Larry earlier at PyCon what he thinks
+about this idea. He said that he's okay with it, and he had in fact <a class="reference external" href="https://mail.python.org/pipermail/python-dev/2017-June/148448.html">mentioned it himself</a>: <em>&quot;... it should be easy for
+some JavaScript expert to write a static page that generates blurb files
+for you--it provides a form, you fill it out, and you &quot;download&quot; the
+blurb file.  (I've seen pages that do that sort of thing, though I don't
+know how to write that kind of JavaScript myself.)&quot;</em> (python-dev, June 24, 2017).</p>
+<p>Since I don't actually know how to write that kind of JavaScript either, I wrote
+it all in Python 3.7, using fine libraries like <a class="reference external" href="https://aiohttp.readthedocs.io/en/latest/">aiohttp</a>, <a class="reference external" href="https://aiohttp-session.readthedocs.io/en/latest/">aiohttp-session</a>,
+<a class="reference external" href="https://aiohttp-jinja2.readthedocs.io/en/stable/">aiohttp-jinja2</a>, asyncio, and
+<a class="reference external" href="https://gidgethub.readthedocs.io/en/latest/">gidgethub</a>.</p>
+<p>Before starting to write this project, I needed to come up with a project name,
+and of course it was the hardest part of the process. I had thought of unimaginative
+names like, &quot;Blurb on the web&quot; or &quot;blurb_ee (ee: extended edition, pronounced <em>blurbee</em>)&quot;.
+Gregory P. Smith suggested &quot;Blurb 2.0&quot;. It sounds okay, except that I'm not actually implementing
+a new &quot;blurb&quot;. I'm trying to provide an enhancement of &quot;blurb add&quot; command, so it
+is only a subset of the full &quot;blurb&quot;. &quot;Blurb 2.0&quot; sounds incorrect to me. Larry
+himself suggested: &quot;webLurb&quot; (pronounced webblurb, or maybe we blurb?). In the end,
+I went with, &quot;blurb_it&quot;, to which Guido responded: &quot;ship_it&quot;. 🚢</p>
+<p>I demoed the prototype of blurb_it at Microsoft meetup on Thursday. I've started
+a <a class="reference external" href="https://github.com/python/blurb_it/pull/2">pull request</a>, and currently
+it is available on my own free Heroku instance at <a class="reference external" href="https://my-blurb-it.herokuapp.com/">https://my-blurb-it.herokuapp.com/</a></p>
+<p>There are still more work to be done for blurb_it:</p>
+<ul class="simple">
+<li>Write unit tests</li>
+<li>Add travis CI integration to the repo</li>
+<li>Transfer app ownership to The PSF</li>
+<li>Make it as a GitHub App instead of an OAuth App</li>
+<li>Add form validation that the news entry has to be more than 30 characters</li>
+<li>Ask for Andrew's feedback on best practises when using aiohttp-session</li>
+</ul>
+</div>
+<div class="section" id="to-be-continued">
+<h2>To be continued</h2>
+<p>That is all the time I have to write up about the sprint. I'm heading back to
+Vancouver, and will be out-of-open source for the rest of the month. But I plan
+to continue with more details of some of the other projects.</p>
+<p><strong>Update</strong>: <a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-2.html">Part 2</a>.</p>
+<p>Thanks for reading.</p>
+</div>
+
+  </div>
+  <div class="tag-cloud">
+    <p>
+      <a href="./tag/python.html">Python</a>
+      <a href="./tag/sprint.html">sprint</a>
+      <a href="./tag/miss-islington.html">miss-islington</a>
+      <a href="./tag/blurb_it.html">blurb_it</a>
+    </p>
+  </div>
+
+
+
+
+</article>
+
+    <footer>
+<p>&copy; Mariatta 2017 - 2019</p>
+<p>    Powered by <a href="http://getpelican.com" target="_blank">Pelican</a> - <a href="https://github.com/alexandrevicenzi/flex" target="_blank">Flex</a> theme by <a href="http://alexandrevicenzi.com" target="_blank">Alexandre Vicenzi</a>
+</p>    </footer>
+  </main>
+
+<!-- Google Analytics -->
+<script type="text/javascript">
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','//www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-89118970-2', 'auto');
+  ga('send', 'pageview');
+</script>
+<!-- End Google Analytics -->
+
+
+
+<script type="application/ld+json">
+{
+  "@context" : "http://schema.org",
+  "@type" : "Blog",
+  "name": " mariatta.ca ",
+  "url" : ".",
+  "image": "https://mariatta.ca/img/mariatta.jpg",
+  "description": ""
+}
+</script>
+</body>
+</html>

@@ -1,0 +1,631 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>mariatta.ca - misc</title><link href="https://mariatta.ca/" rel="alternate"></link><link href="https://mariatta.ca/feeds/misc.atom.xml" rel="self"></link><id>https://mariatta.ca/</id><updated>2019-01-01T11:00:00-08:00</updated><subtitle></subtitle><entry><title>2018</title><link href="https://mariatta.ca/reflections-2018.html" rel="alternate"></link><published>2019-01-01T11:00:00-08:00</published><updated>2019-01-01T11:00:00-08:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-01-01:/reflections-2018.html</id><summary type="html">&lt;ol class="arabic simple" start="2018"&gt;
+&lt;li&gt;It was quite a year! Not quite like 2017, but quite remarkable in its own way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A lot of things happened. Mostly good things. Some bad things, but definitely
+it was a net positive year.&lt;/p&gt;
+&lt;p&gt;Still quite a busy year, but I feel mostly good about it all.&lt;/p&gt;
+&lt;p&gt;I made …&lt;/p&gt;</summary><content type="html">&lt;ol class="arabic simple" start="2018"&gt;
+&lt;li&gt;It was quite a year! Not quite like 2017, but quite remarkable in its own way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A lot of things happened. Mostly good things. Some bad things, but definitely
+it was a net positive year.&lt;/p&gt;
+&lt;p&gt;Still quite a busy year, but I feel mostly good about it all.&lt;/p&gt;
+&lt;p&gt;I made some mistakes, but proud of a lot of things.&lt;/p&gt;
+&lt;div class="section" id="starting-new-at-zapier"&gt;
+&lt;h2&gt;Starting new at Zapier&lt;/h2&gt;
+&lt;p&gt;My start date at Zapier was about two weeks before PyCascades. Perhaps, I should've waited until after PyCascades wrapped up before starting a
+new job. I found myself needing more time to adjust and ramp up to my new work
+environment, new team, new responsibilities, new everything. It took longer than
+I'd like before I really feel like I'm getting a hang of my new job. I'm grateful
+that Zapier has been understanding and accommodating.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycascades-2018"&gt;
+&lt;h2&gt;PyCascades 2018&lt;/h2&gt;
+&lt;p&gt;We put out PyCascades! It was &lt;em&gt;great&lt;/em&gt;! It was amazing! I'm really proud of it.
+I'm proud of &lt;a class="reference external" href="https://2018.pycascades.com/schedule/"&gt;all of our speakers&lt;/a&gt;.
+I'm proud to have hosted &lt;a class="reference external" href="https://2018.pycascades.com/talks/bdfl-python-3-retrospective/"&gt;the creator of Python&lt;/a&gt;.
+I'm proud that we filled the theatre. I'm proud that our speakers got the audience
+they deserve. I'm proud that our community is enriched by the talks we chose.&lt;/p&gt;
+&lt;p&gt;But the one thing that I'm most proud of, is our organizing team. Who would have
+thought that somehow, this team of people with different backgrounds,
+coming from different countries, living in different cities, somehow, &lt;em&gt;we made it work&lt;/em&gt;.
+Since day one, the PyCascades team has done nothing but completely support, respect, and trust
+one another. I can't ask for a better team.&lt;/p&gt;
+&lt;p&gt;Seb, Bryan, Eric, Alan, and Don, I feel lucky that somehow you've all included me
+into this.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="conferences"&gt;
+&lt;h2&gt;Conferences&lt;/h2&gt;
+&lt;p&gt;Other than PyCascades, I went to three other conferences: PyCon US, DjangoCon, and
+North Bay Python. I presented a tutorial and a talk at PyCon US, as well as a couple
+talks at Python Language Summit.&lt;/p&gt;
+&lt;p&gt;I'm real honored to have been invited to as keynote speakers at DjangoCon and
+North Bay Python. Both of these communities now have special places in my heart.&lt;/p&gt;
+&lt;p&gt;I received four other invitations to give keynote at conferences, from faraway places, places
+I've never been. But unfortunately I had to decline them. Not because
+I didn't want to speak there, but I just couldn't take any more time away from my
+family and my work.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="travels"&gt;
+&lt;h2&gt;Travels&lt;/h2&gt;
+&lt;p&gt;I didn't get to visit many different countries this year, but I visited many new
+places in the US. For Zapier-related travels, I visited Hilton Head Island,
+Phoenix, and Chattanooga. For Python-related events, I visited Cleveland, Bellevue,
+Petaluma, and San Diego. We spent a week in Cancun for spring break. I went on a
+solo road trip in the summer. I drove around Oregon and Washington, I went to Mount
+Hood and Mount St. Helens.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="it-me"&gt;
+&lt;h2&gt;It me!&lt;/h2&gt;
+&lt;p&gt;I was asked for &lt;a class="reference external" href="https://www.newyorker.com/science/elements/after-years-of-abusive-e-mails-the-creator-of-linux-steps-aside"&gt;an interview with Noam Cohen from The New Yorker&lt;/a&gt;.
+I was quite nervous about it initially. I felt kinda silly about it now, but I had
+to admit, I didn't know much about The New Yorker, so I had to ask a couple American friends
+of its reputation. My excuse was that I'm an immigrant and I don't follow
+American media. Anyways, (and I feel lucky to have them as friends because they didn't judge!),
+they all said that it is a great opportunity.&lt;/p&gt;
+&lt;p&gt;I didn't even know why I had to be nervous about it. I guess this is something
+I can brag about to my future descendants.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="black-out"&gt;
+&lt;h2&gt;Black_out&lt;/h2&gt;
+&lt;p&gt;I started working on a new side project, &lt;a class="reference external" href="https://github.com/mariatta/black_out"&gt;black_out&lt;/a&gt;.
+It was very much inspired by my experience developing &lt;a class="reference external" href="https://github.com/python/miss-islington"&gt;miss-islington&lt;/a&gt;.
+Black_out is a GitHub bot that runs &lt;a class="reference external" href="https://black.readthedocs.io/en/stable/"&gt;black&lt;/a&gt; on pull requests.&lt;/p&gt;
+&lt;p&gt;I've learned many new things by building black_out.&lt;/p&gt;
+&lt;p&gt;To make black_out happen, I needed a new feature to be implemented in gidgethub,
+that is the ability to be authenticated using JSON web token. Because
+I wanted this feature in gidgethub, I ended up &lt;a class="reference external" href="https://github.com/brettcannon/gidgethub/pull/62"&gt;writing the PR&lt;/a&gt; myself.
+Short story is, this is done, and it's been included since gidgethub 3.0.0.&lt;/p&gt;
+&lt;p&gt;A little longer story: writing the tests and maintaining 100% coverage
+was quite an adventure! There was one part where I just didn't know how to write the test case for.&lt;/p&gt;
+&lt;p&gt;This was the test that I started writing (see picture).&lt;/p&gt;
+&lt;img alt="" src="../img/gidgethub_test_case.png" /&gt;
+&lt;p&gt;I needed to come up with a test case for an async generator &lt;tt class="docutils literal"&gt;gh.getiter()&lt;/tt&gt;, where
+&lt;tt class="docutils literal"&gt;ValueError&lt;/tt&gt; is raised if both &lt;tt class="docutils literal"&gt;oauth_token&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;jwt&lt;/tt&gt; are passed.&lt;/p&gt;
+&lt;p&gt;The way I wrote it initially, &lt;tt class="docutils literal"&gt;coverage&lt;/tt&gt; reported that there was no coverage there, and
+I didn't know what I needed to do about it.&lt;/p&gt;
+&lt;p&gt;So I contacted the maintainers of &lt;tt class="docutils literal"&gt;coverage&lt;/tt&gt;, &lt;tt class="docutils literal"&gt;asyncio&lt;/tt&gt;, and &lt;tt class="docutils literal"&gt;pytest&lt;/tt&gt; for advice,
+in case they've come across similar situation before.&lt;/p&gt;
+&lt;p&gt;Ned commented that it seemed odd to use &lt;tt class="docutils literal"&gt;pass&lt;/tt&gt; there.&lt;/p&gt;
+&lt;p&gt;We then experimented doing it as follows:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+with pytest.raises(ValueError) as exc_info:
+    gh.getiter(&amp;quot;/fake&amp;quot;, {&amp;quot;extra&amp;quot;: &amp;quot;stuff&amp;quot;}, oauth_token=&amp;quot;my oauth token&amp;quot;, jwt=&amp;quot;json web token&amp;quot;)
+&lt;/pre&gt;
+&lt;p&gt;But it resulted in an error: &lt;tt class="docutils literal"&gt;Failed: DID NOT RAISE &amp;lt;class 'ValueError'&amp;gt;&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;He then suggested to &amp;quot;just use nocover pragma&amp;quot;. Yury suggested using
+&lt;tt class="docutils literal"&gt;pytest.fail&lt;/tt&gt; instead of &lt;tt class="docutils literal"&gt;pass&lt;/tt&gt;.&lt;/p&gt;
+&lt;p&gt;The &lt;a class="reference external" href="https://github.com/brettcannon/gidgethub/blob/b260304d3feec022c9890e12b5bdd6bff4c51029/gidgethub/test/test_abc.py#L250-L254"&gt;end result&lt;/a&gt; is:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+with pytest.raises(ValueError) as exc_info:
+    async for _ in gh.getiter(&amp;quot;/fake&amp;quot;, {&amp;quot;extra&amp;quot;: &amp;quot;stuff&amp;quot;}, oauth_token=&amp;quot;my oauth token&amp;quot;, jwt=&amp;quot;json web token&amp;quot;)
+        pytest.fail(&amp;quot;Unreachable&amp;quot;)  # pragma: no cover
+&lt;/pre&gt;
+&lt;p&gt;New to me!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="my-first-pep-and-second"&gt;
+&lt;h2&gt;My First PEP (and second)&lt;/h2&gt;
+&lt;p&gt;I wrote a PEP for the first time: &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; - Using GitHub Issues for CPython. I've
+been working on it for some time since earlier this year, but before I got the
+chance to announce it, Guido announced his retirement as Python BDFL. I'm happy
+for him. His retirement also meant that there was no one who could pronounce
+on PEP 581.&lt;/p&gt;
+&lt;p&gt;I then wrote &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-8011/"&gt;PEP 8011&lt;/a&gt; - Python
+Governance Model Lead by Trio of Pythonistas, co-authored
+with Barry Warsaw. PEP 8011 was not top choice among core developers, and I'm fine with that.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="other-things-to-be-proud-of"&gt;
+&lt;h2&gt;Other things to be proud of&lt;/h2&gt;
+&lt;p&gt;I worked on &lt;a class="reference external" href="https://github.com/python/blurb_it"&gt;blurb_it&lt;/a&gt;, and learned how to
+use &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-jinja2"&gt;aiohttp-jinja2&lt;/a&gt; and &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-session"&gt;aiohttp-session&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;Major improvements to miss-islington include: &lt;a class="reference external" href="https://github.com/python/miss-islington/pull/51"&gt;automerge backport PRs&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/python/miss-islington/pull/146"&gt;automerge any PR&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/python/miss-islington/pull/59"&gt;improved test coverage&lt;/a&gt;, and finally dropping &lt;tt class="docutils literal"&gt;requests&lt;/tt&gt; dependency
+and &lt;a class="reference external" href="https://github.com/python/miss-islington/pull/186/files"&gt;using pure gidgethub and aiohttp to make requests&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I started learning to play guitar, fulfilling a lifelong dream of mine.&lt;/p&gt;
+&lt;p&gt;I facilitated and provided speaker mentorship during PyCascades CFP period. Several
+of the mentees got their proposals accepted. The proposals were great to begin with.
+I'm just proud to take part in their success.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="disappointment"&gt;
+&lt;h2&gt;Disappointment&lt;/h2&gt;
+&lt;p&gt;When my oldest child was born, I kinda promised myself that I'm going to be a
+a good parent and not miss any of their school performances and sporting events.&lt;/p&gt;
+&lt;p&gt;I've failed.&lt;/p&gt;
+&lt;p&gt;On the day that both of my children performing in their school musical, an Alice
+in Wonderland production, I was not at home. Instead, I was at Python Language
+Summit.&lt;/p&gt;
+&lt;p&gt;At the time, it seemed like an obvious choice. &lt;em&gt;Of course&lt;/em&gt; the language summit was
+more important than my children's school performance. That's what I told myself.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Really?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;I've been feeling guilty about missing their school performance. I can only hope to
+somehow make it up to them in other ways.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="years-ago"&gt;
+&lt;h2&gt;20 years ago ...&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;content &amp;amp; trigger warning: trauma / PTSD&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;While in Phoenix, I met up with an old classmate. A friend I haven't seen for more than
+20 years. I haven't seen her since maybe junior high school.&lt;/p&gt;
+&lt;p&gt;One of the first things she asked, was if I remember &amp;quot;the riot&amp;quot;.&lt;/p&gt;
+&lt;p&gt;I found it strange that, after not meeting for more than 20 years, this was
+one of the first things she asked about.&lt;/p&gt;
+&lt;p&gt;I guess, the riot affected her too. Whether it affected her in the same way it
+affected me, I don't know. I don't even realize how it affected me until quite
+recently.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;The&lt;/em&gt; riot. &lt;em&gt;Kerusuhan&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Yeah, I remember.&lt;/p&gt;
+&lt;p&gt;To the Indonesian people old enough to remember, the riot means one thing: &lt;a class="reference external" href="https://en.wikipedia.org/wiki/May_1998_riots_of_Indonesia"&gt;the
+riots of May 1998&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I remember it. I don't remember how it started, or how it ended.&lt;/p&gt;
+&lt;p&gt;I remember parts of it.&lt;/p&gt;
+&lt;p&gt;I remember ...&lt;/p&gt;
+&lt;p&gt;... the time when myself, my brothers, my parents and grandparents, we were
+all gathered in our kitchen.&lt;/p&gt;
+&lt;p&gt;I remember, being told to pick up one of the kitchen knives.&lt;/p&gt;
+&lt;p&gt;I remember ...&lt;/p&gt;
+&lt;p&gt;... being told not to be afraid. To be &lt;em&gt;ready&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;If the rioters came in, &lt;em&gt;stab&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I remember ...&lt;/p&gt;
+&lt;p&gt;... &lt;em&gt;holding the knife&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I remember ...&lt;/p&gt;
+&lt;p&gt;... &lt;em&gt;being afraid&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;They never managed to come in.&lt;/p&gt;
+&lt;p&gt;For several days, we were on the run. One of my uncles' friend sheltered
+us in his house. The grownups told us that we'd be safe there. We'd be safe there,
+because it is a Muslim's house.&lt;/p&gt;
+&lt;p&gt;I didn't understand what was happening at the time. I didn't even understand why
+we'd be safe in a Muslim's house.&lt;/p&gt;
+&lt;p&gt;But I remember ... feeling confused. And betrayed.&lt;/p&gt;
+&lt;p&gt;The riot? Yeah, I remember it.&lt;/p&gt;
+&lt;p&gt;I'd rather forget.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mental-breakdown"&gt;
+&lt;h2&gt;Mental Breakdown&lt;/h2&gt;
+&lt;p&gt;&lt;strong&gt;content &amp;amp; trigger warning&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;A lot of good things happened this year, and yet, I got hit with a wave of depression.&lt;/p&gt;
+&lt;p&gt;My mental health had been slowly deteriorating since ... some time.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Does it even matter when it started?&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;It's been going on for a while, and I &lt;em&gt;knew&lt;/em&gt; what was happening. Yet I ignored the
+signs. I kept telling myself, that I can handle it. &lt;em&gt;I've been through this before&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I can take care of myself&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Except that ... I wasn't actually taking care of myself.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=RF8IJsxeNLM"&gt;I was flying so high. But I needed to fall.&lt;/a&gt;&lt;/blockquote&gt;
+&lt;p&gt;I found myself in the darkest place I've ever been.&lt;/p&gt;
+&lt;p&gt;It was during my road trip that I realized just how dangerous it was for me to
+be alone with only my thoughts. My thoughts wandered deep into dark places.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I shouldn't be behind the wheels!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;And then I caught myself with those dark thoughts.&lt;/p&gt;
+&lt;p&gt;And I hated myself for thinking those thoughts.&lt;/p&gt;
+&lt;p&gt;The thoughts keep coming back.&lt;/p&gt;
+&lt;p&gt;And it went on ... and on ... in cycles.&lt;/p&gt;
+&lt;p&gt;And then I was broken.&lt;/p&gt;
+&lt;p&gt;It took ... &lt;em&gt;everything&lt;/em&gt;, to try to pull myself back together.&lt;/p&gt;
+&lt;blockquote&gt;
+&lt;a class="reference external" href="https://www.youtube.com/watch?v=OY7K4uBV4Wc"&gt;The monster you were running from is the monster in you.&lt;/a&gt;.&lt;/blockquote&gt;
+&lt;p&gt;I haven't been seeing my therapist for some time, but I've started seeing her again.
+My doctor prescribed antidepressant medication. It took several trials, but we
+found the medication that works. It comes with some side effects, but, at least,
+I'm a functioning human being again.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="managing-identities"&gt;
+&lt;h2&gt;Managing Identities&lt;/h2&gt;
+&lt;p&gt;Throughout the year, I've been finding it increasingly difficult to manage all
+of my different identities.&lt;/p&gt;
+&lt;p&gt;My roles and responsibilities as a parent, are quite different than the roles
+and responsibilities as an employee, a conference organizer, a meetup organizer,
+a Python core developer, an open source contributor, or a speaker, each of these roles
+has different responsibilities and priorities. Sometimes, there is overlap. Sometimes,
+there's contradiction.&lt;/p&gt;
+&lt;p&gt;I don't actually always know, which hat I'm wearing at any given time.
+I don't always know, which hat do people see when they see me.&lt;/p&gt;
+&lt;p&gt;I hope that I've picked the right hat at the right time.&lt;/p&gt;
+&lt;p&gt;Will I always know, which hat is the right hat to wear?&lt;/p&gt;
+&lt;p&gt;And do I still get to be just &lt;em&gt;myself&lt;/em&gt;? What am I? &lt;em&gt;Who&lt;/em&gt; am I? Who do I want to be?
+What do I want to do?&lt;/p&gt;
+&lt;p&gt;I'm still trying to figure this out.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="looking-forward"&gt;
+&lt;h2&gt;Looking forward&lt;/h2&gt;
+&lt;p&gt;Everything that I've done this year, everything I've accomplished, I didn't do it on my own.
+I received lots of help, support, and encouragement from various people.&lt;/p&gt;
+&lt;p&gt;I feel ... lucky, that I have all of these friends. I don't take this for granted. I
+worry that my luck will run out soon.&lt;/p&gt;
+&lt;p&gt;But let's not worry.&lt;/p&gt;
+&lt;p&gt;2018 is now in the past.&lt;/p&gt;
+&lt;p&gt;2019 is here now.&lt;/p&gt;
+&lt;p&gt;2019 goals?&lt;/p&gt;
+&lt;p&gt;Sounds cliché, but I want to workout more and actually use the gym membership.&lt;/p&gt;
+&lt;p&gt;I want to keep up learning to play guitar.&lt;/p&gt;
+&lt;p&gt;I want for PEP 581 to be implemented.&lt;/p&gt;
+&lt;p&gt;I want to visit at least one new country.&lt;/p&gt;
+&lt;p&gt;I want to work on more GitHub bots.&lt;/p&gt;
+&lt;p&gt;I have lots of ideas!&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Hiatus</title><link href="https://mariatta.ca/hiatus.html" rel="alternate"></link><published>2018-05-01T11:20:00-07:00</published><updated>2018-05-01T11:20:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2018-05-01:/hiatus.html</id><summary type="html">&lt;p&gt;For the whole month of April, I made a personal goal to take a break from
+participating in open source and the community.&lt;/p&gt;
+&lt;p&gt;First of all, thank you to everyone who gave me lots of moral support about this!&lt;/p&gt;
+&lt;p&gt;I felt kind of guilty at first. I was worried if …&lt;/p&gt;</summary><content type="html">&lt;p&gt;For the whole month of April, I made a personal goal to take a break from
+participating in open source and the community.&lt;/p&gt;
+&lt;p&gt;First of all, thank you to everyone who gave me lots of moral support about this!&lt;/p&gt;
+&lt;p&gt;I felt kind of guilty at first. I was worried if my non-activity would mean
+that other Python core devs will have to pick up the slack.&lt;/p&gt;
+&lt;p&gt;But let's give more credit to the core devs! Python has flourished for 20+ years
+without my involvement. One month without me is fine.&lt;/p&gt;
+&lt;div class="section" id="i-still-did-some-volunteering"&gt;
+&lt;h2&gt;&lt;strong&gt;I still did some volunteering&lt;/strong&gt; 😥&lt;/h2&gt;
+&lt;p&gt;Some of these I sort of anticipated, many were unexpected.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Released cherry_picker v1.1.0&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I had offered to help Andrew Svetlov with building a GitHub bot similar to
+&lt;a class="reference external" href="https://github.com/python/miss-islington"&gt;miss-islington&lt;/a&gt;, but for maintaining
+&lt;a class="reference external" href="https://github.com/aio-libs/aiohttp"&gt;aiohttp&lt;/a&gt;. Part of the work
+needed to be done is to make cherry_picker customizable for other projects.
+Andrew had made the necessary code changes, but there was one small bug.
+All I needed to do was &lt;a class="reference external" href="https://github.com/python/core-workflow/pull/233"&gt;review the PR&lt;/a&gt;,
+approve it, and publish the fix to PyPI. It didn't take
+too much of my time, so I was quite happy to do it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Shadowed Larry and Barry&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;This might sound cryptic, but I'll leave it at that for now. I'm also not quite
+sure how it came to be, but this was something the BDFL asked me
+to do. Who am I to say no?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Organized a PyLadies Vancouver meetup&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I was hoping my co-organizers could take care of this for me, and I wished I
+didn't have to be involved. But we were having trouble finding a sponsor who would
+host our April meetup. (I will rant about this in detail some other time).&lt;/p&gt;
+&lt;p&gt;We reached out to at least five companies, and even tried booking a free meeting room
+at Vancouver Public Library. Our requests were either denied or ignored.&lt;/p&gt;
+&lt;p&gt;I asked other meetup organizers and several Python friends in town for help. In
+the end, we pushed the event to &lt;a class="reference external" href="https://www.meetup.com/PyLadies-Vancouver/events/249657234/"&gt;May&lt;/a&gt;,
+and &lt;a class="reference external" href="https://twitter.com/CiscoSecurity"&gt;Cisco&lt;/a&gt; stepped up to host.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Got myself invited to yet another community Slack channel&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Related to our difficulty with finding a meetup venue, the experience
+prompted me to reach out to the other meetup organizers in town. One group
+I talked to called themselves the Gastown Gang. Previously, they had lured me in with
+promises of pasta. 🍝😋&lt;/p&gt;
+&lt;p&gt;No pasta yet, but we had been talking about a new initiative for shared
+resources among the local meetup communities in Vancouver,
+how things can be more transparent and open, and how the different communities
+can help and support each other. Somehow this ended with me joining a new community
+Slack team. 😛&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Volunteered to write the docs for PEP 557: Data Classes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I had &lt;a class="reference external" href="https://bugs.python.org/issue32216"&gt;volunteered&lt;/a&gt; to do it a couple
+months ago, but never got around doing anything. After a gentle ping from an
+eager member of the community, I emailed Eric and Raymond to see if we could
+sprint on this at PyCon.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;I engaged with the community, on Twitter&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ok maybe &lt;em&gt;engaged&lt;/em&gt; was not the right word. More like, ... &lt;em&gt;provoked&lt;/em&gt;?&lt;/p&gt;
+&lt;p&gt;I expressed my &lt;a class="reference external" href="https://twitter.com/mariatta/status/987450414298685440"&gt;extreme disappointment&lt;/a&gt;
+to the community. I knew the risks and the repercussions for speaking up about
+diversity issues. But I did it anyway.&lt;/p&gt;
+&lt;p&gt;And then the twitter broke. I mean, the twitter &lt;em&gt;on my phone&lt;/em&gt; broke.&lt;/p&gt;
+&lt;p&gt;After having to block three people, I deleted the app for the rest of the month.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Read up about PEP 572&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Several Python core devs told me about this PEP, so I read some of
+the python-dev emails about it. &lt;em&gt;Keeping personal opinions to myself&lt;/em&gt;. 🤐&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="i-really-did-take-time-off"&gt;
+&lt;h2&gt;&lt;strong&gt;I really DID take time off!&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;Other than Andrew's PR, I didn't review any other pull requests.&lt;/p&gt;
+&lt;p&gt;Did not read any mailing list emails, except that one thread about PEP 572.&lt;/p&gt;
+&lt;p&gt;Did not follow any issues in the bug tracker, except for &lt;a class="reference external" href="https://bugs.python.org/issue3692"&gt;bpo-3692&lt;/a&gt;. But that was raised at work, so I don't
+consider it as volunteering.&lt;/p&gt;
+&lt;p&gt;I read Twitter only for my own notifications, mentions, and direct messages,
+up until the weekend where my twitter broke.&lt;/p&gt;
+&lt;p&gt;What did I do for my own me time?&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Put in extra effort for my work at Zapier&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I got a couple new features shipped! 🌮 They're documented
+&lt;a class="reference external" href="https://zapier.com/developer/documentation/v2/partner-api/#paging-through-results-using-limit-and-offset"&gt;here&lt;/a&gt;
+and &lt;a class="reference external" href="https://zapier.com/developer/documentation/v2/shared-zaps-test-trigger/#embed-widget-faq"&gt;there&lt;/a&gt;. 😄
+I'm working on a new feature, wanted by several partners. Stay tuned!&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Netflix and ...&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;🤭 Eh, ... I watched a lot of shows on Netflix: All 3 seasons of Hannibal, Lucky
+Number Slevin, and Troy: Fall of a City.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Played Ramen Sensei on my phone&lt;/strong&gt; 🍜&lt;/p&gt;
+&lt;p&gt;I'm still under the delusion that I can successfully run a ramen shop if I ever
+need to leave tech.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Went to my oldest son's first piano recital&lt;/strong&gt; 🎹&lt;/p&gt;
+&lt;p&gt;He did great! 😊&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Worked on my GitHub Bot tutorial&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I spent two weekend afternoons to work on the tutorial. While I open-sourced
+the  material, I don't count this as a &lt;em&gt;volunteer&lt;/em&gt; work since I'll be getting paid
+for it at PyCon. Thanks to Brett who reviewed it.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Investigated if we could get a pet turtle&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Let's not tell my kids about this. After one afternoon of reading how to care
+for a pet turtle, I realized I don't really want additional responsibilities.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Watched My Little Pony&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;My kids are into My Little Pony these days. Not something I'm familiar with. I'm
+still learning all the ponies' name.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Did my taxes&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Procrastinated doing it until pretty much the final day.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="stuff-i-wanted-to-do-but-didn-t"&gt;
+&lt;h2&gt;&lt;strong&gt;Stuff I wanted to do, but didn't&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I had been working on a &lt;a class="reference external" href="https://github.com/pypa/warehouse/pull/3306"&gt;pull request for Warehouse&lt;/a&gt;. I was planning
+to find some time to finish it up, but didn't. 😥&lt;/li&gt;
+&lt;li&gt;I've been wanting to do at least some kind of cooking, baking, try out new recipe,
+or at least make a batch of handmade noodles. None of that happened. 😕&lt;/li&gt;
+&lt;li&gt;My review was requested for a &lt;a class="reference external" href="https://github.com/python/core-workflow/pull/238"&gt;bugfix PR&lt;/a&gt;
+to cherry_picker. I still haven't looked at it. 😔&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="happiness"&gt;
+&lt;h2&gt;&lt;strong&gt;Happiness&lt;/strong&gt;&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I received a happiness packet. Thanks Anna. 💖&lt;/li&gt;
+&lt;li&gt;Met up with my friends &lt;a class="reference external" href="https://twitter.com/mariatta/status/986368161690759168"&gt;Seb and Dan&lt;/a&gt;.
+We chatted about the community, about PyCon, and, of course, about how awesome f-strings are.
+I also got Dan to &lt;a class="reference external" href="https://twitter.com/mariatta/status/986360574450651136"&gt;autograph&lt;/a&gt; my copy of his
+book! 🤩&lt;/li&gt;
+&lt;li&gt;Received compliments about miss-islington and my GitHub Bot tutorial.
+Thanks &lt;a class="reference external" href="https://twitter.com/nicoddemus/status/980963184189329408"&gt;Bruno&lt;/a&gt;
+and &lt;a class="reference external" href="https://twitter.com/webology/status/985167199043235842"&gt;Jeff&lt;/a&gt;. 😊&lt;/li&gt;
+&lt;li&gt;Found out that my tutorial at PyCon is now full! 😳️&lt;/li&gt;
+&lt;li&gt;Thankful for the supportive Python community. 💖&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="what-now"&gt;
+&lt;h2&gt;&lt;strong&gt;What now&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;I miss getting involved in open source, and being part of the community. But I
+have other priorities for the moment.&lt;/p&gt;
+&lt;p&gt;I'm still wanting a break from contributing to open source for another month,
+except when I'm at PyCon for the sprints.&lt;/p&gt;
+&lt;p&gt;I will however, start getting involved in my local Python community again.
+I need to follow up with Gastown Gang, and start planning the next PyLadies Vancouver
+meetups.&lt;/p&gt;
+&lt;p&gt;I'm so looking forward to PyCon! Can't wait for my next ice cream selfie!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="things-to-improve"&gt;
+&lt;h2&gt;&lt;strong&gt;Things to improve&lt;/strong&gt;&lt;/h2&gt;
+&lt;p&gt;The past month still felt busier than I wanted to. I'm still thinking up better
+ways to do this. 😥&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Better Gmail filters&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I needed to adjust the email filters several times to get it right. I think
+it is still not optimal. Some emails from GitHub and b.p.o were still going through.&lt;/p&gt;
+&lt;p&gt;Some important emails got missed, because the sender uses an email system that always
+include the word &amp;quot;unsubscribe&amp;quot;. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Delete twitter on my phone&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I should have done it from the get go. I should not even bother with
+checking my mentions or direct messages. It got me into trouble.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;O-O-OS autoreply GitHub bot&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I was thinking it might be cool to have my own out-of-open source autoreply GitHub
+bot. For example if someone mentions me or requested review from me, the bot can
+respond on my behalf and let people know that I won't get to it for a while,
+so they can find someone else. But I'm worried it'll just add noise to the thread.
+More design is needed.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Choose a different month&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I'll definitely do this again next year. Question is, which month? 😅&lt;/p&gt;
+&lt;p&gt;I'm learning now that the months before and during PyCon are busy times of the year for
+a Python core developer. Same as any month where there's a scheduled release it seems.&lt;/p&gt;
+&lt;p&gt;Will it be so irresponsible if I choose to be off during those  months?
+And do I need to co-ordinate with other core devs so we don't all go on a
+break at the same time?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Why is this so complicated?&lt;/em&gt; 🙃&lt;/p&gt;
+&lt;/div&gt;
+</content></entry><entry><title>2017</title><link href="https://mariatta.ca/reflections-2017.html" rel="alternate"></link><published>2017-12-31T11:00:00-08:00</published><updated>2017-12-31T11:00:00-08:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2017-12-31:/reflections-2017.html</id><summary type="html">&lt;ol class="arabic simple" start="2017"&gt;
+&lt;li&gt;What a year. There might not be another year quite like this one for me.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A number of highlights, but some low points too. Net positive, I think.&lt;/p&gt;
+&lt;p&gt;It's been ... busy. I want to be less busy in 2018.&lt;/p&gt;
+&lt;p&gt;Back in January, my only wish for this year was to …&lt;/p&gt;</summary><content type="html">&lt;ol class="arabic simple" start="2017"&gt;
+&lt;li&gt;What a year. There might not be another year quite like this one for me.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A number of highlights, but some low points too. Net positive, I think.&lt;/p&gt;
+&lt;p&gt;It's been ... busy. I want to be less busy in 2018.&lt;/p&gt;
+&lt;p&gt;Back in January, my only wish for this year was to get my talk accepted at PyCon US.
+&lt;em&gt;That would be this year's highlight.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Instead, a lot of things happened. Mostly good things.&lt;/p&gt;
+&lt;p&gt;Writing all of these down, as a therapy for myself.&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;p&gt;Got an email from my friend Seb one morning, talked about organizing a Python
+conference in the Pacific Northwest.&lt;/p&gt;
+&lt;p&gt;I didn't think twice before saying yes.&lt;/p&gt;
+&lt;p&gt;I just thought that a Python conference in this part of the world will be great
+for the growing Python community here. And it wasn't going to happen on its own.
+A person wouldn't be able to do it alone. But a group of people all sharing
+the same ideals? It could work.&lt;/p&gt;
+&lt;p&gt;I had no clue what it's going to involve. I got introduced to the other folks:
+Don, Alan, Bryan, and Eric. Don and Alan have build a huge Python community
+in Seattle. Eric organizes Write The Docs conference. &lt;em&gt;They know what
+they're doing.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;We chose a name: PyCascades. First one's in Vancouver.
+Started looking for a venue. It's happening.&lt;/p&gt;
+&lt;p&gt;Organizing PyCascades has been very challenging. Perhaps one day I'll write more
+about the challenges. I'm just really proud that I get to be part of it. Lucky
+that I get to be part of it.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon-talk-acceptance"&gt;
+&lt;h2&gt;PyCon talk acceptance&lt;/h2&gt;
+&lt;p&gt;At about the same time that we started organizing PyCascades, I was notified
+that my talk was accepted at PyCon. I couldn't believe it! I read the email
+again and again. It felt amazing! It was like a dream come true! I must have told
+everyone I knew about it.&lt;/p&gt;
+&lt;p&gt;And then I got scared. &lt;strong&gt;I'm going to be give a non-technical talk at PyCon.&lt;/strong&gt;
+Maybe nobody will show up for my talk. Maybe people showed up and then be disappointed.&lt;/p&gt;
+&lt;p&gt;Negative thoughts creeping in. Booked a session with my therapist.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="djangocon-europe-talk-acceptance"&gt;
+&lt;h2&gt;DjangoCon Europe talk acceptance&lt;/h2&gt;
+&lt;p&gt;Still reveling and freaking out about PyCon, I found out that I've been
+accepted to speak at DjangoCon Europe. Florence! I had never been to Europe!
+Of course I accepted. My employer wasn't going to sponsor my trip. Submitted
+my vacation request. Thanks to DjangoCon Europe's financial aid, I could actually
+afford to go.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="new-python-core-developer"&gt;
+&lt;h2&gt;New Python Core Developer&lt;/h2&gt;
+&lt;p&gt;I knew I was going to get busy for the first half of the year. And it was only January.&lt;/p&gt;
+&lt;p&gt;Then, a life-changing event happened.&lt;/p&gt;
+&lt;p&gt;My mentor, Raymond, messaged me. &amp;quot;I have good news for you&amp;quot;, he said.
+&amp;quot;I nominated you for core-dev privileges.&amp;quot;&lt;/p&gt;
+&lt;p&gt;😱&lt;/p&gt;
+&lt;p&gt;&amp;quot;Are you sure I'm ready for this?&amp;quot;, I asked.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Not to worry, I'll be responsible for your commits for a while. I'll continue
+to mentor, help, and cheer you along the way. You'll be an important part of the
+project.&amp;quot;&lt;/p&gt;
+&lt;p&gt;😱&lt;/p&gt;
+&lt;p&gt;Core-dev privileges? What are they? What does it even mean, to be a Python Core
+Developer? I guess, technically, somewhere, there's going to be a boolean flag
+getting flipped. It's got to be more than that. The commit bit, comes with
+special super power. With power, comes responsibility. Right? &lt;em&gt;Right?&lt;/em&gt; Except
+I had no idea.&lt;/p&gt;
+&lt;p&gt;I chatted with my other mentor, Guido.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Raymond nominated me to be a core dev. What do you think? 'cause I'm not sure I'm
+ready for this&amp;quot;.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Ah, you'll grow into the role.&amp;quot;, he dismissed my concerns.
+&amp;quot;It will be good for Python to have you.&amp;quot;&lt;/p&gt;
+&lt;p&gt;😱&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Sure about this??&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Excited. Happy. Scared. Anxious. All at once.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;I didn't even know how to feel!&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;The next day, there's a new entry in the Dev Guide of a new Python Core Developer.&lt;/p&gt;
+&lt;p&gt;My life changed that day.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="more-talk-acceptance"&gt;
+&lt;h2&gt;More talk acceptance&lt;/h2&gt;
+&lt;p&gt;Spring time. Got my talk accepted at several other conferences.
+I'd love to go to all of them, but my work wouldn't sponsor. It would mean that
+I'll have to go on my own dime and take personal time off. I couldn't afford to go.
+And I really should go on vacations with my husband and kids instead of traveling by myself.&lt;/p&gt;
+&lt;p&gt;I said no to most of them. I thought I'd be done speaking for the rest of the year
+after PyCon US. But then I then I decided to speaking at PyCon Australia.&lt;/p&gt;
+&lt;p&gt;And I went to Australia for the first time.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="broken"&gt;
+&lt;h2&gt;Broken&lt;/h2&gt;
+&lt;p&gt;Between PyCon US and PyCon Australia, I started applying for a new job again.
+One rejection email after another. I ignored those emails. I needed to focus
+on giving a new talk.&lt;/p&gt;
+&lt;p&gt;Gave my talk, a talk about f-strings. I felt good about it. Now that it's done, I
+finally have time to ponder about those rejection emails.&lt;/p&gt;
+&lt;p&gt;I sat all alone in my hotel room in Melbourne. I thought about what I wanted to
+do next.&lt;/p&gt;
+&lt;p&gt;I still wanted to get a new job. I suppose I should learn from my failures and
+try to do better at the next interviews. So I read those emails again. I had asked
+the recruiters if they have specific feedback of what I could improve.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;after reviewing your code, we don’t think you’re exactly the right fit for our role&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;How could they even determine this simply by looking at my code?
+I guess this is just a generic message they send to everyone who failed. They
+wouldn't even bother with giving me an honest feedback.&lt;/p&gt;
+&lt;p&gt;Another reject email, dated July 17.&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+... we don't think it makes sense to move forward
+right now- primarily because we want to see continued growth in your technical skills.
+However, we are really impressed with you overall and think you'd be a great culture
+fit for &amp;lt;company&amp;gt;. Please keep us in mind and reach out if you'd like to enter the
+process again in 1-2 years - we'd love to talk with you then.
+&lt;/pre&gt;
+&lt;p&gt;What. Is. This.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;we want to see continued growth in your technical skills.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;What the f--- have I been doing in the last 15 years, if not that? What else do
+I need to do?&lt;/p&gt;
+&lt;p&gt;I was lost. I didn't know what else I could do to be better at the next interview.
+I keep trying to find a lesson to be learned out of this. And I could not.&lt;/p&gt;
+&lt;p&gt;I think it's not technical skill that I lacked. I don't know what they want.
+After all these years, I'm still not good enough.&lt;/p&gt;
+&lt;p&gt;I broke down. Buried my face in the pillow. Cried myself to sleep.&lt;/p&gt;
+&lt;p&gt;Next morning came. Took a shower. Negative thoughts.&lt;/p&gt;
+&lt;p&gt;Looked at the time. It's time to get going.&lt;/p&gt;
+&lt;p&gt;Wiped my tears and washed my face one more time.&lt;/p&gt;
+&lt;p&gt;Still unable to find any positivity. No light. Only darkness.&lt;/p&gt;
+&lt;p&gt;I got to the sprint venue. Wrote some code. Replied to emails.
+Tried to forget everything. I uploaded &lt;a class="reference external" href="https://github.com/Mariatta/tic_tac_taco_pizza"&gt;tic tac taco pizza&lt;/a&gt; to PyPI.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;One of the most useless thing to be in PyPI&lt;/em&gt;. Didn't matter. For once, I
+wrote code for myself. My kids would love it though.&lt;/p&gt;
+&lt;p&gt;Katie came over and showed me that she installed tic tac taco pizza and had
+played it. Thank you Katie.&lt;/p&gt;
+&lt;p&gt;I then went on a road trip with Trey. The Great Ocean Road trip. It was great.
+I saw the ocean. I love the ocean.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;All of my sadness, taken by the sea ...&lt;/em&gt;&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-core-sprint"&gt;
+&lt;h2&gt;Python Core Sprint&lt;/h2&gt;
+&lt;p&gt;September. 20 core devs got together for a week. Facebook and The PSF sponsored my trip.
+I had a great time. Really enjoyed meeting other core devs and spent time with them.
+Because I had spent all of my vacation days, I was only able to be at the sprint
+for 3 days instead of the full week. Lame. Wished I could have stayed longer.&lt;/p&gt;
+&lt;p&gt;Most of the core devs worked on CPython. New PEPs being discussed. Ezio worked
+on the Dev Guide.&lt;/p&gt;
+&lt;p&gt;I made &lt;a class="reference external" href="https://github.com/python/miss-islington"&gt;miss-islington&lt;/a&gt;, a
+GitHub bot to backport changes from master to the other
+maintenance branches. We needed this bot since we moved to GitHub months ago.
+So far it has backported more than 300 pull requests.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="picking-up-the-pieces"&gt;
+&lt;h2&gt;Picking up the pieces&lt;/h2&gt;
+&lt;p&gt;I thought that I was done for the year. Time to take a break.
+Time to catch up on things I'd put off earlier.&lt;/p&gt;
+&lt;p&gt;Mike wanted me to write for &lt;a class="reference external" href="https://www.blog.pythonlibrary.org/2017/09/25/pydev-of-the-week-mariatta-wijaya/"&gt;PyDev of the Week&lt;/a&gt;
+since a couple months ago. Finally got around doing it.&lt;/p&gt;
+&lt;p&gt;I became a guest at &lt;a class="reference external" href="http://castalio.info/episodio-114-mariatta-wijaya-cpython.html"&gt;Castalio Podcast&lt;/a&gt;.
+I had a lot of fun. I laughed a lot during the interview!&lt;/p&gt;
+&lt;p&gt;Dan asked me to write the foreword for &lt;a class="reference external" href="https://dbader.org/products/python-tricks-book/"&gt;his book&lt;/a&gt;.
+Thanks Dan for this opportunity.&lt;/p&gt;
+&lt;p&gt;PyLadies Vancouver members wanted a workshop about Python Packaging. I thought
+of Brett. Brett helped me publish &lt;a class="reference external" href="http://pypi.org/project/cherry-picker"&gt;something&lt;/a&gt; to PyPI for the first time ever.
+Asked Brett if he could give a &lt;a class="reference external" href="https://www.meetup.com/PyLadies-Vancouver/events/243207518/"&gt;workshop&lt;/a&gt;.
+He agreed. Thanks Brett.&lt;/p&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://2017.pycon.ca/"&gt;PyCon Canada&lt;/a&gt; asked me to give a keynote. What an honor.&lt;/p&gt;
+&lt;p&gt;Two different friends wanted to nominate me for some kind of &lt;a class="reference external" href="https://www.redhat.com/en/about/women-in-open-source"&gt;award&lt;/a&gt;.
+Wow! Thanks Gloria and Victor. Don't think I stack up against the other nominees
+but it meant a lot that you both thought of me.&lt;/p&gt;
+&lt;p&gt;Gregory nominated me for &lt;a class="reference external" href="https://opensource.googleblog.com/2017/10/more-open-source-peer-bonus-winners.html"&gt;Google Open Source Peer Bonus&lt;/a&gt; award. That felt great.
+Thanks Gregory.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="new-family-doctor"&gt;
+&lt;h2&gt;New Family Doctor&lt;/h2&gt;
+&lt;p&gt;My family doctor no longer practicing. So I met with a new doctor. He reviewed
+my medical history.&lt;/p&gt;
+&lt;p&gt;&amp;quot;I see here you have &lt;em&gt;mood swings&lt;/em&gt;?&amp;quot;&lt;/p&gt;
+&lt;p&gt;Perhaps he didn't want to say the dirty word in front of my kids.&lt;/p&gt;
+&lt;p&gt;But it should not be a dirty word. They probably won't understand it now.
+In that split moment I decided that I wanted my kids to hear it.
+That this is something we can talk about, openly.&lt;/p&gt;
+&lt;p&gt;&amp;quot;I have depression. And anxieties. Come and go in waves.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Do you take medication?&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;No. Trying to manage it by seeing a therapist.&amp;quot;&lt;/p&gt;
+&lt;p&gt;&amp;quot;That's good. But come to me if you need medication.&amp;quot;&lt;/p&gt;
+&lt;p&gt;I hope I never need to.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="quitting"&gt;
+&lt;h2&gt;Quitting&lt;/h2&gt;
+&lt;p&gt;I was ready to give up hope and to remain the my current job. A job that was no
+longer satisfying. I tried leaving, but had no where else to go.&lt;/p&gt;
+&lt;p&gt;Three different people had told me about this other company. &lt;em&gt;Great culture, great people. Give it a try!&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;I really didn't think I could handle yet another rejection.&lt;/p&gt;
+&lt;p&gt;I got tired of trying.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;For the last time&lt;/em&gt;. That's what I said the time before. For real this time.&lt;/p&gt;
+&lt;p&gt;They seemed really nice and friendly. &lt;em&gt;&amp;quot;Great people, great culture.&amp;quot;&lt;/em&gt; Will I
+belong?&lt;/p&gt;
+&lt;p&gt;They offered me the job. The next day I gave my notice.&lt;/p&gt;
+&lt;p&gt;&amp;quot;Anything we can do to keep you here?&amp;quot;&lt;/p&gt;
+&lt;p&gt;I guess I could have asked for more money? For the promotion they denied me earlier?&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;Don't make me beg for things.&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&amp;quot;Thank you. But I'm leaving.&amp;quot;&lt;/p&gt;
+&lt;p&gt;My heart is someplace else now.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="reflecting-back"&gt;
+&lt;h2&gt;Reflecting back&lt;/h2&gt;
+&lt;p&gt;Almost a year since I became a Python Core Developer. Still not sure what
+it really means to be a core dev. &lt;em&gt;&amp;quot;What is it like?&amp;quot;&lt;/em&gt; Busy. &lt;em&gt;&amp;quot;How can I become a core dev too?&amp;quot;&lt;/em&gt;
+I dunno. I got lucky. &lt;em&gt;&amp;quot;How much time do you spend contributing?&amp;quot;&lt;/em&gt; Way too much time.&lt;/p&gt;
+&lt;p&gt;I really made lots of contributions to open source and to Python this year.
+Wrote a lot of documentation. Wrote some code. Made more than 600 pull requests.
+Also reviewed a lot of them. Wrote &amp;quot;Thanks and congrats on your first
+contribution to CPython&amp;quot; many many times.&lt;/p&gt;
+&lt;p&gt;That shiny green &amp;quot;Squash and merge&amp;quot; button is no longer intimidating.
+&amp;quot;You can always revert things.&amp;quot;, Brett said early on.
+&amp;quot;Don't worry, you won't be breaking Python.&amp;quot;&lt;/p&gt;
+&lt;p&gt;😱&lt;/p&gt;
+&lt;p&gt;One time I thought I had erased the entire history of Python.&lt;/p&gt;
+&lt;p&gt;😱&lt;/p&gt;
+&lt;p&gt;I did not. But I really thought I did. Longest 10 minutes of my life.&lt;/p&gt;
+&lt;p&gt;I learned how to revert things on GitHub.&lt;/p&gt;
+&lt;p&gt;A lot of things happened this year.&lt;/p&gt;
+&lt;p&gt;Some good. Some bad.&lt;/p&gt;
+&lt;p&gt;Net positive.&lt;/p&gt;
+&lt;p&gt;2018? I only have one wish: that my tutorial gets accepted at PyCon.&lt;/p&gt;
+&lt;p&gt;Hmm, that sounds familiar ...&lt;/p&gt;
+&lt;/div&gt;
+</content></entry></feed>

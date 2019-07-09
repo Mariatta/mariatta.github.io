@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0"><channel><title>mariatta.ca - Mariatta</title><link>https://mariatta.ca/</link><description></description><lastBuildDate>Mon, 08 Jul 2019 00:00:00 -0700</lastBuildDate><item><title>Weekly Update, July 8, 2019</title><link>https://mariatta.ca/weekly-update-july-8-2019.html</link><description>&lt;p&gt;This has started to become more like bi-weekly updates. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;Well there was Canada Day stat holiday last weekend. My kids are out of school
+for the summer, so I've been spending more time with them at instead of on the computer.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learning about GraphQL, wrote a few lines of …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 08 Jul 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-07-08:/weekly-update-july-8-2019.html</guid><category>pep581</category></item><item><title>Weekly Update, June 24, 2019</title><link>https://mariatta.ca/weekly-update-june-24-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Did some code reviews.&lt;/li&gt;
+&lt;li&gt;Experimented with profanity detection for incoming comments.&lt;/li&gt;
+&lt;li&gt;Some work using Iterable API&lt;/li&gt;
+&lt;li&gt;Some work using Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Looked into GitLab CI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Answered several emails for PyLadies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I volunteered myself to be an admin of PyLadies 😳 You can now reach me …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 24 Jun 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-06-24:/weekly-update-june-24-2019.html</guid></item><item><title>Weekly Update, June 18, 2019</title><link>https://mariatta.ca/weekly-update-june-18-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Did my Birkman personality assessment. I've been
+thinking about the result a lot. 🤔&lt;/li&gt;
+&lt;li&gt;Discussion with my manager about how to advance in my role at Zapier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered several emails&lt;/li&gt;
+&lt;li&gt;Started working on my next keynote&lt;/li&gt;
+&lt;li&gt;Declined …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Tue, 18 Jun 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-06-18:/weekly-update-june-18-2019.html</guid></item><item><title>Weekly Update, June 9, 2019</title><link>https://mariatta.ca/weekly-update-june-9-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Helped review several Zapier blog posts related to GitHub, Bitbucket, and GitLab.&lt;/li&gt;
+&lt;li&gt;Chatting about blog post idea for Zapier with our editorial team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Attended the first PyLadies Global monthly meeting with Lorena, Rachell and Katia.&lt;/li&gt;
+&lt;li&gt;Another …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 09 Jun 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-06-09:/weekly-update-june-9-2019.html</guid></item><item><title>Weekly Update, June 3, 2019</title><link>https://mariatta.ca/weekly-update-june-3-2019.html</link><description>&lt;p&gt;It's been a little more than two weeks since my last &lt;a class="reference external" href="../weekly-update-may-17-2019.html"&gt;weekly update&lt;/a&gt; 😬
+Lots of things happened, and I've kept busy 😥&lt;/p&gt;
+&lt;p&gt;I spent a week in Berlin for GitHub Satellite. I might write a post just about
+that later on.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Worked remotely from Germany for a week.&lt;/li&gt;
+&lt;li&gt;Finished several …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 03 Jun 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-06-03:/weekly-update-june-3-2019.html</guid></item><item><title>Weekly Update, May 17, 2019</title><link>https://mariatta.ca/weekly-update-may-17-2019.html</link><description>&lt;p&gt;Been a while since my last &lt;a class="reference external" href="../weekly-update-april-30-2019.html"&gt;weekly update&lt;/a&gt; 😅
+I spent a week in Cleveland for PyCon US, and I've
+&lt;a class="reference external" href="../mariatta-pycon-2019-recap"&gt;written a post just for that&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This weekly update covers the week after I returned from PyCon and this
+week's activities.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I was playing catch up after missing …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Fri, 17 May 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-05-17:/weekly-update-may-17-2019.html</guid></item><item><title>Mariatta @ PyCon 2019 Recap</title><link>https://mariatta.ca/mariatta-pycon-2019-recap.html</link><description>&lt;p&gt;I was at PyCon from April 29 - May 7. It's my fifth PyCon US. It's been a memorable
+and, I kept busy.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5fCBZxXsAAnVU3.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;I had a number of pre-planned activities for PyCon, like running the language
+summit, giving talks, tutorial, etc. Thought I'll share a quick summary of how
+they all …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Wed, 15 May 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-05-15:/mariatta-pycon-2019-recap.html</guid><category>Python</category><category>conference</category><category>PyCon</category><category>pep581</category></item><item><title>#IceCreamSelfie at PyCon US 2019, Cleveland</title><link>https://mariatta.ca/ics-pyconus-2019.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="https://www.cathyscle.com/"&gt;Cathy's Gourmet Ice Cream Sadwiches&lt;/a&gt; in Cleveland, May 2019. Courtesy of
+&lt;a class="reference external" href="https://twitter.com/nnja"&gt;Nina Zakharenko&lt;/a&gt; and &lt;a class="reference external" href="https://twitter.com/ixek"&gt;Tania Allard&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pyconus-2019.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 06 May 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-05-06:/ics-pyconus-2019.html</guid></item><item><title>Mariatta @ PyCon 2019</title><link>https://mariatta.ca/mariatta-pycon-2019.html</link><description>&lt;p&gt;I arrived in Cleveland last night for PyCon 2019! It'll be quite busy and jam-packed
+event for me!! Looking forward to meet old friends and make new ones!&lt;/p&gt;
+&lt;p&gt;The following are my pre-planned PyCon activities. But I'm sure in actuality
+I'll be even more busier for the unplanned ones! 😅&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Wednesday …&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Tue, 30 Apr 2019 14:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-04-30:/mariatta-pycon-2019.html</guid><category>Python</category><category>conference</category><category>PyCon</category><category>sprint</category><category>pep581</category></item><item><title>Weekly Update, April 30, 2019</title><link>https://mariatta.ca/weekly-update-april-30-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Short week, 3 days of work, but quite productive.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Published my Zapier engineering blog post: &lt;a class="reference external" href="https://zapier.com/engineering/zapier-at-pycon-2019/"&gt;Zapier at PyCon 2019&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Made a couple PRs. One of it was about customizing Django Admin. The other is
+for a new Zapier API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gave a preview of my …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Tue, 30 Apr 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-04-30:/weekly-update-april-30-2019.html</guid><category>pep581</category></item><item><title>Weekly Update, April 20, 2019</title><link>https://mariatta.ca/weekly-update-april-20-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;A shorter work week, because of Good Friday statutory holiday.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ran a script that spins up the pages for requested Zapier integrations.
+An example of such page is &lt;a class="reference external" href="https://zapier.com/apps/facebook-messenger/integrations"&gt;this page for requesting Facebook Messenger
+integration in Zapier&lt;/a&gt;.
+Generated about 600+ of such page in one script.&lt;/li&gt;
+&lt;li&gt;Wrote a draft …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sat, 20 Apr 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-04-20:/weekly-update-april-20-2019.html</guid></item><item><title>Weekly Update, April 13, 2019</title><link>https://mariatta.ca/weekly-update-april-13-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Wrapped up a task, tested, deployed. Lots of discussions with other team members.&lt;/li&gt;
+&lt;li&gt;Some code cleanup. In one PR I removed 3000+ lines of code. It was quite
+satisfying! 😤&lt;/li&gt;
+&lt;li&gt;Writing automation script.&lt;/li&gt;
+&lt;li&gt;Sent out my monthly invoice to Zapier 🤑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last Friday I received a number …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sat, 13 Apr 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-04-13:/weekly-update-april-13-2019.html</guid></item><item><title>Weekly Update, April 5, 2019</title><link>https://mariatta.ca/weekly-update-april-5-2019.html</link><description>&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Some bug fixing. Learning new things about our codebase. Discussions with other
+teams. Code reviewing.&lt;/li&gt;
+&lt;li&gt;Completed a sprint. Did a couple quick demos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Still out-of-open-source 😃&lt;/li&gt;
+&lt;li&gt;Correspondence about giving keynote at conferences. Really grateful for these
+opportunities! Do people want to hear me talk about PEP …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Fri, 05 Apr 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-04-05:/weekly-update-april-5-2019.html</guid></item><item><title>Weekly Update, March 29, 2019</title><link>https://mariatta.ca/weekly-update-march-29-2019.html</link><description>&lt;p&gt;I missed writing last week's update because I've been on vacation.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I shipped a thing.&lt;/li&gt;
+&lt;li&gt;Looking into bug fixing this week and next week. Writing script to automate stuff.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;p&gt;I started &lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;
+last week, so there shouldn't be anything interesting in this section …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Fri, 29 Mar 2019 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-03-29:/weekly-update-march-29-2019.html</guid></item><item><title>Weekly Update, March 17, 2019</title><link>https://mariatta.ca/weekly-update-march-17-2019.html</link><description>&lt;p&gt;Getting ready for spring break vacation! Tying up loose ends before I go on
+&lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Working with &lt;a class="reference external" href="https://api.iterable.com/api/docs/"&gt;Iterable API&lt;/a&gt;. Wrote to
+their tech support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Touchbase about CLA-assistant with Ernest. At this point we think that my job
+is done, and everything else is on Ernest …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 17 Mar 2019 20:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-03-17:/weekly-update-march-17-2019.html</guid></item><item><title>Weekly Update, March 10, 2019</title><link>https://mariatta.ca/weekly-update-march-10-2019.html</link><description>&lt;p&gt;Exhaustion! 😵&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Started working with a new manager.&lt;/li&gt;
+&lt;li&gt;Learned that one team member will be moving over to another team.&lt;/li&gt;
+&lt;li&gt;A pairing session.&lt;/li&gt;
+&lt;li&gt;Completed a sprint.&lt;/li&gt;
+&lt;li&gt;Got my annual raise.&lt;/li&gt;
+&lt;li&gt;Support shift.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered various emails regarding &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;Python Language Summit&lt;/a&gt;
+and the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;mentored sprint&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Set up a …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 10 Mar 2019 22:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-03-10:/weekly-update-march-10-2019.html</guid></item><item><title>Weekly Update, March 3, 2019</title><link>https://mariatta.ca/weekly-update-march-3-2019.html</link><description>&lt;p&gt;Back from PyCascades, and trying to settle back to &amp;quot;normal&amp;quot;. I'm not even sure
+what is &amp;quot;normal&amp;quot; anymore..&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;p&gt;TL;DR: &lt;strong&gt;BUSY!!&lt;/strong&gt; 😵 Thank you to all who came!! I'm especially happy not only
+because I get to meet old friends, but also friends on Twitter and finally we met
+in …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 03 Mar 2019 22:00:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-03-03:/weekly-update-march-3-2019.html</guid></item><item><title>Weekly Update, Feb 21, 2019</title><link>https://mariatta.ca/weekly-update-feb-21-2019.html</link><description>&lt;p&gt;I'll be super busy tomorrow (traveling down to Seattle for PyCascades),
+so here's an earlier weekly update.&lt;/p&gt;
+&lt;p&gt;Short work week because of a stat holiday. I've been preoccupied with work,
+PyCascades, and dealing with tons of paperwork.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Getting ready to launch a project that my team has been working …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Thu, 21 Feb 2019 22:00:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-02-21:/weekly-update-feb-21-2019.html</guid></item><item><title>Weekly Update, Feb 16, 2019</title><link>https://mariatta.ca/weekly-update-feb-16-2019.html</link><description>&lt;p&gt;This is the first of my Weekly Updates post. &lt;a class="reference external" href="../pages/weekly-updates.html"&gt;Background on this topic&lt;/a&gt;.
+I'll try my best to keep this up.&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entering the last two weeks before the conference. Lots of little details still being sorted out.&lt;/li&gt;
+&lt;li&gt;Worked on the &lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/"&gt;welcome wagon&lt;/a&gt;.
+Lots of updates to the travel guide …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sat, 16 Feb 2019 11:00:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-02-16:/weekly-update-feb-16-2019.html</guid></item><item><title>2018</title><link>https://mariatta.ca/reflections-2018.html</link><description>&lt;ol class="arabic simple" start="2018"&gt;
+&lt;li&gt;It was quite a year! Not quite like 2017, but quite remarkable in its own way.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A lot of things happened. Mostly good things. Some bad things, but definitely
+it was a net positive year.&lt;/p&gt;
+&lt;p&gt;Still quite a busy year, but I feel mostly good about it all.&lt;/p&gt;
+&lt;p&gt;I made …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Tue, 01 Jan 2019 11:00:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2019-01-01:/reflections-2018.html</guid></item><item><title>#IceCreamSelfie at North Bay Python 2018, Petaluma</title><link>https://mariatta.ca/ics-northbaypython-2018.html</link><description>&lt;p&gt;Ice cream from &lt;a class="reference external" href="http://lalascreamery.com/"&gt;Lala's Creamery&lt;/a&gt; in front of North Bay Python's venue, &lt;a class="reference external" href="http://www.mystictheatre.com/"&gt;Mystic Theatre&lt;/a&gt;. Petaluma, November 2018.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-northbaypython-2018.jpg" style="width: 400px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 04 Nov 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-11-04:/ics-northbaypython-2018.html</guid></item><item><title>#IceCreamSelfie at DjangoCon US 2018, San Diego</title><link>https://mariatta.ca/ics-djangoconus-2018.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="https://www.hammondsgourmet.com/"&gt;Hammond's Grourmet Ice Cream&lt;/a&gt; in Cleveland, May 2018.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-djangoconus-2018.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Wed, 17 Oct 2018 00:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-10-17:/ics-djangoconus-2018.html</guid></item><item><title>Python Core Sprint 2018: Part Two</title><link>https://mariatta.ca/core-sprint-2018-part-2.html</link><description>&lt;p&gt;Read up on &lt;a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-1.html"&gt;Part one&lt;/a&gt; first.&lt;/p&gt;
+&lt;p&gt;Here are additional discussions and projects that I got involved with during the
+sprint.&lt;/p&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; is a PEP I wrote about using
+GitHub issues instead of Roundup as CPython's issue tracker.&lt;/p&gt;
+&lt;p&gt;During the sprint, I discussed this topic mainly with Ezio …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Fri, 21 Sep 2018 09:14:06 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-09-21:/core-sprint-2018-part-2.html</guid><category>Python</category><category>sprint</category><category>cla</category><category>pep581</category></item><item><title>Python Core Sprint 2018: Part One</title><link>https://mariatta.ca/core-sprint-2018-part-1.html</link><description>&lt;p&gt;For the past week (September 9-14), I've been down in Bellevue, WA for my second
+Core Python sprint. The sprint is hosted by Microsoft, and funded by The PSF.&lt;/p&gt;
+&lt;div class="section" id="thanks"&gt;
+&lt;h2&gt;Thanks&lt;/h2&gt;
+&lt;p&gt;Last year, I was only able to stay for the sprint for three days. This year
+I'm able to stay …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sat, 15 Sep 2018 11:20:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-09-15:/core-sprint-2018-part-1.html</guid><category>Python</category><category>sprint</category><category>miss-islington</category><category>blurb_it</category></item><item><title>PyCon 2018</title><link>https://mariatta.ca/pycon-2018.html</link><description>&lt;p&gt;I was at PyCon from May 9 - May 15. It's my fourth PyCon US, and has been very
+special to me in many ways. (Also my busiest yet!)&lt;/p&gt;
+&lt;img alt="" src="../img/pycon2018-badge.jpg" style="width: 200px;" /&gt;
+&lt;div class="section" id="representing-zapier"&gt;
+&lt;h2&gt;Representing Zapier&lt;/h2&gt;
+&lt;p&gt;Thanks Zapier for fully supporting my trip to PyCon, and for allowing me to
+take the time away from work …&lt;/p&gt;&lt;/div&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sat, 19 May 2018 14:00:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-05-19:/pycon-2018.html</guid><category>Python</category><category>conference</category><category>PyCon</category><category>sprint</category></item><item><title>#IceCreamSelfie at PyCon US 2018, Cleveland</title><link>https://mariatta.ca/ics-pyconus-2018.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="https://mitchellshomemade.com/"&gt;Mitchell's Homemade Ice Cream&lt;/a&gt; in Cleveland, May 2018.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pyconus-2018.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 13 May 2018 19:54:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-05-13:/ics-pyconus-2018.html</guid></item><item><title>Hiatus</title><link>https://mariatta.ca/hiatus.html</link><description>&lt;p&gt;For the whole month of April, I made a personal goal to take a break from
+participating in open source and the community.&lt;/p&gt;
+&lt;p&gt;First of all, thank you to everyone who gave me lots of moral support about this!&lt;/p&gt;
+&lt;p&gt;I felt kind of guilty at first. I was worried if …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Tue, 01 May 2018 11:20:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2018-05-01:/hiatus.html</guid></item><item><title>2017</title><link>https://mariatta.ca/reflections-2017.html</link><description>&lt;ol class="arabic simple" start="2017"&gt;
+&lt;li&gt;What a year. There might not be another year quite like this one for me.&lt;/li&gt;
+&lt;/ol&gt;
+&lt;p&gt;A number of highlights, but some low points too. Net positive, I think.&lt;/p&gt;
+&lt;p&gt;It's been ... busy. I want to be less busy in 2018.&lt;/p&gt;
+&lt;p&gt;Back in January, my only wish for this year was to …&lt;/p&gt;</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Sun, 31 Dec 2017 11:00:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-12-31:/reflections-2017.html</guid></item><item><title>#IceCreamSelfie at PyCon CA 2017, Montréal</title><link>https://mariatta.ca/ics-pyconca-2017.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="https://www.facebook.com/LaCabaneDeDanny/"&gt;La Cabane De Danny&lt;/a&gt; in Montréal, November 2017. Bubble waffle with
+vanilla and matcha ice cream. Never seen it anywhere else before! 😋🍦🤳&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pyconca-2017.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 20 Nov 2017 11:35:00 -0800</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-11-20:/ics-pyconca-2017.html</guid></item><item><title>#IceCreamSelfie at PyCon Australia 2017, Melbourne</title><link>https://mariatta.ca/ics-pyconau-2017.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="http://www.milkcow.com.au/"&gt;Milkcow Australia&lt;/a&gt; in Melbourne, August 2017.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pyconau-2017.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 23 Oct 2017 10:40:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-10-23:/ics-pyconau-2017.html</guid></item><item><title>#IceCreamSelfie at PyCon US 2017, Portland</title><link>https://mariatta.ca/ics-pyconus-2017.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="http://www.whatsthescooppdx.com/"&gt;What's the Scoop PDX&lt;/a&gt; in Portland, May 2017.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pyconus-2017.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 23 Oct 2017 10:35:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-10-23:/ics-pyconus-2017.html</guid></item><item><title>#IceCreamSelfie at DjangoCon Europe and PyCon Italy 2017, Florence, Italy</title><link>https://mariatta.ca/ics-italy-2017.html</link><description>&lt;p&gt;Somewhere in Florence, April 2017.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-florence-2017.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 23 Oct 2017 10:30:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-10-23:/ics-italy-2017.html</guid></item><item><title>#IceCreamSelfie at PyCaribbean 2017, Puerto Rico</title><link>https://mariatta.ca/ics-pycaribbean-2017.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="https://sanjuanpuertorico.com/condado-beach/"&gt;Condado Beach&lt;/a&gt; in Puerto Rico, February 2017.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-pycaribbean-2017.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 23 Oct 2017 10:25:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-10-23:/ics-pycaribbean-2017.html</guid></item><item><title>#IceCreamSelfie at DjangoCon US 2016, Philadephia</title><link>https://mariatta.ca/ics-djangoconus-2016.html</link><description>&lt;p&gt;At &lt;a class="reference external" href="http://www.capogirogelato.com/"&gt;Capogiro Gelato&lt;/a&gt; in Philadelphia, July 2016.&lt;/p&gt;
+&lt;img alt="" src="../img/ics-djangoconus-2016.jpg" style="width: 200px;" /&gt;
+</description><dc:creator xmlns:dc="http://purl.org/dc/elements/1.1/">Mariatta</dc:creator><pubDate>Mon, 23 Oct 2017 10:20:00 -0700</pubDate><guid isPermaLink="false">tag:mariatta.ca,2017-10-23:/ics-djangoconus-2016.html</guid></item></channel></rss>

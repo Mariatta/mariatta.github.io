@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>mariatta.ca - weekly-updates</title><link href="https://mariatta.ca/" rel="alternate"></link><link href="https://mariatta.ca/feeds/weekly-updates.atom.xml" rel="self"></link><id>https://mariatta.ca/</id><updated>2019-07-08T00:00:00-07:00</updated><subtitle></subtitle><entry><title>Weekly Update, July 8, 2019</title><link href="https://mariatta.ca/weekly-update-july-8-2019.html" rel="alternate"></link><published>2019-07-08T00:00:00-07:00</published><updated>2019-07-08T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-07-08:/weekly-update-july-8-2019.html</id><summary type="html">&lt;p&gt;This has started to become more like bi-weekly updates. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;Well there was Canada Day stat holiday last weekend. My kids are out of school
+for the summer, so I've been spending more time with them at instead of on the computer.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learning about GraphQL, wrote a few lines of …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This has started to become more like bi-weekly updates. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;Well there was Canada Day stat holiday last weekend. My kids are out of school
+for the summer, so I've been spending more time with them at instead of on the computer.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learning about GraphQL, wrote a few lines of JS codes.&lt;/li&gt;
+&lt;li&gt;Researching other ways to run django management commands from admin. Came across the
+&lt;a class="reference external" href="https://pypi.org/project/django-admincommand/"&gt;django-admincommand&lt;/a&gt; package.&lt;/li&gt;
+&lt;li&gt;Other django-related work.&lt;/li&gt;
+&lt;li&gt;Some code reviews.&lt;/li&gt;
+&lt;li&gt;Deployed to prod a few times.&lt;/li&gt;
+&lt;li&gt;Career growth discussion with my manager.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I did a &lt;a class="reference external" href="https://blog.jetbrains.com/pycharm/2019/06/webinar-recording-build-a-github-bot-with-mariatta-wijaya/"&gt;webinar with PyCharm&lt;/a&gt;!
+I got to talk a bit about contributing to Python, and I also get to show how
+you can automate your GitHub work with Zapier. Check it out!&lt;/li&gt;
+&lt;li&gt;I have a couple new &lt;a class="reference external" href="https://mariatta.ca/pages/about.html"&gt;GitHub sponsors&lt;/a&gt;
+in the 🍪 tier. ❤️ Thank you! That brings it to 22 sponsors! You too can &lt;a class="reference external" href="https://github.com/users/Mariatta/sponsorship"&gt;sponsor
+me on GitHub&lt;/a&gt; for as little as $5/month.&lt;/li&gt;
+&lt;li&gt;Helped with the setup of PyLadies Monrovia (Liberia).&lt;/li&gt;
+&lt;li&gt;Created more PyLadies Slack-bots.&lt;/li&gt;
+&lt;li&gt;Sent an update about PEP 581 to &lt;a class="reference external" href="https://mail.python.org/archives/list/python-dev&amp;#64;python.org/thread/WXXY5RY5UV6DGBKANMHCGOW4UIKXVZ6S/"&gt;python-dev&lt;/a&gt;,
+outlining the risks and downsides of GitHub.&lt;/li&gt;
+&lt;li&gt;Continued working on aiohttp-bot. I created &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-bot/pull/2"&gt;a PR&lt;/a&gt;,
+but I still need to write more unit tests. Also, I found a bug with black-out. 😟&lt;/li&gt;
+&lt;li&gt;Some back and forth email communications with GitHub Support team and Ewa Jodlowska,
+to get the &lt;a class="reference external" href="https://discuss.python.org/t/proposal-create-bug-triage-team-on-github/992"&gt;Triagers role enabled for CPython&lt;/a&gt;.
+The Python org on GitHub is now a non-profit organization, and we're in the Teams plan.
+Thanks to Ewa and GitHub for all the help! For the next steps, you can check out
+the &lt;a class="reference external" href="https://github.com/python/core-workflow/projects/3"&gt;project in core-workflow GitHub repo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Celebrated Canada Day 🇨🇦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;We handed over the keys to our old home to the new owners.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Took the kids to the circus 🎪 I think the performers are pretty talented!&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D-_G1F1UcAAD2JW.jpg" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Tried cooking gamjatang. It's ok but still not as good as I expected. Gotta try again
+next time with different recipe.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/d3ad12039c9b36aa254f283d34b5200c/5DC5C4F8/t51.2885-15/sh0.08/e35/s750x750/65174140_462436261182546_4595852931976870381_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Our kids just started learning to bike on two wheels! They're making great
+progress and we've been practising in the neighbourhood.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Started scheming our next annual family vacation. We've been going to Cancún for
+the last 3 family vacations. This time we'll be doing something else, but still in the
+Caribbean. It's going to be FUN!! 😁&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="pep581"></category></entry><entry><title>Weekly Update, June 24, 2019</title><link href="https://mariatta.ca/weekly-update-june-24-2019.html" rel="alternate"></link><published>2019-06-24T00:00:00-07:00</published><updated>2019-06-24T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-06-24:/weekly-update-june-24-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Did some code reviews.&lt;/li&gt;
+&lt;li&gt;Experimented with profanity detection for incoming comments.&lt;/li&gt;
+&lt;li&gt;Some work using Iterable API&lt;/li&gt;
+&lt;li&gt;Some work using Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Looked into GitLab CI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Answered several emails for PyLadies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I volunteered myself to be an admin of PyLadies 😳 You can now reach me …&lt;/p&gt;&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Did some code reviews.&lt;/li&gt;
+&lt;li&gt;Experimented with profanity detection for incoming comments.&lt;/li&gt;
+&lt;li&gt;Some work using Iterable API&lt;/li&gt;
+&lt;li&gt;Some work using Django Rest Framework&lt;/li&gt;
+&lt;li&gt;Looked into GitLab CI&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Answered several emails for PyLadies.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I volunteered myself to be an admin of PyLadies 😳 You can now reach me at
+mariatta at pyladies dot com 📧 (Thanks Lynn and Ernest for the help in
+getting this set up). With my new PyLadies admin power, I can help create new PyLadies
+chapters. A new chapter created this week was Montevideo PyLadies in Uruguay.
+Of course, when I said I'll do things, I really mean I'm creating bots to do
+all of these. PyLadies have lots of bots now! 😄&lt;/p&gt;
+&lt;img alt="" src="../img/pyladies-vancouver-slack-bot.png" /&gt;
+&lt;img alt="" src="../img/pyladies-slack-bot.png" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Reviewed and merged various small PRs in CPython.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I received my first &lt;a class="reference external" href="https://github.com/users/Mariatta/sponsorship"&gt;GitHub sponsors&lt;/a&gt;
+payout! 🤑 Thanks to GitHub for matching the fund! The payout is once a month,
+and only if we have at least 100$ balance
+to be paid out. And yes, I will be reporting this in my income tax.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Practised for my &lt;a class="reference external" href="https://blog.jetbrains.com/pycharm/2019/06/build-a-github-bot-with-mariatta-wijaya/"&gt;webinar with PyCharm&lt;/a&gt;.
+It's happening tomorrow! There will be Q&amp;amp;A! 😄&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Visited Brett, Andrea &amp;amp; Gidget's home.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Did a 4-hour hike at Buntzen Lake. We reached Polytrichum Lookout. My body was
+aching for several days 😩&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/c02c59774d9d1b84b7c7a64a76b65445/5D8E7729/t51.2885-15/sh0.08/e35/s640x640/64222221_462097961030651_4279503686772930955_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I went to Ikea with $100 budget. Came out with $300 bill. 😥&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, June 18, 2019</title><link href="https://mariatta.ca/weekly-update-june-18-2019.html" rel="alternate"></link><published>2019-06-18T00:00:00-07:00</published><updated>2019-06-18T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-06-18:/weekly-update-june-18-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Did my Birkman personality assessment. I've been
+thinking about the result a lot. 🤔&lt;/li&gt;
+&lt;li&gt;Discussion with my manager about how to advance in my role at Zapier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered several emails&lt;/li&gt;
+&lt;li&gt;Started working on my next keynote&lt;/li&gt;
+&lt;li&gt;Declined …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Did my Birkman personality assessment. I've been
+thinking about the result a lot. 🤔&lt;/li&gt;
+&lt;li&gt;Discussion with my manager about how to advance in my role at Zapier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered several emails&lt;/li&gt;
+&lt;li&gt;Started working on my next keynote&lt;/li&gt;
+&lt;li&gt;Declined two keynote invitations because of time conflict 😥&lt;/li&gt;
+&lt;li&gt;Booked my trip to Germany for PyCon DE!&lt;/li&gt;
+&lt;li&gt;Perhaps quite a milestone: GvR and I officially ended our 1:1 mentorship sessions,
+almost exactly 3 years since I first reached out to him . It is a strange thing
+to admit, but I finally feel like I'm really &lt;em&gt;ready&lt;/em&gt;.
+I feel well-equipped and well-supported by other members in the
+community. I'm quite happy to be able to give his time back.&lt;/li&gt;
+&lt;li&gt;Submmitted a CFP about GitHub bots! 🤞😣&lt;/li&gt;
+&lt;li&gt;Practise for my webinar with PyCharm next week&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Accepted an offer to our old home! By mid-July it will be someone else's
+responsibility.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Went out for dim sum with Raphael and Caroline.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Started watching &amp;quot;Lucifer&amp;quot; on Netflix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;At my kids' school carnival raffle, I won a month worth of Kickboxing sessions! 😬&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Our kids had piano recital on Father's Day. They did great, and I'm really
+proud of their progress!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Went to White Pine Beach, took a stroll in Sasamat Lake trail.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/a153e44f9074d6fb0335ec7273c642bb/5D92989A/t51.2885-15/sh0.08/e35/s640x640/61105947_430788937759805_5049560462179967271_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Went for a hike in Buntzen Lake Eagle Ridge Trail.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, June 9, 2019</title><link href="https://mariatta.ca/weekly-update-june-9-2019.html" rel="alternate"></link><published>2019-06-09T00:00:00-07:00</published><updated>2019-06-09T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-06-09:/weekly-update-june-9-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Helped review several Zapier blog posts related to GitHub, Bitbucket, and GitLab.&lt;/li&gt;
+&lt;li&gt;Chatting about blog post idea for Zapier with our editorial team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Attended the first PyLadies Global monthly meeting with Lorena, Rachell and Katia.&lt;/li&gt;
+&lt;li&gt;Another …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More work using Django REST Framework to build APIs.&lt;/li&gt;
+&lt;li&gt;Helped review several Zapier blog posts related to GitHub, Bitbucket, and GitLab.&lt;/li&gt;
+&lt;li&gt;Chatting about blog post idea for Zapier with our editorial team.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Attended the first PyLadies Global monthly meeting with Lorena, Rachell and Katia.&lt;/li&gt;
+&lt;li&gt;Another week of tending to &lt;a class="reference external" href="mailto:info&amp;#64;pyladies.com"&gt;info&amp;#64;pyladies.com&lt;/a&gt; mailbox.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.meetup.com/PyLadies-Vancouver/events/261900321/"&gt;PyLadies Vancouver meetup&lt;/a&gt; happened!
+I think it was well attended, and all the talks were great. A couple people expressed
+interest in giving talks next time. There was also interest in doing a meetup
+to brainstorm talk ideas.&lt;/li&gt;
+&lt;li&gt;Two new &lt;a class="reference external" href="https://mariatta.ca/pages/about.html"&gt;GitHub sponsors&lt;/a&gt; this week,
+both in the 🍩 tier. ❤️ Thank you! That brings it to 19 sponsors! 😲&lt;/li&gt;
+&lt;li&gt;Finalized arrangements for doing a &lt;a class="reference external" href="https://blog.jetbrains.com/pycharm/2019/06/build-a-github-bot-with-mariatta-wijaya/"&gt;webinar with PyCharm&lt;/a&gt;.
+There will be time for Q &amp;amp; A!&lt;/li&gt;
+&lt;li&gt;Python 3.8.0b1 was released earlier this week. It means Python 3.8 is no longer
+accepting new features, and available for bug fix only. It means, the CPython
+&lt;tt class="docutils literal"&gt;master&lt;/tt&gt; is now open for development of Python 3.9, and a new maintenance
+branch &lt;tt class="docutils literal"&gt;3.8&lt;/tt&gt; was created. Seems straightforward so far. One of a boring
+routine task related to this is that we now need the &lt;tt class="docutils literal"&gt;needs backport to 3.8&lt;/tt&gt;
+label on GitHub. It might not be obvious, but any Python core developers and
+Python release managers can easily create the label.
+However, Łukasz had taken the trouble &lt;a class="reference external" href="https://github.com/python/core-workflow/issues/331"&gt;to create an issue&lt;/a&gt;
+requesting that the label be created. Creating a label is boring, and really
+shouldn't require two core devs to be involved. Writing a bot that does this is
+more fun. So I &lt;a class="reference external" href="https://github.com/python/bedevere/pull/174"&gt;wrote the bot&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I'm a &lt;a class="reference external" href="https://www.python.org/psf/membership/#what-membership-classes-are-there"&gt;PSF Supporting Member&lt;/a&gt;,
+so I got to cast my vote in The PSF's Board of Directors election.&lt;/li&gt;
+&lt;li&gt;I proposed that we &lt;a class="reference external" href="https://discuss.python.org/t/enable-github-sponsors-on-python-org/1816"&gt;enable the Sponsors feature for CPython&lt;/a&gt;.
+Seems like this will be discussed by The Steering Council.&lt;/li&gt;
+&lt;li&gt;I enabled sponsorship for &lt;a class="reference external" href="https://github.com/pyladies/pyladies"&gt;PyLadies on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Our old home is finally &lt;a class="reference external" href="https://vanrealty.ca/officelistings.html/listing.r2376795-7387-magnolia-terrace-burnaby-v5e-4m3.88510113"&gt;listed for sale&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;It was &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Dragon_Boat_Festival"&gt;Dragon Boat Festival&lt;/a&gt;
+on Friday. One of the traditions related to this festival, other than actual
+dragon boat racing, is making and eating rice dumplings. Last time we did this
+was two years ago. It is a time-consuming activity, but I kinda enjoy it.
+I spent Friday evening and a few more hours on Saturday. We made 70 dumplings!
+These absolutely taste better than storebought ones.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/edad5a07772d97c3475761041597dfe7/5D8469B8/t51.2885-15/sh0.08/e35/s750x750/64361345_418721842314708_6327066436018939561_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/292671d92276e13fbcc538c0781c1b4a/5D942BA0/t51.2885-15/sh0.08/e35/s750x750/61528369_1107126332813576_8233774971481304218_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Watched &amp;quot;I Am Mother&amp;quot; on Netflix.&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, June 3, 2019</title><link href="https://mariatta.ca/weekly-update-june-3-2019.html" rel="alternate"></link><published>2019-06-03T00:00:00-07:00</published><updated>2019-06-03T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-06-03:/weekly-update-june-3-2019.html</id><summary type="html">&lt;p&gt;It's been a little more than two weeks since my last &lt;a class="reference external" href="../weekly-update-may-17-2019.html"&gt;weekly update&lt;/a&gt; 😬
+Lots of things happened, and I've kept busy 😥&lt;/p&gt;
+&lt;p&gt;I spent a week in Berlin for GitHub Satellite. I might write a post just about
+that later on.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Worked remotely from Germany for a week.&lt;/li&gt;
+&lt;li&gt;Finished several …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;It's been a little more than two weeks since my last &lt;a class="reference external" href="../weekly-update-may-17-2019.html"&gt;weekly update&lt;/a&gt; 😬
+Lots of things happened, and I've kept busy 😥&lt;/p&gt;
+&lt;p&gt;I spent a week in Berlin for GitHub Satellite. I might write a post just about
+that later on.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Worked remotely from Germany for a week.&lt;/li&gt;
+&lt;li&gt;Finished several new stories and deployed to production. Created a new API
+endpoint, built with Django Rest Framework.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Chatted with Devon Zuegel and GitHub about GitHub Sponsors program. Spent time
+creating my sponsorship tiers. I'm one of the first few maintainers with access
+to this program. You can &lt;a class="reference external" href="https://github.com/users/Mariatta/sponsorship"&gt;sponsor me on GitHub&lt;/a&gt;
+for 5$/month.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Listed all my current sponsors &lt;a class="reference external" href="https://mariatta.ca/pages/about.html"&gt;on my personal website&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I appeared in &lt;a class="reference external" href="https://github.blog/2019-05-31-maintainer-spotlight-mariatta-wijaya/"&gt;GitHub Maintainer Spotlight&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Blog post about &lt;a class="reference external" href="https://pyfound.blogspot.com/2019/05/mariatta-wijaya-lets-use-github-issues.html"&gt;PEP 581 at Python Language Summit&lt;/a&gt;
+is now up.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;While in Berlin, I got to meet other Germany-based Python core developers: Christian
+Heimes, Stefan Behnel, and Matthias Klose. I also got to hang out with Raphael
+Pierzina, Jannis Leidel, other Python package maintainers, and with the scientists behind
+the historic black hole image! 🤩&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D7PGneKXYAEPY-o.jpg" style="width: 400px;" /&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D7djWqMUEAE6_Fh.jpg" style="width: 400px;" /&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D7P7KDJXYAAH2vw.jpg" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Chatted with Anwesha Das about PyLadies, and about CLA. Anwesha has a very
+interesting idea related to CLA. I won't say much about this for now until
+she has more time to research the topic and present it to the community.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Started working on aiohttp-bot for autobackporting aiohttp pull requests. Chatted
+more with Andrew to find out his requirements for this bot. I'll probably
+have this bot ready by end of the week.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Made several small-ish pull requests to aio-libs: &lt;a class="reference external" href="https://github.com/aio-libs/aioredis/pull/600"&gt;aio-redis PR #600&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/aio-libs/.github/pull/3"&gt;.github PR #3&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-session/pull/371"&gt;aiohttp-session PR #371&lt;/a&gt;,
+&lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-session/pull/370"&gt;aiohttp-session PR #370&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Some fixes to miss-islington: &lt;a class="reference external" href="https://github.com/python/miss-islington/pull/237"&gt;PR #237&lt;/a&gt;, &lt;a class="reference external" href="https://github.com/python/miss-islington/pull/234"&gt;PR #234&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Released &lt;a class="reference external" href="https://pypi.org/project/cherry-picker/1.3.2/"&gt;cherry_picker v1.3.2&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Added dependabot to my personal projects, and &lt;a class="reference external" href="https://github.com/python/core-workflow/issues/326"&gt;to several projects under Python org&lt;/a&gt;.
+Requested the automerge to be enabled for Python.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Started &lt;a class="reference external" href="https://github.com/python/core-workflow/issues/329"&gt;moving cherry-picker out of core-workflow repo&lt;/a&gt;.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;&lt;a class="reference external" href="https://github.com/python/core-workflow/issues/325"&gt;Chatted with Matthias Bussonnier&lt;/a&gt;
+about security issue with &amp;quot;🤖 automerge&amp;quot;. I need to think more on how to solve this issue. 😟&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Finally got around sending out feedback forms for mentored sprint for
+diverse beginners.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Chatted with Ernest about several infrastructure-related issues:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://discuss.python.org/t/using-cla-assistant-for-python/990"&gt;CLA Assistant for Python&lt;/a&gt;,
+this is pending further discussion with Van Lindberg.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://github.com/python/core-workflow/issues/20"&gt;GitHub backup data&lt;/a&gt;.
+We already have daily backup in place, it needs
+to be documented in devguide. Ernest said he will prepare the PR
+for it.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://discuss.python.org/t/add-sentry-integration-to-all-the-bots/1637/2"&gt;Adding Sentry for CPython bots&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;It is my turn to look after &lt;a class="reference external" href="mailto:info&amp;#64;pyladies.com"&gt;info&amp;#64;pyladies.com&lt;/a&gt; mailbox. Answered several emails,
+and forwarded emails to local chapters.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I joined The PSF Board member's slack to get an idea what's involved as a
+board member for The PSF. After thinking more about it, I decided not to run
+for it this time. I wanted to focus on my other projects and priorities for now.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Made a last-minute &lt;a class="reference external" href="https://www.meetup.com/PyLadies-Vancouver/events/261900321/"&gt;PyLadies Vancouver meetup&lt;/a&gt;
+planning. I learned that Raphael will be in town, and I think it would be a
+great opportunity for PyLadies Vancouver community to meet and learn about
+pytest and cookiecutter from one of the maintainers. I'm happy that Raphael
+has kindly agreed to give a talk, but from organizers point of view, it would
+be better if we can find more speakers from our own community. It seemed
+impossible at first, but in short period of time, we're able to find
+3 additional speakers 🎉 It'll be a great Talk Night this coming Wednesday!&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;I tried currywurst in Berlin. The first one was from a food court nearby
+my hotel, and it was ... very interesting. Then Matthias took us to another
+currywurst place, Curry 36, and it was pretty good!&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Went sightseeing in Hamburg.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/94cd1bf03e8e3fcdb3f3e2a796296576/5D8D9D11/t51.2885-15/sh0.08/e35/p640x640/60774705_842977589421413_4344408118954462167_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Right after I returned from Germany, it was my husband's turn for work travel. So
+last week I was a busy single mom. It was one reason I didn't find time
+to write up my update (and jet-lagged 😵)&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Returned several times to our old home for more repairs and cleaning.
+Painters came, and the place is looking nice and fresh. I highly
+recommend hiring Liz from &lt;a class="reference external" href="https://paintoasis.ca/"&gt;Interior Paint Oasis&lt;/a&gt;
+for your next paint job in Greater Vancouver area.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Talked to our realtor and preparing the house to be listed. Photographers
+will come tomorrow for pictures, and the listing should be up soon after.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;It was my oldest son's birthday in the weekend. When we asked what he wants.
+he said &amp;quot;steak!&amp;quot; 😅 So we got some steak from our favorite butcher, Kea's Meats and
+Deli in Burnaby, and fired our BBQ. 🥩&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/4eb7cecd42ba68bc431d5450f994c9d1/5D963FAD/t51.2885-15/sh0.08/e35/s750x750/61717698_201827660796960_1872409219047849938_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, May 17, 2019</title><link href="https://mariatta.ca/weekly-update-may-17-2019.html" rel="alternate"></link><published>2019-05-17T00:00:00-07:00</published><updated>2019-05-17T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-05-17:/weekly-update-may-17-2019.html</id><summary type="html">&lt;p&gt;Been a while since my last &lt;a class="reference external" href="../weekly-update-april-30-2019.html"&gt;weekly update&lt;/a&gt; 😅
+I spent a week in Cleveland for PyCon US, and I've
+&lt;a class="reference external" href="../mariatta-pycon-2019-recap"&gt;written a post just for that&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This weekly update covers the week after I returned from PyCon and this
+week's activities.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I was playing catch up after missing …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Been a while since my last &lt;a class="reference external" href="../weekly-update-april-30-2019.html"&gt;weekly update&lt;/a&gt; 😅
+I spent a week in Cleveland for PyCon US, and I've
+&lt;a class="reference external" href="../mariatta-pycon-2019-recap"&gt;written a post just for that&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;This weekly update covers the week after I returned from PyCon and this
+week's activities.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I was playing catch up after missing work for a whole week. I also
+started re-working a PR I made. I was working on creating a &lt;tt class="docutils literal"&gt;v3&lt;/tt&gt; API endpoint,
+but we needed it as &lt;tt class="docutils literal"&gt;v4&lt;/tt&gt;.&lt;/li&gt;
+&lt;li&gt;This week we had our first &amp;quot;remote&amp;quot; engineering retreat. Historically our
+engineering retreats have been happening as in person retreat, e.g. last
+year the engineering group met up in Phoenix, AZ. This year we're experimenting
+with a &amp;quot;remote&amp;quot; retreat. We still receive the goodness of a retreat such as
+food budget and significant other's gift.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Trying to wrap up the mentored sprint for diverse beginners. I'm supposed to
+send out thank you emails and feedback forms. I've started email draft,
+and my teammates have started reviewing, but I haven't had time to address
+them yet. I will try finish this up this weekend!&lt;/li&gt;
+&lt;li&gt;Trying to wrap up Python Language Summit with Łukasz. We sent out thank you
+emails along with link to the feedback form. Some feedback started coming in.
+Lots of great ideas and definitely lots of room for improvement for both of us.&lt;/li&gt;
+&lt;li&gt;Started chatting with Nathaniel about bots and automation for Trio project. He
+has lots of interesting ideas! I'm excited to help him build the bots! I plan
+to allocate some of my free time next month (June) to work on this.&lt;/li&gt;
+&lt;li&gt;I was alerted about &lt;a class="reference external" href="https://mail.python.org/pipermail/python-committers/2019-May/006728.html"&gt;miss-islington being broken&lt;/a&gt;. 😟
+I think this is a problem with &lt;tt class="docutils literal"&gt;Redis&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;celery&lt;/tt&gt;, but I haven't fully figure out
+how to fix this yet. So the error is still occurring sporadically.&lt;/li&gt;
+&lt;li&gt;Started chatting with Andrew about aiohttp-bot. I'm now a member of &lt;a class="reference external" href="https://github.com/aio-libs"&gt;aio-libs&lt;/a&gt; team! 😄&lt;/li&gt;
+&lt;li&gt;Started chatting with Elaine on how to best manage, triage, and handle
+info &amp;#64; pyladies dot com email address. We've set up GMail filters. We're splitting
+work, taking turns tending the mailbox every 2 weeks.  I've set up some
+Slack bots and automation.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; has been accepted by
+steering council! It means we &lt;strong&gt;are&lt;/strong&gt; going to move to GitHub issues.
+Now we need to work on &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0588/"&gt;PEP 588&lt;/a&gt;
+to outline the technical details of the migration.&lt;/li&gt;
+&lt;li&gt;Interview with a journalist about Python.&lt;/li&gt;
+&lt;li&gt;Started chatting with Paul Everitt about doing a webinar for PyCharm.
+Stay tuned!&lt;/li&gt;
+&lt;li&gt;Talked to different people about CoC issues happening in the different
+communities I'm in.&lt;/li&gt;
+&lt;li&gt;Started chatting with Eric about PyCascades. We met with Sage Sharp to get
+professional advice about CoC handling in our community.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Lots of chores at home! 😛 We still have lots of unpacking to do. Most of our
+belongings are still distributed among many boxes.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Made lots of return trip to our old home. We had different contractors coming
+in to do repairs. Hoping to get it all done end of the month, so we can put
+it up for sale.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Went on a hike around &lt;a class="reference external" href="http://www.buntzenlake.ca/"&gt;Buntzen Lake&lt;/a&gt; with my family. 🏞&lt;/p&gt;
+&lt;img alt="" src="https://lh3.googleusercontent.com/hMl0x8VeJpOapIoJ4SDTblaqkYFEOxHRTQnn0LxpusWA-SH6bw8GKIgg6nUbmudg7OsJxyWj0tZ_Qf0E0tQiCxWKA51VazvlkWyROUz6xbxmKzPspc8VIFUftL1edwnODNPpPfEZlVSMNAu1HGexlwmNml2IlLlvHb0TcBFEfSB3LAtUJfdRM9l5rWZ8RJWyYXRQxFVzy7EDeMZLvrLJHsxC3LjFJ4DQ9fhm84C-j0a4_Px49QpREx_56KRn8ydyPkrz5WJh2ncnXVCdVK3uzZQyup04oAdoGU0KcE1mqw-7SWY2QKlz4NjS7xfvCIzxnVAmAMWApP9HBiXVA2xRLil83V7i0DvwxwPK8Yg4vK7c6HrR_Y_K4DvHV_Ft67nqHOOBQMpiGtu3zmYboNDrmN__uhttYNCOffXd0V6hfAn3hnStkCQrSD9aTOfFemlr9XA9bFUEqD7zUWXsykXQZRPpPIKj4VfSjQiba0UeeT1ZA3eFy-02Y3Kn0J5bZLZBUhCoAjvhY57fywCbqSqsCLv_-nOyjJmiDpBUNdZhLxKJX4KiiCHhPrdQvBY-BdROnwVQa-6WgSkXu601svtTGKtNtP_ufwaqcKACDUF2RPKt11ois12fnJBJ0a0bt_NR3tUJIyHYr9CXO9_5JTyj-5Pg91JbXQWN=w1876-h1406-no" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Made lots of dumplings 🥟. I think we're now stocked up for a couple months.&lt;/p&gt;
+&lt;img alt="" src="https://lh3.googleusercontent.com/eGeGP8tfJU2DIerHboufZOYHZVMpy4FJ0DMipFl_IGc6uZWIgFeNGOOn3a1TIEfG1PhvPQEUgUZp0ifrY9vzl2t4LG3lARrnmewHKpyDZGI9MEDK3Lt9nlunwNmg40dDQ66VCzTCzWtUq5Wsp31KBmF3WcltFHSQgbNFqlZesMHX-ezSCNzSG0_rF0_1klTefyrdlGXGKX7eT_ajagp_MNxLdAaY6_dQnBmBzqmqbyO6VZt_yuzCR1pZA9EJ2SwsrHxz6f4vf9JL5GqHspTDQtcJM8yJ8fdKlNitbKRiea09Wpn1uI-bs-TYt4lN02tjz7ZhkJ90PlD1yIJ7FoEkgKD7kd74gOsd9mHm6cnj-vjbWdZENcP1A2Ln_T-rRMRHpJPo_q5nOuqAU6a6YdkWHkkZLJcACMc0a9H9A7-q-DI3N2JMEaUaiF-6npz3hHiGvzE5SsmmyI5coRSEqmsO9XnhPPGKiBqx6aKr30pomXfM9L1hN4rQIVejWcVL6pomN--3Jcqval_nhew0c_n7Fky0qBuSWTkxf4c6zd5VFS_xrZ3u--gw9hCIRX9eGQjx_lxi9f3yte-vyoOgDbRqE0z_GLRiQDTxLd3i6Rh223bFniat_155vvNPKCM9gwRR6N8xpMY6LF96ESWA84x2uwAmxJ4VUJKJ=w1056-h1406-no" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Doing last minute planning and preparation for my travel next week 😵&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;I watched Street Food on Netflix, the Yogyakarta episode. This episode brought
+tears to my eyes. I choked up each time I heard (and see) the old lady, Mbah
+Satinem, speaking and telling her life story. I didn't quite understand
+why initially, but I think I do now. For the first time in a long time, I was
+able to feel immediate connection with someone on TV. The way she speaks,
+it was just so familiar, like someone I've known forever. It was real
+Indonesian spirit, not an act, no drama. I think I finally understand
+what it means to feel &amp;quot;represented&amp;quot;. I know that all of this sounds weird to
+most people.... 🤷🏻‍♀️&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, April 30, 2019</title><link href="https://mariatta.ca/weekly-update-april-30-2019.html" rel="alternate"></link><published>2019-04-30T00:00:00-07:00</published><updated>2019-04-30T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-30:/weekly-update-april-30-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Short week, 3 days of work, but quite productive.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Published my Zapier engineering blog post: &lt;a class="reference external" href="https://zapier.com/engineering/zapier-at-pycon-2019/"&gt;Zapier at PyCon 2019&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Made a couple PRs. One of it was about customizing Django Admin. The other is
+for a new Zapier API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gave a preview of my …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Short week, 3 days of work, but quite productive.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Published my Zapier engineering blog post: &lt;a class="reference external" href="https://zapier.com/engineering/zapier-at-pycon-2019/"&gt;Zapier at PyCon 2019&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Made a couple PRs. One of it was about customizing Django Admin. The other is
+for a new Zapier API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gave a preview of my PyCon tutorial at PyLadies Vancouver.&lt;/li&gt;
+&lt;li&gt;Some more administrative work for the mentored sprint and Python Language Summit.&lt;/li&gt;
+&lt;li&gt;Responded to comment about &lt;a class="reference external" href="https://github.com/python/peps/pull/1013#issuecomment-488160914"&gt;PEP 581&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spent a couple days packing all of my earthly belongings into boxes.&lt;/li&gt;
+&lt;li&gt;On Saturday we moved to our new home!!!! It's not 1 Infinite Loop, but it is number 1!! 🥇&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="../img/number-one-home.jpg" style="width: 200px;" /&gt;
+&lt;/div&gt;
+</content><category term="pep581"></category></entry><entry><title>Weekly Update, April 20, 2019</title><link href="https://mariatta.ca/weekly-update-april-20-2019.html" rel="alternate"></link><published>2019-04-20T00:00:00-07:00</published><updated>2019-04-20T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-20:/weekly-update-april-20-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;A shorter work week, because of Good Friday statutory holiday.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ran a script that spins up the pages for requested Zapier integrations.
+An example of such page is &lt;a class="reference external" href="https://zapier.com/apps/facebook-messenger/integrations"&gt;this page for requesting Facebook Messenger
+integration in Zapier&lt;/a&gt;.
+Generated about 600+ of such page in one script.&lt;/li&gt;
+&lt;li&gt;Wrote a draft …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;A shorter work week, because of Good Friday statutory holiday.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ran a script that spins up the pages for requested Zapier integrations.
+An example of such page is &lt;a class="reference external" href="https://zapier.com/apps/facebook-messenger/integrations"&gt;this page for requesting Facebook Messenger
+integration in Zapier&lt;/a&gt;.
+Generated about 600+ of such page in one script.&lt;/li&gt;
+&lt;li&gt;Wrote a draft Zapier engineering blog post.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Discussed with Andrew Svetlov about our PyCon tutorial. We've created &lt;a class="reference external" href="https://github.com/asvetlov/us-pycon-2019-tutorial"&gt;the
+repo&lt;/a&gt; and
+&lt;a class="reference external" href="https://us-pycon-2019-tutorial.readthedocs.io/"&gt;online documentation&lt;/a&gt; in
+readthedocs.&lt;/li&gt;
+&lt;li&gt;Spent most of my free time working on my portion of the tutorial.&lt;/li&gt;
+&lt;li&gt;Some administrative work for the mentored sprint and Python Language Summit.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Met with our lawyer and finalized paperwork for our new home. We'll be
+moving next weekend! 😱&lt;/li&gt;
+&lt;li&gt;It's allergy season for me 🥺🤧 Did not sleep well for several days.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, April 13, 2019</title><link href="https://mariatta.ca/weekly-update-april-13-2019.html" rel="alternate"></link><published>2019-04-13T00:00:00-07:00</published><updated>2019-04-13T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-13:/weekly-update-april-13-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Wrapped up a task, tested, deployed. Lots of discussions with other team members.&lt;/li&gt;
+&lt;li&gt;Some code cleanup. In one PR I removed 3000+ lines of code. It was quite
+satisfying! 😤&lt;/li&gt;
+&lt;li&gt;Writing automation script.&lt;/li&gt;
+&lt;li&gt;Sent out my monthly invoice to Zapier 🤑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last Friday I received a number …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Wrapped up a task, tested, deployed. Lots of discussions with other team members.&lt;/li&gt;
+&lt;li&gt;Some code cleanup. In one PR I removed 3000+ lines of code. It was quite
+satisfying! 😤&lt;/li&gt;
+&lt;li&gt;Writing automation script.&lt;/li&gt;
+&lt;li&gt;Sent out my monthly invoice to Zapier 🤑&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last Friday I received a number of error alerts for &lt;a class="reference external" href="https://github.com/python/bedevere/"&gt;bedevere-bot&lt;/a&gt;. Initially I ignored these alerts
+because I was supposed to be on hiatus from open source. However after
+two days, errors were still continuing to happen, blocking the workflow.
+PRs couldn't be merged. So I spent some time figuring
+it out, read the logs, and finally &lt;a class="reference external" href="https://github.com/python/bedevere/pull/163"&gt;deployed the fix on Sunday&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Worked with Łukasz to finalize the lineup for &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;Python Language Summit&lt;/a&gt;. Sent out notification
+emails. Product placement: I used Zapier to send out emails to 50 people
+(Google Sheets -&amp;gt; GMail integration)&lt;/li&gt;
+&lt;li&gt;Worked with Nina, Tania, and Nikoleta for the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;mentored sprint for diverse beginners&lt;/a&gt;. Created an &lt;a class="reference external" href="https://mentored-sprint-for-diverse-beginners.readthedocs.io/"&gt;online
+resource in readthedocs&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I've been reading &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Black_Jack_(manga)"&gt;Black Jack&lt;/a&gt;
+manga. And &lt;a class="reference external" href="https://en.wikipedia.org/wiki/Master_Keaton"&gt;Master Keaton&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;My husband has started packing 😅 He packed 3 boxes. 📦 Perhaps 50 more to go...&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, April 5, 2019</title><link href="https://mariatta.ca/weekly-update-april-5-2019.html" rel="alternate"></link><published>2019-04-05T00:00:00-07:00</published><updated>2019-04-05T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-05:/weekly-update-april-5-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Some bug fixing. Learning new things about our codebase. Discussions with other
+teams. Code reviewing.&lt;/li&gt;
+&lt;li&gt;Completed a sprint. Did a couple quick demos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Still out-of-open-source 😃&lt;/li&gt;
+&lt;li&gt;Correspondence about giving keynote at conferences. Really grateful for these
+opportunities! Do people want to hear me talk about PEP …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Some bug fixing. Learning new things about our codebase. Discussions with other
+teams. Code reviewing.&lt;/li&gt;
+&lt;li&gt;Completed a sprint. Did a couple quick demos.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Still out-of-open-source 😃&lt;/li&gt;
+&lt;li&gt;Correspondence about giving keynote at conferences. Really grateful for these
+opportunities! Do people want to hear me talk about PEP 581/588?&lt;/li&gt;
+&lt;li&gt;Signed the paperwork to dissolve the PyCascades non-profit society, transferring
+assets to The PSF. The end of an era 😢 but a new one begins&lt;/li&gt;
+&lt;li&gt;Gossiped about ... &lt;em&gt;things&lt;/em&gt; ... 🤫&lt;/li&gt;
+&lt;li&gt;Starting to plan my time at PyCon. It's gonna be a full busy week 😔 Why do I
+do this to myself?&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;More paperwork for our new house! Found a lawyer. Got insurance coverage. Signed
+up for utilities. etc. 😵&lt;/li&gt;
+&lt;li&gt;My kids are finally registered to their new school. Such relief!&lt;/li&gt;
+&lt;li&gt;Looked into transferring my oldest son to another dojo closer to our new home.&lt;/li&gt;
+&lt;li&gt;Enjoying all the cherry blossoms in our neighbourhood 🌸 The magnolias are starting
+to bloom as well. It's spring!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, March 29, 2019</title><link href="https://mariatta.ca/weekly-update-march-29-2019.html" rel="alternate"></link><published>2019-03-29T00:00:00-07:00</published><updated>2019-03-29T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-03-29:/weekly-update-march-29-2019.html</id><summary type="html">&lt;p&gt;I missed writing last week's update because I've been on vacation.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I shipped a thing.&lt;/li&gt;
+&lt;li&gt;Looking into bug fixing this week and next week. Writing script to automate stuff.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;p&gt;I started &lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;
+last week, so there shouldn't be anything interesting in this section …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I missed writing last week's update because I've been on vacation.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Last week I shipped a thing.&lt;/li&gt;
+&lt;li&gt;Looking into bug fixing this week and next week. Writing script to automate stuff.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;p&gt;I started &lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;
+last week, so there shouldn't be anything interesting in this section for the next month.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Started going through language summit sign ups and reviewing the topic proposals.&lt;/li&gt;
+&lt;li&gt;Correspondence with Python Steering Council about &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0588/"&gt;PEP 581&lt;/a&gt;.
+They said it should be split up into two PEPs.&lt;/li&gt;
+&lt;li&gt;Reserved &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0588/"&gt;PEP 588&lt;/a&gt; because I think
+&lt;a class="reference external" href="https://en.wikipedia.org/wiki/88_(number)"&gt;88 is a lucky number&lt;/a&gt; 😇&lt;/li&gt;
+&lt;li&gt;Open Source Initiative run-off election closed early this week. I came
+&lt;a class="reference external" href="https://opensource.org/node/976"&gt;real close&lt;/a&gt; but in the end I was not chosen.&lt;/li&gt;
+&lt;li&gt;Received three invitations to give keynote at conferences. I declined two of
+them because time and space wouldn't permit. Still considering the last one.&lt;/li&gt;
+&lt;li&gt;Published the next &lt;a class="reference external" href="https://www.meetup.com/PyLadies-Vancouver/events/259859957/"&gt;PyLadies Vancouver event&lt;/a&gt;,
+where I get to give practise run of my &lt;a class="reference external" href="https://us.pycon.org/2019/schedule/presentation/68/"&gt;intro to aiohttp PyCon tutorial&lt;/a&gt;, which
+is now full btw.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spent a week in Cancún. I got sunburnt, but totally worth it. I ate lots of
+tacos and consumed lots of tequila. Feeling recharged now. 💪&lt;/li&gt;
+&lt;li&gt;We baked gingerbread cookies. Kids found my &lt;a class="reference external" href="https://twitter.com/mariatta/status/1111479352649121792"&gt;one-of-a-kind emoji cookiecutter&lt;/a&gt;,
+so we put it to good use 😅&lt;/li&gt;
+&lt;li&gt;Started scheming the move to our new home, getting home insurance quotes,
+looking into kids' piano and karate lessons closer to the new home.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, March 17, 2019</title><link href="https://mariatta.ca/weekly-update-march-17-2019.html" rel="alternate"></link><published>2019-03-17T20:00:00-07:00</published><updated>2019-03-17T20:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-03-17:/weekly-update-march-17-2019.html</id><summary type="html">&lt;p&gt;Getting ready for spring break vacation! Tying up loose ends before I go on
+&lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Working with &lt;a class="reference external" href="https://api.iterable.com/api/docs/"&gt;Iterable API&lt;/a&gt;. Wrote to
+their tech support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Touchbase about CLA-assistant with Ernest. At this point we think that my job
+is done, and everything else is on Ernest …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Getting ready for spring break vacation! Tying up loose ends before I go on
+&lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Working with &lt;a class="reference external" href="https://api.iterable.com/api/docs/"&gt;Iterable API&lt;/a&gt;. Wrote to
+their tech support.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Touchbase about CLA-assistant with Ernest. At this point we think that my job
+is done, and everything else is on Ernest and core devs. No pressure, but I
+want this happening before PyCon begins! 🙏🏻😣&lt;/li&gt;
+&lt;li&gt;I noticed a regional Python community is putting out their first conference,
+and their speakers are all white men. 💔 Hurts to see this still happening
+in 2019. I don't even know what to say anymore. &lt;a class="reference external" href="https://twitter.com/mariatta/status/987450414298685440"&gt;I've said what I had to say
+about this exact same situation&lt;/a&gt;
+&lt;strong&gt;in 2018&lt;/strong&gt;.&lt;/li&gt;
+&lt;li&gt;Victor noticed that miss-islington wasn't working as expected. I found out that
+was cherry-picker v 1.3.0 was buggy, so I spent time working on it.
+Released &lt;a class="reference external" href="https://pypi.org/project/cherry-picker/"&gt;cherry-picker v 1.3.1&lt;/a&gt; as
+bug fix. Thanks to &lt;a class="reference external" href="https://github.com/webknjaz"&gt;Sviatoslav&lt;/a&gt; for reviewing!&lt;/li&gt;
+&lt;li&gt;Various routine maintenance for &lt;a class="reference external" href="https://github.com/python/core-workflow/tree/master/cherry_picker"&gt;cherry-picker&lt;/a&gt;
+and &lt;a class="reference external" href="https://github.com/python/miss-islington"&gt;miss-islington&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Merged various PRs. Nothing exciting, mostly typo fixes.&lt;/li&gt;
+&lt;li&gt;Administrative work for the next PyLadies Vancouver event.&lt;/li&gt;
+&lt;li&gt;It me in &lt;a class="reference external" href="https://www.businessinsider.com/women-running-for-the-open-source-initiative-face-online-harassment-2019-3"&gt;Business Insider&lt;/a&gt;!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;My guitar instructor showed me the &lt;a class="reference external" href="https://chordify.net/"&gt;Chordify&lt;/a&gt; app.
+Then we found the chords to Savage Garden's &lt;a class="reference external" href="https://youtu.be/WQnAxOQxQIU"&gt;Truly, Madly, Deeply&lt;/a&gt;,
+and we played it together. It was real fun! I asked if we can try &lt;a class="reference external" href="https://youtu.be/HCm6gRHINqA"&gt;To The Moon and Back&lt;/a&gt; next time 😛&lt;/li&gt;
+&lt;li&gt;Found the YouTube playlist for &lt;a class="reference external" href="https://id.wikipedia.org/wiki/Gara-Gara"&gt;Gara-Gara&lt;/a&gt;,
+an Indonesian sitcom from the 90s. Started watching episodes 1-4.&lt;/li&gt;
+&lt;li&gt;Played &lt;a class="reference external" href="http://kairopark.jp/android/en/"&gt;Pocket Academy&lt;/a&gt; on my phone.&lt;/li&gt;
+&lt;li&gt;While on the way to register our kids to their new school, we got stuck in traffic
+for more than two hours. From the internet I found out that there was a crash
+and &lt;a class="reference external" href="https://www.tricitynews.com/news/f-350-bursts-into-blames-on-lougheed-hwy-1.23665719"&gt;a vehicle got on fire&lt;/a&gt;.
+When the traffic cleared, the school was already closed. So I have to return back
+after spring break.&lt;/li&gt;
+&lt;li&gt;Got sick just when the weekend started. 🤧😷🤒🤕 I was pretty much bedridden yesterday.
+Feeling better today.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, March 10, 2019</title><link href="https://mariatta.ca/weekly-update-march-10-2019.html" rel="alternate"></link><published>2019-03-10T22:00:00-07:00</published><updated>2019-03-10T22:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-03-10:/weekly-update-march-10-2019.html</id><summary type="html">&lt;p&gt;Exhaustion! 😵&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Started working with a new manager.&lt;/li&gt;
+&lt;li&gt;Learned that one team member will be moving over to another team.&lt;/li&gt;
+&lt;li&gt;A pairing session.&lt;/li&gt;
+&lt;li&gt;Completed a sprint.&lt;/li&gt;
+&lt;li&gt;Got my annual raise.&lt;/li&gt;
+&lt;li&gt;Support shift.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered various emails regarding &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;Python Language Summit&lt;/a&gt;
+and the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;mentored sprint&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Set up a …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Exhaustion! 😵&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Started working with a new manager.&lt;/li&gt;
+&lt;li&gt;Learned that one team member will be moving over to another team.&lt;/li&gt;
+&lt;li&gt;A pairing session.&lt;/li&gt;
+&lt;li&gt;Completed a sprint.&lt;/li&gt;
+&lt;li&gt;Got my annual raise.&lt;/li&gt;
+&lt;li&gt;Support shift.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Answered various emails regarding &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;Python Language Summit&lt;/a&gt;
+and the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;mentored sprint&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Set up a (Zapier-powered) bot that automatically posts to Twitter whenever
+someone signed up for the mentored sprint.&lt;/li&gt;
+&lt;li&gt;Wrote about &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; to python-dev.
+So far, people seem supportive. This will be discussed at the language summit at PyCon US.&lt;/li&gt;
+&lt;li&gt;Proposed that we &lt;a class="reference external" href="https://discuss.python.org/t/proposal-create-bug-triage-team-on-github/992"&gt;create the &amp;quot;Bug Triage&amp;quot; team on GitHub&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;&lt;a class="reference external" href="https://discuss.python.org/t/using-cla-assistant-for-python/990"&gt;Notified Python contributors&lt;/a&gt;
+that I plan to turn on &lt;a class="reference external" href="https://cla-assistant.io/"&gt;CLA assistant&lt;/a&gt; as our CLA enforcement.
+I'd like to see this done before I go on &lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;OOOS&lt;/a&gt;,
+and &lt;strong&gt;especially&lt;/strong&gt; before the mentored sprint at PyCon US.&lt;/li&gt;
+&lt;li&gt;Started reading all the anonymous feedback about PyCascades.&lt;/li&gt;
+&lt;li&gt;The &lt;a class="reference external" href="https://twitter.com/mariatta/status/1102710078556131328"&gt;Time Timer I ordered from Amazon&lt;/a&gt;
+arrived. I plan on using this to timebox discussions at the upcoming Python
+language summit, so we don't go overtime. Because I really want to attend the
+PyCon staff dinner happening right afterwards.&lt;/li&gt;
+&lt;li&gt;Interviewed about &amp;quot;things I'm up to in open source&amp;quot;. Well, I'm in such weird
+and unique place right now; all I want to talk about is PEP 581. I hope the
+journalist finds PEP 581 exciting. 🙂&lt;/li&gt;
+&lt;li&gt;Details about OSI election hit slashdot. It was emotionally draining, and I
+started questioning the choices I made.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc.&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gossiped with internet friends.&lt;/li&gt;
+&lt;li&gt;Called several movers to get quotes. We might just end up renting a big truck
+and move by ourselves.&lt;/li&gt;
+&lt;li&gt;Tax season has started! 😱 Collected all of my receipts and gave them to my
+accountant.&lt;/li&gt;
+&lt;li&gt;Detox from Twitter 📵&lt;/li&gt;
+&lt;li&gt;There's still a big hole 🕳 on the ceiling of my living room.&lt;/li&gt;
+&lt;li&gt;We got more snow and hail! ❄ Twice this week I had to scrape off ice from car
+that was parked outside. Sending kids to school was taking longer than usual.&lt;/li&gt;
+&lt;li&gt;Feeling unwell (mentally). I've had several meltdowns earlier in the
+week. I think the stress from various things in my life are finally
+catching up, and as it turns out I'm still unable to manage my life accordingly.&lt;/li&gt;
+&lt;li&gt;Took the kids to the bank and opened their own bank account. I showed them how
+to use the ATM. So now they have some place to stash their hong bao. 🧧
+&lt;em&gt;&amp;quot;First step towards self independence!&amp;quot;&lt;/em&gt;, as my husband said.&lt;/li&gt;
+&lt;li&gt;Talked to our kids that they're vaccinated for measles, explained how
+shots/vaccination works, and told them they don't need to worry about getting
+sick.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, March 3, 2019</title><link href="https://mariatta.ca/weekly-update-march-3-2019.html" rel="alternate"></link><published>2019-03-03T22:00:00-08:00</published><updated>2019-03-03T22:00:00-08:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-03-03:/weekly-update-march-3-2019.html</id><summary type="html">&lt;p&gt;Back from PyCascades, and trying to settle back to &amp;quot;normal&amp;quot;. I'm not even sure
+what is &amp;quot;normal&amp;quot; anymore..&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;p&gt;TL;DR: &lt;strong&gt;BUSY!!&lt;/strong&gt; 😵 Thank you to all who came!! I'm especially happy not only
+because I get to meet old friends, but also friends on Twitter and finally we met
+in …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Back from PyCascades, and trying to settle back to &amp;quot;normal&amp;quot;. I'm not even sure
+what is &amp;quot;normal&amp;quot; anymore..&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;p&gt;TL;DR: &lt;strong&gt;BUSY!!&lt;/strong&gt; 😵 Thank you to all who came!! I'm especially happy not only
+because I get to meet old friends, but also friends on Twitter and finally we met
+in person 😝 I'm sorry we didn't have much time to connect 😢&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Merged Thea's &lt;a class="reference external" href="https://github.com/Mariatta/enhanced-coc-hotline/pull/27"&gt;PR to the enhanced CoC hotline&lt;/a&gt;.
+SMS is now supported, and we tested the CoC Hotline and Texting!&lt;/li&gt;
+&lt;li&gt;Helped with the pre-registration event, signed people up, and ate some tacos.&lt;/li&gt;
+&lt;li&gt;I was a member of the Code of Conduct committee. We had several incidents.
+The committee will be publishing a transparency report in the coming weeks.
+Shout out to other CoC committee members: Thea, Amanda, Maelle, Russell, and Eloisa.
+I've learned so much from them.&lt;/li&gt;
+&lt;li&gt;Gave a &lt;a class="reference external" href="https://docs.google.com/presentation/d/1yvJKTGbbYCpMQ_CuZ-Vfvc_SiyuYmshLZwk8Q3FJ-xk/edit"&gt;lightning talk&lt;/a&gt;
+about the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;Mentored Sprint at PyCon US&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I looked after PyCascades twitter account and hashtags. I missed out attending most
+talks, but thanks to all the live tweets, I felt like I was up to date!! It sounds like
+you all had great time at PyCascades, and I love reading about them! We
+were trending in Seattle!! Achievement unlocked!&lt;/li&gt;
+&lt;li&gt;I gave the &lt;a class="reference external" href="https://docs.google.com/presentation/d/1uROcwz_CZbuWvcPuzCeiFnB4Q6EHfBsDqiA21651yWQ/edit#slide=id.p"&gt;closing remarks&lt;/a&gt;
+and appreciation.&lt;/li&gt;
+&lt;li&gt;Impromptu photo shoot with &lt;a class="reference external" href="https://twitter.com/veronica_hanus"&gt;Veronica Hanus&lt;/a&gt;.
+I love &lt;a class="reference external" href="https://twitter.com/mariatta/status/1100844919134908416"&gt;all the photos&lt;/a&gt; she took!! 😍&lt;/li&gt;
+&lt;li&gt;Formed the Tequila Think Tank.&lt;/li&gt;
+&lt;li&gt;I had way too much tequila than I'm willing to admit.&lt;/li&gt;
+&lt;li&gt;I've prepared my own PyCascades post-mortem notes. The team will meet next week
+for the post-mortem.&lt;/li&gt;
+&lt;li&gt;Sent out post conference survey. (Sorry for one little typo)&lt;/li&gt;
+&lt;li&gt;Repurposed the PyCascades Code of Conduct hotline into the &lt;a class="reference external" href="https://github.com/Mariatta/enhanced-coc-hotline/pull/31"&gt;PyCascades virtual
+head office hotline&lt;/a&gt;.
+Thanks Seb for this idea! Basically we all need a phone number for PyCascades
+but none of us wants to share our personal phone number. Thanks to Nexmo
+for providing us with credit!&lt;/li&gt;
+&lt;li&gt;Sprinted and helped several people with their PRs.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Small bug fixes and readying for our product launch!&lt;/li&gt;
+&lt;li&gt;Shout out to Doug Mahugh, who responded to &lt;a class="reference external" href="https://twitter.com/mariatta/status/1100923656446783488"&gt;my desperate plea of help on twitter&lt;/a&gt;! 🙇🏻‍♀️
+Doug is a two-time PyCascades attendee. He shared me a photo of his laptop.
+It was shiny with F-string and PyCascades stickers!!  💜😭&lt;/li&gt;
+&lt;li&gt;Booked my flights to Zapier's summer retreat. Sadly, the retreat is happening
+on the same week of Python Core Sprint in London. I've thought about splitting
+time of half week with Core Python team, and half week with Zapier, but in
+the end I've decided to prioritize my work. I'm sad to miss the sprint
+this year, but I'll be spending the week in the hometown of Prince: Minneapolis!&lt;/li&gt;
+&lt;li&gt;Attended a D&amp;amp;I roundtable discussion. I'm really glad that we have this going
+at Zapier.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon"&gt;
+&lt;h2&gt;PyCon&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Worked with Łukasz and finalized the language summit &lt;a class="reference external" href="https://goo.gl/forms/pexfOGDjpV0BWMer2"&gt;sign up forms&lt;/a&gt;.
+We announced to mailing lists, Discourse, Zulip, twitter, etc. Updated the &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;PyCon's website&lt;/a&gt;
+about the language summit. Reached out to people who had inquired about it.&lt;/li&gt;
+&lt;li&gt;Wrote to PSF Community mailing list about the mentored sprint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I realized it was getting close to spring break, and therefore to my planned
+OOOS. So I wrote to Python committers about my &lt;a class="reference external" href="https://discuss.python.org/t/mariatta-will-be-ooos-out-of-open-source-starting-march-18-may-9th-2019/973"&gt;upcoming OOOS&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;I'm a &lt;a class="reference external" href="https://wiki.opensource.org/bin/Main/OSI+Board+of+Directors/Board+Member+Elections/MariattaWijaya2019"&gt;candidate for OSI board of directors&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Opened an issue at &lt;a class="reference external" href="https://github.com/python-organizers/conferences/issues/89"&gt;python-organizers/conferences&lt;/a&gt;.
+This was briefly discussed with David and Anthony from ReadTheDocs during PyCascades
+sprint.&lt;/li&gt;
+&lt;li&gt;Responded to several emails.&lt;/li&gt;
+&lt;li&gt;I'm honored to have been awarded &lt;a class="reference external" href="http://pyfound.blogspot.com/2019/02/the-north-star-of-pycascades-core.html"&gt;The PSF Community Service Award 2018 Q3&lt;/a&gt;.
+The blog post came out right before PyCascades about to begin, and it was
+all too overwhelming. Only now I'm able to digest this all. Thank you,
+Python community for this honor. I can do what I do only because you've
+been there for me.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc.&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I now own mariatta.dev. Nothing to see there for now.&lt;/li&gt;
+&lt;li&gt;Last week we made an offer to a new home, and it was accepted. So we've
+been super busy with paperwork, working with our realtor, bank, and accountant.
+😵 I can't believe this! I'll be moving to a new place in a couple months.
+It has my DREAM KITCHEN!!!! If I ever need to quit tech, I'm going to start
+my own Youtube cooking channel right from that kitchen.&lt;/li&gt;
+&lt;li&gt;A home restoration team came and made a big hole on the ceiling of my living
+room. 🕳 They will come back next week to complete the work.&lt;/li&gt;
+&lt;li&gt;Continued practising guitar. We tried a new song: the Beatles' Let it Be.&lt;/li&gt;
+&lt;li&gt;Took a nap on Saturday. And Sunday.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, Feb 21, 2019</title><link href="https://mariatta.ca/weekly-update-feb-21-2019.html" rel="alternate"></link><published>2019-02-21T22:00:00-08:00</published><updated>2019-02-21T22:00:00-08:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-02-21:/weekly-update-feb-21-2019.html</id><summary type="html">&lt;p&gt;I'll be super busy tomorrow (traveling down to Seattle for PyCascades),
+so here's an earlier weekly update.&lt;/p&gt;
+&lt;p&gt;Short work week because of a stat holiday. I've been preoccupied with work,
+PyCascades, and dealing with tons of paperwork.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Getting ready to launch a project that my team has been working …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;I'll be super busy tomorrow (traveling down to Seattle for PyCascades),
+so here's an earlier weekly update.&lt;/p&gt;
+&lt;p&gt;Short work week because of a stat holiday. I've been preoccupied with work,
+PyCascades, and dealing with tons of paperwork.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Getting ready to launch a project that my team has been working on for more than
+half a year. Team has been busy working, testing, verifying and fixing
+any issues that comes. Looking forward for the big reveal!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entering the final week before the conference!! The team is still looking after
+many little details! I see them actively Slack-ing all the time! 加油 Almost there!&lt;/li&gt;
+&lt;li&gt;Discussion with CoC committee.&lt;/li&gt;
+&lt;li&gt;Setting up CoC hotline. I will do some testing tomorrow, making sure people getting
+dialed properly. I also still need to look at Thea's &lt;a class="reference external" href="https://github.com/Mariatta/enhanced-coc-hotline/pull/27"&gt;PR to the enhanced CoC hotline&lt;/a&gt;.
+It will support inbound SMS! 📱 I really want to see this feature land!&lt;/li&gt;
+&lt;li&gt;A very kind PyCascades member made a generous donation to ReadTheDocs. Thank you!
+I merged &lt;a class="reference external" href="https://github.com/pycascades/welcome-wagon-2019/pull/16"&gt;the PR for switching the welcome wagon's alabaster theme&lt;/a&gt;
+to another theme. I think the &lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/"&gt;new theme is looking great&lt;/a&gt;!&lt;/li&gt;
+&lt;li&gt;Helped with announcing the pre-conference social, setting up the ticket page and
+added &lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/#pre-conference-social"&gt;the menus&lt;/a&gt;)
+to the welcome wagon. As per tradition, we'll be having tacos! 🌮 Also thanks
+to the rest of the welcome wagon team, Nick, Andrew, etc for contributing
+lots of quality content!&lt;/li&gt;
+&lt;li&gt;Some administrative things, answered emails, Slack-ing, etc.&lt;/li&gt;
+&lt;li&gt;Yes, I will bring f-string related stickers!&lt;/li&gt;
+&lt;li&gt;Lots and lots of things are happening last minute 😳 A friend joked that perhaps
+we should have Netflix film us for &lt;a class="reference external" href="https://en.wikipedia.org/wiki/7_Days_Out"&gt;7 Days Out&lt;/a&gt;.
+I didn't know about this show before, but perhaps we'll do it for next year! 😛
+Any fund raised can go towards more financial aid.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python"&gt;
+&lt;h2&gt;Python&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Did some administrative things. Nothing too exciting. Answered emails, responded
+to random issues etc.&lt;/li&gt;
+&lt;li&gt;Released &lt;a class="reference external" href="https://github.com/python/core-workflow/releases/tag/cherry-picker-v1.3.0"&gt;cherry_picker v 1.3.0&lt;/a&gt;.
+Thanks Sviatoslav for the PR and &lt;a class="reference external" href="https://twitter.com/andrew_svetlov"&gt;Andrew&lt;/a&gt; for the review.
+&lt;a class="reference external" href="https://twitter.com/webKnjaZ"&gt;Sviatoslav&lt;/a&gt; has been working
+for this PR for quite some time. This will make it easier for other projects to adopt
+cherry-picker (and maybe their own version of &lt;a class="reference external" href="https://github.com/python/miss-islington"&gt;miss-islington&lt;/a&gt;).&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon"&gt;
+&lt;h2&gt;PyCon&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Yes! Language Summit will happen! No, we don't have sign up forms yet! I'm sorry!
+I'll have more time to devote to this once PyCascades is over.&lt;/li&gt;
+&lt;li&gt;You can now sign up for the &lt;a class="reference external" href="https://us.pycon.org/2019/schedule/presentation/68/"&gt;Hands-on Intro to aiohttp&lt;/a&gt;
+tutorial! Come for the async, stay for the io! Or should it be the other way around?
+Come for the io, stay for the async? 🤔 Anyway, we'll work with asyncio
+in this tutorial.&lt;/li&gt;
+&lt;li&gt;I didn't get to do much work on the &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;mentored sprint&lt;/a&gt;
+either. From the signups so far, seems like people are wanting to contribute to machine
+learning and data science-related project. We have a couple open source project
+maintainers signing up to mentor!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc.&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;My husband and I have been thinking of upsizing our home. Kids are growing up.
+They still share a room now. My husband also works from home, so we've been
+wishing for extra space for both our home offices. We went to view several
+houses last week. One home was just amazing and perfect in every way, and the
+price was right. We fell in love right away, and so we made an offer. Been busy
+trying to gather lots of paperwork and hoping the bank will lend us the money for it.
+🤞 It's exciting and at the same time scary.&lt;/li&gt;
+&lt;li&gt;Some back and forth email communication with a local meetup organizer lead
+me to write &lt;a class="reference external" href="https://twitter.com/mariatta/status/1097199037583773696"&gt;a twitter thread about about women's representation in open source&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry><entry><title>Weekly Update, Feb 16, 2019</title><link href="https://mariatta.ca/weekly-update-feb-16-2019.html" rel="alternate"></link><published>2019-02-16T11:00:00-08:00</published><updated>2019-02-16T11:00:00-08:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-02-16:/weekly-update-feb-16-2019.html</id><summary type="html">&lt;p&gt;This is the first of my Weekly Updates post. &lt;a class="reference external" href="../pages/weekly-updates.html"&gt;Background on this topic&lt;/a&gt;.
+I'll try my best to keep this up.&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entering the last two weeks before the conference. Lots of little details still being sorted out.&lt;/li&gt;
+&lt;li&gt;Worked on the &lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/"&gt;welcome wagon&lt;/a&gt;.
+Lots of updates to the travel guide …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This is the first of my Weekly Updates post. &lt;a class="reference external" href="../pages/weekly-updates.html"&gt;Background on this topic&lt;/a&gt;.
+I'll try my best to keep this up.&lt;/p&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Entering the last two weeks before the conference. Lots of little details still being sorted out.&lt;/li&gt;
+&lt;li&gt;Worked on the &lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/"&gt;welcome wagon&lt;/a&gt;.
+Lots of updates to the travel guide and dining guide.&lt;/li&gt;
+&lt;li&gt;Considered using a different theme than alabaster for the welcome wagon. There's
+a PR with a new theme, and it's looking great. But I felt somewhat uncomfortable
+to switch to another theme that doesn't support Read The Docs' ethical advertisement.
+I recommended PyCascades to support RTD some other way if we're going to not
+use the theme anymore.&lt;/li&gt;
+&lt;li&gt;The entire team has continued to working tirelessly. Being a remote organizer,
+sometimes I feel like I'm just the &amp;quot;Chief Nagging Officer&amp;quot;, keep asking them about
+things, and not actually able to do anything. So all I can do is cheer.&lt;/li&gt;
+&lt;li&gt;We finally secured a sprint venue. I updated the welcome wagon with
+&lt;a class="reference external" href="https://pycascades-welcome-wagon-2019.readthedocs.io/en/latest/sprint.html"&gt;sprint info&lt;/a&gt;,
+and added &lt;a class="reference external" href="https://ti.to/pycascades/pycascades-2019/with/senvon2fuek"&gt;registration ticket&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Huddled with the CoC committee.&lt;/li&gt;
+&lt;li&gt;An attendee raised a concern about our venue accessibility. Discussed with Maelle
+and Thea. We updated the Accessibility page with a &lt;a class="reference external" href="https://2019.pycascades.com/accessibility/"&gt;fragrance free consideration&lt;/a&gt; section.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="core-python-workflow"&gt;
+&lt;h2&gt;Core Python Workflow&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Ned Deily pinged me about an issue with bedevere's &amp;quot;check News&amp;quot; status. It wasn't
+working the way we liked, and was blocking a PR from &lt;a class="reference external" href="https://github.com/python/cpython/pull/11779#issuecomment-462498706"&gt;getting merged&lt;/a&gt;.
+So I made a &lt;a class="reference external" href="https://github.com/python/bedevere/pull/152"&gt;PR to quickly fix it&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;While working on that issue, I realized that the GitHub bots have not been tested
+against the latest Python versions, due to &lt;a class="reference external" href="https://github.com/travis-ci/travis-ci/issues/9069"&gt;known issue in Travis CI&lt;/a&gt;.
+We have been testing against Python 3.7.0a4, and we weren't even testing against
+Python 3.8. So I went ahead and adjusted the travis configuration files and made
+sure they're tested against 3.7.2 and 3.8.0. If you're curious,
+&lt;a class="reference external" href="https://github.com/python/bedevere/blob/5bb398ed02be63b461551fdfe365eb9e090053a3/.travis.yml"&gt;here's an example of how to configure Travis CI to test against the latest Python versions&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;One thing lead to another. Now tests are passing in Python 3.7.2 but failing in
+3.8.0. We're not sure if the regression is with &lt;tt class="docutils literal"&gt;aiohttp&lt;/tt&gt; (3rd party library)
+or &lt;tt class="docutils literal"&gt;asyncio&lt;/tt&gt; (Core Python). Currently waiting for &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp/issues/3606"&gt;Andrew to investigate&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Asked in Python committers on how to proceed with &lt;a class="reference external" href="https://discuss.python.org/t/what-are-next-steps-for-pep-581/"&gt;PEP 581&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Merged several PRs.&lt;/li&gt;
+&lt;li&gt;Set up netlify to &lt;a class="reference external" href="https://github.com/python/devguide/issues/463"&gt;preview pull requests in Devguide&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycon"&gt;
+&lt;h2&gt;PyCon&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Got news that my talk has been accepted! Happy to reprise my talk, &amp;quot;Don't Be a
+Robot; Build the Bot&amp;quot;.&lt;/li&gt;
+&lt;li&gt;Booked my flights and hotel. I'm going to arrive on Monday, April 29 (11 PM or
+so). I'm hoping that'll give me to adjust to jet lag (yeah I know.. I'm old)
+and a lot of time in case I need to chat with Łukasz about the language summit,
+or with Andrew about our tutorial.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mentored-sprint-at-pycon"&gt;
+&lt;h2&gt;Mentored Sprint at PyCon&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;The &lt;a class="reference external" href="https://us.pycon.org/2019/hatchery/mentoredsprints/"&gt;Mentored Sprint at PyCon&lt;/a&gt;
+was announced last weekend. Thank you Tania, Nina,
+and Nikoleta for working together and including me into this effort.&lt;/li&gt;
+&lt;li&gt;Sign up forms are now live. Now it's time to start promote the event and get more
+signups. I've &lt;a class="reference external" href="https://discuss.python.org/t/action-needed-participate-in-mentored-sprint-at-pycon-us/868"&gt;posted to Python core developers&lt;/a&gt;
+that I would like for them to sign up and mentor. Thank you core developers for
+committing to mentor!&lt;/li&gt;
+&lt;li&gt;At the moment, we have a number of contributors signing up, but no projects other
+than core Python has signed up yet. Our team are now discussing strategies to
+promote and reach out to more audience.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc.&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Baked brownies for kids' Valentine day school party&lt;/li&gt;
+&lt;li&gt;Schools were closed because of the snow! Not a big deal since I work from home.
+So I have two little &amp;quot;interns&amp;quot; working with me.&lt;/li&gt;
+&lt;li&gt;Wrote a really large check to pay for my own self-employed income tax to CRA.
+Feels good to be able to do it!&lt;/li&gt;
+&lt;li&gt;A fun topic arised in PyLadies Slack, about debugging with 1/0 in Python. This
+is something I learned from Ned Batchelder's talk, &lt;a class="reference external" href="https://nedbatchelder.com/text/machete.html"&gt;Machete-Mode Debugging&lt;/a&gt;.
+Sometimes you just want to test and debug, and see if your code is running and
+reached the part that you want it to reach. There are several ways to do this.
+You can &lt;tt class="docutils literal"&gt;raise Exception&lt;/tt&gt;, you can add things like &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;print(&amp;quot;here&lt;/span&gt; it is&amp;quot;)&lt;/tt&gt;, you can
+write a unittest, you can even write to log file. But those aren't as simple as
+typing out mere 3 characters: &lt;tt class="docutils literal"&gt;1/0&lt;/tt&gt;. This for sure will cause your program to
+stop (because nobody ever really tries to catch the &lt;tt class="docutils literal"&gt;ZeroDivisionError&lt;/tt&gt;) and bonus,
+you get full stack trace. Now you're debugging! Of course NSFP: Not Safe for
+Production 😛).&lt;/li&gt;
+&lt;li&gt;Last month, a kind Pythonista (who had read my &lt;a class="reference external" href="https://realpython.com/interview-mariatta-wijaya/"&gt;interview in RealPython&lt;/a&gt;) sent me
+paypal payment, for me to spend it on ice cream. I've just gotten around buying
+a tub of Matcha Ice cream from T&amp;amp;T Supermarket. I haven't had this in a long
+while! It's so good! 😋&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content></entry></feed>

@@ -1,0 +1,591 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom"><title>mariatta.ca - pep581</title><link href="https://mariatta.ca/" rel="alternate"></link><link href="https://mariatta.ca/feeds/pep581.tag.atom.xml" rel="self"></link><id>https://mariatta.ca/</id><updated>2019-07-08T00:00:00-07:00</updated><subtitle></subtitle><entry><title>Weekly Update, July 8, 2019</title><link href="https://mariatta.ca/weekly-update-july-8-2019.html" rel="alternate"></link><published>2019-07-08T00:00:00-07:00</published><updated>2019-07-08T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-07-08:/weekly-update-july-8-2019.html</id><summary type="html">&lt;p&gt;This has started to become more like bi-weekly updates. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;Well there was Canada Day stat holiday last weekend. My kids are out of school
+for the summer, so I've been spending more time with them at instead of on the computer.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learning about GraphQL, wrote a few lines of …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;This has started to become more like bi-weekly updates. 🤷🏻‍♀️&lt;/p&gt;
+&lt;p&gt;Well there was Canada Day stat holiday last weekend. My kids are out of school
+for the summer, so I've been spending more time with them at instead of on the computer.&lt;/p&gt;
+&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Learning about GraphQL, wrote a few lines of JS codes.&lt;/li&gt;
+&lt;li&gt;Researching other ways to run django management commands from admin. Came across the
+&lt;a class="reference external" href="https://pypi.org/project/django-admincommand/"&gt;django-admincommand&lt;/a&gt; package.&lt;/li&gt;
+&lt;li&gt;Other django-related work.&lt;/li&gt;
+&lt;li&gt;Some code reviews.&lt;/li&gt;
+&lt;li&gt;Deployed to prod a few times.&lt;/li&gt;
+&lt;li&gt;Career growth discussion with my manager.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;I did a &lt;a class="reference external" href="https://blog.jetbrains.com/pycharm/2019/06/webinar-recording-build-a-github-bot-with-mariatta-wijaya/"&gt;webinar with PyCharm&lt;/a&gt;!
+I got to talk a bit about contributing to Python, and I also get to show how
+you can automate your GitHub work with Zapier. Check it out!&lt;/li&gt;
+&lt;li&gt;I have a couple new &lt;a class="reference external" href="https://mariatta.ca/pages/about.html"&gt;GitHub sponsors&lt;/a&gt;
+in the 🍪 tier. ❤️ Thank you! That brings it to 22 sponsors! You too can &lt;a class="reference external" href="https://github.com/users/Mariatta/sponsorship"&gt;sponsor
+me on GitHub&lt;/a&gt; for as little as $5/month.&lt;/li&gt;
+&lt;li&gt;Helped with the setup of PyLadies Monrovia (Liberia).&lt;/li&gt;
+&lt;li&gt;Created more PyLadies Slack-bots.&lt;/li&gt;
+&lt;li&gt;Sent an update about PEP 581 to &lt;a class="reference external" href="https://mail.python.org/archives/list/python-dev&amp;#64;python.org/thread/WXXY5RY5UV6DGBKANMHCGOW4UIKXVZ6S/"&gt;python-dev&lt;/a&gt;,
+outlining the risks and downsides of GitHub.&lt;/li&gt;
+&lt;li&gt;Continued working on aiohttp-bot. I created &lt;a class="reference external" href="https://github.com/aio-libs/aiohttp-bot/pull/2"&gt;a PR&lt;/a&gt;,
+but I still need to write more unit tests. Also, I found a bug with black-out. 😟&lt;/li&gt;
+&lt;li&gt;Some back and forth email communications with GitHub Support team and Ewa Jodlowska,
+to get the &lt;a class="reference external" href="https://discuss.python.org/t/proposal-create-bug-triage-team-on-github/992"&gt;Triagers role enabled for CPython&lt;/a&gt;.
+The Python org on GitHub is now a non-profit organization, and we're in the Teams plan.
+Thanks to Ewa and GitHub for all the help! For the next steps, you can check out
+the &lt;a class="reference external" href="https://github.com/python/core-workflow/projects/3"&gt;project in core-workflow GitHub repo&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul&gt;
+&lt;li&gt;&lt;p class="first"&gt;Celebrated Canada Day 🇨🇦&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;We handed over the keys to our old home to the new owners.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Took the kids to the circus 🎪 I think the performers are pretty talented!&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D-_G1F1UcAAD2JW.jpg" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Tried cooking gamjatang. It's ok but still not as good as I expected. Gotta try again
+next time with different recipe.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/d3ad12039c9b36aa254f283d34b5200c/5DC5C4F8/t51.2885-15/sh0.08/e35/s750x750/65174140_462436261182546_4595852931976870381_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Our kids just started learning to bike on two wheels! They're making great
+progress and we've been practising in the neighbourhood.&lt;/p&gt;
+&lt;/li&gt;
+&lt;li&gt;&lt;p class="first"&gt;Started scheming our next annual family vacation. We've been going to Cancún for
+the last 3 family vacations. This time we'll be doing something else, but still in the
+Caribbean. It's going to be FUN!! 😁&lt;/p&gt;
+&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+</content><category term="pep581"></category></entry><entry><title>Mariatta @ PyCon 2019 Recap</title><link href="https://mariatta.ca/mariatta-pycon-2019-recap.html" rel="alternate"></link><published>2019-05-15T00:00:00-07:00</published><updated>2019-05-15T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-05-15:/mariatta-pycon-2019-recap.html</id><summary type="html">&lt;p&gt;I was at PyCon from April 29 - May 7. It's my fifth PyCon US. It's been a memorable
+and, I kept busy.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5fCBZxXsAAnVU3.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;I had a number of pre-planned activities for PyCon, like running the language
+summit, giving talks, tutorial, etc. Thought I'll share a quick summary of how
+they all …&lt;/p&gt;</summary><content type="html">&lt;p&gt;I was at PyCon from April 29 - May 7. It's my fifth PyCon US. It's been a memorable
+and, I kept busy.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5fCBZxXsAAnVU3.jpg" style="width: 400px;" /&gt;
+&lt;p&gt;I had a number of pre-planned activities for PyCon, like running the language
+summit, giving talks, tutorial, etc. Thought I'll share a quick summary of how
+they all went.&lt;/p&gt;
+&lt;div class="section" id="zapier-pycon-2019"&gt;
+&lt;h2&gt;Zapier &amp;#64; PyCon 2019&lt;/h2&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D52HmedWsAAr3D2.jpg:medium" style="width: 400px;" /&gt;
+&lt;p&gt;I'm one of 14 Zapiens at PyCon 2019. I staffed Zapier's booth on Friday and Saturday.
+We had socks!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-language-summit-2019"&gt;
+&lt;h2&gt;Python Language Summit 2019&lt;/h2&gt;
+&lt;p&gt;The language summit was a success. First of all, we were able to stay somewhat
+on time, which I'm personally quite happy about. Other thing to be proud of,
+it was the most diverse audience I've seen. Our audience consists of, not just long-time
+Python core developers, but also new contributors as well as members from
+the wider Python ecosystem, such as from Twisted, Django, and BeeWare project.
+We had talks about circuit Python, team communication, and mentorship. I personally
+think all the talks were very interesting and refreshing.&lt;/p&gt;
+&lt;p&gt;We've invited A. Jesse Jiryu Davis to cover the event. You can see his posts
+at The PSF's &lt;a class="reference external" href="http://pyfound.blogspot.com/2019/05/the-2019-python-language-summit.html"&gt;official blog&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;We forgot to take a group photo after the summit!! 😱 but we had a group photo
+with PyCon staff ... (image from &lt;a class="reference external" href="https://twitter.com/pystar/status/1123782745585483776"&gt;PyCon's twitter account&lt;/a&gt;)&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5hQscyW0AEIjUs.jpg" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;One of the topic of discussion was &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt;.
+Since Jesse is writing up the post about it, I won't duplicate the effort.
+But you can see &lt;a class="reference external" href="https://speakerdeck.com/mariatta/pep-581"&gt;my slides here&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'd really like to see us making progress with this before the next Python
+Language Summit. There were lots of action items, and things we still need
+to figure out, but those will be addressed in &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0588/"&gt;PEP 588&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I plan to update PEP 588 with the items raised during the language summit,
+I really haven't had much time to do this.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="hands-on-intro-to-aiohttp"&gt;
+&lt;h2&gt;Hands-on Intro to aiohttp&lt;/h2&gt;
+&lt;p&gt;Andrew Svetlov and I gave a &lt;a class="reference external" href="https://us-pycon-2019-tutorial.readthedocs.io/"&gt;beginner tutorial to aiohttp&lt;/a&gt;.
+Our tutorial material is available online, and licensed under CC-BY-SA 4.0.&lt;/p&gt;
+&lt;p&gt;Andrew is the maintainer of &lt;a class="reference external" href="https://docs.aiohttp.org/en/stable/"&gt;aiohttp&lt;/a&gt;, which
+is licensed under Apache 2.0, He's very knowledgeable about it.
+There were lots of interesting questions being asked at the tutorial, and he was
+able to explain things clearly. &lt;a class="reference external" href="https://twitter.com/matrixise"&gt;Stéphane Wirtel&lt;/a&gt;
+and &lt;a class="reference external" href="https://twitter.com/webKnjaZ"&gt;Sviatoslav Sydorenko&lt;/a&gt; volunteered as our TA.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D56v23uWAAIfE2Q.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="don-t-be-a-robot-build-the-bot"&gt;
+&lt;h2&gt;Don't Be a Robot; Build the Bot&lt;/h2&gt;
+&lt;p&gt;Friday after the keynote, I gave my talk titled &lt;a class="reference external" href="https://www.youtube.com/watch?v=_xdEAxLuj9Y"&gt;Don't Be a Robot; Build the Bot&lt;/a&gt;.
+I loved giving that talk! It's a talk about &lt;a class="reference external" href="https://github.com/python/miss-islington/"&gt;miss-islington&lt;/a&gt;!
+I think more people should be building their own bots and automate! With
+&lt;a class="reference external" href="https://gidgethub.readthedocs.io/en/latest/"&gt;gidgethub&lt;/a&gt; (Apache 2.0 licensed)
+it is really easy.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="github-bots-are-one-honking-great-idea-let-s-do-more-of-those"&gt;
+&lt;h2&gt;GitHub bots are one honking great idea, let's do more of those!&lt;/h2&gt;
+&lt;p&gt;Sviatoslav and I hosted an open space on Sunday. We discussed more about GitHub bots,
+building it for profit or for fun. Sviatoslav just made a new framework for building
+GitHub Apps with Python 3.7, called &lt;a class="reference external" href="https://octomachinery.dev/"&gt;octomachinery&lt;/a&gt;.
+We also discussed about GitHub Actions, tried to make sense of it, e.g. what were
+limitations, and what Actions would be useful. There is a &lt;a class="reference external" href="https://discuss.python.org/t/official-github-action-for-publishing-to-pypi/1061"&gt;proposal&lt;/a&gt;
+for making an &amp;quot;official&amp;quot; GitHub Action for publishing to PyPI. Some people shared
+ideas of what bots they'd like to see and build.&lt;/p&gt;
+&lt;p&gt;One attendee (I think his name was Anurag Saxena(?)) said he'd like to
+receive weekly updates of GitHub issues/PRs they
+worked on, and to have it automatically sent to him as email or slack or
+something. I think this is very interesting idea.&lt;/p&gt;
+&lt;p&gt;Product placement: this can be accomplished with Zapier. You can create a
+cron job that generates the summary (by utilizing GitHub Search API), and then use
+&lt;a class="reference external" href="https://zapier.com/apps/webhook/integrations"&gt;Webhook by Zapier&lt;/a&gt; to handle the
+&amp;quot;send email/post a slack message&amp;quot;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="status-of-black-out"&gt;
+&lt;h2&gt;Status of black-out&lt;/h2&gt;
+&lt;p&gt;I mentioned my personal bot, &lt;a class="reference external" href="https://github.com/mariatta/black_out"&gt;black-out&lt;/a&gt;, in
+my talk. Black-out is a GitHub bot that runs black (Python formatter) on incoming pull
+requests. The first version of the webhook-based bot is open source and Apache 2.0
+licensed. However, I wasn't happy with how it works, so I've been researching on
+how to turn it into a GitHub App.&lt;/p&gt;
+&lt;p&gt;I've made some progress with black-out GitHub App, I've implemented some of the features
+I wanted for myself, but I'm still just experimenting and testing it out on my
+own personal projects to really figure out what's the best workflow for the bot.&lt;/p&gt;
+&lt;p&gt;Black-out GitHub App is still closed source, I have not put it up on GitHub yet.
+After the talk, a few people, including &lt;a class="reference external" href="https://twitter.com/jezdez"&gt;Jannis Leidel&lt;/a&gt;
+from Mozilla, expressed interest in black-out, and wanted to know how they can help.&lt;/p&gt;
+&lt;p&gt;Thanks for the interest! I think I just need to find time and put it up on GitHub
+so we can all collaborate!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="aiohttp-bot"&gt;
+&lt;h2&gt;aiohttp bot&lt;/h2&gt;
+&lt;p&gt;aiohttp needs a bot just like miss-islington, for backporting, and Andrew Svetlov
+had talked to me about this since early last year. (and Ansible needs their own
+backport bot too). To help with this, we've been working to make &lt;a class="reference external" href="https://pypi.org/project/cherry-picker/"&gt;cherry-picker.py&lt;/a&gt; customizable. I've offered to help
+build this bot for aiohttp, and the easiest is a webhook-based bot, just like
+miss-islington. However Sviatoslav disagrees. He prefers for it to be a GitHub
+App that can be easily installed by other projects. While I like the GitHub App
+idea, for reusability, I also think that each projects might have different workflow
+for backporting, so we'll end up having to support &amp;quot;configuring the bot&amp;quot;, which is
+a boring activity for me. I'll be thinking more about this, but my thinking right
+now is to build it as a personal bot for aiohttp; not a customizable bot.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="mentored-sprint-for-diverse-beginners"&gt;
+&lt;h2&gt;Mentored Sprint for Diverse Beginners&lt;/h2&gt;
+&lt;p&gt;On Saturday afternoon (4 hrs) I helped ran the mentored sprint for Diverse Beginners. This
+is a group effort with Tania Allard, Nina Zakharenko, and Nikoleta Glynatsi. We have
+a room full of 70 new aspiring open source contributors, and about 30 mentors
+from 11 different open source projects (like CPython, CircuitPython, TensorFlow,
+etc) I think it was great success! The projects and mentors were tasked with
+coming up with at least 5 beginner friendly issues, so they came prepared. Lots
+of people with diverse background made their first pull requests at the sprint.&lt;/p&gt;
+&lt;p&gt;Another thing that surprised me, was such great turnout! I've organized lots of
+events and meetups, and we usually expect about 60% people will actually show up.
+But for this event, &lt;strong&gt;EVERYBODY&lt;/strong&gt; showed up! Room was completely full!! (103 pax capacity)
+We even had to turn away many people who wanted to walk-in.&lt;/p&gt;
+&lt;img alt="" src="https://photos.app.goo.gl/YRJD9tkQSHZBzFcB9" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="keynotes"&gt;
+&lt;h2&gt;Keynotes&lt;/h2&gt;
+&lt;p&gt;I managed to see pretty much all of the keynotes, except for Jessica McKellar's keynote.
+Her keynote started late, and I was supposed to staff Zapier's booth at the same
+time.&lt;/p&gt;
+&lt;p&gt;Sha's talk was very inspiring and emotional. I'm glad I was able to watch the
+talk in person. I was going to suggest people to catch his talk, but unfortunately
+there was no recording.&lt;/p&gt;
+&lt;p&gt;I also enjoyed the &lt;a class="reference external" href="https://youtu.be/8dDp-UHBJ_A"&gt;Steering council plenary session&lt;/a&gt;
+moderated by Ewa Jodlowska. (there was mention about PEP 581!!)&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pycascades"&gt;
+&lt;h2&gt;PyCascades&lt;/h2&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D50oSeaXkAEb-uv.jpg:large" style="width: 400px;" /&gt;
+&lt;p&gt;On Sunday I met up with several PyCascades organizers and we discussed the planning of
+next year's conference. We're still scouting venues in Portland, and figuring out
+how to best divide tasks among the organizers. Eric Holscher will be co-chairing,
+along with Esti. Somehow during that meeting, I became the next PyCascades
+Diversity Chair.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pyladies"&gt;
+&lt;h2&gt;PyLadies&lt;/h2&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D56C8oTX4AESrtq.jpg:large" style="width: 400px;" /&gt;
+&lt;p&gt;(image from &lt;a class="reference external" href="https://twitter.com/loooorenanicole/status/1125485680216485888"&gt;Lorena Mesa on Twitter&lt;/a&gt;).&lt;/p&gt;
+&lt;p&gt;On Monday I attended a meeting with other PyLadies organizers from all over the world.
+We shared notes about organizing and leading our own local chapters. We learned that
+the challenges faced by PyLadies in different parts of the world are different. We
+talked about how the current representation of PyLadies isn't very diverse (represented
+by people in North America) whereas members of Python community and PyLadies are coming
+from all over the world. We talked about ideas on how PyLadies can be better. We
+discussed the governance of PyLadies, and decided to do a monthly PyLadies organizers
+meeting. Elaine and I volunteered to take over managing info at pyladies email.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="dep-9"&gt;
+&lt;h2&gt;DEP 9&lt;/h2&gt;
+&lt;p&gt;I ran into Andrew Godwin who is a Django Core Developer. I got to ask him about
+Django and asyncio. During the aiohttp tutorial, someone had asked about aiohttp
+and ORM. Andrew Svetlov mentioned that it is a low priority for aiohttp, and so
+I wondered what is Django's stance on this. Andrew (Godwin) shared his plan about
+async-capable django. I guess he was talking about &lt;a class="reference external" href="https://twitter.com/andrewgodwin/status/1126328701593866240"&gt;DEP 9&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="language-summit-retro-and-the-inspiration-for-black"&gt;
+&lt;h2&gt;Language Summit retro, and the inspiration for black&lt;/h2&gt;
+&lt;p&gt;I met with Łukasz Langa to celebrate success of running our first language summit.
+We had informal retros, and started thinking about how to put the next year's event.&lt;/p&gt;
+&lt;p&gt;I also got to ask him where the inspiration for black came from. He described
+frustration with other auto-formatter, how it does not provide consistent
+output (same file reformatted twice would give different result). After months
+of frustration, he decided to make his own auto-formatter.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D55tCx_W0AAT3tF.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="f-string-debug-mode"&gt;
+&lt;h2&gt;F-string Debug Mode&lt;/h2&gt;
+&lt;p&gt;Of course I had to give away all of my new f-string stickers to Eric V. Smith.&lt;/p&gt;
+&lt;p&gt;Eric showed me a demo of debug mode for f-string. It adds the &lt;cite&gt;=&lt;/cite&gt; to the f-string
+expression. I recalled we had this discussion with both Eric and Larry Hastings back during core Python sprint.&lt;/p&gt;
+&lt;p&gt;It works like this:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+foo=5 print(f&amp;quot;{foo=}&amp;quot;)
+&lt;/pre&gt;
+&lt;p&gt;would print:&lt;/p&gt;
+&lt;pre class="literal-block"&gt;
+foo=5
+&lt;/pre&gt;
+&lt;p&gt;Since then the PR has been merged, and now we need to &lt;a class="reference external" href="https://bugs.python.org/issue36858"&gt;write the documentation&lt;/a&gt;.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D551XvfW4AImG49.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="people"&gt;
+&lt;h2&gt;People&lt;/h2&gt;
+&lt;p&gt;I finally got to meet in person with people I've interacted online a lot, like:
+Tania Allard, Cheryl Sabella, Anthony Shaw, Sviatoslav Sydorenko, Elizaaveta Shashkova,
+and many more!&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D56eogZW0AAUZat.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="coc-incidents"&gt;
+&lt;h2&gt;CoC Incidents&lt;/h2&gt;
+&lt;p&gt;During the conference, it was brought to my attention about several CoC incidents
+that occurred in various communities I belong to. These issues are being dealt
+with, and I've also talked to PyCon incident response team members where appropriate.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="ice-cream-selfie"&gt;
+&lt;h2&gt;Ice Cream Selfie&lt;/h2&gt;
+&lt;p&gt;I had ice cream sandwich from Cathy's Gourmet Ice Cream Sandwiches, courtesy of Tania and Nina 🍨😝🤳🏻&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D568l3_WsAE3pF7.jpg:large" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pynutella"&gt;
+&lt;h2&gt;PyNutella&lt;/h2&gt;
+&lt;p&gt;PyNutella, a.k.a that thing where Mariatta asks her friends who are coming to
+PyCon to bring her Nutella from Europe, yeah that happened. Thanks to Christian
+Heimes for the very special Nutella. My kids were mind blown to see them. Also
+thanks to Stéphane Wirtel for a really big jar of Nutella from Belgium.&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5l36DKW4AAsgKP.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="pierogicon"&gt;
+&lt;h2&gt;PierogiCon&lt;/h2&gt;
+&lt;p&gt;Anna Ossowski, Jeff Triplett and I went back to Sokolowski's University Inn for the
+second PierogiCon, and we brought in a number of newbies.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/d67f75c6b92d5fe66cb81e3dc124e539/5D660D3C/t51.2885-15/sh0.08/e35/s640x640/59183211_108900943546171_9078212037958768043_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="selfie-sprint"&gt;
+&lt;h2&gt;Selfie Sprint&lt;/h2&gt;
+&lt;p&gt;I was meaning to do one day of sprints, but after a full week full of activities,
+I decided not to do any open source activities, and instead just go around
+and &lt;a class="reference external" href="https://twitter.com/search?f=tweets&amp;amp;vertical=default&amp;amp;q=mariatta%20%23selfiesprint&amp;amp;src=typd"&gt;take selfie with people I met&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I enjoyed doing Selfie Sprint! I think I will do it again next year!&lt;/p&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D56wr4nW4AcVeL6.jpg" style="width: 400px;" /&gt;
+&lt;img alt="" src="https://pbs.twimg.com/media/D5600r5WkAEDxQh.jpg" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="seafood"&gt;
+&lt;h2&gt;Seafood&lt;/h2&gt;
+&lt;p&gt;I went to see my brother for dinner. We had really great spicy seafood at Boiling Seafood Crawfish.&lt;/p&gt;
+&lt;img alt="" src="https://instagram.fyvr4-1.fna.fbcdn.net/vp/21ef88439f3331f9aa4990f886749903/5D6E3634/t51.2885-15/sh0.08/e35/s750x750/57488426_1264143830402264_5360864775533430374_n.jpg?_nc_ht=instagram.fyvr4-1.fna.fbcdn.net" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="award"&gt;
+&lt;h2&gt;Award&lt;/h2&gt;
+&lt;p&gt;I think the biggest highlight for me is receiving my &lt;a class="reference external" href="http://pyfound.blogspot.com/2019/02/the-north-star-of-pycascades-core.html"&gt;Community Service Award&lt;/a&gt; on Sunday.
+Thank you Python community for this recognition! (&lt;a class="reference external" href="https://www.youtube.com/watch?v=P4IfFLAX9hY"&gt;video&lt;/a&gt;)&lt;/p&gt;
+&lt;img alt="" src="https://lh3.googleusercontent.com/kER4UTkQthe-c5t2LPaI2rvXB_TeD_WJNN6eCIHO6PApKV8FDkx-zwJeOOIxNu3WMNIO3pA4pKaIT06kgJDXqXbUe2LCX5q2aJJlSes2MubaizIlxkprG2djfHcLP0VaAf-LxKoSTUKp-wNzSGXHGsfXJxZghnN-z2la2HC3fLM2qAHCe8hT02gpd50AvRZsboMCmd2oLtbWsaIn0FC6aiSKue9vYVQzcmh__RNqJcPDKFmX2TLNSkx5x9BxU4dFZZtSr3lBZw0Hg7gmFgNl0lyuBcONGueS3QyzUcrsS-ERX17kCv_pgRCxLKyuabXQZ4_6paRtVp67yNQhmRfJPbhmGk1JAFnEJBTVB2-bQacpibiMKv6biEi1kilGmQQRHjMkoMIFMKqqWfikm2LTEjtr78m2SkycWdxsyzCgk6Pjkw96H6nnFUsDzeS1N0pJh2dSglySPI0RicAKn-8CA_8whMPowyN5EvsE0LvKnIxZ0SwsHaND7WLMFbBzn3v5bJfuFG7PvyDdxyTyoq97ANw622C0qsOkiW8z3I6J-E4z0NH_1X7iHM7B-ciQr6MltZV0haRmuebGV_AsZoDPL3-i_g_okf7lqR5QPHCf1iJgGfl1R9HLe6xMqdjXBVz3lX_zccIiFhE27hjsLSgkIu_R0N3izYz5LWaGtWdwAEPkEArubAeW0yWTCs9a6Z6kEJ6j2D_1UoJESoDV16CfstBp0g=w1000-h1333-no" style="width: 400px;" /&gt;
+&lt;/div&gt;
+&lt;div class="section" id="until-next-time"&gt;
+&lt;h2&gt;Until next time&lt;/h2&gt;
+&lt;p&gt;I tried to include as many memories as I can into this post, but I'm unable to include
+everything. 😥&lt;/p&gt;
+&lt;p&gt;PyCon 2019 has been inspiring. I learned a lot about the community, and I cried
+a lot too (the good cry).&lt;/p&gt;
+&lt;p&gt;Thank you organizers, volunteers, sponsors, and all the wonderful Python community for these memories.
+Let's do this again!&lt;/p&gt;
+&lt;p&gt;🌮&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Python"></category><category term="conference"></category><category term="PyCon"></category><category term="pep581"></category></entry><entry><title>Mariatta @ PyCon 2019</title><link href="https://mariatta.ca/mariatta-pycon-2019.html" rel="alternate"></link><published>2019-04-30T14:00:00-07:00</published><updated>2019-04-30T14:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-30:/mariatta-pycon-2019.html</id><summary type="html">&lt;p&gt;I arrived in Cleveland last night for PyCon 2019! It'll be quite busy and jam-packed
+event for me!! Looking forward to meet old friends and make new ones!&lt;/p&gt;
+&lt;p&gt;The following are my pre-planned PyCon activities. But I'm sure in actuality
+I'll be even more busier for the unplanned ones! 😅&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Wednesday …&lt;/strong&gt;&lt;/li&gt;&lt;/ul&gt;</summary><content type="html">&lt;p&gt;I arrived in Cleveland last night for PyCon 2019! It'll be quite busy and jam-packed
+event for me!! Looking forward to meet old friends and make new ones!&lt;/p&gt;
+&lt;p&gt;The following are my pre-planned PyCon activities. But I'm sure in actuality
+I'll be even more busier for the unplanned ones! 😅&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;&lt;strong&gt;Wednesday&lt;/strong&gt;: &lt;a class="reference external" href="https://us.pycon.org/2019/events/language-summit/"&gt;Python Language Summit&lt;/a&gt;,
+co-chairing with Łukasz. I'm also going to present the topic about &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; / &lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0588/"&gt;PEP 588&lt;/a&gt;. Followed by PyCon staff dinner. 😋&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Thursday&lt;/strong&gt;: Andrew Svetlov and I will be giving our tutorial together: &lt;a class="reference external" href="https://us.pycon.org/2019/schedule/presentation/68/"&gt;Hands-on
+Intro to aiohttp&lt;/a&gt;. I'll
+also be checking the expo hall for the opening reception.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Friday&lt;/strong&gt;: I plan to attend the keynote, and then my own talk: &lt;a class="reference external" href="https://us.pycon.org/2019/schedule/presentation/218/"&gt;Don't Be a
+Robot; Build the Bot&lt;/a&gt;
+(Friday 10:50 a.m.–11:20 a.m. in Grand Ballroom B). I'll also be at Zapier's
+booth (#713) from 3:45 - 4:30 PM. Come find me!&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Saturday&lt;/strong&gt;: Attend the morning keynotes, and again at Zapier's booth (#713)
+from 10:10 – 10:50 AM. PSF Member's lunch, and then the &lt;a class="reference external" href="https://mentored-sprint-for-diverse-beginners.readthedocs.io/"&gt;Mentored Sprint for
+Diverse Beginners&lt;/a&gt;,
+co-organized with Tania, Nina, and Nikoleta.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Sunday&lt;/strong&gt;: Attend all the keynotes. Sviatoslav Sydorenko and I plan to do
+an open space at 11 AM, with topic: &lt;strong&gt;GitHub Bots are one honking great idea --
+let's do more of those! Let's talk about building GitHub Apps as a community&lt;/strong&gt;.
+PyLadies lunch. Receive my &lt;a class="reference external" href="http://pyfound.blogspot.com/2019/02/the-north-star-of-pycascades-core.html"&gt;PSF Community Service&lt;/a&gt;
+award. Dinner with my brother. This might be the last time in many years
+before I'll get to see him again.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Monday&lt;/strong&gt;: Sprint! Probably try to catch up with all the things I've been missing
+out since I went OOOS.&lt;/li&gt;
+&lt;li&gt;&lt;strong&gt;Tuesday&lt;/strong&gt;: Go home!&lt;/li&gt;
+&lt;/ul&gt;
+&lt;div class="section" id="ice-cream-selfie"&gt;
+&lt;h2&gt;Ice Cream Selfie&lt;/h2&gt;
+&lt;p&gt;So unlike me, I have not decided where to go for &lt;a class="reference external" href="../pages/ice-cream-selfie.html"&gt;Ice Cream Selfie&lt;/a&gt;!!
+😱 Last year I went to &lt;a class="reference external" href="../ics-pyconus-2018.html"&gt;Mitchell's Homemade Ice Cream&lt;/a&gt;.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Python"></category><category term="conference"></category><category term="PyCon"></category><category term="sprint"></category><category term="pep581"></category></entry><entry><title>Weekly Update, April 30, 2019</title><link href="https://mariatta.ca/weekly-update-april-30-2019.html" rel="alternate"></link><published>2019-04-30T00:00:00-07:00</published><updated>2019-04-30T00:00:00-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2019-04-30:/weekly-update-april-30-2019.html</id><summary type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Short week, 3 days of work, but quite productive.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Published my Zapier engineering blog post: &lt;a class="reference external" href="https://zapier.com/engineering/zapier-at-pycon-2019/"&gt;Zapier at PyCon 2019&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Made a couple PRs. One of it was about customizing Django Admin. The other is
+for a new Zapier API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gave a preview of my …&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;</summary><content type="html">&lt;div class="section" id="work"&gt;
+&lt;h2&gt;Work&lt;/h2&gt;
+&lt;p&gt;Short week, 3 days of work, but quite productive.&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Published my Zapier engineering blog post: &lt;a class="reference external" href="https://zapier.com/engineering/zapier-at-pycon-2019/"&gt;Zapier at PyCon 2019&lt;/a&gt;.&lt;/li&gt;
+&lt;li&gt;Made a couple PRs. One of it was about customizing Django Admin. The other is
+for a new Zapier API endpoint.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="python-and-the-community"&gt;
+&lt;h2&gt;Python and the community&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Gave a preview of my PyCon tutorial at PyLadies Vancouver.&lt;/li&gt;
+&lt;li&gt;Some more administrative work for the mentored sprint and Python Language Summit.&lt;/li&gt;
+&lt;li&gt;Responded to comment about &lt;a class="reference external" href="https://github.com/python/peps/pull/1013#issuecomment-488160914"&gt;PEP 581&lt;/a&gt;.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;/div&gt;
+&lt;div class="section" id="etc"&gt;
+&lt;h2&gt;etc&lt;/h2&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Spent a couple days packing all of my earthly belongings into boxes.&lt;/li&gt;
+&lt;li&gt;On Saturday we moved to our new home!!!! It's not 1 Infinite Loop, but it is number 1!! 🥇&lt;/li&gt;
+&lt;/ul&gt;
+&lt;img alt="" src="../img/number-one-home.jpg" style="width: 200px;" /&gt;
+&lt;/div&gt;
+</content><category term="pep581"></category></entry><entry><title>Python Core Sprint 2018: Part Two</title><link href="https://mariatta.ca/core-sprint-2018-part-2.html" rel="alternate"></link><published>2018-09-21T09:14:06-07:00</published><updated>2018-09-21T09:14:06-07:00</updated><author><name>Mariatta</name></author><id>tag:mariatta.ca,2018-09-21:/core-sprint-2018-part-2.html</id><summary type="html">&lt;p&gt;Read up on &lt;a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-1.html"&gt;Part one&lt;/a&gt; first.&lt;/p&gt;
+&lt;p&gt;Here are additional discussions and projects that I got involved with during the
+sprint.&lt;/p&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; is a PEP I wrote about using
+GitHub issues instead of Roundup as CPython's issue tracker.&lt;/p&gt;
+&lt;p&gt;During the sprint, I discussed this topic mainly with Ezio …&lt;/p&gt;&lt;/div&gt;</summary><content type="html">&lt;p&gt;Read up on &lt;a class="reference external" href="https://mariatta.ca/core-sprint-2018-part-1.html"&gt;Part one&lt;/a&gt; first.&lt;/p&gt;
+&lt;p&gt;Here are additional discussions and projects that I got involved with during the
+sprint.&lt;/p&gt;
+&lt;div class="section" id="pep-581"&gt;
+&lt;h2&gt;PEP 581&lt;/h2&gt;
+&lt;p&gt;&lt;a class="reference external" href="https://www.python.org/dev/peps/pep-0581/"&gt;PEP 581&lt;/a&gt; is a PEP I wrote about using
+GitHub issues instead of Roundup as CPython's issue tracker.&lt;/p&gt;
+&lt;p&gt;During the sprint, I discussed this topic mainly with Ezio Melotti, as well as
+with a group of other core devs: Ned Deily, Kushal Das, Petr Viktorin, Pablo Galindo,
+and one-on-one with Zachary Ware.&lt;/p&gt;
+&lt;p&gt;Thanks all of you who came and discussed this with me, I really appreciate your
+input and feedback.&lt;/p&gt;
+&lt;p&gt;Reflecting back, my tone might have been unkind, impatient, and unempathetic during
+certain parts of the group discussion, and I'm sorry.&lt;/p&gt;
+&lt;p&gt;Unlike most other PEPs, the idea for this PEP did not go through rounds of
+discussions over at python-ideas. And unlike other PEPs, I did not post this PEP
+into python-dev after it has been written. It was my own choice. Instead, this idea
+was discussed at Python Language Summit, as a thread at python-committers, and
+I also chatted privately with a few other Python core developers.&lt;/p&gt;
+&lt;p&gt;Ezio, who maintains Roundup for CPython, talked to various core devs individually
+to get a sense whether people are warm to the idea of moving to GitHub. It seems
+like people are postive about it, or at least not strongly opposing the idea,  but
+we still need to iron out additional details.&lt;/p&gt;
+&lt;p&gt;These are some of the concerns raised during the discussions with core devs at
+the sprint:&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What if GitHub disappear suddenly?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;I realize that my response to this question had been unkind, impatient,
+unempathetic, and I'm sorry.&lt;/p&gt;
+&lt;p&gt;My response was &lt;em&gt;&amp;quot;I don't care&amp;quot;&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;What I really meant is, &lt;em&gt;&amp;quot;I don't believe GitHub will go away all that suddenly&amp;quot;&lt;/em&gt;,
+and that is my personal opinion, and I know there are people who thinks otherwise,
+and I respect the difference in opinion.&lt;/p&gt;
+&lt;p&gt;But the actual question needing actual answer is: &lt;em&gt;&amp;quot;What is our fail safe plan?&amp;quot;&lt;/em&gt;.
+This is something that the PEP needs to address. At the moment, we'll just going to get
+daily backups of GitHub data. But eventually we will need a more concrete
+plan and we will need to be able to easily spin up another issue tracker / repository
+so Python world does not stop and people can continue
+contributing and developing.&lt;/p&gt;
+&lt;p&gt;However, this problem is not unique to CPython. Lack of fail-safe solution should
+not blocking the PEP's acceptance, and should not stop us from using GitHub issues.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;What about current bug triage permission?&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;With Roundup currently, we have a separate &amp;quot;bug triage&amp;quot; permission that is different
+than the core developer / commit access. The bug triage permission allows them
+to close and categorize issues on the issue tracker, but does not give the
+permission to commit or merge pull requests to CPython.&lt;/p&gt;
+&lt;p&gt;The bug triage permission is definitely valuable for the team. Historically,
+we've been able to give this permission easily to people without much formality,
+whereas giving commit access is not so trivial.&lt;/p&gt;
+&lt;p&gt;We definitely need bug triage help, and the question is, how will this be managed
+with GitHub?&lt;/p&gt;
+&lt;p&gt;There are a couple ideas. Donald Stufft commented in Zulip that we can give
+people write access, invite them as team collaborators, this will allow them to
+edit and close issues, but use the GitHub branch protection feature to restrict
+pushing codes to only Python core developers. BTW, we have been using this
+feature, just didn't quite realize it. Python &lt;tt class="docutils literal"&gt;3.4&lt;/tt&gt; and &lt;tt class="docutils literal"&gt;3.5&lt;/tt&gt; branches on GitHub
+are currently &amp;quot;protected&amp;quot;, and only the release manager, Larry Hastings, can
+push codes to those branches.&lt;/p&gt;
+&lt;p&gt;So what we can do is to invite the current bug triagers as collaborators for
+CPython repository, give them that write access, and add branch protection
+such that only Python core developers can push / commit into the active branches.&lt;/p&gt;
+&lt;p&gt;Another idea that came up while chatting with Zach, now that miss-islington
+can automerge, maybe we let only miss-islington to merge and commit from now on.&lt;/p&gt;
+&lt;p&gt;🤔&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;The Nosy list&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Steve Dower commented that one nice feature of the existing issue tracker is
+the nosy list, where he can get notified only in issues he's interested in. For
+example, if someone creates an issue with &amp;quot;Windows&amp;quot; component in the current issue
+tracker, he and Zach will be automatically notified and added to the nosy list.&lt;/p&gt;
+&lt;p&gt;There is not yet similar functionality on GitHub. So we're going to build out a
+bot that does this somehow.&lt;/p&gt;
+&lt;p&gt;I have started researching GitHub's &lt;a class="reference external" href="https://developer.github.com/v3/activity/notifications/"&gt;notification and subscription APIs&lt;/a&gt;, but I don't have
+clear idea or solution to this problem yet.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Involve the Python Release manager in the transition&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Ned Deily, Release Manager for Python 3.6 and 3.7, reminded us that we will need
+to include the release managers for any changes in our workflow and issue tracker.&lt;/p&gt;
+&lt;p&gt;✅&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;GitHub can lower the barrier to contribute, but also makes it easier for people to submit unrelevant issues&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;Some core devs were concerned that the ease of using GitHub can also mean easier
+for people to use and abuse it for things other than discussing bugs and features of
+Python. It means that we will need to spend more time into triaging issues, marking
+things as off topic, duplicate, telling people to file their issue somewhere else,
+and so on. I think this is a valid concern. But I think this is an existing problem
+anyway, regardless of what issue tracker we use.&lt;/p&gt;
+&lt;p&gt;I have been experimenting with &lt;a class="reference external" href="http://gitmate.io/"&gt;GitMate.io&lt;/a&gt; myself.
+One of Gitmate's ability is to identify if an issue is a duplicate of other previously
+reported issues. GitMate is currently installed in devguide, core-workflow, and
+miss-islington repos. I've seen it help several people, but sometimes it is not
+so helpful.&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;CoC enforcement&lt;/strong&gt;&lt;/p&gt;
+&lt;p&gt;We need to have better and clearer policy on CoC enforcement for handling comments
+on GitHub. I know that there is the PSF's CoC work group now, and Brett is part of that
+group. I'm glad that there is some progress, and I look forward hearing more from the
+CoC work group.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="cla"&gt;
+&lt;h2&gt;CLA&lt;/h2&gt;
+&lt;p&gt;Another aspect of CPython's workflow that could use an improvement is the way we
+handle CLA (Contributor License Agreement).&lt;/p&gt;
+&lt;p&gt;The way it works, for every contribution and pull request you made to Python
+(CPython, DevGuide, PEPs, core-workflow, and all the bots), you'll need to
+sign the CLA before we can accept and merge the pull request.&lt;/p&gt;
+&lt;p&gt;There are currently several problems with this workflow:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;Signing the CLA also requires creating an account in the bug tracker. So
+people making pull requests on GitHub needs to go to bugs.python.org, create
+an account, and then add in their GitHub username. While this makes sense
+for contributors to CPython, there is really no reason for contributors to
+DevGuide or cherry-picker to do this. It just slows down the process of
+contributing.&lt;/li&gt;
+&lt;li&gt;It requires manual work by members of The PSF (Ewa and Betsy) to check if the CLA
+has been signed, and they have to manually update the record in bugs.python.org.&lt;/li&gt;
+&lt;li&gt;After the CLA has been signed, the pull request does not get automatically
+updated with this new information. Contributors used to have to ping a core
+developer to update the label on the PR, and a core developer has to come back
+to the PR and remove the label. This has gotten better recently, with the
+&lt;a class="reference external" href="https://check-python-cla.herokuapp.com/"&gt;check-python-cla&lt;/a&gt; website. But it
+still is somewhat manual process.&lt;/li&gt;
+&lt;li&gt;It could take at least a day, sometimes more, for the CLA process to clear. It
+blocks pull requests from being merged.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;It really would be nice if this whole process can be automated, not requires much
+human involvement, and if it can be completed in seconds instead of days.&lt;/p&gt;
+&lt;p&gt;I've been discussing this issue with Brett since early this year. I've also
+started a &lt;a class="reference external" href="https://mail.python.org/mm3/archives/list/core-workflow&amp;#64;python.org/thread/JBV3XJVD2DLDX5DY7TZEA6CO5YPNHJ2C/"&gt;couple threads&lt;/a&gt;
+in core-workflow mailing list. Per Yury's suggestion, I've started looking into
+&lt;a class="reference external" href="https://cla-assistant.io/"&gt;cla-assistant&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;During the sprint, I got to discuss this more with Brett on how to proceed.&lt;/p&gt;
+&lt;p&gt;My personal preference is actually use the hosted version of cla-assistant,
+so we don't have to maintain it. (&lt;strong&gt;We&lt;/strong&gt; here really means only myself, Brett,
+and Ernest).&lt;/p&gt;
+&lt;p&gt;People expressed concern that the system could go away quite suddenly, so
+we're going to need to have some fail-safe mechanism if that ever happens.&lt;/p&gt;
+&lt;p&gt;I think the problem of &amp;quot;what if this goes away suddenly&amp;quot; is not be unique problem
+to Python. I'm now actually curious to hear from other projects that use hosted
+cla-assistant, and if they have their own backup plan in place.&lt;/p&gt;
+&lt;p&gt;I chatted with Ernest, and he said it will be easy enough for us to host our
+own instance of CLA assistant. Ernest has started looking into it.&lt;/p&gt;
+&lt;p&gt;Several outstanding issues with cla-assistant:&lt;/p&gt;
+&lt;ul class="simple"&gt;
+&lt;li&gt;How does it handle people who signed on behalf of an organization?&lt;/li&gt;
+&lt;li&gt;It allows us to &lt;a class="reference external" href="https://github.com/cla-assistant/cla-assistant#request-more-information-from-the-cla-signer"&gt;request more information from the CLA signer&lt;/a&gt;,
+but when we export the data, the additional metada were not returned. It seems
+like a bug.&lt;/li&gt;
+&lt;li&gt;How do we get daily backups automatically? It seems like the only way to get the
+backup is by going to the website, and click on a menu item that says &amp;quot;Export&amp;quot;.
+Is there an API endpoint we can use, or do we need to build it ourselves?&lt;/li&gt;
+&lt;li&gt;How do we export out current signed CLAs from the bug tracker to cla-assistant?
+Ezio had actually started working on getting me a &lt;tt class="docutils literal"&gt;.csv&lt;/tt&gt; for it.&lt;/li&gt;
+&lt;/ul&gt;
+&lt;p&gt;I ran out of time and energy to follow through with all of the above during the
+sprint, so sadly we're still not yet using this new system.&lt;/p&gt;
+&lt;p&gt;Thanks Brett, Ernest, and Ezio for looking into this with me.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="fake-f-strings"&gt;
+&lt;h2&gt;Fake f-strings&lt;/h2&gt;
+&lt;p&gt;I selfishly wanted Larry to &lt;a class="reference external" href="https://github.com/python/core-workflow/issues/283"&gt;drop Python 3.5 support&lt;/a&gt; in blurb. Blurb was
+initially written with f-strings, but later on, all f-strings were replaced with
+&lt;a class="reference external" href="https://github.com/python/core-workflow/pull/146"&gt;str.format&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I've been quite disappointed about it since last year, and I know I actually
+have better things to do than being sad about a tool so crucial for CPython does
+not have any f-strings in it.&lt;/p&gt;
+&lt;p&gt;Anyways, Larry entertained my selfish request and came up with &lt;a class="reference external" href="https://github.com/python/core-workflow/pull/288"&gt;fake f-strings&lt;/a&gt;.&lt;/p&gt;
+&lt;p&gt;I'll take it. Thanks Larry.&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="real-f-strings-and-asyncio"&gt;
+&lt;h2&gt;Real f-strings and asyncio&lt;/h2&gt;
+&lt;p&gt;Up until the sprint, I had never tried doing something like &lt;tt class="docutils literal"&gt;&lt;span class="pre"&gt;f&amp;quot;{await&lt;/span&gt; &lt;span class="pre"&gt;somecoroutine()}&amp;quot;&lt;/span&gt;&lt;/tt&gt;,
+so I didn't know if it would even work. Since the creators and maintainers of
+f-strings and asyncio are in the room, I thought I'll just ask them if it can work,
+and I should get a quick firm &amp;quot;yes/no&amp;quot; answer.&lt;/p&gt;
+&lt;p&gt;There was slight hesitation from core devs in answering such question.&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;It should work?&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;&lt;em&gt;&amp;quot;I think so?&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;So Brett wrote us a small script to see if it will really work, with myself and
+Eric V. Smith as witness. The result is, this works for Python 3.7+.&lt;/p&gt;
+&lt;p&gt;I found out later that it does not work in Python 3.6, but I don't actually know
+the reason why. Something changed with how &lt;tt class="docutils literal"&gt;await&lt;/tt&gt; works between 3.6 and 3.7?&lt;/p&gt;
+&lt;p&gt;🤷🏻‍♀&lt;/p&gt;
+&lt;p&gt;&lt;strong&gt;Update:&lt;/strong&gt; Yury &lt;a class="reference external" href="https://twitter.com/1st1/status/1042858310641152001"&gt;commented on twitter&lt;/a&gt;:
+&lt;em&gt;&amp;quot;yes, this needs Python 3.7+ to work. Before 3.7 async and await were not proper
+keywords, so the interpreter did not recognize them in some contexts.&amp;quot;&lt;/em&gt;&lt;/p&gt;
+&lt;p&gt;Thanks Yury! Now we have new reason to start using Python 3.7+!&lt;/p&gt;
+&lt;/div&gt;
+&lt;div class="section" id="to-be-continued"&gt;
+&lt;h2&gt;To be continued&lt;/h2&gt;
+&lt;p&gt;There will be Part 3, &lt;em&gt;someday&lt;/em&gt;.&lt;/p&gt;
+&lt;p&gt;Thanks for reading.&lt;/p&gt;
+&lt;/div&gt;
+</content><category term="Python"></category><category term="sprint"></category><category term="cla"></category><category term="pep581"></category></entry></feed>
