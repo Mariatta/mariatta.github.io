@@ -1,0 +1,33 @@
+# section information
+section:
+  name: Recent Talks
+  id: publications
+  enable: true
+  weight: 6
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# your publications
+publications:
+- title: PEP Talk
+  publishedIn:
+    name: North Bay Python
+    date: 29 July 2023
+    url: https://2023.northbaypython.org/
+  paper:
+    summary: "If you use Python, chances are you've heard of PEP 8, the Python style guide. But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement Proposal. It's a proposal documentation for when you want to change the Python programming language in a big way, for example when you want to change the syntax of Python. Think of the addition of f-strings, the walrus operator, or the ExceptionGroup, those changes all started with a PEP. Let's have a PEP talk, where you can learn about the PEP process, what needs a PEP and what doesn't, and how you as community members can take part."
+    url: https://www.youtube.com/watch?v=7OHGugQkYzA
+  categories: ["python"]
+  tags: ["python"]
+
+- title: There's an API for That!
+  publishedIn:
+    name: WWCode BlockDataPy Dev Summit
+    date: 27 July 2023
+    url: https://hopin.com/events/blockdatapy/registration
+  paper:
+    summary: "You might have seen bots like GitHub bots, Discord bots, Slack bots. How do these bots work? There's an API for that! You can use third-party APIs to build web apps and automations, including bots. Come learn the best practices on how to work with APIs using Python."
+  categories: ["python", "api"]
+  tags: ["python", "api"]

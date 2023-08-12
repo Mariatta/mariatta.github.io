@@ -1,0 +1,56 @@
+# section information
+section:
+  name: About
+  id: about
+  enable: true
+  weight: 1
+  showOnNavbar: true
+  template: sections/about.html
+
+
+# a summary about you
+summary: "I'm an open source maintainer and contributor. As a Python core developer, my main focus is to improve the core workflow and documentation. I'm active in the Python community as an advisor and administrator for the Global PyLadies, co-founder of PyCascades. I'm chairing the PyCon US conference for the years 2023-2024.
+
+For my contributions to the Python and community, I've received the PSF Community Service Award in 2018 and Google Open Source Peer Bonus Award in 2017 and 2020."
+
+# your social links
+# give as many as you want. use font-awesome for the icons.
+socialLinks:
+- name: Email
+  icon: "fas fa-envelope"
+  url: "mariatta@mariatta.ca"
+
+- name: Github
+  icon: "fab fa-github"
+  url: "https://www.github.com/mariatta"
+
+- name: Mastodon
+  icon: "fab fa-mastodon"
+  url: "https://fosstodon.org/@mariatta"
+
+- name: Instagram
+  icon: "fab fa-instagram"
+  url: "https://instagram.com/mariatta81"
+
+- name: LinkedIn
+  icon: "fab fa-linkedin"
+  url: "https://linkedin.com/in/mariatta"
+
+- name: Twitter
+  icon: "fab fa-twitter"
+  url: "https://twitter.com/mariatta"
+
+- name: Stackoverflow
+  icon: "fab fa-stack-overflow"
+  url: "https://stackoverflow.com/users/1757185/mariatta"
+
+
+# You can put custom buttons to link your relevant resources.
+# For example, you can put link for your resume.
+resourceLinks:
+- title: "Speaker Bio"
+  url: "/notes/speaker_assets"
+- title: "Headshot"
+  url: "files/mariatta.png"
+- title: "Talk abstracts"
+  url: "/notes/talks"

@@ -1,0 +1,25 @@
+# section information
+section:
+  name: Highlights
+  id: achievements
+  enable: true
+  weight: 9
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  hideTitle: true
+
+# Your achievements achievements
+achievements:
+
+- title: PyLadies @ PyCascades 2020
+  image: /images/sections/achievements/PyCascades_PyLadies_ice_cream_selfie.jpeg
+  summary: Ice Cream Selfie at PyCascades with PyLadies Lorena and Elaine
+- title: Women Who Code BlockDataPy Summit Closing Keynote 2023
+  image: /images/sections/achievements/wwcode_blockdatapy_selfie.jpg
+  summary: Presenting Keynote for WWCode BlockDataPy Summit
+- title: PyCon US 2023
+  image: /images/sections/achievements/PyConUs2023_ice_cream_selfie.jpeg
+  summary: Ice Cream Selfie at PyCon US 2023 with Cheuk-Ting, Georgi, and Zac
+- title: PyNutella
+  image: /images/sections/achievements/pynutella.jpeg
+  summary: PyNutella (Gift from Cristian Heimes)

@@ -1,0 +1,43 @@
+# section information
+section:
+  name: Accomplishments
+  id: accomplishments
+  enable: true
+  weight: 8
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+
+# Your accomplishments
+accomplishments:
+
+- name: Google Open Source Peer Bonus
+  timeline: "October 2020"
+  organization:
+    name: Google Open Source
+    url: https://opensource.googleblog.com/2020/10/announcing-latest-google-open-source.html
+  courseOverview: "The Google Open Source Peer Bonus program rewards external open source contributors nominated by Googlers for their exceptional contributions to open source. Historically, the program was primarily focused on rewarding developers. Over the years the program has evolved—rewarding not just software engineers contributors from every part of open source—including technical writers, user experience and graphic designers, community managers and marketers, mentors and educators, ops and security experts."
+  certificateURL: 'files/Open Source Peer Bonus Q1 2020.pdf'
+
+- name: Python Software Foundation Fellow Member
+  timeline: "October 2020"
+  organization:
+    name: Python Software Foundation
+    url: https://pyfound.blogspot.com/2020/10/python-software-foundation-fellow.html
+  courseOverview: The above members help support the Python ecosystem by contributing to CPython, contributing to the PyLadies community, maintaining Python libraries, creating educational material, translating courses, organizing Python events and conferences, starting Python communities in local regions, and overall being great mentors in our community. Each of them continues to help make Python more accessible around the world. To learn more about the new Fellow members, check out their links above.
+
+- name: Python Software Foundation Community Service Award 2018 Q3
+  timeline: "September 2018"
+  organization:
+    name: Python Software Foundation
+    url: https://pyfound.blogspot.com/2019/02/the-north-star-of-pycascades-core.html
+  courseOverview: RESOLVED, that the Python Software Foundation award the Q3 2018 Community Service Award to Mariatta Wijaya for her contributions to CPython, diversity efforts for the Python Core Contributor team, and her work on PyCascades.
+
+- name: Google Open Source Peer Bonus
+  timeline: "October 2017"
+  organization:
+    name: Google Open Source
+    url: https://opensource.googleblog.com/2017/10/more-open-source-peer-bonus-winners.html
+  courseOverview: "We’re excited to announce 2017’s second round of Open Source Peer Bonus winners. Google Open Source established this program six years ago to encourage Googlers to recognize and celebrate external contributors to the open source ecosystem Google depends on."
+  certificateURL: 'files/Open Source Peer Bonus 2017.pdf'

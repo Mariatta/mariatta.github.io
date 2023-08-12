@@ -1,0 +1,85 @@
+# section information
+section:
+  name: Experiences
+  id: experiences
+  enable: true
+  weight: 3
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true 
+
+# Your experiences
+experiences:
+- company:
+    name: Google
+    url: "https://www.google.com"
+    location: Remote
+    # company overview
+  positions:
+  - designation: Senior Developer Relations Engineer - Cloud Native Databases
+    start: Nov 2021
+    # don't provide end date if you are currently working there. It will be replaced by "Present"
+    end: May 2023
+    # give some points about what was your responsibilities at the company.
+    responsibilities:
+    - Maintains open source Python client libraries for Google Cloud Native Database products (Datastore, BigTable, and Firestore)
+
+- company:
+    name: Uplight Inc.
+    url: "https://www.uplight.com"
+    location: Remote
+  positions:
+  - designation: Staff Software Engineer
+    start: November 2020
+    end: November 2021
+    responsibilities:
+    - Provide technical direction on best practises of Python and Software Engineering
+    - Mentor team members who are in the earlier stage of their career
+
+- company:
+    name: Zapier
+    url: "https://www.zapier.com"
+    location: Remote
+  positions:
+  - designation: Software Engineer
+    start: January 2018
+    end: November 2020
+
+- company:
+    name: Sony Pictures Imageworks
+    url: "https://www.imageworks.com"
+    location: Vancouver
+  positions:
+  - designation: Software Engineer
+    start: May 2014
+    end: November 2017
+
+- company:
+    name: Vendasta Technologies Inc.
+    url: "https://www.vendasta.com"
+    location: Saskatoon
+  positions:
+  - designation: Software Developer
+    start: October 2008
+    end: May 2014
+
+- company:
+    name: PTI Inc
+    url: www.ptisolutions.net
+    location: Trois Rivieres
+  positions:
+    - designation: Software Developer
+      start: September 2007
+      end: September 2008
+
+- company:
+    name: International Road Dynamics Inc
+    url: www.irdinc.com
+    location: Saskatoon
+  positions:
+    - designation: Software Developer
+      start: July 2005
+      end: April 2007
+    - designation: Computer Science Intern
+      start: May 2003
+      end: August 2004

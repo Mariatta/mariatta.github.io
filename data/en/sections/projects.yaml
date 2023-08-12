@@ -1,0 +1,95 @@
+# section information
+section:
+  name: Projects
+  id: projects
+  enable: true
+  weight: 5
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+# filter buttons
+buttons:
+- name: All
+  filter: "all"
+- name: Python
+  filter: "python"
+- name: Community
+  filter: "community"
+- name: PyLadies
+  filter: "pyladies"
+- name: Bot
+  filter: "bot"
+
+# your projects
+projects:
+- name: PyCon US 2023
+  logo: /images/sections/projects/pycon_us_2023_logo.jpg
+  role: Conference Chair
+  timeline: "2023"
+  url: "https://us.pycon.org"
+  summary: PyCon US is the largest Python conference in the world. In 2023, we celebrated 20 years of PyCon US.
+  tags: ["python", "conference", "community"]
+
+- name: PyLadiesCon 2023
+  logo: /images/sections/projects/pyladies_logo.png
+  role: Volunteer, Organizer
+  timeline: "2023"
+  url: "https://conference.pyladies.com"
+  summary: PyCon US is the largest Python conference in the world. In 2023, we celebrated 20 years of PyCon US.
+  tags: ["python", "pyladies", "conference", "community"]
+
+- name: PyLadies
+  role: Global Advisor, Administrator
+  logo: /images/sections/projects/pyladies_logo.png
+  timeline: "2019 - present"
+  repo: "https://github.com/pyladies/pyladies"
+  summary: The first PyLadies Conference, taking place online in December 2023.
+  tags: ["python", "pyladies", "community"]
+
+- name: miss-islington
+  repo: https://github.com/python/miss-islington
+  logo: /images/sections/projects/miss_islington.jpeg
+  summary: 🐍🍒⛏🤖 - A bot for backporting and merging CPython pull requests
+  tags: ["python", "bot"]
+
+- name: bedevere
+  repo: https://github.com/python/bedevere
+  logo: /images/sections/projects/bedevere.png
+  summary: A bot to help identify missing information for CPython pull requests
+  tags: ["python", "bot"]
+
+- name: gidgethub
+  repo: https://github.com/gidgethub/gidgethub
+  logo: /images/sections/projects/gidget.jpeg
+  #url: ""
+  summary: An async GitHub API library for Python
+  tags: ["python"]
+
+- name: Python docs community
+  repo: https://github.com/python/docs-community
+  logo: /images/sections/projects/python_logo.png
+  summary: Community management for documentation contributors and the Docs Workgroup
+  tags: ["python", "community"]
+
+- name: CPython
+  repo: https://github.com/python/cpython
+  logo: /images/sections/projects/python_logo.png
+  summary: The Python programming language
+  tags: ["python"]
+
+- name: PyLadies Vancouver
+  role: Organizer
+  logo: /images/sections/projects/pyladies_logo.png
+  timeline: "2016 - present"
+  url: "https://www.meetup.com/pyladies-vancouver/"
+  summary: PyLadies Vancouver is a Python programming group for women in the Vancouver area. We welcome people who have never programmed before, experienced programmers, and everyone in between.
+  tags: ["python", "pyladies", "community"]
+
+- name: PyCascades
+  logo: /images/sections/projects/pycascades.png
+  role: Conference Staff, Co-founder
+  timeline: "2018-2020"
+  url: "https://pycascades.com"
+  summary: PyCascades is a regional PyCon in the Pacific Northwest, celebrating the west coast Python developer and user community. Our organizing team includes members of the Vancouver, Seattle, and Portland Python user groups.
+  tags: ["python", "conference", "community"]

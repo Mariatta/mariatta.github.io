@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Talk Abstracts on Mariatta</title>
+    <link>https://mariatta.ca/notes/talk_abstracts/</link>
+    <description>Recent content in Talk Abstracts on Mariatta</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language><atom:link href="https://mariatta.ca/notes/talk_abstracts/index.xml" rel="self" type="application/rss+xml" /><item>
+      <title>aaaa</title>
+      <link>https://mariatta.ca/notes/talk_abstracts/api_for_that/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariatta.ca/notes/talk_abstracts/api_for_that/</guid>
+      <description>{{ }}
+Talk Abstract hahahaha
+{{ }}
+{{ }}
+blablabla {{ }}</description>
+    </item>
+    
+    <item>
+      <title>Intro to Unit Testing and Continuous Integration</title>
+      <link>https://mariatta.ca/notes/talk_abstracts/intro_to_unit_test_and_ci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariatta.ca/notes/talk_abstracts/intro_to_unit_test_and_ci/</guid>
+      <description>Intro to Unit Testing and Continuous Integration Talk Abstract Having unit tests and continuous integration (CI) as part of your development are considered best practises. But how do these things work? In this talk, we will cover the benefits of writing unit tests and how to get started with it in Python. Then, we&amp;rsquo;ll step it up running tests as part CI. And that&amp;rsquo;s not all! CI is not just about running tests, but for other things as well, like code quality checks, and even building and generating documentation.</description>
+    </item>
+    
+    <item>
+      <title>PEP Talk</title>
+      <link>https://mariatta.ca/notes/talk_abstracts/pep_talk/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>https://mariatta.ca/notes/talk_abstracts/pep_talk/</guid>
+      <description>PEP Talk Talk Abstract If you use Python, chances are you&amp;rsquo;ve heard of PEP 8, the Python style guide.
+But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement Proposal. It&amp;rsquo;s a proposal documentation for when you want to change the Python programming language in a big way, for example when you want to change the syntax of Python.</description>
+    </item>
+    
+    
+  </channel>
+</rss>

@@ -1,0 +1,22 @@
+# section information
+section:
+  name: Education
+  id: education
+  template: sections/education.html # Use "sections/education-alt.html for alternate template.
+  enable: true
+  weight: 4
+  showOnNavbar: true
+  # Can optionally hide the title in sections
+  # hideTitle: true
+
+degrees:
+- name: B.Sc. Honours in Computer Science
+  icon: fa-graduation-cap
+  timeframe: 2000-2005
+  institution:
+    name: University of Saskatchewan
+    url: "https://www.cs.usask.ca"
+
+  publications: #(optional)
+  - title: Semi-Random Terrain Generation. Presented at Graphics Interface 2005
+    url: "https://www.cs.ubc.ca/~van/GI2005/Posters/GI-Authors.htm"
