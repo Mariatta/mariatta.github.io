@@ -11,6 +11,7 @@ menu:
 <!-- Speaker Bio -->
 {{< note title="PEP Talk" >}}
 
+# PEP Talk
 
 ## Talk Abstract
 
@@ -22,31 +23,28 @@ Let's have a PEP talk, where you can learn about the PEP process, what needs a P
 
 **Contact me (links below) if you'd like to hear this talk at your event.**
 
-{{</note>}}
-
-{{<note title="Presented at:">}}
+## Presented At
 
 - North Bay Python 2023
 - PyGotham 2023
 
-{{</note>}}
-{{<note title="Videos">}}
+## Videos
+
 ### North Bay Python 2023
 
 {{< youtube 7OHGugQkYzA >}}
-{{</note>}}
 
-{{<note title="Slide Deck">}}
+
+## Slide Deck
+
 <script defer class="speakerdeck-embed" data-id="c042a50d27db4425ba73310b1e01baca" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-{{</note>}}
-
-{{<note title="Notes">}}
+## Intended Audience
 
 This is aimed for newcomers and beginners of Python, who may have only heard of PEP 8 and not so much of other PEPs. I will cover what PEPs really are, the purpose, examples of PEPs, and how community member can participate if they want to.
-{{</note>}}
 
-{{<note title="Talk outline">}}
+
+## Talk Outline
 
 
 ### What's a PEP 

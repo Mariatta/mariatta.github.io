@@ -11,7 +11,9 @@ menu:
 
 {{<note title="Making The Most Out of Code Reviews">}}
 
-# Talk Abstract 
+# Making the most out of Code Reviews
+
+## Talk Abstract 
 
 
 Code review is like a buzzword in the programming world. Developers often talk about how important it is.
@@ -20,18 +22,14 @@ This talk will present ideas of what should be the goals of a code review, and h
 
 
 
-{{</note>}}
-
-{{<note title="Presented at:">}}
+## Presented At
 
 - VanPyDay 2016
 - DjangoCon US 2016
 
-{{</note>}}
+## Videos
 
-{{<note title="Videos">}}
-
-# DjangoCon US 2016
+### DjangoCon US 2016
 
 {{<youtube QgwUvaNjlRM>}}
 
