@@ -52,5 +52,5 @@ resourceLinks:
   url: "/notes/speaker_assets"
 - title: "Headshot"
   url: "files/mariatta.png"
-- title: "Talk abstracts"
-  url: "/notes/talks"
+- title: "Talks"
+  url: "/notes/talks/"

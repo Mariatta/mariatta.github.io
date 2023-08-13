@@ -1,4 +1,4 @@
-module github.com/mariatta/mariatta_web
+module github.com/mariatta/mariatta.github.io
 
 go 1.19
 
