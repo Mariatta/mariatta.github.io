@@ -2,7 +2,7 @@
 title: Talks
 menu:
   notes:
-    name: Talk
+    name: Talks
     identifier: talks
     weight: 20
 ---

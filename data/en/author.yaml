@@ -10,7 +10,8 @@ contactInfo:
   email: "mariatta@mariatta.ca"
   github: mariatta
   linkedin: mariatta
-
+  twitter: mariatta
+  mastodon: https://fosstodon.org/@mariatta
 # some summary about what you do
 summary:
   - Open Source Maintainer
