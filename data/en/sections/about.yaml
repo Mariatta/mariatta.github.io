@@ -44,6 +44,9 @@ socialLinks:
   icon: "fab fa-stack-overflow"
   url: "https://stackoverflow.com/users/1757185/mariatta"
 
+- name: RSS
+  icon: "fa-solid fa-rss"
+  url: "https://mariatta.ca/index.xml"
 
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
