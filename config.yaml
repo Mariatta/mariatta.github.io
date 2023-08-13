@@ -58,7 +58,7 @@ params:
   # GitHub repo of your site
   gitRepo: https://github.com/mariatta/mariatta.github.io
   # Default branch of your Git repo
-  gitBranch: main
+  gitBranch: gh-pages
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
