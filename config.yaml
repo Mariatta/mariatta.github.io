@@ -86,7 +86,7 @@ params:
 
     # Enable and configure blog posts
     blog:
-      enable: false
+      enable: true
       # Share post on different social media
       shareButtons:
         facebook: true
@@ -113,7 +113,7 @@ params:
       services:
         # Google Analytics
         google:
-          id: G-LG00YN1VM1
+          id: G-1T2VT3L88K
 
     # Enable Support
     support:
