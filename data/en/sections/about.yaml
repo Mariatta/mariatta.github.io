@@ -52,8 +52,6 @@ socialLinks:
 # For example, you can put link for your resume.
 resourceLinks:
 - title: "Speaker Bio"
-  url: "/notes/speaker_assets"
-- title: "Headshot"
-  url: "files/mariatta.png"
-- title: "Talks"
-  url: "/notes/talks/"
+  url: "/posts/speaker_assets"
+- title: "My Talks"
+  url: "/posts/talks/"
