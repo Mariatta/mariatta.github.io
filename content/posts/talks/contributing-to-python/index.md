@@ -1,16 +1,17 @@
 ---
 title: Contributing to Python
+date: 2023-08-14T00:00:00+06:00
 weight: 20
 menu:
-  notes:
+  sidebar:
     name: Contributing to Python
     identifier: contributing-to-python
     weight: 20
     parent: talks
+hero: indypy.jpeg
+tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
 ---
 
-{{<note title="Contributing To Python">}}
-# Contributing to Python
 
 ## Talk Abstract
 
@@ -21,6 +22,10 @@ Python is one of the most popular programming language out there, and it is also
 ## Presented at:
 
 - [IndyPy 2023](https://sixfeetup.com/company/events/indypy-january-meetup)
+
+## Reactions
+
+{{<tweet user="indypy" id="1612977651605454848">}}
 
 ## Videos
 
@@ -33,4 +38,3 @@ Python is one of the most popular programming language out there, and it is also
 
 <script defer class="speakerdeck-embed" data-id="c0bb3486bded4c97b06f3b00faf6e1c6" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-{{</note>}}

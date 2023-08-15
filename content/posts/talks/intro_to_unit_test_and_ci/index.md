@@ -1,17 +1,17 @@
 ---
 title: Intro to Unit Testing and Continuous Integration
+date: 2023-08-14T00:00:00+06:00
 weight: 20
 menu:
-  notes:
+  sidebar:
     name: Intro to Unit Testing and Continuous Integration
     identifier: intro-unit-test-ci
     weight: 20
     parent: talks
+hero: dataumbrella.jpeg
+tags: ["Public Speaking", "Talks", "Python", "Workflow"]
 ---
-<!-- Speaker Bio -->
-{{< note title="Intro to Unit Testing and Continuous Integration" >}}
 
-# Intro to Unit Testing and Continuous Integration
 
 ## Talk Abstract
 
@@ -41,6 +41,3 @@ Having unit tests and continuous integration (CI) as part of your development ar
 ## Slide Deck
 
 <script defer class="speakerdeck-embed" data-id="86e166d1c291441d8ee2904f463e6db9" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-
-
-{{< /note >}}

@@ -1,17 +1,18 @@
 ---
 title: Making The Most out of Code Reviews
+date: 2023-08-14T00:00:00+06:00
 weight: 20
 menu:
-  notes:
+  sidebar: 
     name: Making The Most Out of Code Reviews
     identifier: making-the-most-out-of-code-reviews
     weight: 20
     parent: talks
+tags: ["Public Speaking", "Talks", "Workflow"]
+hero: djangocon2016.jpg
 ---
 
-{{<note title="Making The Most Out of Code Reviews">}}
 
-# Making the most out of Code Reviews
 
 ## Talk Abstract 
 
@@ -34,4 +35,3 @@ This talk will present ideas of what should be the goals of a code review, and h
 {{<youtube QgwUvaNjlRM>}}
 
 
-{{</note>}}

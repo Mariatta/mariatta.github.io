@@ -1,15 +1,18 @@
 ---
 title: There's an API for That!
+date: 2023-08-14T00:00:00+06:00
 weight: 20
 menu:
-  notes:
+  sidebar:
     name: There's an API for That!
     identifier: theres-an-api-for-that
     weight: 20
     parent: talks
+hero: theres_api_for_that.jpg
+tags: ["Public Speaking", "Talks", "Python", "Bots", "Open Source"]
+
 ---
 
-{{< note title="There's an API for That!" >}}
 
 # There's an API For That!
 
@@ -24,6 +27,14 @@ You might have seen bots like GitHub bots, Discord bots, Slack bots. How do thes
 - WWCode BlockDataPy Dev Summit 2023
 - PyCon Colombia 2020
 
+## Reactions
+
+{{<tweet user="pyconcolombia" id="1553907900321615873">}}
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7090393699938938880" height="591" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:activity:7090374133162618881" height="591" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
 ## Videos
 
 ### PyCon Colombia 2020
@@ -32,8 +43,5 @@ You might have seen bots like GitHub bots, Discord bots, Slack bots. How do thes
 
 ## Slide Deck
 
-
-
 <script defer class="speakerdeck-embed" data-id="c3b73804e3e64428adbc8e830fcc4b51" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
-{{</note>}}
