@@ -22,3 +22,9 @@ openGraph:
   description: Portfolio and personal blog of Mariatta
   image: images/author/mariatta.png
   url: https://mariatta.ca
+
+customMenus:
+  - name: My Talks
+    url: /posts/talks/
+    hidefromNavbar: false
+    showOnFooter: true

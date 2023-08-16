@@ -8,7 +8,7 @@ menu:
     name: Speaker Bio
     identifier: speaker-bio
     weight: 20
-hero: icecreamselfiecollection.png
+hero: images/icecreamselfies/collection.png
 tags: ["Public Speaking"]
 ---
 

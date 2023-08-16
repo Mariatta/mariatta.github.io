@@ -1,6 +1,6 @@
 ---
 title: Contributing to Python
-date: 2023-08-14T00:00:00+06:00
+date: 2023-01-11T00:00:00+06:00
 weight: 20
 menu:
   sidebar:

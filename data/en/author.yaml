@@ -11,7 +11,11 @@ contactInfo:
   github: mariatta
   linkedin: mariatta
   twitter: mariatta
-  mastodon: https://fosstodon.org/@mariatta
+  mastodon:
+    icon: mastodon
+    url: "https://fosstodon.org/@mariatta"
+    text: "@mariatta@fosstodon.org"
+
 # some summary about what you do
 summary:
   - Open Source Maintainer

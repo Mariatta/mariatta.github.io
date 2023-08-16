@@ -1,7 +1,7 @@
 ---
 title: PEP Talk
 weight: 20
-date: 2023-08-14T00:00:00+06:00
+date: 2023-07-29T00:00:00+06:00
 menu:
   sidebar:
     name: PEP Talk

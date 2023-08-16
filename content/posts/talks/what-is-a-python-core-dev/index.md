@@ -1,6 +1,6 @@
 ---
 title: What Is a Python Core Developer?
-date: 2023-08-14T00:00:00+06:00
+date: 2018-11-03T00:00:00+06:00
 weight: 20
 menu:
   sidebar:

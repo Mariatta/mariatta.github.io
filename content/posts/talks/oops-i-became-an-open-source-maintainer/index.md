@@ -1,6 +1,6 @@
 ---
 title: Oops! I Became an Open Source Maintainer! 😱
-date: 2023-08-14T00:00:00+06:00
+date: 2021-05-14T17:09:00+06:00
 weight: 20
 menu:
   sidebar:
@@ -30,6 +30,8 @@ I consider myself relatively new to the open source world; my first open source 
 - PyCon Indonesia 2021
 
 ## Reactions
+
+{{<tweet user="keithTheEE" id="1401041877080674317">}}
 
 {{<tweet user="pagerbooty" id="1327323025247662081">}}
 

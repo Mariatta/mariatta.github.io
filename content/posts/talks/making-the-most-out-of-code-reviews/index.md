@@ -1,6 +1,6 @@
 ---
 title: Making The Most out of Code Reviews
-date: 2023-08-14T00:00:00+06:00
+date: 2016-08-10T00:00:00+06:00
 weight: 20
 menu:
   sidebar: 
