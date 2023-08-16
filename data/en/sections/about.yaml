@@ -27,6 +27,7 @@ socialLinks:
 - name: Mastodon
   icon: "fab fa-mastodon"
   url: "https://fosstodon.org/@mariatta"
+  rel: "me noopener"
 
 - name: Instagram
   icon: "fab fa-instagram"
