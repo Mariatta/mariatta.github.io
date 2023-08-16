@@ -1,5 +1,5 @@
 ---
-title: Ice Cream Selfie @ SeaGL, PyCon Indonesia, PyCon Poland
+title: Ice Cream Selfie @ SeaGL, PyCon Indonesia, PyCon Poland 2020
 date: 2020-12-31T20:44:00+06:00
 weight: 20
 menu:
@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2020
 hero: nov2020.jpg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "PyCon", "SeaGL"]
 ---
 
 It was 2020. I joined so many virtual conferences, and at one point, I was a

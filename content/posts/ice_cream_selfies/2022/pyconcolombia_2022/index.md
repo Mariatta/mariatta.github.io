@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2022
 hero: pyconcolombiaswag.jpg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "PyCon"]
 ---
 
 ## Cows Ice Cream Whistler

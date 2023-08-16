@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2022
 hero: pybr2.jpg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "PyCon", "Manaus", "Brazil"]
 ---
 
 ## Del Monte Gelateria

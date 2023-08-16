@@ -55,3 +55,5 @@ resourceLinks:
   url: "/posts/speaker_bio/"
 - title: "My Talks"
   url: "/posts/talks/"
+- title: "Ice Cream Selfies"
+  url: "/posts/ice_cream_selfies/"

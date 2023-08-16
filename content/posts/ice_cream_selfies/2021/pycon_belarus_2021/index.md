@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2021
 hero: pyconby.jpg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "PyCon"]
 ---
 
 ## Matteo's Gelato

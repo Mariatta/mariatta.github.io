@@ -1,5 +1,5 @@
 ---
-title: Ice Cream Selfie @ PyCon Australia, and PyCon Taiwan
+title: Ice Cream Selfie @ PyCon Australia, and PyCon Taiwan 2020
 date: 2020-09-05T20:44:00+06:00
 weight: 20
 menu:
@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2020
 hero: sep2020.jpg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "PyCon"]
 ---
 
 ## Rocky Point Ice Cream

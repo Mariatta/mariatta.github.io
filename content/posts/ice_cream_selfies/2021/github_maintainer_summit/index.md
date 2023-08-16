@@ -1,5 +1,5 @@
 ---
-title: Ice Cream Selfie @ GitHub Global Maintainer Summit
+title: Ice Cream Selfie @ GitHub Global Maintainer Summit 2021
 date: 2021-06-16T20:44:00+06:00
 weight: 20
 menu:
@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: ice-cream-selfies-2021
 hero: githubmaintainersummit1.jpeg
-tags: ["Ice Cream Selfie", "Conference"]
+tags: ["Ice Cream Selfie", "Conference", "GitHub"]
 ---
 
 ## Snowy Village
