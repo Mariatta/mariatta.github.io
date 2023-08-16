@@ -9,7 +9,7 @@ menu:
     weight: 20
     parent: talks
 tags: ["Public Speaking", "Talks", "Workflow"]
-hero: djangocon2016.jpg
+hero: /images/posts/djangocon2016.jpg
 ---
 
 
