@@ -8,8 +8,10 @@ menu:
     identifier: what-is-a-python-core-dev
     weight: 20
     parent: talks
-hero: nbpy2018.jpg
+hero: /images/posts/nbpy2018.jpg
 tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
+images:
+- /images/posts/nbpy2018.jpg
 ---
 
 ## Talk Abstract

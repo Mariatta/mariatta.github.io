@@ -8,8 +8,10 @@ menu:
     identifier: pyconde
     weight: 20
     parent: ice-cream-selfies-2019
-hero: Neuschwanstein.jpg
+hero: /images/posts/Neuschwanstein.jpg
 tags: ["Ice Cream Selfie", "Conference", "Berlin", "Germany", "Europe", "PyCon"]
+images:
+- /images/posts/Neuschwanstein.jpg
 ---
 
 ## Hokey Pokey

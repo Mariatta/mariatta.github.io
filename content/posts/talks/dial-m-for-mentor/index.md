@@ -8,8 +8,10 @@ menu:
     identifier: dial-m-for-mentor
     weight: 20
     parent: talks
-hero: dialmformentor.jpg
+hero: /images/posts/dialmformentor.jpg
 tags: ["Public Speaking", "Talks", "Mentorship", "Community"]
+images:
+- /images/posts/dialmformentor.jpg
 ---
 
 

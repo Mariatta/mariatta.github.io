@@ -8,8 +8,10 @@ menu:
     identifier: pyconau-pycontw
     weight: 20
     parent: ice-cream-selfies-2020
-hero: sep2020.jpg
+hero: /images/posts/sep2020.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
+images:
+- /images/posts/sep2020.jpg
 ---
 
 ## Rocky Point Ice Cream

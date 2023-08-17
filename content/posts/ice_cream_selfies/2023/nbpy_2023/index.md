@@ -8,8 +8,10 @@ menu:
     identifier: nbpy-2023-ice-cream-selfie
     weight: 20
     parent: ice-cream-selfies-2023
-hero: paulina.jpg
+hero: /images/posts/paulina.jpg
 tags: ["Ice Cream Selfie", "Conference", "Petaluma", "USA", "NBPy"]
+images:
+- /images/posts/paulina.jpg
 ---
 
 ## Angela's Organic Ice Cream Petaluma

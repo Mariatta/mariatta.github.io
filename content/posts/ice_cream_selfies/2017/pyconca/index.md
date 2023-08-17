@@ -8,8 +8,10 @@ menu:
     identifier: pyconca-2017
     weight: 20
     parent: ice-cream-selfies-2017
-hero: pyconca.jpg
+hero: /images/posts/pyconca.jpg
 tags: ["Ice Cream Selfie", "Conference", "Montreal", "PyCon", "Canada"]
+images:
+- /images/posts/pyconca.jpg
 ---
 
 ## La Cabane De Danny

@@ -8,8 +8,10 @@ menu:
     identifier: pycon-us-2019
     weight: 20
     parent: ice-cream-selfies-2019
-hero: mentoredsprints.jpg
+hero: /images/posts/mentoredsprints.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon", "Cleveland", "USA"]
+images:
+- /images/posts/mentoredsprints.jpg
 ---
 
 ## Cathy's Gourmet Ice Cream Sandwiches

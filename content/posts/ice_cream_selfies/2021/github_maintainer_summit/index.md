@@ -8,8 +8,10 @@ menu:
     identifier: github-maintainer-summit-2021
     weight: 20
     parent: ice-cream-selfies-2021
-hero: githubmaintainersummit1.jpeg
+hero: /images/posts/githubmaintainersummit1.jpeg
 tags: ["Ice Cream Selfie", "Conference", "GitHub"]
+images:
+- /images/posts/githubmaintainersummit1.jpeg
 ---
 
 ## Snowy Village

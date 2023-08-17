@@ -8,8 +8,10 @@ menu:
     identifier: dont-be-a-robot
     weight: 20
     parent: talks
-hero: djangocon2018.jpeg
+hero: /images/posts/djangocon2018.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Bots"]
+images:
+- /images/posts/djangocon2018.jpeg
 ---
 
 

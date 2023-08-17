@@ -8,8 +8,10 @@ menu:
     identifier: contributing-to-python
     weight: 20
     parent: talks
-hero: indypy.jpeg
+hero: /images/posts/indypy.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
+images:
+- /images/posts/indypy.jpeg
 ---
 
 

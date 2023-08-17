@@ -8,8 +8,10 @@ menu:
     identifier: pycaribbean-2017
     weight: 20
     parent: ice-cream-selfies-2017
-hero: withkimcrayton.jpg
+hero: /images/posts/withkimcrayton.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCaribbean", "USA", "Puerto Rico"]
+images:
+- /images/posts/withkimcrayton.jpg
 ---
 
 ## Puerto Rico
@@ -17,5 +19,5 @@ tags: ["Ice Cream Selfie", "Conference", "PyCaribbean", "USA", "Puerto Rico"]
 Kim Crayton and I went to Condado Beach prior to the conference. While there,
 there was an ice cream cart, and I couldn't resist not getting ice cream.
 
-{{<img src="pycaribbean.jpg">}}
+{{<img src="pycaribbean.jpg" height="500">}}
 

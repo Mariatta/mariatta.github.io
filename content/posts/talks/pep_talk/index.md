@@ -8,8 +8,10 @@ menu:
     identifier: pep-talk
     weight: 20
     parent: talks
-hero: nbpy2023.jpeg
+hero: /images/posts/nbpy2023.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
+images:
+- /images/posts/nbpy2023.jpeg
 ---
 
 ## Talk Abstract

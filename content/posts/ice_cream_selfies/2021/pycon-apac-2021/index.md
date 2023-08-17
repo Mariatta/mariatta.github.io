@@ -8,8 +8,10 @@ menu:
     identifier: pycon-apac-2021-ice-cream-selfie
     weight: 20
     parent: ice-cream-selfies-2021
-hero: pyconapacswag.jpg
+hero: /images/posts/pyconapacswag.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
+images:
+- /images/posts/pyconapacswag.jpg
 ---
 
 ## Bella Gelateria

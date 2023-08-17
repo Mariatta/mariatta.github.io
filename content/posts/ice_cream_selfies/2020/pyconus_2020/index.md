@@ -8,8 +8,10 @@ menu:
     identifier: pyconus-2020
     weight: 20
     parent: ice-cream-selfies-2020
-hero: april2020.jpg
+hero: /images/posts/april2020.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
+images:
+- /images/posts/april2020.jpg
 ---
 
 PyCon US 2020 was cancelled, but I still decided to record a tutorial for it.

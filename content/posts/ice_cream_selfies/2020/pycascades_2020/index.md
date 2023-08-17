@@ -8,8 +8,10 @@ menu:
     identifier: pycascades-2020
     weight: 20
     parent: ice-cream-selfies-2020
-hero: pycascades.jpg
+hero: /images/posts/pycascades.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyLadies", "Portland", "USA", "PyCascades"]
+images:
+- /images/posts/pycascades.jpg
 ---
 
 ## Fifty Licks Ice Cream

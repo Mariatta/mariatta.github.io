@@ -8,7 +8,9 @@ menu:
     identifier: gh-universe
     weight: 20
     parent: ice-cream-selfies-2019
-hero: gh-universe.jpg
+hero: /images/posts/gh-universe.jpg
+images:
+- /images/posts/gh-universe.jpg
 tags: ["Ice Cream Selfie", "Conference", "San Francisco", "USA", "GitHub"]
 ---
 

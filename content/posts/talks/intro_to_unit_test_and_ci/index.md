@@ -8,8 +8,10 @@ menu:
     identifier: intro-unit-test-ci
     weight: 20
     parent: talks
-hero: dataumbrella.jpeg
+hero: /images/posts/dataumbrella.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Workflow"]
+images:
+- /images/posts/dataumbrella.jpeg
 ---
 
 

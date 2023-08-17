@@ -8,8 +8,10 @@ menu:
     identifier: oops-i-became-an-open-source-maintainer
     weight: 20
     parent: talks
-hero: pygotham.jpeg
+hero: /images/posts/pygotham.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
+images:
+- /images/posts/pygotham.jpeg
 
 ---
 

@@ -8,8 +8,10 @@ menu:
     identifier: zapier
     weight: 20
     parent: ice-cream-selfies-2019
-hero: minneapolis.jpg
+hero: /images/posts/minneapolis.jpg
 tags: ["Ice Cream Selfie", "Minneapolis", "USA"]
+images:
+- /images/posts/minneapolis.jpg
 ---
 
 ## Wonders Ice Cream

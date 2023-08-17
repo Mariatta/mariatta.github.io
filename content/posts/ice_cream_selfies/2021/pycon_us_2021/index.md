@@ -8,8 +8,10 @@ menu:
     identifier: pycon-us-2021-ice-cream-selfie
     weight: 20
     parent: ice-cream-selfies-2021
-hero: pycon2021.jpeg
+hero: /images/posts/pycon2021.jpeg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
+images:
+- /images/posts/pycon2021.jpeg
 ---
 
 ## Vashti Rose In-House Made Ice Cream

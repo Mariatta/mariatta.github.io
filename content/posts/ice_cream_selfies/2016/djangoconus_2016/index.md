@@ -10,6 +10,8 @@ menu:
     parent: ice-cream-selfies-2016
 hero: /images/posts/djangocon2016.jpg
 tags: ["Ice Cream Selfie", "Conference", "Philadelphia", "USA", "DjangoCon"]
+images:
+- /images/posts/djangocon2016.jpg
 ---
 
 ## Capogiro Gelato Artisans

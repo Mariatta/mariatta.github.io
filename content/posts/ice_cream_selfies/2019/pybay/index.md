@@ -8,8 +8,10 @@ menu:
     identifier: pybay
     weight: 20
     parent: ice-cream-selfies-2019
-hero: august2019.jpg
+hero: /images/posts/august2019.jpg
 tags: ["Ice Cream Selfie", "Conference", "San Francisco", "USA", "PyCon", "PyBay"]
+images:
+- /images/posts/august2019.jpg
 ---
 
 ## The Baked Bear

@@ -8,8 +8,10 @@ menu:
     identifier: djeu-pyconit-2017
     weight: 20
     parent: ice-cream-selfies-2017
-hero: djeu.jpg
+hero: /images/posts/djeu.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon", "DjangoCon", "Europe", "Florence"]
+images:
+- /images/posts/djeu.jpg
 ---
 
 Hero image photo by Bartek Pawlik, DjangoCon Europe.

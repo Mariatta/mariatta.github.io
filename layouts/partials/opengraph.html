@@ -1,0 +1,34 @@
+{{ $title       :=  (index site.Data site.Language.Lang).site.openGraph.title | default site.Title }}
+{{ $type        :=  (index site.Data site.Language.Lang).site.openGraph.type | default "website" }}
+{{ $description :=  (index site.Data site.Language.Lang).site.openGraph.description | default  (index site.Data site.Language.Lang).site.description }}
+{{ $image       :=  (index site.Data site.Language.Lang).site.openGraph.image }}
+{{ $url         :=  (index site.Data site.Language.Lang).site.openGraph.url | default site.BaseURL }}
+
+{{ if $image }}
+{{ else}}
+{{ $author:= site.Data.author }}
+{{ if (index site.Data site.Language.Lang).author }}
+  {{ $author = (index site.Data site.Language.Lang).author }}
+{{ end }}
+
+{{ $authorImage:= "/images/default-avatar.png" }}
+{{ if $author.image }}
+  {{ $authorImage = $author.image }}
+{{ end }}
+{{ $authorImage := resources.Get $authorImage }}
+
+{{/* apply image processing. don't use "Fit" in svg or gif because its not supported */}}
+{{ if and $authorImage (and (ne $authorImage.MediaType.SubType "svg") ( ne $authorImage.MediaType.SubType "gif")) }}
+  {{ $authorImage = $authorImage.Fit "148x148" }}
+{{ end }}
+
+{{ $image = $authorImage.RelPermalink}}
+{{ end }}
+<!-- ============ open graph tags ========== -->
+<meta property="og:title" content="{{ $title }}"/>
+<meta property="og:type" content="{{ $type }}"/>
+<meta property="og:description" content="{{ $description }}"/>
+<meta property="og:image" content="{{ $image | absURL}}">
+<meta property="og:url" content="{{ $url }}">
+
+{{ template "_internal/twitter_cards.html" . }}

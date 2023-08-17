@@ -8,8 +8,10 @@ menu:
     identifier: seagl-pyconid-pyconpl
     weight: 20
     parent: ice-cream-selfies-2020
-hero: nov2020.jpg
+hero: /images/posts/nov2020.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon", "SeaGL"]
+images:
+- /images/posts/nov2020.jpg
 ---
 
 It was 2020. I joined so many virtual conferences, and at one point, I was a

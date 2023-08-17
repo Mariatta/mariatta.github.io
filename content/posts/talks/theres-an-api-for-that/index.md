@@ -8,9 +8,10 @@ menu:
     identifier: theres-an-api-for-that
     weight: 20
     parent: talks
-hero: theres_api_for_that.jpg
+hero: /images/posts/theres_api_for_that.jpg
 tags: ["Public Speaking", "Talks", "Python", "Bots", "Open Source"]
-
+images:
+- /images/posts/theres_api_for_that.jpg
 ---
 
 

@@ -8,8 +8,10 @@ menu:
     identifier: djangoconus-2018
     weight: 20
     parent: ice-cream-selfies-2018
-hero: djus2018.jpg
+hero: /images/posts/djus2018.jpg
 tags: ["Ice Cream Selfie", "Conference", "DjangoCon", "USA", "San Diego"]
+images:
+- /images/posts/djus2018.jpg
 ---
 
 ## Hammond's Gourmet Ice Cream

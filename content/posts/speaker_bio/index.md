@@ -10,6 +10,8 @@ menu:
     weight: 20
 hero: images/icecreamselfies/collection.png
 tags: ["Public Speaking"]
+images:
+- images/icecreamselfies/collection.png
 ---
 
 
@@ -27,4 +29,4 @@ For her contributions to the Python and community, she received the PSF Communit
 You can use the following headshot as my speaker profile. It is also available for download on https://github.com/mariatta.png
 
 
-{{< img src="/files/mariatta.png" align="center" title="Mariatta's Speaker Headshot">}}
+{{< img src="mariatta.png" align="center" title="Mariatta's Speaker Headshot">}}

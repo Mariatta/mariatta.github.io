@@ -8,8 +8,10 @@ menu:
     identifier: pycascades-2021
     weight: 20
     parent: ice-cream-selfies-2021
-hero: pycascades2021.jpg
+hero: /images/posts/pycascades2021.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCascades"]
+images:
+- /images/posts/pycascades2021.jpg
 ---
 
 

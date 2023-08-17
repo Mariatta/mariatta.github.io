@@ -8,8 +8,10 @@ menu:
     identifier: pybrasil-2022-ice-cream-selfie
     weight: 20
     parent: ice-cream-selfies-2022
-hero: pybr2.jpg
+hero: /images/posts/pybr2.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon", "Manaus", "Brazil"]
+images:
+- /images/posts/pybr2.jpg
 ---
 
 ## Del Monte Gelateria

@@ -8,8 +8,10 @@ menu:
     identifier: pyconau-2017
     weight: 20
     parent: ice-cream-selfies-2017
-hero: australia.jpg
+hero: images/posts/australia.jpg
 tags: ["Ice Cream Selfie", "Conference", "Australia", "Melbourne", "PyCon"]
+images:
+- /images/posts/australia.jpg
 ---
 
 ## Milkcow Australia

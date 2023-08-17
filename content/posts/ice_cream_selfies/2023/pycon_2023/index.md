@@ -8,8 +8,10 @@ menu:
     identifier: pycon-us-2023-ice-cream-selfie
     weight: 20
     parent: ice-cream-selfies-2023
-hero: pyconusselfie.jpg
+hero: /images/posts/pyconusselfie.jpg
 tags: ["Ice Cream Selfie", "Conference", "Salt Lake City", "USA"]
+images:
+- /images/posts/pyconusselfie.jpg
 ---
 
 PyCon US 2023 was really special 😊 I get to do Ice cream selfies with various people!

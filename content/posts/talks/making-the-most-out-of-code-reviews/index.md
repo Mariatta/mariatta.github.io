@@ -10,6 +10,8 @@ menu:
     parent: talks
 tags: ["Public Speaking", "Talks", "Workflow"]
 hero: /images/posts/djangocon2016.jpg
+images:
+- /images/posts/djangocon2016.jpg
 ---
 
 

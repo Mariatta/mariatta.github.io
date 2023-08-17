@@ -8,8 +8,10 @@ menu:
     identifier: pyconus-2017
     weight: 20
     parent: ice-cream-selfies-2017
-hero: portland.jpg
+hero: /images/posts/portland.jpg
 tags: ["Ice Cream Selfie", "Conference", "Portlan", "USA", "PyCon"]
+images:
+- /images/posts/portland.jpg
 ---
 
 ## What's the Scoop PDX
