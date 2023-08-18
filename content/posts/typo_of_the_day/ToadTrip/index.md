@@ -16,6 +16,4 @@ images:
 - images/posts/typo_of_the_day.jpg
 ---
 
-
-{{<fosstodon user="mariatta" id="109283258665315640">}}
-
+{{<fosstodon server="mastodon.social" user="mariatta" id="109283258628780629">}}
