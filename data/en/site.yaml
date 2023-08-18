@@ -31,3 +31,7 @@ customMenus:
     url: /posts/ice_cream_selfies
     hidefromNavbar: false
     showOnFooter: true
+  - name: '#TypoOfTheDay'
+    url: /posts/typo_of_the_day
+    hidefromNavbar: false
+    showOnFooter: true
