@@ -16,6 +16,8 @@ images:
 - images/posts/typo_of_the_day.jpg
 ---
 
+{{<tweet user="mariatta" id="1107412965437800450">}}
+
 
 {{<fosstodon user="mariatta" id="109360599873925944">}}
 

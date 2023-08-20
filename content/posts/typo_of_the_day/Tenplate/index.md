@@ -16,6 +16,5 @@ images:
 - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="110907975997021313">}}
 
