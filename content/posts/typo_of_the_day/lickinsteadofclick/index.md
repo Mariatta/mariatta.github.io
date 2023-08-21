@@ -12,6 +12,8 @@ menu:
 tags: ["#TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
+images:
+- images/posts/typo_of_the_day.jpg
 ---
 
 This is my first every "Typo of the day" post!!
