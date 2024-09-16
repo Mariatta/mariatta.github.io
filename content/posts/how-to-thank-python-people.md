@@ -159,16 +159,20 @@ Given to members of the community who significantly improve the Foundation's ful
 
 - The reward: $599 USD, and free registration at all future PyCon US event.
 - Past recipients: https://www.python.org/community/awards/psf-awards/
+- When to nominate: **Anytime!** Nominations are accepted year round, though they are selected every quarter. If you missed
+  the cutoff for that quarter, they will be considered in the next quarter.
 - How to nominate: write email to psf@python.org
 - More details: https://www.python.org/community/awards/psf-awards/
 
-### Python Software Foundation Membership
+### Python Software Foundation Fellow Membership
 
 PSF Fellows are nominated for their extraordinary efforts and impact upon Python, the community, and the broader
 Python ecosystem. 
 
 - The reward: bragging rights, and the right to vote in PSF elections
 - Current PSF members rosters: https://www.python.org/psf/fellows-roster/
+- When to nominate: **Anytime!** Nominations are accepted year round, though they are selected every quarter. If you missed
+  the cutoff for that quarter, they will be considered in the next quarter.
 - How to nominate: write email to psf-fellow@python.org, include the email address of the person you are nominating
 - More details: https://www.python.org/psf/fellows/
 
@@ -179,6 +183,8 @@ to highlight their achievements, and to thank them for all the work they’ve co
 
 - The reward: Free registration and travel assistance to the following PyCon US, or $1000 USD cash reward.
 - Past recipients: https://pyladies.com/blog/Inaugural-Winners-of-the-Outstanding-PyLady-Award/outstanding-pylady-winners/
+- When to nominate: **Anytime!** Nominations are accepted year round, and award recipients will be recognized at the
+  nearest upcoming PyCon US.
 - How to nominate: Fill in [this form](https://docs.google.com/forms/d/e/1FAIpQLSccnm4kYFez8SPWJD7ZfaAojHZE0qoLF_MLarGzzzc3pcY-xA/viewform) 
 - More details: https://kit.pyladies.com/en/latest/global/award.html
 
@@ -190,7 +196,9 @@ freely gives feedback and assistance to others, and helps to grow the community.
 
 - The reward: monetary prize
 - Past recipients: https://www.djangoproject.com/foundation/prizes/
-- How to nominate: Call for nominations are announced on Django Project's Blog. Subscribe at https://www.djangoproject.com/weblog/
+- When to nominate: Call for nominations are announced once a year and announced on Django Project's Blog.
+  Subscribe at https://www.djangoproject.com/weblog/
+- How to nominate: Nomination for 2024 is [now open](https://www.djangoproject.com/weblog/2024/sep/16/nominate-a-djangonaut-for-2024-malcolm-prize/).
 - More details: https://www.djangoproject.com/foundation/prizes/
 
 ### Distinguished Service Awards from Python Software Foundation
@@ -203,6 +211,8 @@ does lead to recognition and reward, rather than to provide a direct incentive t
 
 - The reward: $5000 USD cash award and an award certificate.
 - Past recipients: https://www.python.org/community/awards/psf-distinguished-awards/
+- When to nominate: **Anytime**. Any PSF member is entitled to propose an award at any time, stating the reasons for
+  which the award is merited.
 - How to nominate: write email to psf@python.org
 - More details: https://www.python.org/community/awards/psf-distinguished-awards/
 
@@ -214,6 +224,7 @@ reach more people, and shape the future of GitHub.
 
 - The reward: event invites, swag, featured by GitHub
 - Past recipients: https://stars.github.com/profiles/
+- When to nominate: **Anytime**.
 - How to nominate: Fill in the form at https://stars.github.com/nominate/
 - More details: https://stars.github.com/
 
