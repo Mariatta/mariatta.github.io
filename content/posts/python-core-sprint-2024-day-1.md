@@ -18,7 +18,7 @@ hero: /images/posts/pycoresprint2024selfie.jpg
 
 This week I'm in Bellevue for the annual Python core sprint. This year, the sprint is hosted at the Meta
 Bellevue campus, and coordinated by Itamar Oren from Meta. Other Python core devs and contributors
-who work at Meta are also helping (Dino Viehland, Jason Fried, and Thomas Wouters).
+who work at Meta are also helping (Dino Viehland,  Jason Fried, Matt Page, Parul Gupta, and Thomas Wouters).
 
 The PSF offers travel grants for Python core devs who are participating in the sprint and aren't being
 sponsored by their employer, which I signed up for. Thanks to the travel grant, my hotel stay is covered
@@ -140,7 +140,7 @@ included, so it was fun to see 😁
 Python conference t-shirts worn by Python core devs today:
 - PyCon Charlas 2024 (Guido)
 - PyCon US 2024 (Lysandros)
-- EuroPython (Hugo)
+- EuroPython 2023 (Hugo)
 - PyCon US 2017 (Eric Snow)
 - PyCon US 2016 (Thomas)
 - PyCascades 2023 (Mariatta)
