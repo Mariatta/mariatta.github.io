@@ -149,6 +149,7 @@ Python conference/Python-themed t-shirts worn by Python core devs today:
 - PyLadies CZ (Petr)
 - Black (Hugo and Jason)
 - Python Pizza (Łukasz)
+- PyCon US 2021 (Thomas)
 
 ### Dinner
 
