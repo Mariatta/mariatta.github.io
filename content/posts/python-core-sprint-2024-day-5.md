@@ -242,9 +242,9 @@ conference near you, and buy their t-shirt. Pro-tip: Guido owns at least 5 PyCas
 when are the regional Python conferences happening, go check out the [Python conferences](https://github.com/python-organizers/conferences)
 GitHub repo. 
 
-Thank you to my GitHub sponsors. As a self-employed independent consultant, I can't bill my client for time away at the
+Thank you to my [GitHub sponsors](https://github.com/sponsors/Mariatta/) As a self-employed independent consultant, I can't bill my client for time away at the
 sprint. Having GitHub sponsors helps me afford taking the take time off to do things like this. I really appreciate
-your continued support.
+your continued support. If you're not yet a sponsor, [why not start now]https://github.com/sponsors/Mariatta/)? 
 
 The sprint has always been a great experience for me. I came thinking that I'd just be working on some docs, but I left
 with learning a lot more, and feeling inspired with ideas of how to improve Python. I really wish I could have more time to
