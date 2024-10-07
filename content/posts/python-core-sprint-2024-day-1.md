@@ -109,7 +109,7 @@ Since last month, the editorial-board has a [landing page](https://python.github
 I added a small new feature to it: now there is a new
 "[Board Members](https://python.github.io/editorial-board/members/)" page, and each board member
 has their own landing page (and RSS Feed!) of the meetings in which they're an attendee.
-([Here's my page](https://python.github.io/editorial-board/members/mariatta/)
+([Here's my page](https://python.github.io/editorial-board/members/mariatta/))
 
 I became interested to add this functionality after listening to Philip James' talk at PyBay about Automating
 Your City Data with Python. In his talk, he demonstrated how to lookup city council minutes, what topic was discussed

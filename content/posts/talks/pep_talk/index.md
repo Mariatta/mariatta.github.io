@@ -51,24 +51,32 @@ This is aimed for newcomers and beginners of Python, who may have only heard of 
 
 
 ### What's a PEP 
+
 (< 5 minutes)
+
 - You know of PEP 8
 - But there are other PEPs
 - A PEP is a proposal: it's a documentation for changes to Python
 
 ### What kind of Changes Need a PEP?
+
 (5 minutes)
+
 - If you want to add new syntax 
 - Example: f-strings, ExceptionGroup, the "walrus" operator
 
 ### Other things that have a PEP
+
 (5 minutes)
+
 - Release schedule
 - Governance
 - Informational (Style Guide)
 
 ### PEP lifecycle
+
 (10 minutes)
+
 - How it works: start with discussing it in a public forum (like Discourse or the Python Language Summit)
 - If there is consensus and agreement of the idea, then a PEP will need to be written
 - Steering Council review and approve (or reject) the PEP
@@ -78,7 +86,9 @@ This is aimed for newcomers and beginners of Python, who may have only heard of 
 - All of these can take months, even years
 
 ### Your role
+
 (5 minutes)
+
 - If you don't agree with a proposal (if it cause you hardship in the way you use Python), the best way to voice your concern is during PEP discussion period, before the SC approval, and before the release of Python.
 - Sometimes new feature cause breakage, do test your codebase against the Python main branch, or alpha versions.
 - Keep up to date by following the Discourse forum, or the PEPs repo

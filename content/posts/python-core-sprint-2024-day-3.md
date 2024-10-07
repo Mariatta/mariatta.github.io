@@ -46,7 +46,7 @@ Selfie of the Python ladies at the Python core sprint, and photo taken by Gregor
 
 In the photo: Dawn Wages, Emily Morehouse, Joannah Nanjekye, Mariatta, Parul Gupta, Savannah Ostrowski.
 
-<iframe src="https://fosstodon.org/@mariatta/113201576644107777/embed" class="mastodon-embed" style="max-width: 100%; border: 0" width="400" allowfullscreen="allowfullscreen"></iframe><script src="https://fosstodon.org/embed.js" async="async"></script>
+{{<fosstodon server="fosstodon.org" user="mariatta" id="113201576644107777">}}
 
 ### Q&A with DiRs (Developers in Residence)
 

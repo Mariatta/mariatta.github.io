@@ -101,6 +101,8 @@ He also shared his [slides](file:///Users/mariatta/Downloads/enabling_cpythons_j
 At Helsinki Python meetup, they quiz the attendees about Python, and winners get prize, like extra Python conference swag,
 or other knick-knacks. (I noticed the PyCon US 2024 coloring book there 😊)
 
+{{<mastodon user="hugovk" server="mastodon.social" id="113255183164470250">}}
+
 The day before, they had quiz related to Python release cycles and Python features, so Hugo decided to quiz all the core devs too
 to see how well we really know Python.
 
