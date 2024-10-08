@@ -115,7 +115,7 @@ In 2018, 2019, my employer back then covered my travel.
 
 In 2022, my employer paid for my flight ticket, but my hotel was covered by The PSF because I was the conference co-chair.
 
-In 2023, I was expected my employer to cover my conference travel costs, but they didn't. I only learned about it after
+In 2023, I was expecting my employer to cover my conference travel costs, but they didn't. I only learned about it after
 the PyCon US travel grant application has closed. If I had learned about it sooner, I would have applied for the travel
 grant. However because I was also serving as conference chair for PyCon US, I wrote a message to PSF accounting
 team, and they covered everything for me.
@@ -164,7 +164,7 @@ Currently only Python core developers can vote in the annual Python Steering Cou
 I have been voting in the Python Steering Council election since 2019.
 
 I've also opened a discussion thread about expanding the voters pool for the Python Steering Council elections. If this
-sounds interesting to you, please participate in the [discussion](https://discuss.python.org/t/should-we-expand-the-voter-pool-for-the-sc/62060/),
+sounds interesting to you, please participate in the [discussion](https://discuss.python.org/t/collecting-feedback-about-expanding-the-voter-pool-for-sc-elections/),
 or write to me privately.
 
 ### Free registration to EuroPython 
