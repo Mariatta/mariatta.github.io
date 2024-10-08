@@ -106,7 +106,7 @@ PyCon US in which I applied for travel grants as a Python core developer:
 - 2017
 - 2024
 
-In 2015 and 2016 I received travel grant from the PyLadies PyCon US travel grant pool because I was not net a core dev back
+In 2015 and 2016 I received travel grant from the PyLadies PyCon US travel grant pool because I was not yet a core dev back
 then.
 
 In 2018, 2019, my employer back then covered my travel.
@@ -206,7 +206,7 @@ and I get a Python badge next to my handle stating that I'm a Python core develo
 ### Access to exclusive channel on Core Developer Discord
 
 There is a Discord server for Python core developers, in which other contributors like triagers are also invited.
-As a core developer, I get access to an additional "committers" channel that is not available to type of
+As a core developer, I get access to an additional "committers" channel that is not available to other type of
 contributors.
 
 ### Respect
