@@ -69,8 +69,8 @@ and in the language summit, like the maintainers of Hypothesis, BeeWare, Circuit
 As a Python core developer, I can apply for funds from the PSF for these things:
 
 - Python Core Sprint
-- Travel grant to PyCon US 2024
-- Free registration to PyCon US 2024
+- Travel grant to PyCon US
+- Free registration to PyCon US
 
 Note that even though PyCon US has its own travel grant fund, (and there's also a separate fund from PyLadies at PyCon US),
 the funds for the Python core devs are separate from all those. i.e. I won't be taking away funds from other attendees.
