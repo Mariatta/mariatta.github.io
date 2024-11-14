@@ -248,7 +248,8 @@ Check out the [DSF Membership page](https://www.djangoproject.com/foundation/ind
 information and the [DSF Membership FAQ](https://www.djangoproject.com/foundation/individual-members/faq/).
 
 See related [thread on Mastodon](https://fosstodon.org/@mariatta/113393910212212594) about
-DSF Membership eligibility, in which Jacob Kaplan-Moss stated that contributions by [Python are eligible](https://social.jacobian.org/@jacob/113398452917367058).
+DSF Membership eligibility, in which Jacob Kaplan-Moss stated that contributions to Python and the broader Django ecosystem
+are [eligible](https://social.jacobian.org/@jacob/113398452917367058).
 
 ---
 
