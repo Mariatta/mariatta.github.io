@@ -42,8 +42,6 @@ In the past year, I've been learning more about what it really means to be a Pyt
 
 {{<tweet user="skimbrel" id="1058774594226540544">}}
 
-{{<tweet user="ameschright" id="1058776542581411840">}}
-
 ## Videos
 
 {{<youtube hhj7eb6TrtI>}}

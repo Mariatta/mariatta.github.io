@@ -17,10 +17,15 @@ images:
 
 ## Speaker Bio
 
+Mariatta is a Python Core Developer. She co-hosts the podcast series PyPodcats: Hidden Figures of Python,
+highlighting the voices of underrepresented group members in the Python community. She is the author of PEP 581 for migrating CPython's
+issue tracker to GitHub, a change that significantly improved the contributors' experience. She is currently a member of
+Python Docs Editorial Board.
+As a serial conference organizer, she has chaired various Python community conferences, including PyCascades, PyCon US, and
+PyLadiesCon.
+For her contributions to the Python community, she received the PSF Community Service Award and is a PSF Fellow member.
+You might also know her from the internet hashtags #IceCreamSelfie and #TypoOfTheDay
 
-Mariatta is a Python core developer where she focuses on improving the workflow and documentation. She is active in the Python community as an advisor for the Global PyLadies, co-founder of PyCascades, and is currently chairing PyCon US conference.
-
-For her contributions to the Python and community, she received the PSF Community Service Award in 2018 and Google Open Source Peer Bonus Award in 2017 and 2020.
 
 
 ## Headshot

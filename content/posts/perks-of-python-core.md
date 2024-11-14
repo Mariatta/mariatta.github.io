@@ -231,6 +231,25 @@ Well, after being a Python core dev, I almost never have to deal with that kind 
 more careful about what they say and do around me now. Maybe there were still some incidents, but at least now I know
 I can just report them to the CoC team and let them take it from there.
 
+### Eligibility for Django Software Foundation (DSF) Individual Membership
+
+**Updated Oct 29, 2024**
+
+Individual Members are appointed by the DSF in recognition of their contribution to the DSF's mission
+of advancing and promoting Django, protecting the framework's long-term viability, and advancing the
+state of the art in web development.
+
+DSF membership comes with perks like recognitions for their contributions to the community.
+They get their name listed in the [DSF membership roster](https://www.djangoproject.com/foundation/individual-members/),
+and they get added to the DSF Members Mailing list. DSF members are also be eligible to vote for the
+DSF Board and Django Steering Council.
+
+Check out the [DSF Membership page](https://www.djangoproject.com/foundation/individual-members/) for more
+information and the [DSF Membership FAQ](https://www.djangoproject.com/foundation/individual-members/faq/).
+
+See related [thread on Mastodon](https://fosstodon.org/@mariatta/113393910212212594) about
+DSF Membership eligibility, in which Jacob Kaplan-Moss stated that contributions by [Python are eligible](https://social.jacobian.org/@jacob/113398452917367058).
+
 ---
 
 So those are all the things I could think of right now as a Python core dev. It's actually a big list!
@@ -239,5 +258,5 @@ I might be missing more perks or responsibilities. If I think of anything more, 
 What do you think? Do you know about all of these perks? Do you think these are perks, privileges, or responsibilities?
 
 If you want to start contributing to Python, check out the [Python Developer's Guide](https://devguide.python.org/) (soon to be
-called the Python Contributing Guide).
+called the [Python Contributing Guide](https://devguide.python.org/contrib/)).
 

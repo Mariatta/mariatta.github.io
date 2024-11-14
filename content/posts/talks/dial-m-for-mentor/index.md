@@ -38,8 +38,6 @@ Asking for help is not a failure.
 
 ## Reactions
 
-{{< tweet user="etino" id="850287511888945152" >}}
-
 {{<tweet user="jangondol" id="849550238859890688">}}
 
 {{<tweet user="colleenjhardie" id="888131666241175552">}}
