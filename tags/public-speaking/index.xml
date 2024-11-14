@@ -10,10 +10,14 @@ and I would love to support you in submitting your talk.&lt;/p>
 &lt;p>I&amp;rsquo;ve been through all of the above before myself, and I know how you feel. Having a supportive community, and having
 mentors who were willing to give personalized 1:1 feedback, have helped me overcome my fears and self-doubt, and be a
 better speaker. The PyLadies community is here to support you.&lt;/p></description></item><item><title>Speaker Bio</title><link>https://mariatta.ca/posts/speaker_bio/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/speaker_bio/</guid><description>&lt;h2 id="speaker-bio">Speaker Bio&lt;/h2>
-&lt;p>Mariatta is a Python core developer where she focuses on improving the workflow and documentation. She is active in the Python community as an advisor for the Global PyLadies, co-founder of PyCascades, and is currently chairing PyCon US conference.&lt;/p>
-&lt;p>For her contributions to the Python and community, she received the PSF Community Service Award in 2018 and Google Open Source Peer Bonus Award in 2017 and 2020.&lt;/p>
-&lt;h2 id="headshot">Headshot&lt;/h2>
-&lt;p>You can use the following headshot as my speaker profile. It is also available for download on &lt;a href="https://github.com/mariatta.png" target="_blank" rel="noopener">https://github.com/mariatta.png&lt;/a>&lt;/p></description></item><item><title>PEP Talk</title><link>https://mariatta.ca/posts/talks/pep_talk/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/talks/pep_talk/</guid><description>&lt;h2 id="talk-abstract">Talk Abstract&lt;/h2>
+&lt;p>Mariatta is a Python Core Developer. She co-hosts the podcast series PyPodcats: Hidden Figures of Python,
+highlighting the voices of underrepresented group members in the Python community. She is the author of PEP 581 for migrating CPython&amp;rsquo;s
+issue tracker to GitHub, a change that significantly improved the contributors&amp;rsquo; experience. She is currently a member of
+Python Docs Editorial Board.
+As a serial conference organizer, she has chaired various Python community conferences, including PyCascades, PyCon US, and
+PyLadiesCon.
+For her contributions to the Python community, she received the PSF Community Service Award and is a PSF Fellow member.
+You might also know her from the internet hashtags #IceCreamSelfie and #TypoOfTheDay&lt;/p></description></item><item><title>PEP Talk</title><link>https://mariatta.ca/posts/talks/pep_talk/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/talks/pep_talk/</guid><description>&lt;h2 id="talk-abstract">Talk Abstract&lt;/h2>
 &lt;p>If you use Python, chances are you&amp;rsquo;ve heard of PEP 8, the Python style guide.&lt;/p>
 &lt;p>But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement Proposal. It&amp;rsquo;s a proposal documentation for when you want to change the Python programming language in a big way, for example when you want to change the syntax of Python. Think of the addition of f-strings, the walrus operator, or the ExceptionGroup, those changes all started with a PEP.&lt;/p></description></item><item><title>There's an API for That!</title><link>https://mariatta.ca/posts/talks/theres-an-api-for-that/</link><pubDate>Thu, 27 Jul 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/talks/theres-an-api-for-that/</guid><description>&lt;h1 id="theres-an-api-for-that">There&amp;rsquo;s an API For That!&lt;/h1>
 &lt;h2 id="talk-abstract">Talk Abstract&lt;/h2>
