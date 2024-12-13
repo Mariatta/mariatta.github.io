@@ -37,6 +37,10 @@ socialLinks:
   icon: "fab fa-linkedin"
   url: "https://linkedin.com/in/mariatta"
 
+- name: Bluesky
+  icon: "fa-brands fa-bluesky"
+  url: "https://bsky.app/profile/mariatta.ca"
+
 - name: Twitter
   icon: "fab fa-twitter"
   url: "https://twitter.com/mariatta"
@@ -52,10 +56,12 @@ socialLinks:
 # You can put custom buttons to link your relevant resources.
 # For example, you can put link for your resume.
 resourceLinks:
-- title: "Speaker Bio"
-  url: "/posts/speaker_bio/"
+- title: "Blog"
+  url: "/posts/"
 - title: "My Talks"
   url: "/posts/talks/"
+- title: "Speaker Bio"
+  url: "/posts/speaker_bio/"
 - title: "Ice Cream Selfies"
   url: "/posts/ice_cream_selfies/"
 - title: "#TypoOfTheDay"

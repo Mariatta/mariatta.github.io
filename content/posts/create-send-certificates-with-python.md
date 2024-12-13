@@ -40,7 +40,7 @@ Here are the different tools we used for this project:
 
 ### Pretix
 
-Pretix is our ticketing platform. We use the API to retrieve the list of attendees, their names, and their email address.
+[Pretix](https://pretix.eu/about/en/) is our ticketing platform. We use the API to retrieve the list of attendees, their names, and their email address.
 
 ### Google Slides
 
@@ -75,7 +75,7 @@ You can use the `requests` library if you prefer.
 ### google-api-python-client
 
 This is the official Python client library for Google's discover based APIs. We will use this library
-to interact with Google Sheets, Google Slides, and GMAIL APIs.
+to interact with Google Sheets, Google Slides, Google Drive, and GMAIL APIs.
 
 Docs: https://github.com/googleapis/google-api-python-client/blob/main/docs/README.md
 
@@ -496,3 +496,9 @@ Here's what Laura Funderburk, one of [PyLadiesCon](https://conference.pyladies.c
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7273058089929482241" height="608" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 
+Other conference attendees have also proudly shared on social media about their certificates. I think it shows that such
+certificate is indeed appreciated.
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7273048454145146880" height="681" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
+
+<iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7272537021942820864" height="543" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
