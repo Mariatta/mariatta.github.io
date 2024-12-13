@@ -33,8 +33,6 @@ I consider myself relatively new to the open source world; my first open source 
 
 ## Reactions
 
-{{<tweet user="keithTheEE" id="1401041877080674317">}}
-
 {{<tweet user="pagerbooty" id="1327323025247662081">}}
 
 {{<tweet user="ongchinhwee" id="1302428826853453826">}}
