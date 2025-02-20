@@ -1,4 +1,5 @@
 {{ define "header" }}
+<meta name="fediverse:creator" content="@mariatta@fosstodon.org">
 <meta name="description" content="{{ if .Description }}{{ .Description }}{{ else }}{{ .Title }}{{ end }}" />
 {{ end }}
 
@@ -104,7 +105,7 @@
           </li>
           <li>
 
-              <a href="https://twitter.com/mariatta" title="Twitter" target="_blank" rel="noopener"><i class="fab fa-twitter"></i></a>
+              <a href="https://x.com/mariatta" title="X" target="_blank" rel="noopener"><i class="fa-brands fa-x-twitter"></i></a>
 
           </li>
 
@@ -135,10 +136,10 @@
               <i class="fab fa-facebook"></i>
             </a>
             {{ end }}
-            {{ if site.Params.features.blog.shareButtons.twitter }}
-                <a class="btn icon-button bg-twitter" href="https://twitter.com/share?url={{ .Permalink }}&text={{ .Title }}&via={{- site.Title -}}" target="_blank">
-                  <i class="fab fa-twitter"></i>
-                </a>
+            {{ if site.Params.features.blog.shareButtons.x }}
+                <a class="btn icon-button bg-twitter" href="https://x.com/share?url={{ .Permalink }}&text={{ .Title }}&via={{- site.Title -}}" target="_blank">
+                  <i class="fa-brands fa-x-twitter"></i>
+                </a>twitter
             {{ end }}
             {{ if site.Params.features.blog.shareButtons.reddit }}
                 <a  class="btn icon-button bg-reddit" href="https://reddit.com/submit?url={{ .Permalink }}&title={{ .Title }}" target="_blank">

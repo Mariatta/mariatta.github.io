@@ -115,9 +115,9 @@
                 <li><a href={{ printf "https://github.com/%s" $value }} target="_blank" rel="noopener">
                   <span><i class="fab fa-github"></i></span> <span>{{ $value }}</span>
                 </a></li>
-              {{ else if (eq $key "twitter") }}
-                <li><a href={{ printf "https://twitter.com/%s" $value }} target="_blank" rel="noopener">
-                  <span><i class="fab fa-twitter"></i></span> <span>{{ $value }}</span>
+              {{ else if (eq $key "x") }}
+                <li><a href={{ printf "https://x.com/%s" $value }} target="_blank" rel="noopener">
+                  <span><i class="fa-brands fa-x-twitter"></i></span> <span>{{ $value }}</span>
                 </a></li>
               {{ else if reflect.IsMap $value }}
                 <li>
