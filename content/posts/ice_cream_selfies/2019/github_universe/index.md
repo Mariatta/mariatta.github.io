@@ -24,6 +24,6 @@ there.
 Check out [Uji Time Dessert](https://www.ujitimedessert.com/) for their matcha
 ice cream and taiyaki cones!
 
-{{<tweet user="mariatta" id="1195475027854077954">}}
+{{<x user="mariatta" id="1195475027854077954">}}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d12612.817961155366!2d-122.44720234458006!3d37.78524719999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x808580bed0096de7%3A0xd5272276a2fcda02!2sUji%20Time%20Dessert!5e0!3m2!1sen!2sca!4v1692201587640!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

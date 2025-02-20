@@ -38,17 +38,15 @@ Asking for help is not a failure.
 
 ## Reactions
 
-{{<tweet user="jangondol" id="849550238859890688">}}
+{{<x user="jangondol" id="849550238859890688">}}
 
-{{<tweet user="colleenjhardie" id="888131666241175552">}}
+{{<x user="colleenjhardie" id="888131666241175552">}}
 
-{{<tweet user="jackdanger"  id="865679306868932608">}}
+{{<x user="matrixise" id="865678978677223429">}}
 
-{{<tweet user="matrixise" id="865678978677223429">}}
+{{<x user="matrixise" id="865671358771978240">}}
 
-{{<tweet user="matrixise" id="865671358771978240">}}
-
-{{<tweet user="demonware" id="865964284282638337">}}
+{{<x user="demonware" id="865964284282638337">}}
 
 ## Videos
 

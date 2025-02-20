@@ -34,7 +34,7 @@ We ran into Drazen Lucic while at Rockwell Ice Cream.
 
 With Georgi Ker, Cheuk-Ting Ho, and Zac Hatfield-Dodds at [Capo Gelateria Italiana](http://capogelateria.com/).
 
-{{<tweet user="georgically1" id="1651651571434893313">}}
+{{<x user="georgically1" id="1651651571434893313">}}
 
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3021.937851176913!2d-111.89967808821929!3d40.7633916343483!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x8752f504f213038b%3A0x22415b2fe166933f!2sCapo%20Gelateria%20Italiana!5e0!3m2!1sen!2sca!4v1692148089181!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

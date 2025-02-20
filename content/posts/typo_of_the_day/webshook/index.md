@@ -18,5 +18,5 @@ images:
 
 Instead Of Webhook
 
-{{<tweet user="mariatta" id="1401268935614291975">}}
+{{<x user="mariatta" id="1401268935614291975">}}
 

@@ -18,7 +18,7 @@ type: posts/ice_cream_selfies
 
 [shop name](shop url).
 
-{{<tweet user="mariatta" id="">}}
+{{<x user="mariatta" id="">}}
 
 {{<fosstodon user="" id="">}}
 

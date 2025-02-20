@@ -21,5 +21,5 @@ This is my first every "Typo of the day" post!!
 I was trying to use the [click](https://click.palletsprojects.com/) library, 
 which is a Python package for creating command lines.
 
-{{<tweet user="mariatta" id="842505601116647425">}}
+{{<x user="mariatta" id="842505601116647425">}}
 

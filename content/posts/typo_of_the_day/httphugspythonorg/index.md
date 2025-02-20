@@ -17,5 +17,5 @@ images:
 ---
 
 
-{{<tweet user="mariatta" id="1224040286067752960">}}
+{{<x user="mariatta" id="1224040286067752960">}}
 

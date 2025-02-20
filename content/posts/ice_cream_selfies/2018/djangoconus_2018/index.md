@@ -28,6 +28,6 @@ so I could give a keynote at this conference.
 
 After my talk, I took my kids to get ice cream at [Hammond's Gourmet Ice Cream](https://www.hammondsgourmet.com/).
 
-{{<tweet user="mariatta" id="1053437404827119616">}}
+{{<x user="mariatta" id="1053437404827119616">}}
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3355.654144442506!2d-117.1301231240837!3d32.74837318544901!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80d954f5e433b27b%3A0x5b36208b4281de6f!2sHammond&#39;s%20Gourmet%20Ice%20Cream!5e0!3m2!1sen!2sca!4v1692214919921!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>

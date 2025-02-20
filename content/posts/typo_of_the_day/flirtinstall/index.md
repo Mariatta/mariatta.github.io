@@ -25,5 +25,5 @@ up about it in the docs.
 
 They also have a "[Why use Flit](https://flit.pypa.io/en/latest/rationale.html)" section.
 
-{{<tweet user="mariatta" id="1018337558877491200">}}
+{{<x user="mariatta" id="1018337558877491200">}}
 

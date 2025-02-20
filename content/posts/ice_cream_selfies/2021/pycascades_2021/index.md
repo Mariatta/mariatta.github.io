@@ -21,4 +21,4 @@ with me. I'm glad they all obliged! 😊
 
 I had the [Nestle DRUMSTICK Sundae Cone](https://www.madewithnestle.ca/drumstick).
 
-{{<tweet user="mariatta" id="1363227773376978944">}}
+{{<x user="mariatta" id="1363227773376978944">}}

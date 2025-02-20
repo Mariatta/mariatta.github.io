@@ -26,5 +26,5 @@ boba milk tea ice cream bar for sale. So I decided to do my ice cream selfie at
 that time.
 
 
-{{<tweet user="mariatta" id="1344847933682798594">}}
+{{<x user="mariatta" id="1344847933682798594">}}
 

@@ -30,7 +30,7 @@ You might have seen bots like GitHub bots, Discord bots, Slack bots. How do thes
 
 ## Reactions
 
-{{<tweet user="pyconcolombia" id="1553907900321615873">}}
+{{<x user="pyconcolombia" id="1553907900321615873">}}
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:share:7090393699938938880" height="591" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 

@@ -33,13 +33,13 @@ I consider myself relatively new to the open source world; my first open source 
 
 ## Reactions
 
-{{<tweet user="pagerbooty" id="1327323025247662081">}}
+{{<x user="pagerbooty" id="1327323025247662081">}}
 
-{{<tweet user="ongchinhwee" id="1302428826853453826">}}
+{{<x user="ongchinhwee" id="1302428826853453826">}}
 
-{{<tweet user="pycon" id="1393311734149046276">}}
+{{<x user="pycon" id="1393311734149046276">}}
 
-{{<tweet user="geekygirlsarah" id="1365902349437435912">}}
+{{<x user="geekygirlsarah" id="1365902349437435912">}}
 
 
 ## Videos

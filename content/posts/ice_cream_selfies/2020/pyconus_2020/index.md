@@ -19,6 +19,6 @@ PyCon US 2020 was cancelled, but I still decided to record a tutorial for it.
 Since everything was still closed down at that time, so I just bought some ice
 cream and ice cream cones from the grocery store.
 
-{{<tweet user="mariatta" id="1253515298595942401">}}
+{{<x user="mariatta" id="1253515298595942401">}}
 
 

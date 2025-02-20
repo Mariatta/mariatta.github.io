@@ -33,13 +33,11 @@ bot based on your own workflow. All you need is Python. Don’t be a robot; buil
 
 ## Reactions
 
-{{<tweet user="WillingCarol" id="1052612092514037760">}}
+{{<x user="WillingCarol" id="1052612092514037760">}}
 
-{{<tweet user="webology" id="1054566331620696064">}}
+{{<x user="webology" id="1054566331620696064">}}
 
-{{<tweet user="vincesalvino" id="1052618279984873474">}}
-
-{{<tweet user="amakarudze" id="1052617802584973312">}}
+{{<x user="amakarudze" id="1052617802584973312">}}
 
 ## Videos
 

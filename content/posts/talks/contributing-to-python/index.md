@@ -27,7 +27,7 @@ Python is one of the most popular programming language out there, and it is also
 
 ## Reactions
 
-{{<tweet user="indypy" id="1612977651605454848">}}
+{{<x user="indypy" id="1612977651605454848">}}
 
 ## Videos
 

@@ -30,17 +30,15 @@ In the past year, I've been learning more about what it really means to be a Pyt
 
 ## Reactions
 
-{{<tweet user="loooorenanicole" id="995411971729215489">}}
+{{<x user="loooorenanicole" id="995411971729215489">}}
 
-{{<tweet user="luucamay" id="1287503472909340677">}}
+{{<x user="luucamay" id="1287503472909340677">}}
 
-{{<tweet user="jmwatt3" id="1003267542448820224">}}
+{{<x user="jmwatt3" id="1003267542448820224">}}
 
-{{<tweet user="ixek" id="995406108083793920">}}
+{{<x user="ixek" id="995406108083793920">}}
 
-{{<tweet user="nnja" id="1058773762361815041">}}
-
-{{<tweet user="skimbrel" id="1058774594226540544">}}
+{{<x user="nnja" id="1058773762361815041">}}
 
 ## Videos
 

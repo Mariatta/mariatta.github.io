@@ -283,11 +283,11 @@ Check out other great posts about the sprint:
 
 {{<mastodon user="hugovk" server="mastodon.social" id="113216319742222592">}}
 
-{{<tweet user="dongheena92" id="1840365836214940039">}}
+{{<x user="dongheena92" id="1840365836214940039">}}
 
-{{<tweet user="pyblogsal" id="1841818587549360257">}}
+{{<x user="pyblogsal" id="1841818587549360257">}}
 
-{{<tweet user="dongheena92" id="1841838302200037851">}}
+{{<x user="dongheena92" id="1841838302200037851">}}
 
-{{<tweet user="BajoranEngineer" id="1841854662971982277">}}
+{{<x user="BajoranEngineer" id="1841854662971982277">}}
 

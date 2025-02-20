@@ -24,6 +24,6 @@ I went to Cathy's Gourmet Ice Cream Sandwiches. The ice cream sandwich was reall
 
 I'm sad to hear that this place has since closed down.
 
-{{<tweet user="mariatta" id="1125544328263348224">}}
+{{<x user="mariatta" id="1125544328263348224">}}
 
 
