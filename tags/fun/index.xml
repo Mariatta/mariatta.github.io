@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Fun on Mariatta</title><link>https://mariatta.ca/tags/fun/</link><description>Recent content in Fun on Mariatta</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Tue, 01 Apr 2025 00:00:00 -0800</lastBuildDate><atom:link href="https://mariatta.ca/tags/fun/index.xml" rel="self" type="application/rss+xml"/><item><title>Core Dev Story</title><link>https://mariatta.ca/posts/core_dev_story/</link><pubDate>Tue, 01 Apr 2025 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/core_dev_story/</guid><description>&lt;h2 id="core-dev-story">Core Dev Story&lt;/h2>
+&lt;p>This video game lets you play as a CPython core developer. You can recruit more core devs to join
+your project, develop new features, fix bugs, write documentation, and more.&lt;/p>
+&lt;p>As you develop new features, you can gain more fame. But new features also introduces new
+bugs to the codebase.
+The amount of fame and bugs gained depend on the skills of the core developers you
+have in your team.&lt;/p></description></item></channel></rss>
