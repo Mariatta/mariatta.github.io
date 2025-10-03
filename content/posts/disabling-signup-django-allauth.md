@@ -1,6 +1,6 @@
 ---
 title: "Disabling Signup in Django allauth"
-date: 2025-10-03T12:50:00-08:00
+date: 2025-10-03T11:50:00-08:00
 weight: 20
 draft: false
 menu:

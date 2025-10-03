@@ -39,8 +39,6 @@ I consider myself relatively new to the open source world; my first open source 
 
 {{<x user="pycon" id="1393311734149046276">}}
 
-{{<x user="geekygirlsarah" id="1365902349437435912">}}
-
 
 ## Videos
 
