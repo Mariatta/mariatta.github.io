@@ -1,35 +1,35 @@
-<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sprint on Mariatta</title><link>https://mariatta.ca/tags/sprint/</link><description>Recent content in Sprint on Mariatta</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Oct 2024 20:17:00 -0800</lastBuildDate><atom:link href="https://mariatta.ca/tags/sprint/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Sprint 2024: Day 5</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-5/</link><pubDate>Fri, 04 Oct 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-5/</guid><description>&lt;h2 id="python-core-sprint-2024-day-5">Python Core Sprint 2024: Day 5&lt;/h2>
-&lt;h3 id="datetime-and-hypothesis">Datetime and Hypothesis&lt;/h3>
-&lt;p>I reviewed some issues that came to the CPython repo. There were a few interesting tickets related to the &lt;code>datetime&lt;/code>
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Sprint on Mariatta</title><link>https://mariatta.ca/tags/sprint/</link><description>Recent content in Sprint on Mariatta</description><generator>Hugo -- gohugo.io</generator><language>en</language><lastBuildDate>Fri, 04 Oct 2024 20:17:00 -0800</lastBuildDate><atom:link href="https://mariatta.ca/tags/sprint/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Sprint 2024: Day 5</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-5/</link><pubDate>Fri, 04 Oct 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-5/</guid><description>&lt;h2 id="python-core-sprint-2024-day-5"&gt;Python Core Sprint 2024: Day 5&lt;/h2&gt;
+&lt;h3 id="datetime-and-hypothesis"&gt;Datetime and Hypothesis&lt;/h3&gt;
+&lt;p&gt;I reviewed some issues that came to the CPython repo. There were a few interesting tickets related to the &lt;code&gt;datetime&lt;/code&gt;
 module. These issues were discovered by Hypothesis, a property-based testing tool for Python.
 I&amp;rsquo;ve been hearing a lot about Hypothesis, but never really used it in production or at work. I watched a talk about it
-at PyCon US many years ago, and I even had &lt;a href="https://mariatta.ca/posts/ice_cream_selfies/2023/pycon_2023/">ice cream selfie&lt;/a> with Zac who
+at PyCon US many years ago, and I even had &lt;a href="https://mariatta.ca/posts/ice_cream_selfies/2023/pycon_2023/"&gt;ice cream selfie&lt;/a&gt; with Zac who
 maintains Hypothesis. Anyway, I&amp;rsquo;ve just been interested in learning more about Hypothesis and how it could solve issues
 not caught by other testing methods, and I think this is one of the perks of contributing to open source: getting exposed
-to things you don&amp;rsquo;t normally use at work, and I think it&amp;rsquo;s a great way to learn new things.&lt;/p></description></item><item><title>Python Core Sprint 2024: Day 4</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-4/</link><pubDate>Thu, 26 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-4/</guid><description>&lt;h2 id="python-core-sprint-2024-day-4">Python Core Sprint 2024: Day 4&lt;/h2>
-&lt;h3 id="pep-750">PEP 750&lt;/h3>
-&lt;p>T-strings? Template strings? Has a name been decided yet?&lt;/p>
-&lt;p>I chatted more with Dave Peck and Jim Baker about PEP 750, and they explained in more details about the use cases
+to things you don&amp;rsquo;t normally use at work, and I think it&amp;rsquo;s a great way to learn new things.&lt;/p&gt;</description></item><item><title>Python Core Sprint 2024: Day 4</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-4/</link><pubDate>Thu, 26 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-4/</guid><description>&lt;h2 id="python-core-sprint-2024-day-4"&gt;Python Core Sprint 2024: Day 4&lt;/h2&gt;
+&lt;h3 id="pep-750"&gt;PEP 750&lt;/h3&gt;
+&lt;p&gt;T-strings? Template strings? Has a name been decided yet?&lt;/p&gt;
+&lt;p&gt;I chatted more with Dave Peck and Jim Baker about PEP 750, and they explained in more details about the use cases
 in DSL (Domain Specific Language), for SQL and HTMLs. Guido, Lysandros, Jim, and Dave all met today
 to further refine the PEP, and it sounds like they have a good plan for it. And a lot of people at the sprint also expressed
-their enthusiasm for this PEP. So look forward to the updated PEP!&lt;/p></description></item><item><title>Python Core Sprint 2024: Day 3</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-3/</link><pubDate>Wed, 25 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-3/</guid><description>&lt;h2 id="python-core-sprint-2024-day-3">Python Core Sprint 2024: Day 3&lt;/h2>
-&lt;h3 id="coffee">Coffee&lt;/h3>
-&lt;p>Today I joined a group to have breakfast at Meta&amp;rsquo;s cafeteria. The cafeteria has an Espresso machine that
+their enthusiasm for this PEP. So look forward to the updated PEP!&lt;/p&gt;</description></item><item><title>Python Core Sprint 2024: Day 3</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-3/</link><pubDate>Wed, 25 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-3/</guid><description>&lt;h2 id="python-core-sprint-2024-day-3"&gt;Python Core Sprint 2024: Day 3&lt;/h2&gt;
+&lt;h3 id="coffee"&gt;Coffee&lt;/h3&gt;
+&lt;p&gt;Today I joined a group to have breakfast at Meta&amp;rsquo;s cafeteria. The cafeteria has an Espresso machine that
 we have to operate ourselves. So, I learned how to use the Espresso machine on the spot, and made myself cappuccino.
-This was the best cup of coffee I&amp;rsquo;ve had in the last 5 days.&lt;/p>
-&lt;h3 id="t-strings">T-strings&lt;/h3>
-&lt;p>I chatted briefly with Lysandros about PEP 750. He mentioned that they will be re-working the proposal
+This was the best cup of coffee I&amp;rsquo;ve had in the last 5 days.&lt;/p&gt;
+&lt;h3 id="t-strings"&gt;T-strings&lt;/h3&gt;
+&lt;p&gt;I chatted briefly with Lysandros about PEP 750. He mentioned that they will be re-working the proposal
 based on community feedback so, and also said it will not be called a &amp;ldquo;tag&amp;rdquo; anymore, but T-strings, it could look
-slightly different than what&amp;rsquo;s shown on the PEP today. Jim Baker should be here starting tomorrow to work on the PEP.&lt;/p></description></item><item><title>Python Core Sprint 2024: Day 2</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-2/</link><pubDate>Tue, 24 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-2/</guid><description>&lt;h2 id="python-core-sprint-2024-day-2">Python Core Sprint 2024: Day 2&lt;/h2>
-&lt;h3 id="djangocon-us">DjangoCon US&lt;/h3>
-&lt;p>I woke up a bit later this morning, so I missed the keynote, but thankfully the online platform
+slightly different than what&amp;rsquo;s shown on the PEP today. Jim Baker should be here starting tomorrow to work on the PEP.&lt;/p&gt;</description></item><item><title>Python Core Sprint 2024: Day 2</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-2/</link><pubDate>Tue, 24 Sep 2024 20:17:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-2/</guid><description>&lt;h2 id="python-core-sprint-2024-day-2"&gt;Python Core Sprint 2024: Day 2&lt;/h2&gt;
+&lt;h3 id="djangocon-us"&gt;DjangoCon US&lt;/h3&gt;
+&lt;p&gt;I woke up a bit later this morning, so I missed the keynote, but thankfully the online platform
 allows me to watch the recording, so I was still able to watch Mario Munoz&amp;rsquo; keynote: How To Be A Developer
 and Other Lies We Tell Ourselves. I really enjoyed Mario&amp;rsquo;s keynote. I love it when presenters
 find unique and creative ways to present their talk, and Mario really nailed it. His talk was very
-heartfelt and full of empathy.&lt;/p></description></item><item><title>Python Core Sprint 2024: Day 1</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-1/</link><pubDate>Mon, 23 Sep 2024 20:52:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-1/</guid><description>&lt;h2 id="python-core-sprint-2024-day-1">Python Core Sprint 2024: Day 1&lt;/h2>
-&lt;p>This week I&amp;rsquo;m in Bellevue for the annual Python core sprint. This year, the sprint is hosted at the Meta
+heartfelt and full of empathy.&lt;/p&gt;</description></item><item><title>Python Core Sprint 2024: Day 1</title><link>https://mariatta.ca/posts/python-core-sprint-2024-day-1/</link><pubDate>Mon, 23 Sep 2024 20:52:00 -0800</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2024-day-1/</guid><description>&lt;h2 id="python-core-sprint-2024-day-1"&gt;Python Core Sprint 2024: Day 1&lt;/h2&gt;
+&lt;p&gt;This week I&amp;rsquo;m in Bellevue for the annual Python core sprint. This year, the sprint is hosted at the Meta
 Bellevue campus, and coordinated by Itamar Oren from Meta. Other Python core devs and contributors
-who work at Meta are also helping (Dino Viehland, Jason Fried, Matt Page, Parul Gupta, and Thomas Wouters).&lt;/p>
-&lt;p>The PSF offers travel grants for Python core devs who are participating in the sprint and aren&amp;rsquo;t being
+who work at Meta are also helping (Dino Viehland, Jason Fried, Matt Page, Parul Gupta, and Thomas Wouters).&lt;/p&gt;
+&lt;p&gt;The PSF offers travel grants for Python core devs who are participating in the sprint and aren&amp;rsquo;t being
 sponsored by their employer, which I signed up for. Thanks to the travel grant, my hotel stay is covered
-fully by The PSF.&lt;/p></description></item></channel></rss>
+fully by The PSF.&lt;/p&gt;</description></item></channel></rss>
