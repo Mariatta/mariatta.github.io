@@ -198,3 +198,6 @@ requirements about my travel plan.
 I wonder if other events could benefit from a website like this. Maybe company offsite events? Or other
 smaller-scale social gatherings that are not conferences, but still require a lot of information sharing? The next
 Python Core Sprint? Family reunions? What do you think? With GenAI, these things are easier to do now than ever before.
+
+**Update:** I wrote a follow up post, [Travel Budgeting without Spreadsheet]({{< ref "posts/travel-budgeting-without-spreadsheet" >}}).
+Title says all.
