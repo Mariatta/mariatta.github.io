@@ -2,7 +2,7 @@
 &lt;p&gt;I gave a talk at a regional conference this past weekend. I prepared for it the same way I prepare for
 any other talk or keynote: rehearsed it multiple times, reviewed the material, made adjustments so it would
 be relatable for this audience instead of giving the same speech everywhere.
-I looked up &lt;a href="https://mariatta.ca/posts/ice_cream_selfies"&gt;ice cream selfie&lt;/a&gt; locations near the in the area.&lt;/p&gt;
+I looked up &lt;a href="https://mariatta.ca/posts/ice_cream_selfies"&gt;ice cream selfie&lt;/a&gt; locations in the area.&lt;/p&gt;
 &lt;p&gt;Whether there would be anyone in the room to hear it was a different question.&lt;/p&gt;</description></item><item><title>Generating (and Sending) Conference Certificates Using Python</title><link>https://mariatta.ca/posts/create-send-certificates-with-python/</link><pubDate>Thu, 12 Dec 2024 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/create-send-certificates-with-python/</guid><description>&lt;h2 id="pyladiescon-certificate-of-attendance"&gt;PyLadiesCon Certificate of Attendance&lt;/h2&gt;
 &lt;p&gt;Not sure how common is this practice of giving out certificates to conference attendees. I&amp;rsquo;ve been attending mostly Python-related conferences in North America,
 and we don&amp;rsquo;t usually get any certificates here.
