@@ -3,6 +3,13 @@ baseURL: https://mariatta.ca
 pagination:
   pagerSize: 10
 
+# Only use the tag taxonomy; categories is unused and removing it
+# avoids Hugo generating an empty /categories/ page (which also dodges a
+# theme bug in toha v4.13.0 where its categories/list.html calls a
+# pagination partial that isn't shipped).
+taxonomies:
+  tag: tags
+
 languageCode: en-us
 title: "Mariatta"
 
