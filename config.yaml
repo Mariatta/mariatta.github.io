@@ -1,5 +1,8 @@
 baseURL: https://mariatta.ca
 
+pagination:
+  pagerSize: 10
+
 languageCode: en-us
 title: "Mariatta"
 
@@ -57,7 +60,15 @@ params:
   background: /images/site/background_dark.jpg
 
   logo:
-    favicon: /images/site/favicon.png
+    main: /images/site/brand-mark-light.svg
+    inverted: /images/site/brand-mark-light.svg
+    dark: /images/site/brand-mark-dark.svg
+    favicon: /images/site/favicon.svg
+
+  # Default OpenGraph / Twitter card image used when a post has no `images:` or matching bundle resource.
+  # Drop a 1200x630 PNG/JPG at this path.
+  defaultOgImage: /images/site/og-default.png
+  twitterHandle: mariatta
 
   # Configure the number of section title visible in the top navbar
   topNavbar:
@@ -71,7 +82,7 @@ params:
       enable: true
       services:
         darkreader:
-          defaultColorScheme: system # options are 'system', 'dark', 'light'
+          defaultColorScheme: light # options are 'system', 'dark', 'light'
           fixes:
             invert: ['img[src$=".svg"]'] # inverts svg colors.
           theme:

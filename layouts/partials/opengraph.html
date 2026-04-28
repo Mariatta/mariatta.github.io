@@ -8,7 +8,8 @@
   <meta property="og:title" content="{{ . }}">
 {{- end }}
 
-{{- with or .Description .Summary site.Params.description | plainify | htmlUnescape }}
+{{- $ogDescription := or .Description .Summary site.Params.description | plainify | htmlUnescape -}}
+{{- with $ogDescription }}
   <meta property="og:description" content="{{ trim . "\n\r\t " }}">
 {{- end }}
 
@@ -35,10 +36,21 @@
   <meta property="og:type" content="website">
 {{- end }}
 
-{{- with partial "_funcs/get-page-images" . }}
-  {{- range . | first 6 }}
+{{/* Resolve a primary image (per-post → site default) for og:image and twitter:image */}}
+{{- $pageImages := partial "_funcs/get-page-images" . -}}
+{{- $primaryImage := "" -}}
+{{- if $pageImages -}}
+  {{- range $pageImages | first 6 }}
     <meta property="og:image" content="{{ .Permalink }}">
+    <meta property="og:image:alt" content="{{ $.Title | plainify }}">
+    {{- if not $primaryImage }}{{ $primaryImage = .Permalink }}{{ end -}}
   {{- end }}
+{{- else -}}
+  {{- with site.Params.defaultOgImage -}}
+    {{- $primaryImage = . | absURL -}}
+    <meta property="og:image" content="{{ $primaryImage }}">
+    <meta property="og:image:alt" content="{{ or $.Title site.Title | plainify }}">
+  {{- end -}}
 {{- end }}
 
 {{- with .Params.audio }}
@@ -71,4 +83,21 @@
       {{- end }}
     {{- end }}
   {{- end }}
+{{- end }}
+
+{{/* Twitter / X card tags */}}
+<meta name="twitter:card" content="{{ if $primaryImage }}summary_large_image{{ else }}summary{{ end }}">
+{{- with or .Title site.Title site.Params.title | plainify }}
+  <meta name="twitter:title" content="{{ . }}">
+{{- end }}
+{{- with $ogDescription }}
+  <meta name="twitter:description" content="{{ trim . "\n\r\t " }}">
+{{- end }}
+{{- with $primaryImage }}
+  <meta name="twitter:image" content="{{ . }}">
+  <meta name="twitter:image:alt" content="{{ or $.Title site.Title | plainify }}">
+{{- end }}
+{{- with site.Params.twitterHandle }}
+  <meta name="twitter:site" content="@{{ . }}">
+  <meta name="twitter:creator" content="@{{ . }}">
 {{- end }}

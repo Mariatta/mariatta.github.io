@@ -1,0 +1,243 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&display=swap');
+
+$font-sans: "IBM Plex Sans", -apple-system, BlinkMacSystemFont, "Segoe UI", system-ui, sans-serif;
+$font-mono: "IBM Plex Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+
+// Brand tokens — runtime, theme-switchable.
+// Hugo-Toha's own SCSS already handles its components via variables.scss
+// (light + dark maps). These tokens are for our custom layouts (homepage,
+// future /about, /projects) and for our overrides below.
+:root {
+  --font-sans: #{$font-sans};
+  --font-mono: #{$font-mono};
+
+  --c-bg: #faf7f2;
+  --c-bg-soft: #f2ede3;
+  --c-card: #ffffff;
+  --c-rule: #e8e2d8;
+  --c-text: #1a1a1a;
+  --c-muted: #5a5a5a;
+  --c-faint: #c5beb1;
+  --c-rose: #a8324a;
+  --c-rose-soft: #c75972;
+  --c-rose-tint: #f5e4e8;
+}
+
+html[data-theme='dark'] {
+  --c-bg: #1a1614;
+  --c-bg-soft: #241d1a;
+  --c-card: #2b221e;
+  --c-rule: #3a2f2a;
+  --c-text: #e8e2d8;
+  --c-muted: #a39c92;
+  --c-faint: #5a4f48;
+  --c-rose: #d97a90;
+  --c-rose-soft: #e8a3b3;
+  --c-rose-tint: #4a2030;
+}
+
+html, body {
+  font-family: $font-sans;
+  font-weight: 400;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  font-size: 17px;
+  line-height: 1.65;
+}
+
+h1, h2, h3, h4, h5, h6,
+.h1, .h2, .h3, .h4, .h5, .h6 {
+  font-family: $font-sans;
+  font-weight: 500;
+  letter-spacing: -0.012em;
+  line-height: 1.2;
+}
+
+h1, .h1 { letter-spacing: -0.02em; }
+
+code, kbd, pre, samp, .text-mono {
+  font-family: $font-mono;
+}
+
+// Metadata, dates, tags — anything that should read as the "machine layer"
+.text-muted,
+.post-meta,
+.author-profile .text-muted,
+.reading-time,
+time {
+  font-family: $font-mono;
+  font-size: 0.86em;
+  letter-spacing: 0.02em;
+}
+
+.title h1,
+.post-title,
+article h1.entry-title {
+  font-family: $font-sans;
+  font-weight: 500;
+  letter-spacing: -0.02em;
+}
+
+a {
+  text-underline-offset: 3px;
+  text-decoration-thickness: 1px;
+}
+
+.card,
+.blog-post-card,
+.education-card,
+.experience-card,
+.project-card {
+  border-radius: 6px;
+}
+
+// Inline code — uses theme-aware tokens
+:not(pre) > code {
+  padding: 0.1em 0.35em;
+  border-radius: 3px;
+  background: var(--c-rose-tint);
+  color: var(--c-rose);
+  font-size: 0.9em;
+}
+
+::selection {
+  background: var(--c-rose);
+  color: var(--c-bg);
+}
+
+// Site footer — minimal, brand-aligned.
+.site-footer {
+  background: var(--c-bg-soft);
+  border-top: 1px solid var(--c-rule);
+  padding: 56px 24px 64px;
+  margin-top: 64px;
+}
+.footer-wrap {
+  max-width: 880px;
+  margin: 0 auto;
+  text-align: center;
+}
+.footer-brand {
+  margin-bottom: 24px;
+}
+.footer-wordmark {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 22px;
+  letter-spacing: -0.012em;
+  color: var(--c-text);
+  text-decoration: none;
+}
+.footer-wordmark:hover { color: var(--c-text); text-decoration: none; }
+.footer-wordmark .dot { color: var(--c-rose); }
+
+.footer-nav {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 8px 22px;
+  font-family: var(--font-mono);
+  font-size: 13px;
+  letter-spacing: 0.04em;
+  margin-bottom: 22px;
+}
+.footer-nav a {
+  color: var(--c-text);
+  text-decoration: none;
+  border-bottom: 1px solid transparent;
+}
+.footer-nav a:hover {
+  color: var(--c-rose);
+  border-bottom-color: var(--c-rose);
+}
+
+.footer-social {
+  list-style: none;
+  padding: 0;
+  margin: 0 0 28px;
+  display: flex;
+  justify-content: center;
+  gap: 18px;
+}
+.footer-social a {
+  color: var(--c-muted);
+  font-size: 18px;
+  text-decoration: none;
+  transition: color 0.18s ease-out;
+}
+.footer-social a:hover { color: var(--c-rose); }
+
+// Lyric tagline — italic rose; row auto-hides when paragraph is empty.
+.footer-tagline-row {
+  margin: 12px auto 22px;
+}
+.footer-tagline {
+  font-family: var(--font-sans);
+  font-style: italic;
+  font-size: 14px;
+  line-height: 1.6;
+  color: var(--c-rose);
+  margin: 0 0 6px;
+}
+.footer-tagline-attr {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--c-muted);
+  margin: 0;
+}
+.footer-tagline-attr cite { font-style: normal; }
+.footer-tagline-row:has(.footer-tagline:empty) {
+  display: none;
+}
+
+.footer-meta {
+  font-family: var(--font-mono);
+  font-size: 11px;
+  letter-spacing: 0.04em;
+  color: var(--c-muted);
+}
+.footer-meta a { color: var(--c-rose); text-decoration: none; }
+.footer-meta a:hover { color: var(--c-text); }
+.footer-meta .footer-sep { margin: 0 8px; color: var(--c-faint); }
+
+// Navbar: when in "transparent" state (at top of page), the theme uses
+// inverse-text-color for link text — which equals our background color.
+// Anchor it to the body text token so it works in both modes.
+.top-navbar.transparent-navbar {
+  .navbar-brand,
+  li a {
+    color: var(--c-text);
+  }
+  .feather-menu {
+    stroke: var(--c-text);
+  }
+  li a:hover,
+  .navbar-nav .active {
+    color: var(--c-rose);
+  }
+  // Theme switcher icon (moon/sun): the SVG paths are black by default,
+  // which works on light bg. In dark mode the theme already inverts it via
+  // its own rule. Make sure nothing dims it on the transparent navbar.
+  img.theme-icon {
+    opacity: 1;
+    filter: none;
+  }
+}
+
+// Theme switcher icon in dark mode (already inverted to white by the theme).
+// Keep that working — no override needed here, but we ensure the wrapper
+// button doesn't become invisible.
+html[data-theme='dark'] .top-navbar.transparent-navbar img.theme-icon {
+  filter: invert(1);
+}
+
+// Navbar brand mark in dark mode: only one source SVG exists, so we
+// invert luminance + rotate hue so dark-on-light flips to light-on-dark
+// while keeping color identity (rose stays rose).
+html[data-theme='dark'] .top-navbar .navbar-brand img {
+  filter: invert(1) hue-rotate(180deg);
+}

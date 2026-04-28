@@ -1,0 +1,429 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>mariatta.ca — style tile</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Fraunces:opsz,wght@9..144,300;9..144,400;9..144,500;9..144,600;9..144,700&family=Inter:wght@300;400;500;600&family=IBM+Plex+Sans:wght@300;400;500;600&family=IBM+Plex+Mono:wght@400;500&family=Source+Serif+4:opsz,wght@8..60,300;8..60,400;8..60,500;8..60,600&family=Newsreader:opsz,wght@6..72,300;6..72,400;6..72,500;6..72,600&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<style>
+  :root {
+    --bg: #FAF7F2;
+    --bg-soft: #F2EDE3;
+    --rule: #E8E2D8;
+    --text: #1A1A1A;
+    --muted: #5A5A5A;
+    --rose: #A8324A;
+    --rose-soft: #C75972;
+    --rose-tint: #F5E4E8;
+
+    --font-serif: "Fraunces", Georgia, "Times New Roman", serif;
+    --font-mono: "JetBrains Mono", ui-monospace, SFMono-Regular, Menlo, monospace;
+  }
+
+  * { box-sizing: border-box; }
+  html, body { margin: 0; padding: 0; }
+  body {
+    background: var(--bg);
+    color: var(--text);
+    font-family: var(--font-serif);
+    font-optical-sizing: auto;
+    font-weight: 400;
+    line-height: 1.6;
+    -webkit-font-smoothing: antialiased;
+  }
+
+  .wrap {
+    max-width: 880px;
+    margin: 0 auto;
+    padding: 80px 32px 120px;
+  }
+
+  .label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 12px;
+  }
+
+  section { margin-bottom: 72px; }
+
+  h1.brand {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(48px, 7vw, 84px);
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    margin: 0 0 8px;
+    font-variation-settings: "opsz" 144, "SOFT" 50;
+  }
+  h1.brand .dot { color: var(--rose); }
+
+  .tagline {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--muted);
+    letter-spacing: 0.04em;
+  }
+
+  /* Palette */
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(140px, 1fr));
+    gap: 12px;
+  }
+  .swatch {
+    border: 1px solid var(--rule);
+    border-radius: 4px;
+    overflow: hidden;
+    background: #fff;
+  }
+  .swatch .chip { height: 96px; }
+  .swatch .meta {
+    padding: 10px 12px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--muted);
+  }
+  .swatch .meta strong {
+    display: block;
+    color: var(--text);
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+
+  /* Typography options */
+  .font-options {
+    display: grid;
+    gap: 24px;
+  }
+  .font-option {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 24px 28px;
+    background: #fff;
+  }
+  .font-option .font-name {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--muted);
+    margin: 0 0 14px;
+  }
+  .font-option .font-tag {
+    background: var(--rose-tint);
+    color: var(--rose);
+    padding: 2px 8px;
+    border-radius: 3px;
+    margin-left: 8px;
+    letter-spacing: 0.06em;
+  }
+  .font-option .font-head {
+    font-family: var(--ff-head);
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 1.18;
+    letter-spacing: -0.012em;
+    margin: 0 0 12px;
+    color: var(--text);
+  }
+  .font-option .font-body {
+    font-family: var(--ff-body);
+    font-weight: 400;
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--text);
+    margin: 0 0 12px;
+    max-width: 62ch;
+  }
+  .font-option .font-body em {
+    color: var(--rose);
+    font-style: italic;
+  }
+  .font-option .font-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin: 0;
+  }
+
+  /* Typography sample */
+  h2.sample {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: clamp(32px, 4.5vw, 48px);
+    letter-spacing: -0.015em;
+    line-height: 1.15;
+    margin: 0 0 16px;
+    font-variation-settings: "opsz" 96;
+  }
+  h3.sample {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 22px;
+    letter-spacing: -0.005em;
+    margin: 0 0 8px;
+  }
+  p.sample {
+    font-family: var(--font-serif);
+    font-size: 18px;
+    line-height: 1.7;
+    color: var(--text);
+    max-width: 62ch;
+    margin: 0 0 16px;
+  }
+  p.sample a { color: var(--rose); text-decoration: underline; text-underline-offset: 3px; text-decoration-thickness: 1px; }
+  p.sample a:hover { color: var(--rose-soft); }
+
+  .meta-line {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--muted);
+    margin-bottom: 8px;
+  }
+  .meta-line .sep { color: var(--rule); margin: 0 8px; }
+
+  /* Post card */
+  .feed { display: grid; gap: 28px; }
+  .post {
+    border-top: 1px solid var(--rule);
+    padding-top: 24px;
+  }
+  .post:first-child { border-top: 0; padding-top: 0; }
+  .post h3 a { color: inherit; text-decoration: none; }
+  .post h3 a:hover { color: var(--rose); }
+  .post .excerpt {
+    color: var(--muted);
+    font-size: 16px;
+    line-height: 1.65;
+    margin: 4px 0 0;
+    max-width: 62ch;
+  }
+  .tag {
+    display: inline-block;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--rose);
+    letter-spacing: 0.06em;
+    text-transform: lowercase;
+    margin-right: 10px;
+  }
+
+  /* Project card grid */
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 16px;
+  }
+  .project {
+    border: 1px solid var(--rule);
+    border-radius: 6px;
+    padding: 22px;
+    background: #fff;
+    transition: border-color 0.2s, transform 0.2s;
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  .project:hover {
+    border-color: var(--rose);
+    transform: translateY(-2px);
+  }
+  .project .name {
+    font-family: var(--font-serif);
+    font-weight: 500;
+    font-size: 20px;
+    margin-bottom: 6px;
+  }
+  .project .url {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--rose);
+  }
+  .project .desc {
+    font-size: 14px;
+    color: var(--muted);
+    margin-top: 10px;
+    line-height: 1.5;
+  }
+
+  /* Buttons */
+  .btn-row { display: flex; gap: 12px; flex-wrap: wrap; }
+  .btn {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    padding: 10px 18px;
+    border-radius: 4px;
+    text-decoration: none;
+    display: inline-block;
+    transition: all 0.15s;
+  }
+  .btn-primary { background: var(--rose); color: var(--bg); }
+  .btn-primary:hover { background: var(--text); }
+  .btn-ghost { background: transparent; color: var(--text); border: 1px solid var(--rule); }
+  .btn-ghost:hover { border-color: var(--rose); color: var(--rose); }
+
+  /* Footer */
+  footer.tile-footer {
+    border-top: 1px solid var(--rule);
+    padding-top: 32px;
+    margin-top: 80px;
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--muted);
+    letter-spacing: 0.03em;
+  }
+  footer.tile-footer .lyric {
+    font-family: var(--font-serif);
+    font-style: italic;
+    font-size: 15px;
+    color: var(--rose);
+    margin-bottom: 8px;
+    /* TODO: replace with the two-line Darren Hayes lyric tagline (Mariatta to fill in) */
+  }
+  footer.tile-footer .lyric::before { content: "[ lyric tagline — fill in ]"; }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <section>
+    <p class="label">Wordmark</p>
+    <h1 class="brand">Mariatta<span class="dot">.</span></h1>
+    <p class="tagline">writing / talks / projects</p>
+  </section>
+
+  <section>
+    <p class="label">Palette</p>
+    <div class="swatches">
+      <div class="swatch"><div class="chip" style="background:#FAF7F2"></div><div class="meta"><strong>Background</strong>#FAF7F2</div></div>
+      <div class="swatch"><div class="chip" style="background:#F2EDE3"></div><div class="meta"><strong>Background soft</strong>#F2EDE3</div></div>
+      <div class="swatch"><div class="chip" style="background:#E8E2D8"></div><div class="meta"><strong>Rule / border</strong>#E8E2D8</div></div>
+      <div class="swatch"><div class="chip" style="background:#1A1A1A"></div><div class="meta"><strong>Text</strong>#1A1A1A</div></div>
+      <div class="swatch"><div class="chip" style="background:#5A5A5A"></div><div class="meta"><strong>Muted text</strong>#5A5A5A</div></div>
+      <div class="swatch"><div class="chip" style="background:#A8324A"></div><div class="meta"><strong>Rose (accent)</strong>#A8324A</div></div>
+      <div class="swatch"><div class="chip" style="background:#C75972"></div><div class="meta"><strong>Rose soft</strong>#C75972</div></div>
+      <div class="swatch"><div class="chip" style="background:#F5E4E8"></div><div class="meta"><strong>Rose tint</strong>#F5E4E8</div></div>
+    </div>
+  </section>
+
+  <section>
+    <p class="label">Typography options — pick one</p>
+    <p style="font-family: var(--font-mono); font-size:12px; color:var(--muted); margin:0 0 24px; max-width:62ch;">Same sample text, four families. Headings at weight 500, body at 400. Look at how curly the letterforms feel and how the page reads as a whole.</p>
+
+    <div class="font-options">
+
+      <article class="font-option" style="--ff-head: 'Fraunces', serif; --ff-body: 'Fraunces', serif;">
+        <p class="font-name">A. Fraunces <span class="font-tag">current</span></p>
+        <h3 class="font-head">Building things, telling stories.</h3>
+        <p class="font-body">Body copy in the same family. Notice the soft optical sizes and the more expressive, almost literary curves on the letters — the <em>g</em>, <em>a</em>, and <em>r</em> have personality.</p>
+        <p class="font-meta">2026-04-27 · 6 MIN READ · python, community</p>
+      </article>
+
+      <article class="font-option" style="--ff-head: 'Inter', sans-serif; --ff-body: 'Inter', sans-serif;">
+        <p class="font-name">B. Inter</p>
+        <h3 class="font-head">Building things, telling stories.</h3>
+        <p class="font-body">Body copy in the same family. Cleanly drawn neutral sans — no curls, very high readability, modern. Pairs naturally with JetBrains Mono.</p>
+        <p class="font-meta">2026-04-27 · 6 MIN READ · python, community</p>
+      </article>
+
+      <article class="font-option" style="--ff-head: 'IBM Plex Sans', sans-serif; --ff-body: 'IBM Plex Sans', sans-serif;">
+        <p class="font-name">C. IBM Plex Sans</p>
+        <h3 class="font-head">Building things, telling stories.</h3>
+        <p class="font-body">Body copy in the same family. Slightly more character than Inter — a touch of warmth in the curves but still very technical-feeling. Pairs with IBM Plex Mono.</p>
+        <p class="font-meta">2026-04-27 · 6 MIN READ · python, community</p>
+      </article>
+
+      <article class="font-option" style="--ff-head: 'Source Serif 4', serif; --ff-body: 'Source Serif 4', serif;">
+        <p class="font-name">D. Source Serif 4</p>
+        <h3 class="font-head">Building things, telling stories.</h3>
+        <p class="font-body">Body copy in the same family. A serif that's calmer than Fraunces — straighter strokes, less ornate. Editorial without being floral.</p>
+        <p class="font-meta">2026-04-27 · 6 MIN READ · python, community</p>
+      </article>
+
+      <article class="font-option" style="--ff-head: 'Newsreader', serif; --ff-body: 'Newsreader', serif;">
+        <p class="font-name">E. Newsreader</p>
+        <h3 class="font-head">Building things, telling stories.</h3>
+        <p class="font-body">Body copy in the same family. Designed for screen reading, optical-sized like Fraunces but with calmer, more upright shapes. Quietly literary.</p>
+        <p class="font-meta">2026-04-27 · 6 MIN READ · python, community</p>
+      </article>
+
+    </div>
+  </section>
+
+  <section>
+    <p class="label">Original typography (Fraunces)</p>
+    <h2 class="sample">Building things, telling stories, drinking tea.</h2>
+    <h3 class="sample">A smaller heading, for sections within a post.</h3>
+    <p class="sample">Body copy is set in Fraunces at 18 pixels with comfortable line height. Inline links use the rose accent with a <a href="#">subtle underline</a>, and metadata switches to JetBrains Mono so it reads as a quieter machine layer beneath the editorial voice.</p>
+    <p class="meta-line">2026-04-27 <span class="sep">·</span> 6 MIN READ <span class="sep">·</span> python, community</p>
+  </section>
+
+  <section>
+    <p class="label">Blog feed (homepage)</p>
+    <div class="feed">
+      <article class="post">
+        <p class="meta-line">2026-04-27 <span class="sep">·</span> 4 MIN READ</p>
+        <h3 class="sample"><a href="#">An Audience of One</a></h3>
+        <p class="excerpt">A short excerpt of the post, set in the body face but slightly muted so the title carries the weight of the card.</p>
+        <p style="margin-top:10px"><span class="tag">writing</span><span class="tag">reflection</span></p>
+      </article>
+      <article class="post">
+        <p class="meta-line">2026-03-15 <span class="sep">·</span> 7 MIN READ</p>
+        <h3 class="sample"><a href="#">No More Scheduling Polls</a></h3>
+        <p class="excerpt">Why I stopped sending Doodles and what I do instead. A small change that made meetings feel less like a negotiation.</p>
+        <p style="margin-top:10px"><span class="tag">work</span><span class="tag">tools</span></p>
+      </article>
+      <article class="post">
+        <p class="meta-line">2026-02-08 <span class="sep">·</span> 5 MIN READ</p>
+        <h3 class="sample"><a href="#">Travel Budgeting Without a Spreadsheet</a></h3>
+        <p class="excerpt">After years of color-coded sheets I finally let go. Here's what replaced it.</p>
+        <p style="margin-top:10px"><span class="tag">travel</span><span class="tag">money</span></p>
+      </article>
+    </div>
+  </section>
+
+  <section>
+    <p class="label">Projects</p>
+    <div class="projects">
+      <a class="project" href="https://travel.mariatta.ca">
+        <div class="name">Travels</div>
+        <div class="url">travel.mariatta.ca →</div>
+        <div class="desc">Travel planning without spreadsheets.</div>
+      </a>
+      <a class="project" href="https://secretcodes.dev">
+        <div class="name">Secret Codes</div>
+        <div class="url">secretcodes.dev →</div>
+        <div class="desc">Small, useful automations. Runs without third-party trackers or cookie gauntlets.</div>
+      </a>
+      <a class="project" href="https://nospreadsheet.dev">
+        <div class="name">No Spreadsheet</div>
+        <div class="url">nospreadsheet.dev →</div>
+        <div class="desc">Tools for people who'd rather not open another sheet today.</div>
+      </a>
+    </div>
+  </section>
+
+  <section>
+    <p class="label">Buttons & links</p>
+    <div class="btn-row">
+      <a class="btn btn-primary" href="#">Subscribe</a>
+      <a class="btn btn-ghost" href="#">Read more</a>
+    </div>
+  </section>
+
+  <footer class="tile-footer">
+    <div class="lyric"></div>
+    <div>© Mariatta · made with care</div>
+  </footer>
+
+</div>
+</body>
+</html>

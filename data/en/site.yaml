@@ -23,6 +23,14 @@ openGraph:
   url: https://mariatta.ca
 
 customMenus:
+  - name: Projects
+    url: /projects/
+    hidefromNavbar: false
+    showOnFooter: true
+  - name: About
+    url: /about/
+    hidefromNavbar: false
+    showOnFooter: true
   - name: My Talks
     url: /posts/talks/
     hidefromNavbar: false

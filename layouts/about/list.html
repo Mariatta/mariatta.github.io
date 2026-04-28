@@ -1,0 +1,344 @@
+{{ define "navbar" }}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+{{- $about := index site.Data site.Language.Lang "sections" "about" -}}
+{{- $author := index site.Data site.Language.Lang "author" -}}
+{{- $exp := index site.Data site.Language.Lang "sections" "experiences" -}}
+{{- $edu := index site.Data site.Language.Lang "sections" "education" -}}
+{{- $acc := index site.Data site.Language.Lang "sections" "accomplishments" -}}
+
+<section class="page-section">
+  <div class="page-wrap">
+
+    <header class="page-header">
+      <p class="page-eyebrow">About</p>
+      <h1 class="page-title">{{ with $author }}{{ .name }}{{ else }}Mariatta{{ end }}.</h1>
+      {{ with $author.summary }}
+        <ul class="page-roles">
+          {{ range . }}<li>{{ . }}</li>{{ end }}
+        </ul>
+      {{ end }}
+    </header>
+
+    {{ with $about.summary }}
+      <section class="about-block">
+        <p class="page-prose">{{ . | markdownify }}</p>
+      </section>
+    {{ end }}
+
+    {{ with $exp.experiences }}
+      <section class="about-block">
+        <p class="block-eyebrow">Experience</p>
+        <ol class="experience-list">
+          {{ range . }}
+            <li class="experience">
+              <div class="experience-head">
+                <p class="experience-company">
+                  {{ with .company.url }}<a href="{{ . }}" target="_blank" rel="noopener">{{ $.Scratch.Set "u" 1 }}{{ end }}{{ .company.name }}{{ with .company.url }}</a>{{ end }}
+                </p>
+                {{ with .company.location }}<p class="experience-loc">{{ . }}</p>{{ end }}
+              </div>
+              {{ with .positions }}
+                <ul class="position-list">
+                  {{ range . }}
+                    <li class="position">
+                      <p class="position-title">{{ .designation }}</p>
+                      <p class="position-dates">
+                        <time>{{ .start }}</time>
+                        <span class="sep">&rarr;</span>
+                        <time>{{ if .end }}{{ .end }}{{ else }}Present{{ end }}</time>
+                      </p>
+                    </li>
+                  {{ end }}
+                </ul>
+              {{ end }}
+            </li>
+          {{ end }}
+        </ol>
+      </section>
+    {{ end }}
+
+    {{ with $edu.degrees }}
+      <section class="about-block">
+        <p class="block-eyebrow">Education</p>
+        <ul class="degree-list">
+          {{ range . }}
+            <li class="degree">
+              <p class="degree-name">{{ .name }}</p>
+              <p class="degree-meta">
+                {{ with .institution }}{{ if .url }}<a href="{{ .url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}{{ end }}
+                {{ with .timeframe }}<span class="sep">&middot;</span><time>{{ . }}</time>{{ end }}
+              </p>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    {{ with $acc.accomplishments }}
+      <section class="about-block">
+        <p class="block-eyebrow">Recognition</p>
+        <ul class="award-list">
+          {{ range . }}
+            <li class="award">
+              <p class="award-name">
+                {{ if .organization.url }}<a href="{{ .organization.url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
+              </p>
+              <p class="award-meta">
+                {{ with .organization.name }}{{ . }}{{ end }}
+                {{ with .timeline }}<span class="sep">&middot;</span><time>{{ . }}</time>{{ end }}
+              </p>
+            </li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    <section class="about-block">
+      <p class="block-eyebrow">More</p>
+      <p class="page-prose">
+        I speak about Python, open source, and community. See <a href="{{ "/posts/talks/" | relLangURL }}">talks</a>, the <a href="{{ "/posts/" | relLangURL }}">writing</a>, or my <a href="{{ "/projects/" | relLangURL }}">projects</a>.
+        Want to chat? <a href="https://calendly.com/mariatta_" target="_blank" rel="noopener">Book a time</a>.
+      </p>
+    </section>
+
+    {{ with $about.socialLinks }}
+      <section class="about-block">
+        <p class="block-eyebrow">Elsewhere</p>
+        <ul class="social-list">
+          {{ range . }}
+            <li><a href="{{ if eq .name "Email" }}mailto:{{ .url }}{{ else }}{{ .url }}{{ end }}"{{ with .rel }} rel="{{ . }}"{{ end }} target="_blank">{{ .name }}</a></li>
+          {{ end }}
+        </ul>
+      </section>
+    {{ end }}
+
+    <p class="page-back"><a href="{{ "/" | relLangURL }}">&larr; Back home</a></p>
+  </div>
+</section>
+
+<style>
+  .page-section {
+    background: var(--c-bg);
+    width: 100%;
+    padding: 80px 24px 120px;
+  }
+  .page-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .page-header { margin-bottom: 48px; }
+  .page-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 12px;
+  }
+  .page-title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: clamp(40px, 6vw, 64px);
+    letter-spacing: -0.02em;
+    line-height: 1.05;
+    color: var(--c-text);
+    margin: 0 0 16px;
+  }
+  .page-roles {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+    color: var(--c-muted);
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px 14px;
+  }
+  .page-roles li::before {
+    content: "·";
+    margin-right: 8px;
+    color: var(--c-faint);
+  }
+  .page-roles li:first-child::before { content: ""; margin: 0; }
+
+  .about-block {
+    margin-bottom: 48px;
+    padding-top: 32px;
+    border-top: 1px solid var(--c-rule);
+  }
+  .about-block:nth-of-type(1) {
+    border-top: 0;
+    padding-top: 0;
+  }
+  .block-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 18px;
+  }
+
+  .page-prose {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--c-text);
+    max-width: 62ch;
+    margin: 0;
+  }
+  .page-prose a {
+    color: var(--c-rose);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-thickness: 1px;
+  }
+
+  .experience-list,
+  .degree-list,
+  .award-list,
+  .social-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+
+  .experience { margin-bottom: 28px; }
+  .experience:last-child { margin-bottom: 0; }
+  .experience-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 12px;
+    margin-bottom: 8px;
+    flex-wrap: wrap;
+  }
+  .experience-company {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 18px;
+    color: var(--c-text);
+    margin: 0;
+  }
+  .experience-company a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .experience-company a:hover { color: var(--c-rose); }
+  .experience-loc {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    margin: 0;
+    letter-spacing: 0.03em;
+  }
+  .position-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 0 0;
+  }
+  .position { margin-bottom: 14px; }
+  .position:last-child { margin-bottom: 0; }
+  .position-title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 15px;
+    color: var(--c-text);
+    margin: 0;
+  }
+  .position-dates {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    letter-spacing: 0.03em;
+    margin: 2px 0 6px;
+  }
+  .position-dates .sep { margin: 0 6px; color: var(--c-faint); }
+  .position-bullets {
+    margin: 0;
+    padding-left: 20px;
+    color: var(--c-muted);
+    font-size: 15px;
+    line-height: 1.6;
+    font-family: var(--font-sans);
+  }
+  .position-bullets li { margin-bottom: 4px; }
+
+  .degree { margin-bottom: 14px; }
+  .degree-name {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--c-text);
+    margin: 0;
+  }
+  .degree-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    margin: 2px 0 0;
+  }
+  .degree-meta a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .degree-meta a:hover { color: var(--c-text); }
+  .degree-meta .sep { margin: 0 8px; color: var(--c-faint); }
+
+  .award { margin-bottom: 14px; }
+  .award-name {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--c-text);
+    margin: 0;
+  }
+  .award-name a {
+    color: inherit;
+    text-decoration: none;
+  }
+  .award-name a:hover { color: var(--c-rose); }
+  .award-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    margin: 2px 0 0;
+  }
+  .award-meta .sep { margin: 0 8px; color: var(--c-faint); }
+
+  .social-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px 18px;
+  }
+  .social-list a {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-text);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .social-list a:hover {
+    color: var(--c-rose);
+    border-bottom-color: var(--c-rose);
+  }
+
+  .page-back {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-muted);
+    margin-top: 56px;
+  }
+  .page-back a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .page-back a:hover { color: var(--c-text); }
+</style>
+{{ end }}

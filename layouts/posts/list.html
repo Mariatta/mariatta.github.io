@@ -1,0 +1,247 @@
+{{ define "navbar" }}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="page-section">
+  <div class="page-wrap">
+
+    <header class="page-header">
+      <p class="page-eyebrow">{{ if eq .Section "posts" }}{{ if .IsSection }}{{ .Title | default "Writing" }}{{ end }}{{ end }}</p>
+      <h1 class="page-title">{{ .Title | default "Writing" }}</h1>
+      {{ with .Description }}
+        <p class="page-intro">{{ . }}</p>
+      {{ end }}
+    </header>
+
+    {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
+    {{ $paginator := .Paginate $pages }}
+    {{ if $pages }}
+      <ul class="feed-list">
+        {{ range $paginator.Pages }}
+          <li class="feed-entry{{ with .Params.hero }} has-thumb{{ end }}">
+            <div class="feed-entry-text">
+              <p class="feed-entry-meta">
+                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+                {{- if site.Params.features.readingTime }}<span class="sep">&middot;</span>{{ .ReadingTime }} min read{{ end -}}
+              </p>
+              <h2 class="feed-entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+              {{- with or .Description (.Summary | plainify) }}
+                <p class="feed-entry-excerpt">{{ . | truncate 200 }}</p>
+              {{- end }}
+              {{- with .Params.tags }}
+                <p class="feed-entry-tags">
+                  {{- range first 4 . }}<span class="tag">{{ . | lower }}</span>{{ end -}}
+                </p>
+              {{- end }}
+            </div>
+            {{- with .Params.hero }}
+              <a class="feed-entry-thumb-link" href="{{ $.Permalink }}" aria-hidden="true" tabindex="-1">
+                <img class="feed-entry-thumb" src="{{ . | absURL }}" alt="" loading="lazy" />
+              </a>
+            {{- end }}
+          </li>
+        {{ end }}
+      </ul>
+
+      {{ if gt $paginator.TotalPages 1 }}
+        <nav class="pager" aria-label="Pagination">
+          {{ if $paginator.HasPrev }}
+            <a class="pager-link pager-prev" href="{{ $paginator.Prev.URL }}">&larr; Newer</a>
+          {{ else }}
+            <span class="pager-link pager-disabled">&larr; Newer</span>
+          {{ end }}
+
+          <span class="pager-status">
+            Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+          </span>
+
+          {{ if $paginator.HasNext }}
+            <a class="pager-link pager-next" href="{{ $paginator.Next.URL }}">Older &rarr;</a>
+          {{ else }}
+            <span class="pager-link pager-disabled">Older &rarr;</span>
+          {{ end }}
+        </nav>
+      {{ end }}
+    {{ else }}
+      <p class="page-prose">Nothing here yet.</p>
+    {{ end }}
+
+    {{ $parent := .Parent }}
+    <p class="page-back">
+      {{ if and $parent (not $parent.IsHome) }}
+        <a href="{{ $parent.Permalink }}">&larr; {{ $parent.Title | default "Back" }}</a>
+      {{ else }}
+        <a href="{{ "/" | relLangURL }}">&larr; Back home</a>
+      {{ end }}
+    </p>
+
+  </div>
+</section>
+
+<style>
+  .page-section {
+    background: var(--c-bg);
+    width: 100%;
+    padding: 80px 24px 120px;
+  }
+  .page-wrap {
+    max-width: 760px;
+    margin: 0 auto;
+  }
+
+  .page-header { margin-bottom: 56px; }
+  .page-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 12px;
+    min-height: 1em;
+  }
+  .page-title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: clamp(36px, 5vw, 52px);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--c-text);
+    margin: 0 0 16px;
+  }
+  .page-intro {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--c-muted);
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  .feed-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .feed-entry {
+    border-top: 1px solid var(--c-rule);
+    padding: 28px 0;
+  }
+  .feed-entry:first-child { border-top: 0; padding-top: 0; }
+  .feed-entry.has-thumb {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) 200px;
+    gap: 24px;
+    align-items: start;
+  }
+  .feed-entry-text { min-width: 0; }
+  .feed-entry-thumb-link {
+    display: block;
+    line-height: 0;
+  }
+  .feed-entry-thumb {
+    width: 200px;
+    aspect-ratio: 16 / 9;
+    object-fit: cover;
+    border-radius: 6px;
+    border: 1px solid var(--c-rule);
+    display: block;
+  }
+  @media (max-width: 560px) {
+    .feed-entry.has-thumb {
+      grid-template-columns: minmax(0, 1fr) 120px;
+      gap: 14px;
+    }
+    .feed-entry-thumb {
+      width: 120px;
+    }
+  }
+  .feed-entry-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    letter-spacing: 0.04em;
+    margin: 0 0 6px;
+  }
+  .feed-entry-meta .sep { margin: 0 8px; color: var(--c-faint); }
+  .feed-entry-title {
+    font-family: var(--font-sans);
+    font-size: clamp(22px, 2.6vw, 28px);
+    font-weight: 500;
+    letter-spacing: -0.012em;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+  .feed-entry-title a {
+    color: var(--c-text);
+    text-decoration: none;
+  }
+  .feed-entry-title a:hover { color: var(--c-rose); }
+  .feed-entry-excerpt {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--c-muted);
+    max-width: 62ch;
+    margin: 0 0 8px;
+  }
+  .feed-entry-tags { margin: 6px 0 0; }
+  .feed-entry-tags .tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--c-rose);
+    letter-spacing: 0.06em;
+    margin-right: 12px;
+  }
+
+  .page-prose {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.7;
+    color: var(--c-muted);
+    margin: 0;
+  }
+
+  .pager {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 16px;
+    margin-top: 48px;
+    padding-top: 24px;
+    border-top: 1px solid var(--c-rule);
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.04em;
+  }
+  .pager-link {
+    color: var(--c-rose);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .pager-link:hover {
+    color: var(--c-text);
+    border-bottom-color: var(--c-text);
+  }
+  .pager-link.pager-disabled {
+    color: var(--c-faint);
+    cursor: default;
+    border-bottom-color: transparent;
+  }
+  .pager-status {
+    color: var(--c-muted);
+  }
+
+  .page-back {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-muted);
+    margin-top: 56px;
+  }
+  .page-back a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .page-back a:hover { color: var(--c-text); }
+</style>
+{{ end }}

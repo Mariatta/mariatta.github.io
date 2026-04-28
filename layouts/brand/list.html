@@ -1,0 +1,384 @@
+{{ define "navbar" }}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="page-section">
+  <div class="page-wrap">
+
+    <header class="page-header">
+      <p class="page-eyebrow">Brand kit</p>
+      <h1 class="page-title">Visual system for mariatta.ca</h1>
+      <p class="page-intro">Internal reference. Colors and typography are locked. The logo monogram is open for redesign &mdash; the spec at the bottom of this page describes the slot a new mark needs to fit.</p>
+    </header>
+
+    <!-- ============ LOGO ============ -->
+    <section class="kit-block" id="logo">
+      <p class="block-eyebrow">Logo &mdash; current monogram</p>
+      <div class="logo-row">
+        <div class="logo-cell logo-cell-light">
+          <img src="/images/site/brand-mark-light.svg" alt="Mariatta monogram, light variant" width="64" height="64">
+          <p class="logo-cell-meta"><strong>Light variant</strong><br>brand-mark-light.svg</p>
+        </div>
+        <div class="logo-cell logo-cell-dark">
+          <img src="/images/site/brand-mark-dark.svg" alt="Mariatta monogram, dark variant" width="64" height="64">
+          <p class="logo-cell-meta"><strong>Dark variant</strong><br>brand-mark-dark.svg</p>
+        </div>
+        <div class="logo-cell logo-cell-light">
+          <img src="/images/site/favicon.svg" alt="Mariatta favicon" width="48" height="48">
+          <p class="logo-cell-meta"><strong>Favicon</strong><br>favicon.svg<br>(theme-aware via prefers-color-scheme)</p>
+        </div>
+      </div>
+      <p class="block-note">The current monogram is a stylized "M" with a rose period. It's a placeholder &mdash; redesign welcome.</p>
+    </section>
+
+    <!-- ============ COLORS ============ -->
+    <section class="kit-block" id="color">
+      <p class="block-eyebrow">Color &mdash; light theme</p>
+      <div class="swatches">
+        <div class="swatch"><span class="chip" style="background:#FAF7F2"></span><span class="meta"><strong>Background</strong><code>#FAF7F2</code><span class="role">--c-bg</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#F2EDE3"></span><span class="meta"><strong>Background soft</strong><code>#F2EDE3</code><span class="role">--c-bg-soft</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#FFFFFF;border:1px solid #E8E2D8"></span><span class="meta"><strong>Card</strong><code>#FFFFFF</code><span class="role">--c-card</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#E8E2D8"></span><span class="meta"><strong>Rule</strong><code>#E8E2D8</code><span class="role">--c-rule</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#1A1A1A"></span><span class="meta"><strong>Text</strong><code>#1A1A1A</code><span class="role">--c-text</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#5A5A5A"></span><span class="meta"><strong>Muted</strong><code>#5A5A5A</code><span class="role">--c-muted</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#C5BEB1"></span><span class="meta"><strong>Faint</strong><code>#C5BEB1</code><span class="role">--c-faint</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#A8324A"></span><span class="meta"><strong>Rose (accent)</strong><code>#A8324A</code><span class="role">--c-rose</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#C75972"></span><span class="meta"><strong>Rose soft</strong><code>#C75972</code><span class="role">--c-rose-soft</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#F5E4E8"></span><span class="meta"><strong>Rose tint</strong><code>#F5E4E8</code><span class="role">--c-rose-tint</span></span></div>
+      </div>
+    </section>
+
+    <section class="kit-block" id="color-dark">
+      <p class="block-eyebrow">Color &mdash; dark theme</p>
+      <div class="swatches">
+        <div class="swatch"><span class="chip" style="background:#1A1614"></span><span class="meta"><strong>Background</strong><code>#1A1614</code><span class="role">--c-bg</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#241D1A"></span><span class="meta"><strong>Background soft</strong><code>#241D1A</code><span class="role">--c-bg-soft</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#2B221E"></span><span class="meta"><strong>Card</strong><code>#2B221E</code><span class="role">--c-card</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#3A2F2A"></span><span class="meta"><strong>Rule</strong><code>#3A2F2A</code><span class="role">--c-rule</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#E8E2D8"></span><span class="meta"><strong>Text</strong><code>#E8E2D8</code><span class="role">--c-text</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#A39C92"></span><span class="meta"><strong>Muted</strong><code>#A39C92</code><span class="role">--c-muted</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#5A4F48"></span><span class="meta"><strong>Faint</strong><code>#5A4F48</code><span class="role">--c-faint</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#D97A90"></span><span class="meta"><strong>Rose (accent)</strong><code>#D97A90</code><span class="role">--c-rose</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#E8A3B3"></span><span class="meta"><strong>Rose soft</strong><code>#E8A3B3</code><span class="role">--c-rose-soft</span></span></div>
+        <div class="swatch"><span class="chip" style="background:#4A2030"></span><span class="meta"><strong>Rose tint</strong><code>#4A2030</code><span class="role">--c-rose-tint</span></span></div>
+      </div>
+      <p class="block-note">Tokens are defined in <code>assets/styles/override.scss</code> as CSS custom properties under <code>:root</code> (light) and <code>html[data-theme='dark']</code> (dark). Theme-aware components reference <code>var(--c-*)</code>; the underlying SCSS theme map in <code>assets/styles/variables.scss</code> mirrors the same values for components that compile colors at build time.</p>
+    </section>
+
+    <!-- ============ TYPOGRAPHY ============ -->
+    <section class="kit-block" id="type">
+      <p class="block-eyebrow">Typography</p>
+      <div class="type-row">
+        <div class="type-cell">
+          <p class="type-label">Sans &mdash; <code>--font-sans</code></p>
+          <p class="type-name">IBM Plex Sans</p>
+          <p class="type-meta">Headings (500), body (400). Loaded via Google Fonts.</p>
+          <p class="type-sample" style="font-family: 'IBM Plex Sans', sans-serif; font-weight: 500; font-size: 32px; letter-spacing: -0.012em;">Building things, telling stories.</p>
+          <p class="type-sample" style="font-family: 'IBM Plex Sans', sans-serif; font-weight: 400; font-size: 17px; line-height: 1.65;">Body copy at 17px / 1.65, the working line height across post and page layouts.</p>
+        </div>
+        <div class="type-cell">
+          <p class="type-label">Mono &mdash; <code>--font-mono</code></p>
+          <p class="type-name">IBM Plex Mono</p>
+          <p class="type-meta">Metadata, dates, tags, code, eyebrows. The "machine" layer beneath the editorial voice.</p>
+          <p class="type-sample" style="font-family: 'IBM Plex Mono', monospace; font-weight: 500; font-size: 14px; letter-spacing: 0.04em;">2026-04-27 &middot; 6 MIN READ &middot; python, community</p>
+          <p class="type-sample" style="font-family: 'IBM Plex Mono', monospace; font-size: 11px; letter-spacing: 0.16em; text-transform: uppercase; color: var(--c-muted);">Eyebrow text uses 0.16em tracking, uppercase</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ HANDOFF ============ -->
+    <section class="kit-block" id="handoff">
+      <p class="block-eyebrow">Logo redesign &mdash; handoff spec</p>
+
+      <p class="page-prose">A new monogram needs two SVG variants and a favicon. The colors and slot dimensions below are locked so the rest of the site doesn't have to change when the mark does.</p>
+
+      <h3 class="handoff-h3">Required deliverables</h3>
+      <ul class="handoff-list">
+        <li><code>assets/images/site/brand-mark-light.svg</code> &mdash; mark for light backgrounds</li>
+        <li><code>assets/images/site/brand-mark-dark.svg</code> &mdash; mark for dark backgrounds</li>
+        <li><code>assets/images/site/favicon.svg</code> &mdash; favicon, ideally theme-aware via <code>prefers-color-scheme</code></li>
+        <li><code>assets/images/site/og-default.svg</code> &mdash; 1200&times;630 social card; export to PNG with <code>rsvg-convert</code> for production</li>
+      </ul>
+
+      <h3 class="handoff-h3">Format and dimensions</h3>
+      <ul class="handoff-list">
+        <li><strong>SVG</strong>, square viewBox <code>0 0 64 64</code> (favicon and brand mark)</li>
+        <li>Render area should occupy roughly 75&ndash;85% of the viewBox; leave 8&ndash;10 units of clearspace inside the canvas</li>
+        <li>Max two colors total: a primary (text or rose) and an accent (rose dot or detail)</li>
+        <li>No background fill on the SVG &mdash; mark must sit on whatever surface it's placed on</li>
+        <li>The navbar renders the SVG at <strong>~42px height</strong>; the favicon renders at <strong>16&ndash;32px</strong>. Verify legibility at both</li>
+      </ul>
+
+      <h3 class="handoff-h3">Color usage</h3>
+      <ul class="handoff-list">
+        <li><strong>Light variant</strong> &mdash; primary stroke/fill: <code>#1A1A1A</code> (Text). Accent: <code>#A8324A</code> (Rose)</li>
+        <li><strong>Dark variant</strong> &mdash; primary stroke/fill: <code>#FAF7F2</code> (Background). Accent: <code>#D97A90</code> (Rose lifted for dark contrast)</li>
+        <li>Do not introduce new colors. Stick to the tokens above</li>
+      </ul>
+
+      <h3 class="handoff-h3">Voice cues for the mark</h3>
+      <ul class="handoff-list">
+        <li>Editorial-with-warmth: serious enough for a Python core developer, soft enough for a personal blog</li>
+        <li>The rose accent should feel like a <em>detail</em>, not the headline &mdash; it's a spot of color, not the whole logo</li>
+        <li>Avoid: gradients, shadows, drop-shadows, photographic textures, gimmicks</li>
+      </ul>
+
+      <h3 class="handoff-h3">Drop-in instructions</h3>
+      <ol class="handoff-list">
+        <li>Replace the four SVG files at the paths above</li>
+        <li>Run <code>hugo</code> to verify the build is clean</li>
+        <li>Open <code>/</code>, <code>/about/</code>, <code>/projects/</code>, and any post page to confirm the mark renders correctly in both light and dark modes</li>
+        <li>Re-export <code>og-default.png</code> from the new SVG with <code>rsvg-convert -w 1200 -h 630 -f png</code></li>
+      </ol>
+    </section>
+
+    <p class="page-back"><a href="{{ "/" | relLangURL }}">&larr; Back home</a></p>
+  </div>
+</section>
+
+<style>
+  .page-section {
+    background: var(--c-bg);
+    width: 100%;
+    padding: 80px 24px 120px;
+  }
+  .page-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+
+  .page-header { margin-bottom: 56px; }
+  .page-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 12px;
+  }
+  .page-title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: clamp(36px, 5vw, 52px);
+    letter-spacing: -0.02em;
+    line-height: 1.1;
+    color: var(--c-text);
+    margin: 0 0 16px;
+  }
+  .page-intro {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--c-muted);
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  .kit-block {
+    margin-bottom: 64px;
+    padding-top: 32px;
+    border-top: 1px solid var(--c-rule);
+  }
+  .kit-block:nth-of-type(1) {
+    border-top: 0;
+    padding-top: 0;
+  }
+  .block-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 22px;
+  }
+  .block-note {
+    font-family: var(--font-sans);
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--c-muted);
+    margin: 18px 0 0;
+    max-width: 64ch;
+  }
+  .block-note code,
+  .handoff-list code,
+  .page-prose code {
+    font-family: var(--font-mono);
+    font-size: 0.92em;
+    background: var(--c-rose-tint);
+    color: var(--c-rose);
+    padding: 0.1em 0.35em;
+    border-radius: 3px;
+  }
+
+  .logo-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .logo-cell {
+    display: flex;
+    align-items: center;
+    gap: 18px;
+    padding: 24px 22px;
+    border: 1px solid var(--c-rule);
+    border-radius: 6px;
+  }
+  .logo-cell-light {
+    background: var(--c-bg-soft);
+  }
+  .logo-cell-dark {
+    background: #1a1614;
+    border-color: #1a1614;
+  }
+  .logo-cell-dark img {
+    filter: invert(1) hue-rotate(180deg);
+  }
+  .logo-cell-dark .logo-cell-meta {
+    color: #e8e2d8;
+  }
+  .logo-cell-dark .logo-cell-meta strong {
+    color: #faf7f2;
+  }
+  .logo-cell img {
+    flex-shrink: 0;
+  }
+  .logo-cell-meta {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--c-muted);
+    margin: 0;
+  }
+  .logo-cell-meta strong {
+    display: block;
+    font-weight: 500;
+    color: var(--c-text);
+    font-family: var(--font-sans);
+    font-size: 14px;
+    margin-bottom: 4px;
+  }
+
+  .swatches {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+    gap: 10px;
+  }
+  .swatch {
+    border: 1px solid var(--c-rule);
+    border-radius: 6px;
+    overflow: hidden;
+    background: var(--c-card);
+  }
+  .swatch .chip {
+    display: block;
+    height: 72px;
+  }
+  .swatch .meta {
+    display: block;
+    padding: 12px 14px;
+    font-family: var(--font-mono);
+    font-size: 11px;
+    line-height: 1.5;
+    color: var(--c-muted);
+  }
+  .swatch .meta strong {
+    display: block;
+    color: var(--c-text);
+    font-family: var(--font-sans);
+    font-size: 13px;
+    font-weight: 500;
+    margin-bottom: 2px;
+  }
+  .swatch .meta code {
+    display: block;
+    color: var(--c-text);
+    font-size: 11px;
+    margin-bottom: 2px;
+    background: transparent;
+    padding: 0;
+  }
+  .swatch .meta .role {
+    color: var(--c-rose);
+    font-size: 10px;
+    letter-spacing: 0.04em;
+  }
+
+  .type-row {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 28px;
+  }
+  .type-cell {
+    padding: 24px 26px;
+    border: 1px solid var(--c-rule);
+    border-radius: 6px;
+    background: var(--c-card);
+  }
+  .type-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 6px;
+  }
+  .type-name {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 22px;
+    color: var(--c-text);
+    margin: 0 0 4px;
+  }
+  .type-meta {
+    font-family: var(--font-sans);
+    font-size: 13px;
+    color: var(--c-muted);
+    margin: 0 0 18px;
+  }
+  .type-sample {
+    margin: 0 0 12px;
+    color: var(--c-text);
+  }
+  .type-sample:last-child { margin-bottom: 0; }
+
+  .page-prose {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--c-text);
+    max-width: 64ch;
+    margin: 0 0 18px;
+  }
+
+  .handoff-h3 {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 16px;
+    color: var(--c-text);
+    margin: 28px 0 10px;
+  }
+  .handoff-list {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.7;
+    color: var(--c-text);
+    margin: 0;
+    padding-left: 22px;
+    max-width: 64ch;
+  }
+  .handoff-list li { margin-bottom: 4px; }
+
+  .page-back {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-muted);
+    margin-top: 56px;
+  }
+  .page-back a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .page-back a:hover { color: var(--c-text); }
+</style>
+{{ end }}

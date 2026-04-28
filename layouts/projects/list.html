@@ -1,0 +1,198 @@
+{{ define "navbar" }}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="page-section">
+  <div class="page-wrap">
+
+    <header class="page-header">
+      <p class="page-eyebrow">Projects</p>
+      <h1 class="page-title">Side projects, small tools, and other things I&rsquo;m building outside of work.</h1>
+      <p class="page-intro">Each project below has its own home — these cards are a quick tour. They&rsquo;re different in tone and topic, but they share a common thread: scratching my own itch.</p>
+    </header>
+
+    <ul class="project-list">
+
+      <li class="project-detail">
+        <a class="project-detail-card" href="https://travel.mariatta.ca">
+          <div class="project-detail-head">
+            <p class="project-detail-name">Travels</p>
+            <p class="project-detail-url">travel.mariatta.ca &rarr;</p>
+          </div>
+          <p class="project-detail-tagline">Travel planning without spreadsheets.</p>
+          <p class="project-detail-desc">A field log of trips, places, and the meals worth remembering.</p>
+
+        </a>
+      </li>
+
+      <li class="project-detail">
+        <a class="project-detail-card" href="https://secretcodes.dev">
+          <div class="project-detail-head">
+            <p class="project-detail-name">Secret Codes</p>
+            <p class="project-detail-url">secretcodes.dev &rarr;</p>
+          </div>
+          <p class="project-detail-tagline">Small, useful automations. Runs without third-party trackers or cookie gauntlets.</p>
+          <p class="project-detail-desc">
+
+            Where I keep the small tools I've built for myself.
+
+          </p>
+
+        </a>
+      </li>
+
+      {{/* Hidden until nospreadsheet.dev is live.
+      <li class="project-detail">
+        <a class="project-detail-card" href="https://nospreadsheet.dev">
+          <div class="project-detail-name-only">No Spreadsheet</div>
+          <p class="project-detail-tagline">Tools for people who&rsquo;d rather not open another sheet today.</p>
+          <p class="project-detail-desc">A small home for tiny utilities that replace spreadsheet workflows I kept finding myself in. Built one tool at a time, when the spreadsheet finally annoys me enough.</p>
+          <p class="project-detail-url">nospreadsheet.dev &rarr;</p>
+
+        </a>
+      </li>
+      */}}
+
+    </ul>
+
+    <p class="page-back"><a href="{{ "/" | relLangURL }}">&larr; Back home</a></p>
+  </div>
+</section>
+
+<style>
+  .page-section {
+    background: var(--c-bg);
+    width: 100%;
+    padding: 80px 24px 120px;
+  }
+  .page-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .page-header { margin-bottom: 56px; }
+  .page-eyebrow {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 12px;
+  }
+  .page-title {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: clamp(28px, 4vw, 40px);
+    letter-spacing: -0.018em;
+    line-height: 1.18;
+    color: var(--c-text);
+    margin: 0 0 16px;
+    max-width: 26ch;
+  }
+  .page-intro {
+    font-family: var(--font-sans);
+    font-size: 17px;
+    line-height: 1.65;
+    color: var(--c-muted);
+    max-width: 56ch;
+    margin: 0;
+  }
+
+  .project-list {
+    list-style: none;
+    padding: 0;
+    margin: 0 0 40px;
+    display: grid;
+    gap: 18px;
+  }
+  .project-detail-card {
+    display: block;
+    border: 1px solid var(--c-rule);
+    border-radius: 8px;
+    padding: 28px 30px;
+    background: var(--c-card);
+    color: inherit;
+    text-decoration: none;
+    transition: border-color 0.18s ease-out, transform 0.18s ease-out;
+  }
+  .project-detail-card,
+  .project-detail-card:hover,
+  .project-detail-card:focus {
+    text-decoration: none;
+  }
+  .project-detail-card:hover {
+    border-color: var(--c-rose);
+    transform: translateY(-2px);
+  }
+  .project-detail-card:hover .project-detail-name,
+  .project-detail-card:hover .project-detail-name-only {
+    color: var(--c-rose);
+  }
+  .project-detail-head {
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    gap: 16px;
+    margin-bottom: 10px;
+    flex-wrap: wrap;
+  }
+  .project-detail-name,
+  .project-detail-name-only {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 24px;
+    letter-spacing: -0.012em;
+    color: var(--c-text);
+    margin: 0;
+  }
+  .project-detail-name-only { margin-bottom: 8px; }
+  .project-detail-url {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.04em;
+    color: var(--c-rose);
+    margin: 0;
+  }
+  .project-detail-tagline {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.55;
+    color: var(--c-text);
+    margin: 0 0 8px;
+    max-width: 62ch;
+  }
+  .project-detail-desc {
+    font-family: var(--font-sans);
+    font-size: 15px;
+    line-height: 1.6;
+    color: var(--c-muted);
+    margin: 0 0 14px;
+    max-width: 62ch;
+  }
+  .project-detail-meta {
+    margin: 0;
+  }
+  .project-detail-meta .badge {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--c-muted);
+    background: var(--c-bg-soft);
+    padding: 3px 10px;
+    border-radius: 3px;
+    margin-right: 6px;
+  }
+
+  .page-back {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-muted);
+    margin-top: 56px;
+  }
+  .page-back a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .page-back a:hover { color: var(--c-text); }
+</style>
+{{ end }}
