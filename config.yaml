@@ -107,7 +107,7 @@ params:
       # Share post on different social media
       shareButtons:
         facebook: true
-        x: true
+        x: false
         linkedin: true
         reddit: true
         email: true
