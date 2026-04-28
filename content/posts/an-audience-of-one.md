@@ -20,7 +20,7 @@ hero: /images/posts/audience-of-one.png
 I gave a talk at a regional conference this past weekend. I prepared for it the same way I prepare for
 any other talk or keynote: rehearsed it multiple times, reviewed the material, made adjustments so it would
 be relatable for this audience instead of giving the same speech everywhere.
-I looked up [ice cream selfie](/posts/ice_cream_selfies) locations near the in the area.
+I looked up [ice cream selfie](/posts/ice_cream_selfies) locations in the area.
 
 Whether there would be anyone in the room to hear it was a different question.
 
