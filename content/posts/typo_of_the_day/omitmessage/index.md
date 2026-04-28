@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Omit Message"
 date: Wed Feb 10 22:28:44 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1359630405947650050">}}
-

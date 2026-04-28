@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Oofsite 😓"
 date: Tue Jul 26 17:02:16 +0000 2022
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1551976206160998400">}}
-

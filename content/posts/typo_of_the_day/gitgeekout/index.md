@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Git Geekout ..."
 date: Thu Dec 17 18:16:21 +0000 2020
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1339635561636642817">}}
-

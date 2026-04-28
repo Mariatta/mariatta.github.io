@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: 'pip install --no-ache-dir 🤕'"
 date: 2023-02-24T18:14:47.339000+00:00
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="109637750182177546">}}
-

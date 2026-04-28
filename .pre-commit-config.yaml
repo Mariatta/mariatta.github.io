@@ -1,0 +1,9 @@
+repos:
+  # Auto-format markdown to wrap prose at 120 chars (see .prettierrc.yaml).
+  # Note: pre-commit/mirrors-prettier is archived; rbubley/mirrors-prettier
+  # is the maintained successor.
+  - repo: https://github.com/rbubley/mirrors-prettier
+    rev: v3.3.3
+    hooks:
+      - id: prettier
+        files: \.md$

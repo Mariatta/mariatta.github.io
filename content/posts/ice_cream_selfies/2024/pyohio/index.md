@@ -11,9 +11,8 @@ menu:
 hero: /images/posts/masonscreamery.jpg
 tags: ["Ice Cream Selfie", "Conference", "Cleveland", "USA"]
 images:
-- /images/posts/masonscreamery.jpg
+  - /images/posts/masonscreamery.jpg
 ---
-
 
 ## Mason's Creamery
 

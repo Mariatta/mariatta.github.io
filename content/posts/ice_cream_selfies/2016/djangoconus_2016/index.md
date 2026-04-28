@@ -11,17 +11,16 @@ menu:
 hero: /images/posts/djangocon2016.jpg
 tags: ["Ice Cream Selfie", "Conference", "Philadelphia", "USA", "DjangoCon"]
 images:
-- /images/posts/djangocon2016.jpg
+  - /images/posts/djangocon2016.jpg
 ---
 
 ## Capogiro Gelato Artisans
 
-My first ever [conference talk]({{<ref "/posts/talks/making-the-most-out-of-code-reviews.md">}}), and my first ever Ice Cream Selfie! The rest
-is history.
+My first ever [conference talk]({{<ref "/posts/talks/making-the-most-out-of-code-reviews.md">}}), and my first ever Ice Cream
+Selfie! The rest is history.
 
 Trio Gelato from Capogiro Gelato: Cappucino, Pistachio, and Bacio.
 
 {{<img src="firsticecreamselfie.jpg">}}
 
-While my public speaking and ice cream selfies continues, sadly Capogiro Gelato Artisans
-has since closed down. 😢
+While my public speaking and ice cream selfies continues, sadly Capogiro Gelato Artisans has since closed down. 😢

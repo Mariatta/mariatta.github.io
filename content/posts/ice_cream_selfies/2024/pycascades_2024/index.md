@@ -11,9 +11,8 @@ menu:
 hero: /images/posts/uwcampus.jpg
 tags: ["Ice Cream Selfie", "Conference", "Seattle", "USA"]
 images:
-- /images/posts/uwcampus.jpg
+  - /images/posts/uwcampus.jpg
 ---
-
 
 ## Sweet Alchemy Ice Creamery
 
@@ -23,7 +22,6 @@ With Eliza Sarobhasa.
 <script async src="//www.instagram.com/embed.js"></script>
 
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d43011.711978427884!2d-122.38728733184865!3d47.641058344462365!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x54906b4664d82579%3A0x7d7dbcc1bf57bd64!2sSweet%20Alchemy%20Ice%20Creamery!5e0!3m2!1sen!2sca!4v1724984865375!5m2!1sen!2sca" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-
 
 ## Molly Moon's Homemade Ice Cream
 

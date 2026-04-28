@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Ice Dream 🥶"
 date: Fri Sep 13 01:47:36 +0000 2019
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1172325925280600064">}}
-

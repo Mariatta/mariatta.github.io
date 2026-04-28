@@ -11,20 +11,16 @@ menu:
 hero: /images/posts/nov2020.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon", "SeaGL"]
 images:
-- /images/posts/nov2020.jpg
+  - /images/posts/nov2020.jpg
 ---
 
-It was 2020. I joined so many virtual conferences, and at one point, I was a
-speaker at three different conferences all in one same weekend.
+It was 2020. I joined so many virtual conferences, and at one point, I was a speaker at three different conferences all
+in one same weekend.
 
-2020 was also, a challenging time, I didn't get to go out a lot. I didn't even
-get to do my Ice cream selfie after the conference.
+2020 was also, a challenging time, I didn't get to go out a lot. I didn't even get to do my Ice cream selfie after the
+conference.
 
-Finally, on new year's eve, we decided to celebrate and go out. While
-in Robson Street, we stopped by a Korean grocery store and my kids saw some 
-boba milk tea ice cream bar for sale. So I decided to do my ice cream selfie at
-that time.
-
+Finally, on new year's eve, we decided to celebrate and go out. While in Robson Street, we stopped by a Korean grocery
+store and my kids saw some boba milk tea ice cream bar for sale. So I decided to do my ice cream selfie at that time.
 
 {{<x user="mariatta" id="1344847933682798594">}}
-

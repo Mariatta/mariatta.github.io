@@ -11,13 +11,11 @@ menu:
 hero: /images/posts/pycascades2021.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCascades"]
 images:
-- /images/posts/pycascades2021.jpg
+  - /images/posts/pycascades2021.jpg
 ---
 
-
-At PyCascades 2021, I was on a panel with Guido van Rossum, Carol Willing, Brett Cannon,
-and Nina Zakharenko, so after that was done, I asked them to do an ice cream selfie
-with me. I'm glad they all obliged! 😊
+At PyCascades 2021, I was on a panel with Guido van Rossum, Carol Willing, Brett Cannon, and Nina Zakharenko, so after
+that was done, I asked them to do an ice cream selfie with me. I'm glad they all obliged! 😊
 
 I had the [Nestle DRUMSTICK Sundae Cone](https://www.madewithnestle.ca/drumstick).
 

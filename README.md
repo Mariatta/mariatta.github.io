@@ -1,8 +1,6 @@
 # My new personal website
 
-
 Hugo static site with Toha theme.
-
 
 ## Local installation
 

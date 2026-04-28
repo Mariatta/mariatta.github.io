@@ -11,20 +11,19 @@ menu:
 hero: /images/posts/djus2018.jpg
 tags: ["Ice Cream Selfie", "Conference", "DjangoCon", "USA", "San Diego"]
 images:
-- /images/posts/djus2018.jpg
+  - /images/posts/djus2018.jpg
 ---
 
 ## Hammond's Gourmet Ice Cream
 
-It was fun visiting San Diego for DjangoCon US 2018. I gave my talk [Don't Be a Robot; Build the Bot]({{<ref "/posts/talks/dont-be-a-robot-build-the-bot">}}).
-I think it was well received 😊
+It was fun visiting San Diego for DjangoCon US 2018. I gave my talk [Don't Be a Robot; Build
+the Bot]({{<ref "/posts/talks/dont-be-a-robot-build-the-bot">}}). I think it was well received 😊
 
-This was also a special travel trip, because, well it happens that my husband also
-needed to travel for work at the same time, so we don't have anyone to look after
-our two kids. I ended up taking my kids with me to the conference.
+This was also a special travel trip, because, well it happens that my husband also needed to travel for work at the same
+time, so we don't have anyone to look after our two kids. I ended up taking my kids with me to the conference.
 
-Thanks to DjangCon US for accommodating, and also helped with childcare situation
-so I could give a keynote at this conference.
+Thanks to DjangCon US for accommodating, and also helped with childcare situation so I could give a keynote at this
+conference.
 
 After my talk, I took my kids to get ice cream at [Hammond's Gourmet Ice Cream](https://www.hammondsgourmet.com/).
 

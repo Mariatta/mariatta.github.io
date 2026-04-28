@@ -13,7 +13,6 @@ tags: ["Ice Cream Selfie", "Conference"]
 type: posts/ice_cream_selfies
 ---
 
-
 ## Where
 
 [shop name](shop url).

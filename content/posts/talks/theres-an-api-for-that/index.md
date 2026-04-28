@@ -11,15 +11,16 @@ menu:
 hero: /images/posts/theres_api_for_that.jpg
 tags: ["Public Speaking", "Talks", "Python", "Bots", "Open Source"]
 images:
-- /images/posts/theres_api_for_that.jpg
+  - /images/posts/theres_api_for_that.jpg
 ---
-
 
 # There's an API For That!
 
 ## Talk Abstract
 
-You might have seen bots like GitHub bots, Discord bots, Slack bots. How do these bots work? There's an API for that! You can use third-party APIs to build web apps and automations, including bots. Come learn the best practices on how to work with APIs using Python.
+You might have seen bots like GitHub bots, Discord bots, Slack bots. How do these bots work? There's an API for that!
+You can use third-party APIs to build web apps and automations, including bots. Come learn the best practices on how to
+work with APIs using Python.
 
 **Contact me (links below) if you'd like to hear this talk at your event.**
 
@@ -45,4 +46,3 @@ You might have seen bots like GitHub bots, Discord bots, Slack bots. How do thes
 ## Slide Deck
 
 <script defer class="speakerdeck-embed" data-id="c3b73804e3e64428adbc8e830fcc4b51" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
-

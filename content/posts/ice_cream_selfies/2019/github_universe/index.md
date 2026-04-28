@@ -10,19 +10,17 @@ menu:
     parent: ice-cream-selfies-2019
 hero: /images/posts/gh-universe.jpg
 images:
-- /images/posts/gh-universe.jpg
+  - /images/posts/gh-universe.jpg
 tags: ["Ice Cream Selfie", "Conference", "San Francisco", "USA", "GitHub"]
 ---
 
 ## Uji Time Dessert
 
-After giving my talk, "[Don't be a Robot; automating workflows at scale]({{<ref "/posts/talks/dont-be-a-robot-build-the-bot.md">}})" at GitHub
-Universe, I decided to spend some time exploring Japantown in San Francisco,
-and stumbled upon this place. It is so unique so I decided to get my ice cream
-there.
+After giving my talk, "[Don't be a Robot; automating workflows at
+scale]({{<ref "/posts/talks/dont-be-a-robot-build-the-bot.md">}})" at GitHub Universe, I decided to spend some time exploring
+Japantown in San Francisco, and stumbled upon this place. It is so unique so I decided to get my ice cream there.
 
-Check out [Uji Time Dessert](https://www.ujitimedessert.com/) for their matcha
-ice cream and taiyaki cones!
+Check out [Uji Time Dessert](https://www.ujitimedessert.com/) for their matcha ice cream and taiyaki cones!
 
 {{<x user="mariatta" id="1195475027854077954">}}
 

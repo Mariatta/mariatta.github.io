@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Coroutune 🎶"
 date: Tue Jun 15 19:22:15 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1404881961336803329">}}
-

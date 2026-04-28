@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Jellosign"
 date: Fri Apr 09 17:22:17 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1380571783514914818">}}
-

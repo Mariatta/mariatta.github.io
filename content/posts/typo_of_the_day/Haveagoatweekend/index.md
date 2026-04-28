@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Have A Goat Weekend! 🙊😅"
 date: Fri Oct 30 22:16:09 +0000 2020
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1322301290127347712">}}
-

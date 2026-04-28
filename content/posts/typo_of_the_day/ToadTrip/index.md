@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Toad Trip 🐸"
 date: 2022-11-04T02:49:51+00:00
@@ -13,7 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
 {{<fosstodon server="mastodon.social" user="mariatta" id="109283258628780629">}}

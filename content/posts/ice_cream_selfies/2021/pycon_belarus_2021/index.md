@@ -11,15 +11,13 @@ menu:
 hero: /images/posts/pyconby.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
 images:
-- /images/posts/pyconby.jpg
+  - /images/posts/pyconby.jpg
 ---
 
 ## Matteo's Gelato
 
-
-I went to Matteo's Gelato in Port Coquitlam for this one, after first taking a stroll along Coquitlam
-River @ Lions Park.
-
+I went to Matteo's Gelato in Port Coquitlam for this one, after first taking a stroll along Coquitlam River @ Lions
+Park.
 
 {{<x user="mariatta" id="1370963324242776064">}}
 

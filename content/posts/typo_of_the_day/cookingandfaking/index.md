@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Cooking And Faking"
 date: Sun Mar 13 19:44:22 +0000 2022
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1503094639431016448">}}
-

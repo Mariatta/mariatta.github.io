@@ -1,8 +1,8 @@
 ---
-title: '#TypoOfTheDay'
+title: "#TypoOfTheDay"
 menu:
   sidebar:
-    name: '#TypoOfTheDay'
+    name: "#TypoOfTheDay"
     identifier: typo_of_the_day
     weight: 40
 ---

@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: The Bang Of My Existence"
 date: Wed Jan 13 15:58:44 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1349385401031528449">}}
-

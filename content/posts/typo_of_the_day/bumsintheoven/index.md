@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: bums in the oven"
 date: Thu Dec 20 22:03:29 +0000 2018
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1075874355790237696">}}
-

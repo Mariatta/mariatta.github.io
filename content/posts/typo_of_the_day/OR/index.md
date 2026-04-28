@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: OR "
 date: Fri Apr 01 16:33:52 +0000 2022
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1509932068435750915">}}
-

@@ -11,13 +11,12 @@ menu:
 hero: /images/posts/august2019.jpg
 tags: ["Ice Cream Selfie", "Conference", "San Francisco", "USA", "PyCon", "PyBay"]
 images:
-- /images/posts/august2019.jpg
+  - /images/posts/august2019.jpg
 ---
 
 ## The Baked Bear
 
 The [Baked Bear](https://www.thebakedbear.com/) is known for their ice cream sandwiches!
-
 
 {{<x user="mariatta" id="1163311111677992960">}}
 

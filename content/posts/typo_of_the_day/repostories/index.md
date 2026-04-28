@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Repostories"
 date: Sat Mar 28 22:07:32 +0000 2020
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1244023344422240259">}}
-
