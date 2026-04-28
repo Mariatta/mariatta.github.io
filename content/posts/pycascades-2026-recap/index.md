@@ -1,7 +1,7 @@
 ---
 title: "PyCascades 2026 Recap"
 date: 2026-04-28T09:36:42-07:00
-draft: true
+draft: false
 menu:
   sidebar:
     name: PyCascades 2026 Recap
