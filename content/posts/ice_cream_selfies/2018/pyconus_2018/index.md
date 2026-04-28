@@ -11,7 +11,7 @@ menu:
 hero: /images/posts/rainbowroses.jpeg
 tags: ["Ice Cream Selfie", "Conference", "Cleveland", "USA", "PyCon"]
 images:
-- /images/posts/rainbowroses.jpeg
+  - /images/posts/rainbowroses.jpeg
 ---
 
 ## Mitchell's Ice Cream

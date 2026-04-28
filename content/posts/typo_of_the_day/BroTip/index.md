@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Bro Tip"
 date: Wed Feb 26 15:54:38 +0000 2020
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1232695474768867328">}}
-

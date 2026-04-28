@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Unite Test"
 date: 2022-11-29T18:14:50.988000+00:00
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="109428453604599227">}}
-

@@ -17,9 +17,7 @@ type: posts/talks
 
 ## Presented At
 
-
 ## Reactions
-
 
 ## Videos
 

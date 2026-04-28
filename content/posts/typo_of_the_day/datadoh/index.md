@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Datadoh!"
 date: Wed Feb 05 20:40:53 +0000 2020
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1225157368180174848">}}
-

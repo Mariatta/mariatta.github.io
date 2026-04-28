@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Steakholde"
 date: Wed Sep 15 20:20:30 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1438236301556260872">}}
-

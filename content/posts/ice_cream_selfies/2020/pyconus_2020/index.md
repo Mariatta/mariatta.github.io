@@ -11,14 +11,12 @@ menu:
 hero: /images/posts/april2020.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCon"]
 images:
-- /images/posts/april2020.jpg
+  - /images/posts/april2020.jpg
 ---
 
 PyCon US 2020 was cancelled, but I still decided to record a tutorial for it.
 
-Since everything was still closed down at that time, so I just bought some ice
-cream and ice cream cones from the grocery store.
+Since everything was still closed down at that time, so I just bought some ice cream and ice cream cones from the
+grocery store.
 
 {{<x user="mariatta" id="1253515298595942401">}}
-
-

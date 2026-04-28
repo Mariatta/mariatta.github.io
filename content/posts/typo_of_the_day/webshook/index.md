@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Webshook 🤯 "
 date: Sat Jun 05 20:05:23 +0000 2021
@@ -13,10 +12,9 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
 Instead Of Webhook
 
 {{<x user="mariatta" id="1401268935614291975">}}
-

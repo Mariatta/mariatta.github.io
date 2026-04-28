@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Doctoring"
 date: Sat Feb 09 05:54:23 +0000 2019
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1094112254704775169">}}
-

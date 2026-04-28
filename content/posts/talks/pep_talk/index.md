@@ -11,16 +11,20 @@ menu:
 hero: /images/posts/nbpy2023.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Community", "Open Source"]
 images:
-- /images/posts/nbpy2023.jpeg
+  - /images/posts/nbpy2023.jpeg
 ---
 
 ## Talk Abstract
 
 If you use Python, chances are you've heard of PEP 8, the Python style guide.
 
-But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement Proposal. It's a proposal documentation for when you want to change the Python programming language in a big way, for example when you want to change the syntax of Python. Think of the addition of f-strings, the walrus operator, or the ExceptionGroup, those changes all started with a PEP.
+But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement
+Proposal. It's a proposal documentation for when you want to change the Python programming language in a big way, for
+example when you want to change the syntax of Python. Think of the addition of f-strings, the walrus operator, or the
+ExceptionGroup, those changes all started with a PEP.
 
-Let's have a PEP talk, where you can learn about the PEP process, what needs a PEP and what doesn't, and how you as community members can take part.
+Let's have a PEP talk, where you can learn about the PEP process, what needs a PEP and what doesn't, and how you as
+community members can take part.
 
 **Contact me (links below) if you'd like to hear this talk at your event.**
 
@@ -37,20 +41,19 @@ Let's have a PEP talk, where you can learn about the PEP process, what needs a P
 
 {{< youtube 7OHGugQkYzA >}}
 
-
 ## Slide Deck
 
 <script defer class="speakerdeck-embed" data-id="c042a50d27db4425ba73310b1e01baca" data-ratio="1.77777777777778" src="//speakerdeck.com/assets/embed.js"></script>
 
 ## Intended Audience
 
-This is aimed for newcomers and beginners of Python, who may have only heard of PEP 8 and not so much of other PEPs. I will cover what PEPs really are, the purpose, examples of PEPs, and how community member can participate if they want to.
-
+This is aimed for newcomers and beginners of Python, who may have only heard of PEP 8 and not so much of other PEPs. I
+will cover what PEPs really are, the purpose, examples of PEPs, and how community member can participate if they want
+to.
 
 ## Talk Outline
 
-
-### What's a PEP 
+### What's a PEP
 
 (< 5 minutes)
 
@@ -62,7 +65,7 @@ This is aimed for newcomers and beginners of Python, who may have only heard of 
 
 (5 minutes)
 
-- If you want to add new syntax 
+- If you want to add new syntax
 - Example: f-strings, ExceptionGroup, the "walrus" operator
 
 ### Other things that have a PEP
@@ -89,7 +92,7 @@ This is aimed for newcomers and beginners of Python, who may have only heard of 
 
 (5 minutes)
 
-- If you don't agree with a proposal (if it cause you hardship in the way you use Python), the best way to voice your concern is during PEP discussion period, before the SC approval, and before the release of Python.
+- If you don't agree with a proposal (if it cause you hardship in the way you use Python), the best way to voice your
+  concern is during PEP discussion period, before the SC approval, and before the release of Python.
 - Sometimes new feature cause breakage, do test your codebase against the Python main branch, or alpha versions.
 - Keep up to date by following the Discourse forum, or the PEPs repo
-

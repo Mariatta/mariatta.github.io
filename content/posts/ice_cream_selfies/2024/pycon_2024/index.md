@@ -11,9 +11,8 @@ menu:
 hero: /images/posts/pittsburgh.jpg
 tags: ["Ice Cream Selfie", "Conference", "Pittsburgh", "USA"]
 images:
-- /images/posts/pittsburgh.jpg
+  - /images/posts/pittsburgh.jpg
 ---
-
 
 ## Millie's Ice Cream
 

@@ -11,29 +11,27 @@ menu:
 hero: /images/posts/dataumbrella.jpeg
 tags: ["Public Speaking", "Talks", "Python", "Workflow"]
 images:
-- /images/posts/dataumbrella.jpeg
+  - /images/posts/dataumbrella.jpeg
 ---
-
 
 ## Talk Abstract
 
-Having unit tests and continuous integration (CI) as part of your development are considered best practises. But how do these things work? In this talk, we will cover the benefits of writing unit tests and how to get started with it in Python. Then, we'll step it up running tests as part CI. And that's not all! CI is not just about running tests, but for other things as well, like code quality checks, and even building and generating documentation.
+Having unit tests and continuous integration (CI) as part of your development are considered best practises. But how do
+these things work? In this talk, we will cover the benefits of writing unit tests and how to get started with it in
+Python. Then, we'll step it up running tests as part CI. And that's not all! CI is not just about running tests, but for
+other things as well, like code quality checks, and even building and generating documentation.
 
 **Contact me (links below) if you'd like to hear this talk at your event.**
 
 ## Presented At
 
-
 - PyOhio 2022
 - Data Umbrella #36
 
-
 ## Videos
-  
 
+### Data Umbrella
 
-### Data Umbrella 
-  
 {{< youtube vLBr_AfomUY >}}
 
 ### PyOhio 2022

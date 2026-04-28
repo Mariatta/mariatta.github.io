@@ -11,16 +11,15 @@ menu:
 hero: /images/posts/pycascades.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyLadies", "Portland", "USA", "PyCascades"]
 images:
-- /images/posts/pycascades.jpg
+  - /images/posts/pycascades.jpg
 ---
 
 ## Fifty Licks Ice Cream
 
 Elaine Wong, Lorena Mesa, and I, we gave a talk together about 9 Years of PyLadies.
 
-To celebrate, we went to [Fifty Licks Ice Cream](https://www.instagram.com/fiftylicks/?hl=en), for their legend-dairy (and non-dairy)
-ice cream.
-
+To celebrate, we went to [Fifty Licks Ice Cream](https://www.instagram.com/fiftylicks/?hl=en), for their legend-dairy
+(and non-dairy) ice cream.
 
 {{<x user="mariatta" id="1226376712281260033">}}
 

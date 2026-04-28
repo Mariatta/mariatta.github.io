@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Paystun"
 date: Fri Mar 18 20:10:00 +0000 2022
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1504913027031867394">}}
-

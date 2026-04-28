@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Macos Big Sure"
 date: Mon Mar 15 21:11:58 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1371569887739449346">}}
-

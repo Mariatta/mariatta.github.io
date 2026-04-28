@@ -11,13 +11,12 @@ menu:
 hero: /images/posts/withkimcrayton.jpg
 tags: ["Ice Cream Selfie", "Conference", "PyCaribbean", "USA", "Puerto Rico"]
 images:
-- /images/posts/withkimcrayton.jpg
+  - /images/posts/withkimcrayton.jpg
 ---
 
 ## Puerto Rico
 
-Kim Crayton and I went to Condado Beach prior to the conference. While there,
-there was an ice cream cart, and I couldn't resist not getting ice cream.
+Kim Crayton and I went to Condado Beach prior to the conference. While there, there was an ice cream cart, and I
+couldn't resist not getting ice cream.
 
 {{<img src="pycaribbean.jpg" height="500">}}
-

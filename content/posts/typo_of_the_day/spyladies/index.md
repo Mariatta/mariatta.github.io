@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Spyladies 🕵🏻‍♀️"
 date: Fri May 27 18:32:46 +0000 2022
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1530255707311730688">}}
-

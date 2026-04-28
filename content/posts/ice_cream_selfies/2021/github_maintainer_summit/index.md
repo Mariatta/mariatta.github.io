@@ -11,16 +11,16 @@ menu:
 hero: /images/posts/githubmaintainersummit1.jpeg
 tags: ["Ice Cream Selfie", "Conference", "GitHub"]
 images:
-- /images/posts/githubmaintainersummit1.jpeg
+  - /images/posts/githubmaintainersummit1.jpeg
 ---
 
 ## Snowy Village
 
-I gave a talk about The Bots of CPython at GitHub Global Maintainer Summit. It was an
-online event, so I looked for local ice cream shops where I live.
+I gave a talk about The Bots of CPython at GitHub Global Maintainer Summit. It was an online event, so I looked for
+local ice cream shops where I live.
 
-[Snowy Village](https://snowyvillages.ca) is my kids favorite place here. They really love the bingsu, which
-is milk-based Korean shaved ice dessert.
+[Snowy Village](https://snowyvillages.ca) is my kids favorite place here. They really love the bingsu, which is
+milk-based Korean shaved ice dessert.
 
 {{<x user="mariatta" id="1405370731613986823">}}
 

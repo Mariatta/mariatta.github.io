@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Issue Trucker 🚚"
 date: Fri May 21 02:39:55 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1395570020428632068">}}
-

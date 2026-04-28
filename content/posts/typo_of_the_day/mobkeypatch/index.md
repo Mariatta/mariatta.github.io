@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Mobkey Patch"
 date: 2023-06-12T18:10:12.583000+00:00
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="110532585886713660">}}
-

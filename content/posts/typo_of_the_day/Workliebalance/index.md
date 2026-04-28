@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: Work-Lie Balance"
 date: 2023-06-03T01:27:14.259000+00:00
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="110477681246720982">}}
-

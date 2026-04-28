@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: 1 Pm Rye Doctor Appointment"
 date: 2023-02-27T18:34:59.971000+00:00
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<fosstodon user="mariatta" id="109938140771897045">}}
-

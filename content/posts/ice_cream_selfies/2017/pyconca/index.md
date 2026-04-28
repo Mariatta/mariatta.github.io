@@ -11,15 +11,13 @@ menu:
 hero: /images/posts/pyconca.jpg
 tags: ["Ice Cream Selfie", "Conference", "Montreal", "PyCon", "Canada"]
 images:
-- /images/posts/pyconca.jpg
+  - /images/posts/pyconca.jpg
 ---
 
 ## La Cabane De Danny
 
-PyCon Canada happened in November, in Montreal. It was freezing cold outside,
-but didn't stop me from getting ice cream. I found La Cabane De Danny, and they
-make ice cream with bubble waffle cone. So fun! The matcha ice cream was real
-good!
+PyCon Canada happened in November, in Montreal. It was freezing cold outside, but didn't stop me from getting ice cream.
+I found La Cabane De Danny, and they make ice cream with bubble waffle cone. So fun! The matcha ice cream was real good!
 
 Unfortunately this shop has since closed down.
 

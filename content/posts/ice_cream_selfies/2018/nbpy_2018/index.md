@@ -11,21 +11,18 @@ menu:
 hero: /images/posts/nbpy2018.jpg
 tags: ["Ice Cream Selfie", "Conference", "Petaluma", "USA", "NBPy"]
 images:
-- /images/posts/nbpy2018.jpg
+  - /images/posts/nbpy2018.jpg
 ---
 
 ## Angela's Organic Ice Cream Petaluma
 
+One perk of being a keynote at North Bay Python is you get to headline and have your name up on the marquee ⭐️ It's
+really cool!
 
-One perk of being a keynote at North Bay Python is you get to headline and
-have your name up on the marquee ⭐️ It's really cool!
+Thanks North Bay Python for inviting me! I get to immortalize it in my ice cream selfie 😝
 
-Thanks North Bay Python for inviting me! I get to immortalize it in my ice
-cream selfie 😝
-
-Little did I know that I would return to the conference, and back to 
-[Angela's Organic Ice Cream](https://www.angelasicecream.com/)
-[five years later]({{<ref "/posts/talks/pep_talk.md">}})!
+Little did I know that I would return to the conference, and back to
+[Angela's Organic Ice Cream](https://www.angelasicecream.com/) [five years later]({{<ref "/posts/talks/pep_talk.md">}})!
 
 {{<x user="mariatta" id="1059234406341046273">}}
 

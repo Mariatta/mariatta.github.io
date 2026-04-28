@@ -11,21 +11,16 @@ menu:
 hero: /images/posts/dialmformentor.jpg
 tags: ["Public Speaking", "Talks", "Mentorship", "Community"]
 images:
-- /images/posts/dialmformentor.jpg
+  - /images/posts/dialmformentor.jpg
 ---
 
+## Talk Abstract
 
-
-## Talk Abstract 
-
-
-One of the nicest things about Python community is the availability of mentors willing to help you.
-Various mentors have helped me navigate the open source community and help advanced my skills.
-I realized finding a mentor is not as easy as it seems, and it takes a lot of courage to reach out
-in the first place. And then, there is impostor syndrome, where one may feel like they don't deserve the help.
-In this talk, I will provide advice about working with a mentor.
-Asking for help is not a failure. 
-
+One of the nicest things about Python community is the availability of mentors willing to help you. Various mentors have
+helped me navigate the open source community and help advanced my skills. I realized finding a mentor is not as easy as
+it seems, and it takes a lot of courage to reach out in the first place. And then, there is impostor syndrome, where one
+may feel like they don't deserve the help. In this talk, I will provide advice about working with a mentor. Asking for
+help is not a failure.
 
 ## Presented At
 
@@ -34,7 +29,6 @@ Asking for help is not a failure.
 - PyCon US 2017
 - PyCon Italy 2017
 - DjangoCon Europe 2017
-
 
 ## Reactions
 

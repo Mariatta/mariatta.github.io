@@ -1,4 +1,3 @@
-
 ---
 title: "Typo of the Day: From Typing Import Napping"
 date: Tue Oct 19 20:08:53 +0000 2021
@@ -13,9 +12,7 @@ tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:
-- images/posts/typo_of_the_day.jpg
+  - images/posts/typo_of_the_day.jpg
 ---
 
-
 {{<x user="mariatta" id="1450554566697619458">}}
-

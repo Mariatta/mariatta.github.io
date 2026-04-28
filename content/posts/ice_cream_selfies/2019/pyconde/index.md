@@ -11,7 +11,7 @@ menu:
 hero: /images/posts/Neuschwanstein.jpg
 tags: ["Ice Cream Selfie", "Conference", "Berlin", "Germany", "Europe", "PyCon"]
 images:
-- /images/posts/Neuschwanstein.jpg
+  - /images/posts/Neuschwanstein.jpg
 ---
 
 ## Hokey Pokey

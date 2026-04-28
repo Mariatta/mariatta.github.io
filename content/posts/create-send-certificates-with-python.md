@@ -8,25 +8,36 @@ menu:
     name: "Generating (and Sending) Conference Certificates Using Python"
     identifier: create-send-certificates-with-python
     weight: 20
-tags: ["Python","Third Party Libraries", "Learnings", "API", "Google Workspace", "Google Sheets", "Google Slides", "Automation", "Infrastructure"]
+tags:
+  [
+    "Python",
+    "Third Party Libraries",
+    "Learnings",
+    "API",
+    "Google Workspace",
+    "Google Sheets",
+    "Google Slides",
+    "Automation",
+    "Infrastructure",
+  ]
 images:
-- /images/posts/pyladiescon-certificate-2024.png
+  - /images/posts/pyladiescon-certificate-2024.png
 hero: /images/posts/pyladiescon-certificate-2024.png
 ---
 
 ## PyLadiesCon Certificate of Attendance
 
-Not sure how common is this practice of giving out certificates to conference attendees. I've been attending mostly Python-related conferences in North America,
-and we don't usually get any certificates here.
-However, when I went to Python Brasil in Manaus 2022, they gave me a certificate of attendance.
-And as a conference organizer, occasionally I'd receive request from a few attendees and volunteers about such certificate, saying that
-their employer or school requires it as proof of attendance.
+Not sure how common is this practice of giving out certificates to conference attendees. I've been attending mostly
+Python-related conferences in North America, and we don't usually get any certificates here. However, when I went to
+Python Brasil in Manaus 2022, they gave me a certificate of attendance. And as a conference organizer, occasionally I'd
+receive request from a few attendees and volunteers about such certificate, saying that their employer or school
+requires it as proof of attendance.
 
-Since [PyLadiesCon](https://conference.pyladies.com) is a global event with participation from all over the world,
-our team decided to send out certificates to all attendees, and not only to those who asked for it.
+Since [PyLadiesCon](https://conference.pyladies.com) is a global event with participation from all over the world, our
+team decided to send out certificates to all attendees, and not only to those who asked for it.
 
 We also think that such a certificate could be a nice token of appreciation for the attendees, especially since we don't
-currently give out swag. 
+currently give out swag.
 
 With more than 700 registered attendees, it's not feasible to create these certificates one by one. But thankfully,
 we're also Python developers, so of course we write the code for doing it.
@@ -40,23 +51,24 @@ Here are the different tools we used for this project:
 
 ### Pretix
 
-[Pretix](https://pretix.eu/about/en/) is our ticketing platform. We use the API to retrieve the list of attendees, their names, and their email address.
+[Pretix](https://pretix.eu/about/en/) is our ticketing platform. We use the API to retrieve the list of attendees, their
+names, and their email address.
 
 ### Google Slides
 
-We use Google Slides to create a template for the certificate. The idea is to simply update the name of the attendee on the certificate.
-Since Google Slides has an APIs that allows you to add text to presentation slides.
+We use Google Slides to create a template for the certificate. The idea is to simply update the name of the attendee on
+the certificate. Since Google Slides has an APIs that allows you to add text to presentation slides.
 
 ### GMail
 
 We need a way to send the certificate via email. We also want the email to be sent through the official PyLadiesCon
-email address instead of from my personal GMail address. Another complexity is that the PyLadies GMail account
-is a GSuite workspace account, so we need to use the GMail API to send the email. (eg we can't use ``smtplib`` for it).
+email address instead of from my personal GMail address. Another complexity is that the PyLadies GMail account is a
+GSuite workspace account, so we need to use the GMail API to send the email. (eg we can't use `smtplib` for it).
 
 ### Google Sheets
 
-We also want to send certificates to our volunteers and speakers, and we have been using Google Sheets to keep track
-of the list of our volunteers and speakers.
+We also want to send certificates to our volunteers and speakers, and we have been using Google Sheets to keep track of
+the list of our volunteers and speakers.
 
 ### Google Drive
 
@@ -69,13 +81,13 @@ I'm using Python 3.12.
 
 ### httpx
 
-I use [httpx](https://www.python-httpx.org/) for making HTTP requests to the Pretix API. This is just a personal preference.
-You can use the `requests` library if you prefer.
+I use [httpx](https://www.python-httpx.org/) for making HTTP requests to the Pretix API. This is just a personal
+preference. You can use the `requests` library if you prefer.
 
 ### google-api-python-client
 
-This is the official Python client library for Google's discover based APIs. We will use this library
-to interact with Google Sheets, Google Slides, Google Drive, and GMAIL APIs.
+This is the official Python client library for Google's discover based APIs. We will use this library to interact with
+Google Sheets, Google Slides, Google Drive, and GMAIL APIs.
 
 Docs: https://github.com/googleapis/google-api-python-client/blob/main/docs/README.md
 
@@ -88,24 +100,28 @@ python -m pip install -U google-api-python-client google-auth-httplib2 google-au
 ### Create a Google Slide Template
 
 Before writing the code, first we need to come up with a template for the certificate. PyLadiesCon certificate template
-is private, however, I've created this [sample certificate Google Slide template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing) that you can use. Make a copy of it,
-or come up with your own template.
+is private, however, I've created this
+[sample certificate Google Slide template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing)
+that you can use. Make a copy of it, or come up with your own template.
 
-Here's the important part about the template: You need to have a placeholder text, which will be replaced with the attendee's name.
-Make sure the placeholder text is a unique string that can be easily searched and replaced. You may want to use some symbols
-to make it unique, basically some kind of text that you know will not appear in the certificate text.
+Here's the important part about the template: You need to have a placeholder text, which will be replaced with the
+attendee's name. Make sure the placeholder text is a unique string that can be easily searched and replaced. You may
+want to use some symbols to make it unique, basically some kind of text that you know will not appear in the certificate
+text.
 
-If you look at the [sample certificate template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing) I created,
-you'll notice that I used texts like `{{ blog-reader }}` and ``{{ issue-date }}`` as the placeholder text. Feel free to
-have as many or as few placeholder text needed.
+If you look at the
+[sample certificate template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing)
+I created, you'll notice that I used texts like `{{ blog-reader }}` and `{{ issue-date }}` as the placeholder text. Feel
+free to have as many or as few placeholder text needed.
 
 ### Prepare a Google Sheets with the list of attendees and email address
 
-The Sheet should have at least two columns: the name and email address of the attendee. For PyLadiesCon, we have an additional
-column to indicate the role of the person, e.g. if they were a speaker, or a volunteer.
+The Sheet should have at least two columns: the name and email address of the attendee. For PyLadiesCon, we have an
+additional column to indicate the role of the person, e.g. if they were a speaker, or a volunteer.
 
-Here's [an example spreadsheet](https://docs.google.com/spreadsheets/d/15OgiejruaPCSL00bU2QliAc-hbmmWplmZ_f3khhvOTw/edit?usp=sharing) that
-you can use for following along on this blog post.
+Here's
+[an example spreadsheet](https://docs.google.com/spreadsheets/d/15OgiejruaPCSL00bU2QliAc-hbmmWplmZ_f3khhvOTw/edit?usp=sharing)
+that you can use for following along on this blog post.
 
 ### Prepare an email template to the attendee
 
@@ -122,11 +138,11 @@ Read the docs about [Pretix Token authorization](https://docs.pretix.eu/en/lates
 
 We need to enable certain APIs: Google Sheets, Google Slides, Google Drive, and GMail.
 
-This could be a bit tricky and time-consuming (and also confusing) the first time you do it. But,
-once you have created the project, and obtained
-the credentials, you can reuse it for other projects.
+This could be a bit tricky and time-consuming (and also confusing) the first time you do it. But, once you have created
+the project, and obtained the credentials, you can reuse it for other projects.
 
-I won't get into detail on how to create the project and enable the APIs, as it's already well documented in the Google Cloud docs.
+I won't get into detail on how to create the project and enable the APIs, as it's already well documented in the Google
+Cloud docs.
 
 If you go to each of the API docs for the above products, there are links and buttons for enabling the APIs. Go there,
 click the buttons, and follow through the steps.
@@ -149,8 +165,6 @@ Pseudocode for creating and sending certificates to attendees.
    - download the certificate as PDF
    - send the PDF certificate via email to the attendee
 
-
-
 ## Setting up Google APIs with Python client library
 
 Set up the code for working with the various Google APIs: GDrive, Google Sheets, GMail, and Google Slides.
@@ -172,7 +186,7 @@ SCOPES = [
     "https://www.googleapis.com/auth/gmail.send",
     "https://www.googleapis.com/auth/spreadsheets.readonly"
 ]
-GSLIDES_TEMPLATE_ID = "" # Google Slide template ID. 
+GSLIDES_TEMPLATE_ID = "" # Google Slide template ID.
 GSHEETS_ID = "" # Sheet containing names and email address.
 
 # "credentials.json" is the credentials you get after you created the Google Cloud project
@@ -218,9 +232,9 @@ class PretixWrapper:
 
 ## Get the orders from Pretix using the wrapper
 
-I added the `get_orders` function to call the "[List of all orders](https://docs.pretix.eu/en/latest/api/resources/orders.html#list-of-all-orders)"
-API endpoint from pretix. Since the resource is paginated,
-I added a while loop there.
+I added the `get_orders` function to call the
+"[List of all orders](https://docs.pretix.eu/en/latest/api/resources/orders.html#list-of-all-orders)" API endpoint from
+pretix. Since the resource is paginated, I added a while loop there.
 
 ```python
 class PretixWrapper:
@@ -274,8 +288,8 @@ for order in response:
 ```
 
 I decided to keep track of the attendee's order id and the position id, because I know that this is a unique identifier
-for each attendee. I use this later to determine whether the certificate for this person has been generated or not,
-so I don't end up with duplicated certificate for the same person.
+for each attendee. I use this later to determine whether the certificate for this person has been generated or not, so I
+don't end up with duplicated certificate for the same person.
 
 ## Copy the Slide Template
 
@@ -293,27 +307,28 @@ def copy_presentation(source_presentation_id, filename):
     return presentation_copy_id
 
 # Use the Pretix order id and position id as the filename for the certificate
-filename = f"{order_id}-{position_id}" 
+filename = f"{order_id}-{position_id}"
 new_slide_id = copy_presentation(GSLIDES_TEMPLATE_ID, filename)
 ```
 
 ## Update the Slide with the Attendee's Name
 
-Now that the certificate template has been copied, we can update it with the attendee's actual name.
-What we want to do now is to search for the placeholder text in the slide, and replace it with the attendee's name.
+Now that the certificate template has been copied, we can update it with the attendee's actual name. What we want to do
+now is to search for the placeholder text in the slide, and replace it with the attendee's name.
 
 First, prepare the Google Slides request payload.
 
-In my example [Google Slides Template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing),
-My placeholder texts are: ``{{blog-reader-name}}``, and ``{{issue-date}}``.
+In my example
+[Google Slides Template](https://docs.google.com/presentation/d/1B0g3bOS1iqZVCLmmgH142H8iq_5o5lIxNFLajRHSBOQ/edit?usp=sharing),
+My placeholder texts are: `{{blog-reader-name}}`, and `{{issue-date}}`.
 
-You'll want to adjust the placeholder text and the payload below to match your own template.
-Below is an example for replacing the ``{{blog-reader-name}}`` placeholder with the attendee name, and the ``{{issue-date}}``
-with today's date.
+You'll want to adjust the placeholder text and the payload below to match your own template. Below is an example for
+replacing the `{{blog-reader-name}}` placeholder with the attendee name, and the `{{issue-date}}` with today's date.
 
-The important part to look at is the `"replaceAllText"` key in the request payload. Basically, we're telling Google to look
-for the specified placeholder text, and replace it with the new text. This is why you need to have a unique placeholder text
-and a text that doesn't appear anywhere else in the slide. Using symbols like `{{ }}` could help with making it unique.
+The important part to look at is the `"replaceAllText"` key in the request payload. Basically, we're telling Google to
+look for the specified placeholder text, and replace it with the new text. This is why you need to have a unique
+placeholder text and a text that doesn't appear anywhere else in the slide. Using symbols like `{{ }}` could help with
+making it unique.
 
 ```python
 from datetime import datetime
@@ -353,11 +368,11 @@ After this, you should see the certificate updated with the attendee name in Goo
 
 ## Download the Google Slide presentation as a PDF File
 
-Maybe you don't want the attendee to know that their certificate was created using Google Slides, so you want to
-create PDF version of it.
+Maybe you don't want the attendee to know that their certificate was created using Google Slides, so you want to create
+PDF version of it.
 
-You can download and export the Google slide as a PDF file using Python.
-GDrive API has the `export` method that you can call to do this.
+You can download and export the Google slide as a PDF file using Python. GDrive API has the `export` method that you can
+call to do this.
 
 ```python
 stream = gdrive_service.files().export(fileId=new_slide_id, mimeType="application/pdf").execute()
@@ -373,15 +388,14 @@ Now it's time to send the certificate to the attendee. Do you have the email mes
 
 I'll show you how to send the email in both plain text and HTML format.
 
-
 ```python
 from textwrap import dedent
 
 email_message_plain = dedent(f"""
     Dear {attendee_name},
-    
+
     Thanks for reading my blog post. Here is your certificate of appreciation.
-    
+
     Regards,
 """)
 
@@ -401,7 +415,7 @@ from email.message import EmailMessage
 
 def send_email(subject, sender_name, sender_email, body_plain, body_html, recipients, filename):
     message = EmailMessage()
-    
+
     # send both plain text and html email
     message.set_content(body_plain)
     message.add_alternative(body_html, subtype="html")
@@ -441,8 +455,8 @@ send_email(
 
 Run the script to send the email.
 
-My trick is to first hardcode the recipient email address to my own personal email address so I know it would work. 
-I would also add something like "TEST" to the subject line.
+My trick is to first hardcode the recipient email address to my own personal email address so I know it would work. I
+would also add something like "TEST" to the subject line.
 
 Once I'm confident that the email is being sent correctly, I then change it to the actual recipient's email address and
 use the proper subject line.
@@ -454,7 +468,8 @@ our volunteers and speakers, and this info wasn't on Pretix.
 
 Let me show you how to read the list of names and email address from Google Sheets.
 
-I'm using my [example spreadsheet](https://docs.google.com/spreadsheets/d/15OgiejruaPCSL00bU2QliAc-hbmmWplmZ_f3khhvOTw/edit?usp=sharing)
+I'm using my
+[example spreadsheet](https://docs.google.com/spreadsheets/d/15OgiejruaPCSL00bU2QliAc-hbmmWplmZ_f3khhvOTw/edit?usp=sharing)
 which has only two columns, the name and email address.
 
 ```python
@@ -473,26 +488,29 @@ for row in values:
 
 ```
 
-The above code will read the list of names and email address from the Google Sheet, extracting their name and email address.
+The above code will read the list of names and email address from the Google Sheet, extracting their name and email
+address.
 
 You can then use the same code as above to copy the Google Slide template, update the slide with the attendee's name.
 
-
 ## The complete script
 
-I've created a [gist](https://gist.github.com/Mariatta/a9884994f8bb85fcedeea796f5f74a08) with the complete script that combines all the above code snippets. 
+I've created a [gist](https://gist.github.com/Mariatta/a9884994f8bb85fcedeea796f5f74a08) with the complete script that
+combines all the above code snippets.
 
-If you want to see the actual code we used for PyLadiesCon, check it out at the [pyladies/global-conference-infra](https://github.com/pyladies/global-conference-infra) repo:
+If you want to see the actual code we used for PyLadiesCon, check it out at the
+[pyladies/global-conference-infra](https://github.com/pyladies/global-conference-infra) repo:
 https://github.com/pyladies/global-conference-infra/blob/main/certificates2024/util.py
 
 ## Conclusion
 
-Sending certificates of participation is a nice gesture to show your appreciation.
-It's a nice token for saying thank you to your attendees, speakers, and volunteers, and it doesn't cost much to create.
-The certificate can be shown to their boss, employer, school, etc as proof that they participated in your event.
-If you are an event organizer, I'd recommend you look into generating these certificates to your attendees.
+Sending certificates of participation is a nice gesture to show your appreciation. It's a nice token for saying thank
+you to your attendees, speakers, and volunteers, and it doesn't cost much to create. The certificate can be shown to
+their boss, employer, school, etc as proof that they participated in your event. If you are an event organizer, I'd
+recommend you look into generating these certificates to your attendees.
 
-Here's what Laura Funderburk, one of [PyLadiesCon](https://conference.pyladies.com) conference speakers, says about the certificate.
+Here's what Laura Funderburk, one of [PyLadiesCon](https://conference.pyladies.com) conference speakers, says about the
+certificate.
 
 <iframe src="https://www.linkedin.com/embed/feed/update/urn:li:ugcPost:7273058089929482241" height="608" width="504" frameborder="0" allowfullscreen="" title="Embedded post"></iframe>
 

@@ -11,9 +11,8 @@ menu:
 hero: /images/posts/arcticagelato.jpg
 tags: ["Ice Cream Selfie", "Conference", "Brno", "Czech Republic"]
 images:
-- /images/posts/arcticagelato.jpg
+  - /images/posts/arcticagelato.jpg
 ---
-
 
 ## Arctica Gelato
 
