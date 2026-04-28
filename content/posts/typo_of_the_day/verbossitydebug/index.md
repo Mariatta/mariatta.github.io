@@ -8,7 +8,7 @@ menu:
     identifier: verbossitydebug
     weight: 20
     parent: typo_of_the_day
-tags: ["#TypoOfTheDay"]
+tags: ["TypoOfTheDay"]
 type: posts/typo_of_the_day
 hero: images/posts/typo_of_the_day.jpg
 images:

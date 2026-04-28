@@ -1,0 +1,86 @@
+@use 'sass:map';
+
+$breakpoints: (
+  tiny: 320px,
+  small: 640px,
+  medium: 768px,
+  large: 1024px,
+  very-large: 1280px,
+  extra-large: 1536px,
+  ultra-large: 2560px,
+);
+
+// Mariatta brand — rose on warm off-white.
+
+// transitions
+$transition-duration: 0.2s;
+$transition-type: ease-out;
+
+// borders and shadows
+$box-shadow: 0px 6px 32px rgba(168, 50, 74, 0.08);
+
+// themes
+$themes: (
+  'light': (
+    'accent-color': #a8324a,            // rose
+    'hover-over-accent-color': #c75972,  // rose-soft
+    'text-over-accent-color': #faf7f2,   // bg
+    'bg-primary': #faf7f2,               // warm off-white
+    'bg-primary-inverse': #1a1a1a,
+    'bg-secondary': #f2ede3,             // bg-soft
+    'bg-card': #ffffff,
+    'heading-color': #1a1a1a,
+    'text-color': #1a1a1a,
+    'inverse-text-color': #faf7f2,
+    'muted-text-color': #5a5a5a,
+    'inline-code-color': #a8324a,        // rose
+    'highlight-color': #f5e4e8,          // rose-tint
+    'footer-color': #1a1a1a,
+  ),
+  'dark': (
+    'accent-color': #d97a90,             // rose lifted for dark contrast
+    'hover-over-accent-color': #e8a3b3,
+    'text-over-accent-color': #1a1614,
+    'bg-primary': #1a1614,                // warm near-black
+    'bg-primary-inverse': #faf7f2,
+    'bg-secondary': #241d1a,
+    'bg-card': #2b221e,
+    'heading-color': #faf7f2,
+    'text-color': #e8e2d8,
+    'inverse-text-color': #1a1a1a,
+    'muted-text-color': #a39c92,
+    'inline-code-color': #e8a3b3,
+    'highlight-color': #4a2030,
+    'footer-color': #0d0a09,
+  ),
+);
+
+$brand-colors: (
+  'facebook': #3b5998,
+  'twitter': #1da1f2,
+  'linkedin': #0077b5,
+  'reddit': #ff4500,
+  'tumblr': #35465c,
+  'pocket': #ef4056,
+  'diaspora': #1e1e1e,
+  'whatsapp': #25d366,
+);
+
+$alerts: (
+  'success': (
+    'bg-color': #dcfce7,
+    'text-color': #166534,
+  ),
+  'info': (
+    'bg-color': #fef0f3,
+    'text-color': #7a2236,
+  ),
+  'warning': (
+    'bg-color': #fef9c3,
+    'text-color': #854d0e,
+  ),
+  'danger': (
+    'bg-color': #fee2e2,
+    'text-color': #991b1b,
+  ),
+);

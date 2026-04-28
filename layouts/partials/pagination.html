@@ -1,0 +1,25 @@
+{{- /*
+  Minimal pagination fallback so theme templates that reference
+  `{{ partial "pagination.html" . }}` resolve. Self-contained — does not
+  rely on Hugo's internal templates (which were renamed/removed in 0.128+).
+  Brand-styled list pages have their own inline pager; this is purely a
+  safety net.
+*/ -}}
+{{ $paginator := .Paginator }}
+{{ if gt $paginator.TotalPages 1 }}
+  <nav class="pagination" aria-label="Pagination">
+    {{ if $paginator.HasPrev }}
+      <a href="{{ $paginator.Prev.URL }}" rel="prev">&laquo;</a>
+    {{ end }}
+    {{ range $paginator.Pagers }}
+      {{ if eq . $paginator }}
+        <span aria-current="page">{{ .PageNumber }}</span>
+      {{ else }}
+        <a href="{{ .URL }}">{{ .PageNumber }}</a>
+      {{ end }}
+    {{ end }}
+    {{ if $paginator.HasNext }}
+      <a href="{{ $paginator.Next.URL }}" rel="next">&raquo;</a>
+    {{ end }}
+  </nav>
+{{ end }}

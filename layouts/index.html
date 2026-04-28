@@ -1,0 +1,269 @@
+{{ define "navbar" }}
+  {{ partial "navigators/navbar.html" . }}
+{{ end }}
+
+{{ define "content" }}
+<section class="home-section">
+  <div class="home-wrap">
+
+    <header class="home-hero">
+      <h1 class="home-wordmark">Mariatta<span class="dot">.</span></h1>
+      <p class="home-tagline">writing &middot; talks &middot; projects</p>
+      <p class="home-intro">Notes from a Python core developer, community builder, and serial conference organizer. Mostly writing about open source, community, and the small tools I build along the way.</p>
+    </header>
+
+    <section class="home-feed" aria-labelledby="home-feed-heading">
+      <p class="home-section-label" id="home-feed-heading">Recent writing</p>
+      <ul class="feed-list">
+        {{- $excludes := slice "posts/talks" "posts/ice_cream_selfies" "posts/typo_of_the_day" "posts/speaker_bio" -}}
+        {{- $blogPosts := slice -}}
+        {{- range (where site.RegularPages "Type" "posts") -}}
+          {{- $dir := path.Dir .File.Path -}}
+          {{- $skip := false -}}
+          {{- range $excludes -}}
+            {{- if hasPrefix $dir . -}}{{- $skip = true -}}{{- end -}}
+          {{- end -}}
+          {{- if not $skip -}}
+            {{- $blogPosts = $blogPosts | append . -}}
+          {{- end -}}
+        {{- end -}}
+        {{- range first 8 (sort $blogPosts "Date" "desc") }}
+          <li class="feed-entry">
+            <p class="feed-entry-meta">
+              <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+              {{- if site.Params.features.readingTime }}<span class="sep">&middot;</span>{{ .ReadingTime }} min read{{ end -}}
+            </p>
+            <h2 class="feed-entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+            {{- with or .Description (.Summary | plainify) }}
+              <p class="feed-entry-excerpt">{{ . | truncate 200 }}</p>
+            {{- end }}
+            {{- with .Params.tags }}
+              <p class="feed-entry-tags">
+                {{- range first 4 . }}<span class="tag">{{ . | lower }}</span>{{ end -}}
+              </p>
+            {{- end }}
+          </li>
+        {{- end }}
+      </ul>
+      <p class="home-feed-more"><a href="{{ "/posts/" | relLangURL }}">All posts &rarr;</a></p>
+    </section>
+
+    <section class="home-projects" aria-labelledby="home-projects-heading">
+      <p class="home-section-label" id="home-projects-heading">Other projects</p>
+      <div class="projects">
+        <a class="project" href="https://travel.mariatta.ca">
+          <div class="project-name">Travels</div>
+          <div class="project-url">travel.mariatta.ca &rarr;</div>
+          <div class="project-desc">Travel planning without spreadsheets.</div>
+        </a>
+        <a class="project" href="https://secretcodes.dev">
+          <div class="project-name">Secret Codes</div>
+          <div class="project-url">secretcodes.dev &rarr;</div>
+          <div class="project-desc">Small, useful automations. Runs without third-party trackers or cookie gauntlets.</div>
+        </a>
+        {{/* Hidden until nospreadsheet.dev is live.
+        <a class="project" href="https://nospreadsheet.dev">
+          <div class="project-name">No Spreadsheet</div>
+          <div class="project-url">nospreadsheet.dev &rarr;</div>
+          <div class="project-desc">Tools for people who'd rather not open another sheet today.</div>
+        </a>
+        */}}
+      </div>
+    </section>
+
+    <section class="home-elsewhere" aria-labelledby="home-elsewhere-heading">
+      <p class="home-section-label" id="home-elsewhere-heading">Elsewhere</p>
+      <p class="home-elsewhere-list">
+        <a href="{{ "/about/" | relLangURL }}">About</a>
+        <span class="sep">&middot;</span>
+        <a href="https://fosstodon.org/@mariatta" rel="me">Mastodon</a>
+        <span class="sep">&middot;</span>
+        <a href="https://github.com/mariatta">GitHub</a>
+        <span class="sep">&middot;</span>
+        <a href="https://bsky.app/profile/mariatta.ca">Bluesky</a>
+        <span class="sep">&middot;</span>
+        <a href="https://linkedin.com/in/mariatta">LinkedIn</a>
+        <span class="sep">&middot;</span>
+        <a href="{{ "/index.xml" | relLangURL }}">RSS</a>
+      </p>
+    </section>
+
+  </div>
+</section>
+
+<style>
+  .home-section {
+    background: var(--c-bg);
+    width: 100%;
+    padding: 80px 24px 120px;
+  }
+  .home-wrap {
+    max-width: 880px;
+    margin: 0 auto;
+  }
+  .home-hero { margin-bottom: 80px; }
+  .home-wordmark {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: clamp(56px, 8vw, 96px);
+    letter-spacing: -0.02em;
+    line-height: 1.0;
+    margin: 0 0 8px;
+    color: var(--c-text);
+  }
+  .home-wordmark .dot { color: var(--c-rose); }
+  .home-tagline {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    text-transform: lowercase;
+    color: var(--c-muted);
+    margin: 0 0 24px;
+  }
+  .home-intro {
+    font-family: var(--font-sans);
+    font-size: 19px;
+    line-height: 1.65;
+    max-width: 56ch;
+    color: var(--c-text);
+    margin: 0;
+  }
+
+  .home-section-label {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.16em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 0 0 24px;
+  }
+
+  .home-feed { margin-bottom: 72px; }
+  .feed-list {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  .feed-entry {
+    border-top: 1px solid var(--c-rule);
+    padding: 28px 0;
+  }
+  .feed-entry:first-child { border-top: 0; padding-top: 0; }
+  .feed-entry-meta {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-muted);
+    letter-spacing: 0.04em;
+    margin: 0 0 6px;
+  }
+  .feed-entry-meta .sep { margin: 0 8px; color: var(--c-faint); }
+  .feed-entry-title {
+    font-family: var(--font-sans);
+    font-size: clamp(22px, 2.6vw, 28px);
+    font-weight: 500;
+    letter-spacing: -0.012em;
+    line-height: 1.2;
+    margin: 0 0 8px;
+  }
+  .feed-entry-title a {
+    color: var(--c-text);
+    text-decoration: none;
+  }
+  .feed-entry-title a:hover { color: var(--c-rose); }
+  .feed-entry-excerpt {
+    font-family: var(--font-sans);
+    font-size: 16px;
+    line-height: 1.6;
+    color: var(--c-muted);
+    max-width: 62ch;
+    margin: 0 0 8px;
+  }
+  .feed-entry-tags {
+    margin: 6px 0 0;
+  }
+  .feed-entry-tags .tag {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    color: var(--c-rose);
+    letter-spacing: 0.06em;
+    margin-right: 12px;
+  }
+  .home-feed-more {
+    margin-top: 40px;
+    font-family: var(--font-mono);
+    font-size: 13px;
+  }
+  .home-feed-more a {
+    color: var(--c-rose);
+    text-decoration: none;
+    letter-spacing: 0.04em;
+  }
+  .home-feed-more a:hover { color: var(--c-text); }
+
+  .home-projects { margin-bottom: 72px; }
+  .projects {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+    gap: 14px;
+  }
+  .project {
+    border: 1px solid var(--c-rule);
+    border-radius: 6px;
+    padding: 22px;
+    background: var(--c-card);
+    text-decoration: none;
+    color: inherit;
+    display: block;
+    transition: border-color 0.18s ease-out, transform 0.18s ease-out;
+  }
+  .project,
+  .project:hover,
+  .project:focus {
+    text-decoration: none;
+  }
+  .project:hover {
+    border-color: var(--c-rose);
+    transform: translateY(-2px);
+  }
+  .project:hover .project-name {
+    color: var(--c-rose);
+  }
+  .project-name {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 20px;
+    color: var(--c-text);
+    margin-bottom: 6px;
+  }
+  .project-url {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    color: var(--c-rose);
+    letter-spacing: 0.03em;
+  }
+  .project-desc {
+    font-size: 14px;
+    color: var(--c-muted);
+    margin-top: 10px;
+    line-height: 1.5;
+    font-family: var(--font-sans);
+  }
+
+  .home-elsewhere-list {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-muted);
+    letter-spacing: 0.03em;
+  }
+  .home-elsewhere-list a {
+    color: var(--c-text);
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .home-elsewhere-list a:hover {
+    color: var(--c-rose);
+    border-bottom-color: var(--c-rose);
+  }
+  .home-elsewhere-list .sep { margin: 0 10px; color: var(--c-faint); }
+</style>
+{{ end }}
