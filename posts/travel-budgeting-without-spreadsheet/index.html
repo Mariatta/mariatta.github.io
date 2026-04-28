@@ -11,96 +11,92 @@ Mariatta</a>
 </a><a class="dropdown-item nav-link" href=# data-scheme=system><img class=theme-icon src=/icons/computer-svgrepo-com.svg width=20 alt="System Theme"></a></div></li></ul></div></div><img src=/images/site/brand-mark-light.svg class=d-none id=main-logo alt=Logo>
 <img src=/images/site/brand-mark-light.svg class=d-none id=inverted-logo alt="Inverted Logo">
 <img src=/images/site/brand-mark-dark.svg class=d-none id=dark-logo alt="Dark Logo"></nav><article class=post-page><div class=post-wrap><header class=post-header><p class=post-eyebrow>Posts</p><h1 class=post-title>Travel Budgeting without Spreadsheet</h1><p class=post-meta-line><time datetime=2026-04-16>Apr 16, 2026</time>
-<span class=sep>&#183;</span>11 min read</p><p class=post-tags><span class=tag>ai</span><span class=tag>travel</span><span class=tag>pycon</span><span class=tag>learnings</span><span class=tag>no more spreadsheets</span></p></header><figure class=post-hero><img src=https://mariatta.ca/images/posts/travel-budget-hero.png alt="Travel Budgeting without Spreadsheet" loading=lazy></figure><div class=post-content><p>This is a follow up to my previous post, <a href=https://mariatta.ca/posts/travel-planning-with-ai/>Travel Planning with AI</a>.</p><p>One of my parting thoughts in that post is about travel budgeting and spreadsheets.
-Having a budget is important part of our travel decision-making. It helps us decide whether we could even afford the
-trip, or maybe we need to cut down on the number of travel days, things like that.
-The budget is also important to be tracked during the trip, to ensure we remain close to the budget and not overspend.</p><p>Sadly, so far all of my travel budgeting and financial info have all been in spreadsheets.</p><h2 id=no-more-spreadsheets>No More Spreadsheets</h2><p>It me. The lady who&rsquo;s been shouting &ldquo;No More Spreadsheets&rdquo; for the past year.</p><p>My current life ambition to be at Spreadsheet Zero. I&rsquo;m even traveling to various conferences just to talk about
-<strong>No More Spreadsheets</strong> at <a href=https://2026.pycascades.com/program/talks/no-more-spreadsheets-building-pyladiescon-infrastructure-with-python-and-django/ target=_blank rel=noopener>PyCascades</a>,
-<a href=https://lfnw.org target=_blank rel=noopener>LinuxFest Northwest</a>, and <a href=https://us.pycon.org/2026/schedule/presentation/80/ target=_blank rel=noopener>PyCon US</a>.</p><iframe src=https://fosstodon.org/@mariatta/113823167860166605/embed class=mastodon-embed style=max-width:100%;border:0 width=400 allowfullscreen></iframe><script src=https://fosstodon.org/embed.js async></script><p>How could I still be telling people to ditch spreadsheets, when I myself still have a travel budgeting spreadsheet?</p><p>So, I need to practise what I preach, and be true to myself.</p><p>I started wondering, can I do budgeting and financing without spreadsheet?</p><p>If not spreadsheet, then what. Maybe I need some kind of an app. Can I incorporate it to this travel planning
-website, so that I have everything related to my travel in one place?
-Or do I need to build a separate app and expose some API endpoints?</p><p>I have a tendency to over-engineer things myself. So I decided to be more open-minded
-and started conversing with Claude.</p><h2 id=the-iterative-claude-session>The Iterative Claude Session</h2><p>This whole process went through several rounds of prompting and reviewing.</p><p>You can see the full summary of all my prompts on the
-<a href=https://mariatta.ca/portugal-trip/about/ target=_blank rel=noopener>About</a> page of the trip website. (Shown in the style of release notes,
-with &ldquo;version&rdquo; and &ldquo;release date&rdquo;).</p><img src=/images/travel-budget-changelog.png><h3 id=step-1-budget-tracking>Step 1: Budget Tracking</h3><p>My first prompt was simply to &ldquo;track the travel budget and finances.&rdquo; Claude suggested multiple approaches
-and ended up building a budget page with pre-filled estimates across various categories like flights, hotels,
-food, activities, and transportation. The initial result was a clean summary table, already more visually
-appealing than those tiny cells in a spreadsheet. It came up with its own estimates about the costs, and taking
-into consideration my family structure of four people.</p><img src=/images/travel-budget-landing.png>
-<img src=/images/travel-budget-expenses.png><h3 id=step-2-expense-logging>Step 2: Expense Logging</h3><p>Next, I wanted a way to log actual expenses during the trip. Claude expanded the budget page with a form
-to record individual purchases, including fields for description, amount, category, budget item, city,
-and date, with real-time updates. This means I can log expenses on my phone while traveling, and the
-data stays in my browser via local storage. No backend. No login.</p><img src=/images/travel-budget-expense-log.png>
+<span class=sep>&#183;</span>11 min read</p><p class=post-tags><span class=tag>ai</span><span class=tag>travel</span><span class=tag>pycon</span><span class=tag>learnings</span><span class=tag>no more spreadsheets</span></p></header><figure class=post-hero><img src=https://mariatta.ca/images/posts/travel-budget-hero.png alt="Travel Budgeting without Spreadsheet" loading=lazy></figure><div class=post-content><p>This is a follow up to my previous post, <a href=https://mariatta.ca/posts/travel-planning-with-ai/>Travel Planning with AI</a>.</p><p>One of my parting thoughts in that post is about travel budgeting and spreadsheets. Having a budget is important part of
+our travel decision-making. It helps us decide whether we could even afford the trip, or maybe we need to cut down on
+the number of travel days, things like that. The budget is also important to be tracked during the trip, to ensure we
+remain close to the budget and not overspend.</p><p>Sadly, so far all of my travel budgeting and financial info have all been in spreadsheets.</p><h2 id=no-more-spreadsheets>No More Spreadsheets</h2><p>It me. The lady who&rsquo;s been shouting &ldquo;No More Spreadsheets&rdquo; for the past year.</p><p>My current life ambition to be at Spreadsheet Zero. I&rsquo;m even traveling to various conferences just to talk about <strong>No
+More Spreadsheets</strong> at
+<a href=https://2026.pycascades.com/program/talks/no-more-spreadsheets-building-pyladiescon-infrastructure-with-python-and-django/ target=_blank rel=noopener>PyCascades</a>,
+<a href=https://lfnw.org target=_blank rel=noopener>LinuxFest Northwest</a>, and <a href=https://us.pycon.org/2026/schedule/presentation/80/ target=_blank rel=noopener>PyCon US</a>.</p><iframe src=https://fosstodon.org/@mariatta/113823167860166605/embed class=mastodon-embed style=max-width:100%;border:0 width=400 allowfullscreen></iframe><script src=https://fosstodon.org/embed.js async></script><p>How could I still be telling people to ditch spreadsheets, when I myself still have a travel budgeting spreadsheet?</p><p>So, I need to practise what I preach, and be true to myself.</p><p>I started wondering, can I do budgeting and financing without spreadsheet?</p><p>If not spreadsheet, then what. Maybe I need some kind of an app. Can I incorporate it to this travel planning website,
+so that I have everything related to my travel in one place? Or do I need to build a separate app and expose some API
+endpoints?</p><p>I have a tendency to over-engineer things myself. So I decided to be more open-minded and started conversing with
+Claude.</p><h2 id=the-iterative-claude-session>The Iterative Claude Session</h2><p>This whole process went through several rounds of prompting and reviewing.</p><p>You can see the full summary of all my prompts on the <a href=https://mariatta.ca/portugal-trip/about/ target=_blank rel=noopener>About</a> page of the trip
+website. (Shown in the style of release notes, with &ldquo;version&rdquo; and &ldquo;release date&rdquo;).</p><img src=/images/travel-budget-changelog.png><h3 id=step-1-budget-tracking>Step 1: Budget Tracking</h3><p>My first prompt was simply to &ldquo;track the travel budget and finances.&rdquo; Claude suggested multiple approaches and ended up
+building a budget page with pre-filled estimates across various categories like flights, hotels, food, activities, and
+transportation. The initial result was a clean summary table, already more visually appealing than those tiny cells in a
+spreadsheet. It came up with its own estimates about the costs, and taking into consideration my family structure of
+four people.</p><img src=/images/travel-budget-landing.png>
+<img src=/images/travel-budget-expenses.png><h3 id=step-2-expense-logging>Step 2: Expense Logging</h3><p>Next, I wanted a way to log actual expenses during the trip. Claude expanded the budget page with a form to record
+individual purchases, including fields for description, amount, category, budget item, city, and date, with real-time
+updates. This means I can log expenses on my phone while traveling, and the data stays in my browser via local storage.
+No backend. No login.</p><img src=/images/travel-budget-expense-log.png>
 <img src=/images/travel-budget-expense-details.png><p>At first I was concerned because it means I could lose my data. But then again, I thought, maybe it is not a big deal.
-It&rsquo;s not like I&rsquo;m providing some service to anyone. I&rsquo;m building this for myself. I have one phone, one laptop.
-I could test things on my laptop and when it is time to actually go to travel, I could enter my real expenses using
-my phone.</p><p>I realized that I appreciate not having to share my personal finances data with anyone. I own it. My data remains
-private to me. So this is actually a good thing.</p><p>I&rsquo;m also aware that localStorage stores data as plain text and not encrypted. But I thought about
-what kind of data I&rsquo;m actually storing: cost of flights, hotels, ice cream, conference tickets. All of these
-are kind of common knowledge. It&rsquo;s not passwords, or phone numbers. Therefore, I&rsquo;m ok with this
-tradeoff.</p><h3 id=step-3-budget-visualization>Step 3: Budget Visualization</h3><p>I&rsquo;m a visual person. Numbers are good but not enough. Charts and visualization helps seeing the big picture.
-From our experience building <a href=https://portal.pyladies.com/ target=_blank rel=noopener>PyLadiesCon Conference Portal</a> and
-<a href=https://portal.pyladies.com/stats/ target=_blank rel=noopener>Dashboard</a>, I know well enough how seeing numbers
-represented with chars and colors are helpful. So I asked Claude to come up with visualization and charts.</p><img src=/images/travel-budget-chart1.png>
-<img src=/images/travel-budget-chart2.png><p>You know, even my spreadsheets are never this fancy. I never bothered creating charts or graphs for my own travel tracking
-spreadsheets. All I cared about was how much I spent. So I really appreciate being able to tell Claude to build up
-charts and visualizations without actually doing the chore work myself.</p><h3 id=step-4-data-synchronization>Step 4: Data Synchronization</h3><p>At this point I was already happy with the budget page. But something in me still wanted to somehow have data synced
-between my laptop browser and my phone. You can imagine me saying, &ldquo;I should have started a Django web app
-for this!&rdquo;. But I held back. Instead of instructing Claude to build a Django app, I simply asked it to provide options.
-It offered a few different ways to sync data, including a web backend choice, but it said it could also continue building
-it with localStorage, keeping most of the architecture in place. It offered a way to do an import/export as a way
-for me to transfer data between my laptop and my phone.</p><p>I thought, isn&rsquo;t it tedious? But since I would likely do the import export just once or twice, and
-once I started traveling I wouldn&rsquo;t be using my laptop and will be on my phone most of the time,
-I thought maybe it&rsquo;s not such a bad idea. Perhaps by being able to import/export, it gives me a way to have a backup,
-and if ever need to, I could even export the data into spreadsheet. (I won&rsquo;t).</p><img src=/images/travel-budget-data-sync.png><h3 id=step-5-progressive-web-app>Step 5: Progressive Web App</h3><p>At this point, I have a working budget and expense page, and the ability to sync data between my laptop browser
-and my phone browser. I started wondering, what if it is a mobile app? Is it even possible? What would it take?
-I actually have no idea at all. I have never developed a mobile app before.</p><p>I asked Claude to simply show me, what would it take to create a mobile app.</p><p>It gave some suggestions, including a PWA or a native app, even describing the cost needed to maintain these different
+It&rsquo;s not like I&rsquo;m providing some service to anyone. I&rsquo;m building this for myself. I have one phone, one laptop. I could
+test things on my laptop and when it is time to actually go to travel, I could enter my real expenses using my phone.</p><p>I realized that I appreciate not having to share my personal finances data with anyone. I own it. My data remains
+private to me. So this is actually a good thing.</p><p>I&rsquo;m also aware that localStorage stores data as plain text and not encrypted. But I thought about what kind of data I&rsquo;m
+actually storing: cost of flights, hotels, ice cream, conference tickets. All of these are kind of common knowledge.
+It&rsquo;s not passwords, or phone numbers. Therefore, I&rsquo;m ok with this tradeoff.</p><h3 id=step-3-budget-visualization>Step 3: Budget Visualization</h3><p>I&rsquo;m a visual person. Numbers are good but not enough. Charts and visualization helps seeing the big picture. From our
+experience building <a href=https://portal.pyladies.com/ target=_blank rel=noopener>PyLadiesCon Conference Portal</a> and
+<a href=https://portal.pyladies.com/stats/ target=_blank rel=noopener>Dashboard</a>, I know well enough how seeing numbers represented with chars and colors
+are helpful. So I asked Claude to come up with visualization and charts.</p><img src=/images/travel-budget-chart1.png>
+<img src=/images/travel-budget-chart2.png><p>You know, even my spreadsheets are never this fancy. I never bothered creating charts or graphs for my own travel
+tracking spreadsheets. All I cared about was how much I spent. So I really appreciate being able to tell Claude to build
+up charts and visualizations without actually doing the chore work myself.</p><h3 id=step-4-data-synchronization>Step 4: Data Synchronization</h3><p>At this point I was already happy with the budget page. But something in me still wanted to somehow have data synced
+between my laptop browser and my phone. You can imagine me saying, &ldquo;I should have started a Django web app for this!&rdquo;.
+But I held back. Instead of instructing Claude to build a Django app, I simply asked it to provide options. It offered a
+few different ways to sync data, including a web backend choice, but it said it could also continue building it with
+localStorage, keeping most of the architecture in place. It offered a way to do an import/export as a way for me to
+transfer data between my laptop and my phone.</p><p>I thought, isn&rsquo;t it tedious? But since I would likely do the import export just once or twice, and once I started
+traveling I wouldn&rsquo;t be using my laptop and will be on my phone most of the time, I thought maybe it&rsquo;s not such a bad
+idea. Perhaps by being able to import/export, it gives me a way to have a backup, and if ever need to, I could even
+export the data into spreadsheet. (I won&rsquo;t).</p><img src=/images/travel-budget-data-sync.png><h3 id=step-5-progressive-web-app>Step 5: Progressive Web App</h3><p>At this point, I have a working budget and expense page, and the ability to sync data between my laptop browser and my
+phone browser. I started wondering, what if it is a mobile app? Is it even possible? What would it take? I actually have
+no idea at all. I have never developed a mobile app before.</p><p>I asked Claude to simply show me, what would it take to create a mobile app.</p><p>It gave some suggestions, including a PWA or a native app, even describing the cost needed to maintain these different
 options. I had no idea at all, so I went along with the PWA suggestion for the light-weight option. And again, all of
-this only considering that I&rsquo;m the primary user.</p><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading=eager referrerpolicy=strict-origin-when-cross-origin src="https://www.youtube.com/embed/JF-yB1JMWJs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 title="YouTube video"></iframe></div><h3 id=step-6-quick-expense-logging-page>Step 6: Quick Expense Logging Page</h3><p>After it built the PWA, I tried it on my phone. But then I realized that now the budget page is too lengthy to scroll
-on the phone. Also I realized that even though during planning time I would be reviewing the budget page often,
-during travel time, I would likely just need to log my expenses more often. So I asked Claude to consider the two
-scenarios. At first it simply suggested adding a floating &ldquo;add&rdquo; button on the mobile version. However, I thought
-about it, then I instructed it to actually create a separate expense logging page, and to only add the floating
-&ldquo;add&rdquo; button to the budget page.</p><img src=/images/travel-budget-plus-expense.png><p>Now that I&rsquo;m splitting the expense logging form to a separate page, I also prompted it to extract out the Import/Export
+this only considering that I&rsquo;m the primary user.</p><div style=position:relative;padding-bottom:56.25%;height:0;overflow:hidden><iframe allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share; fullscreen" loading=eager referrerpolicy=strict-origin-when-cross-origin src="https://www.youtube.com/embed/JF-yB1JMWJs?autoplay=0&amp;controls=1&amp;end=0&amp;loop=0&amp;mute=0&amp;start=0" style=position:absolute;top:0;left:0;width:100%;height:100%;border:0 title="YouTube video"></iframe></div><h3 id=step-6-quick-expense-logging-page>Step 6: Quick Expense Logging Page</h3><p>After it built the PWA, I tried it on my phone. But then I realized that now the budget page is too lengthy to scroll on
+the phone. Also I realized that even though during planning time I would be reviewing the budget page often, during
+travel time, I would likely just need to log my expenses more often. So I asked Claude to consider the two scenarios. At
+first it simply suggested adding a floating &ldquo;add&rdquo; button on the mobile version. However, I thought about it, then I
+instructed it to actually create a separate expense logging page, and to only add the floating &ldquo;add&rdquo; button to the
+budget page.</p><img src=/images/travel-budget-plus-expense.png><p>Now that I&rsquo;m splitting the expense logging form to a separate page, I also prompted it to extract out the Import/Export
 section into a separate page.</p><h3 id=step-7-multi-currency-support>Step 7: Multi-Currency Support</h3><p>Since the site was initially built for traveling to Portugal, Claude had initially display all the currency in Euro.
-However, I mentioned that as a Canadian, Canadian dollars is a currency that works better for my brain. I will be entering
-expenses in Canadian dollars during planning time, but during travel time, I will be entering my expenses on the go
-in Euro. So I asked Claude to present me some options on how to best handle this.</p><p>Claude suggested a few different approaches, including having a toggle to switch between currencies,
-or even showing both currencies side by side. I went with the toggle option and still told it I want an easy way
-to manually adjust the currency rate.</p><img src=/images/travel-budget-currency.gif><h3 id=step-8-personal-branding>Step 8: Personal Branding</h3><p>After I was satisfied with what it built, I decided to add in my own personal branding, to make it obvious that this is
-a personalized travel app for me. I asked Claude to incorporate my own logo from my main website.
-It gave several suggestions, and I chose its suggestion to add a split line with the Portuguese flag color into
-my monogram.</p><p><img src=/images/travel-budget-branding.png>
-<img src=/images/travel-budget-branding1.png></p><h2 id=budgeting-with-an-app-instead-of-spreadsheet>Budgeting with an App instead of Spreadsheet</h2><p>There is one reason we&rsquo;ve been using spreadsheets for things: it is easy enter data in tabular format.
-In a spreadsheet, you can easily add numbers into cells, create formulas, make calculations, and so on.</p><p>But now, I don&rsquo;t have spreadsheet. How do I fiddle with the numbers?</p><p>For example, in the initial budget that Claude came up with, I noticed that it overestimated the flight cost.
-It also came up with expenses like travel insurance, which I don&rsquo;t need (I have travel insurance through my credit card.)</p><p>If this was a spreadsheet, I could go into the cell and edit the number or delete the row.</p><p>But I would argue though,
-finding the right cell or row to edit in Spreadsheet can be a challenge too. Especially it involved other columns in a
-row. If you&rsquo;re not careful in deleting the row or column, you might mess up the rest of the data and the formula and
-calculations. IYKYK.</p><p>Also, entering data in spreadsheet on your phone is hard. The cells are so tiny, and you have to scroll around
-to find the right cell.</p><p>Well now I don&rsquo;t even have a spreadsheet. I have a codebase in git. It&rsquo;s complicated enough that I need to open
-in an IDE. Isn&rsquo;t it tedious having to search through the codebase to find the right file and line to edit?</p><p>Maybe if I had written the code by hand. Remember, I actually wrote no code. In this style, I don&rsquo;t even have to do
-my own ctrl-f to find the text to update.</p><p>I prompted Claude and tell it to &ldquo;Reduce the flight cost to X&rdquo; and &ldquo;Remove travel insurance fee&rdquo;.
-I only need to reload the webpage on the browser to see the new budget calculations.</p><h2 id=check-it-out>Check it out</h2><p>If you&rsquo;re curious to see my personalized travel plannig and budgeting app, check it out at my
+However, I mentioned that as a Canadian, Canadian dollars is a currency that works better for my brain. I will be
+entering expenses in Canadian dollars during planning time, but during travel time, I will be entering my expenses on
+the go in Euro. So I asked Claude to present me some options on how to best handle this.</p><p>Claude suggested a few different approaches, including having a toggle to switch between currencies, or even showing
+both currencies side by side. I went with the toggle option and still told it I want an easy way to manually adjust the
+currency rate.</p><img src=/images/travel-budget-currency.gif><h3 id=step-8-personal-branding>Step 8: Personal Branding</h3><p>After I was satisfied with what it built, I decided to add in my own personal branding, to make it obvious that this is
+a personalized travel app for me. I asked Claude to incorporate my own logo from my main website. It gave several
+suggestions, and I chose its suggestion to add a split line with the Portuguese flag color into my monogram.</p><p><img src=/images/travel-budget-branding.png>
+<img src=/images/travel-budget-branding1.png></p><h2 id=budgeting-with-an-app-instead-of-spreadsheet>Budgeting with an App instead of Spreadsheet</h2><p>There is one reason we&rsquo;ve been using spreadsheets for things: it is easy enter data in tabular format. In a spreadsheet,
+you can easily add numbers into cells, create formulas, make calculations, and so on.</p><p>But now, I don&rsquo;t have spreadsheet. How do I fiddle with the numbers?</p><p>For example, in the initial budget that Claude came up with, I noticed that it overestimated the flight cost. It also
+came up with expenses like travel insurance, which I don&rsquo;t need (I have travel insurance through my credit card.)</p><p>If this was a spreadsheet, I could go into the cell and edit the number or delete the row.</p><p>But I would argue though, finding the right cell or row to edit in Spreadsheet can be a challenge too. Especially it
+involved other columns in a row. If you&rsquo;re not careful in deleting the row or column, you might mess up the rest of the
+data and the formula and calculations. IYKYK.</p><p>Also, entering data in spreadsheet on your phone is hard. The cells are so tiny, and you have to scroll around to find
+the right cell.</p><p>Well now I don&rsquo;t even have a spreadsheet. I have a codebase in git. It&rsquo;s complicated enough that I need to open in an
+IDE. Isn&rsquo;t it tedious having to search through the codebase to find the right file and line to edit?</p><p>Maybe if I had written the code by hand. Remember, I actually wrote no code. In this style, I don&rsquo;t even have to do my
+own ctrl-f to find the text to update.</p><p>I prompted Claude and tell it to &ldquo;Reduce the flight cost to X&rdquo; and &ldquo;Remove travel insurance fee&rdquo;. I only need to reload
+the webpage on the browser to see the new budget calculations.</p><h2 id=check-it-out>Check it out</h2><p>If you&rsquo;re curious to see my personalized travel plannig and budgeting app, check it out at my
 <a href=https://mariatta.ca/portugal-trip/ target=_blank rel=noopener>Portugal trip website</a>.</p><h2 id=thoughts>Thoughts</h2><p>I&rsquo;m glad I didn&rsquo;t simply asked Claude to &ldquo;create a budget for me&rdquo;, or &ldquo;estimate my travel spending&rdquo;. Because, I think,
-if I did that, it might present just a readonly html text file with information.</p><p>I think it was good that I was specific in telling it that I wanted an &ldquo;app&rdquo;,
-where I could still adjust the numbers and enter my own real expenses, so now it actually creates a form with
-textboxes so I still get to do my own data entry.</p><p>I like that it came up with pretty detailed travel expenses and estimate, some of these I wouldn&rsquo;t even thought
-of doing, but now that I see them, it makes sense. I like that I could still instruct it to tweak the numbers to
-fit my own needs and travel style.</p><p>I started with thinking, I wanted the &ldquo;no spreadsheet&rdquo; travel planning and budgeting experience. But what I got
-is not only &ldquo;no spreadsheet&rdquo;, but also &ldquo;no password&rdquo;, &ldquo;no login&rdquo;, &ldquo;no cookie&rdquo;, &ldquo;no tracking&rdquo;, &ldquo;no docs&rdquo;, &ldquo;no ads&rdquo;,
-and yet, functional.</p><p>I&rsquo;m never planning my travel with docs and spreadsheets again.</p><h2 id=whats-next>What&rsquo;s Next?</h2><p>So, is the app helping me to convince my family to go to Portugal?</p><p>You see, the budget estimated by Claude is pretty steep 😥 It estimated that for the family of 4, 14 days of travel
-spanning 3 cities in Portugal would cost 17,000 CAD 😵 That&rsquo;s way more money than what we&rsquo;re willing to spend. So
-if I were to present this to my family right now, it would give them even more reason not to go 😥</p><p>So I still need to tweak the numbers. I need to verify if the budget is real or just hallucination. I want to see how
-we could cut it even further (by at least 30-40% 😭).</p><p>But the app really is helping me with planning and decision-making. Now I could see clearly which dates I should
-book my travel, how much things are going to cost, what activities we might not want to do, and so on.</p><p>Now that I have a nice travel planning app for Portugal, I started thinking, can I do the same for other travels?
-Can I build a travel budgeting app for Taiwan, which is where my family wanted to go to.
-Maybe I could compare the budget and activities for the two countries?</p><p>Should I create this for my travel to PyCon US in Long Beach? To LFNW in Bellingham? To Python core sprint in SFO?
-Wouldn&rsquo;t it be fun to have an individually personalized travel website built just for myself and fitting my travel style.</p><p>Maybe when I hear about a new conference and deciding whether to go for it or not, I could tell Claude to build
-up the page along with fun travel activities and the budget, and then I could make my decision from there.</p><p>Maybe if I ever need to justify conference travel to the bosses, instead of creating a doc or a presentation slide,
-I could just point them to my travel site?</p><p>What about instead of entering expenses by hand, I could just take a photo of the receipt and populate things
+if I did that, it might present just a readonly html text file with information.</p><p>I think it was good that I was specific in telling it that I wanted an &ldquo;app&rdquo;, where I could still adjust the numbers and
+enter my own real expenses, so now it actually creates a form with textboxes so I still get to do my own data entry.</p><p>I like that it came up with pretty detailed travel expenses and estimate, some of these I wouldn&rsquo;t even thought of
+doing, but now that I see them, it makes sense. I like that I could still instruct it to tweak the numbers to fit my own
+needs and travel style.</p><p>I started with thinking, I wanted the &ldquo;no spreadsheet&rdquo; travel planning and budgeting experience. But what I got is not
+only &ldquo;no spreadsheet&rdquo;, but also &ldquo;no password&rdquo;, &ldquo;no login&rdquo;, &ldquo;no cookie&rdquo;, &ldquo;no tracking&rdquo;, &ldquo;no docs&rdquo;, &ldquo;no ads&rdquo;, and yet,
+functional.</p><p>I&rsquo;m never planning my travel with docs and spreadsheets again.</p><h2 id=whats-next>What&rsquo;s Next?</h2><p>So, is the app helping me to convince my family to go to Portugal?</p><p>You see, the budget estimated by Claude is pretty steep 😥 It estimated that for the family of 4, 14 days of travel
+spanning 3 cities in Portugal would cost 17,000 CAD 😵 That&rsquo;s way more money than what we&rsquo;re willing to spend. So if I
+were to present this to my family right now, it would give them even more reason not to go 😥</p><p>So I still need to tweak the numbers. I need to verify if the budget is real or just hallucination. I want to see how we
+could cut it even further (by at least 30-40% 😭).</p><p>But the app really is helping me with planning and decision-making. Now I could see clearly which dates I should book my
+travel, how much things are going to cost, what activities we might not want to do, and so on.</p><p>Now that I have a nice travel planning app for Portugal, I started thinking, can I do the same for other travels? Can I
+build a travel budgeting app for Taiwan, which is where my family wanted to go to. Maybe I could compare the budget and
+activities for the two countries?</p><p>Should I create this for my travel to PyCon US in Long Beach? To LFNW in Bellingham? To Python core sprint in SFO?
+Wouldn&rsquo;t it be fun to have an individually personalized travel website built just for myself and fitting my travel
+style.</p><p>Maybe when I hear about a new conference and deciding whether to go for it or not, I could tell Claude to build up the
+page along with fun travel activities and the budget, and then I could make my decision from there.</p><p>Maybe if I ever need to justify conference travel to the bosses, instead of creating a doc or a presentation slide, I
+could just point them to my travel site?</p><p>What about instead of entering expenses by hand, I could just take a photo of the receipt and populate things
 immediately? Hmm I wonder how that could work.</p><p>What about travel expense tracking with a group of people? For example, when traveling with close friends and family,
-sometimes we&rsquo;d be booking the same activity, one of us would make the booking for the whole group, and ask
-the others to pay. Sometimes one of us would pay for the meal first and the others would repay by electronic transfer
-later on. How to keep track of this? Spreadsheets? 💀</p><p>These are all great questions to ask Claude Code next time.</p></div><hr class=post-rule><footer class=post-footer><p class=post-share><span class=post-share-label>Share</span>
+sometimes we&rsquo;d be booking the same activity, one of us would make the booking for the whole group, and ask the others to
+pay. Sometimes one of us would pay for the meal first and the others would repay by electronic transfer later on. How to
+keep track of this? Spreadsheets? 💀</p><p>These are all great questions to ask Claude Code next time.</p></div><hr class=post-rule><footer class=post-footer><p class=post-share><span class=post-share-label>Share</span>
 <a href="https://www.linkedin.com/shareArticle?url=https%3a%2f%2fmariatta.ca%2fposts%2ftravel-budgeting-without-spreadsheet%2f&title=Travel%20Budgeting%20without%20Spreadsheet" target=_blank rel=noopener>linkedin</a>
 <a href="https://mastodon.social/share?text=Travel%20Budgeting%20without%20Spreadsheet - https%3a%2f%2fmariatta.ca%2fposts%2ftravel-budgeting-without-spreadsheet%2f" target=_blank rel=noopener>mastodon</a>
 <a href="https://reddit.com/submit?url=https%3a%2f%2fmariatta.ca%2fposts%2ftravel-budgeting-without-spreadsheet%2f&title=Travel%20Budgeting%20without%20Spreadsheet" target=_blank rel=noopener>reddit</a>

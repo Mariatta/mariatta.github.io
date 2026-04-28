@@ -1,31 +1,31 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Learnings on Mariatta</title><link>https://mariatta.ca/tags/learnings/</link><description>Recent content in Learnings on Mariatta</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 16 Apr 2026 09:00:00 -0800</lastBuildDate><atom:link href="https://mariatta.ca/tags/learnings/index.xml" rel="self" type="application/rss+xml"/><item><title>Travel Budgeting without Spreadsheet</title><link>https://mariatta.ca/posts/travel-budgeting-without-spreadsheet/</link><pubDate>Thu, 16 Apr 2026 09:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/travel-budgeting-without-spreadsheet/</guid><description>&lt;p&gt;This is a follow up to my previous post, &lt;a href="https://mariatta.ca/posts/travel-planning-with-ai/"&gt;Travel Planning with AI&lt;/a&gt;.&lt;/p&gt;
-&lt;p&gt;One of my parting thoughts in that post is about travel budgeting and spreadsheets.
-Having a budget is important part of our travel decision-making. It helps us decide whether we could even afford the
-trip, or maybe we need to cut down on the number of travel days, things like that.
-The budget is also important to be tracked during the trip, to ensure we remain close to the budget and not overspend.&lt;/p&gt;</description></item><item><title>Travel Planning with AI</title><link>https://mariatta.ca/posts/travel-planning-with-ai/</link><pubDate>Tue, 14 Apr 2026 07:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/travel-planning-with-ai/</guid><description>&lt;h2 id="travel-planning-with-ai"&gt;Travel Planning with AI&lt;/h2&gt;
-&lt;p&gt;I have started planning my family&amp;rsquo;s travel with the assistance of Claude Code. It resulted in
-a &lt;a href="https://mariatta.ca/portugal-trip/" target="_blank" rel="noopener"&gt;website&lt;/a&gt; that contains information about our travel destination,
-potential activities we could take, hotel recommendations, restaurant suggestions, and even a checklist with
-timelines for me to keep track of the planning progress, all the information needed in order to plan and decide
-about our family vacation.&lt;/p&gt;
+&lt;p&gt;One of my parting thoughts in that post is about travel budgeting and spreadsheets. Having a budget is important part of
+our travel decision-making. It helps us decide whether we could even afford the trip, or maybe we need to cut down on
+the number of travel days, things like that. The budget is also important to be tracked during the trip, to ensure we
+remain close to the budget and not overspend.&lt;/p&gt;</description></item><item><title>Travel Planning with AI</title><link>https://mariatta.ca/posts/travel-planning-with-ai/</link><pubDate>Tue, 14 Apr 2026 07:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/travel-planning-with-ai/</guid><description>&lt;h2 id="travel-planning-with-ai"&gt;Travel Planning with AI&lt;/h2&gt;
+&lt;p&gt;I have started planning my family&amp;rsquo;s travel with the assistance of Claude Code. It resulted in a
+&lt;a href="https://mariatta.ca/portugal-trip/" target="_blank" rel="noopener"&gt;website&lt;/a&gt; that contains information about our travel destination, potential
+activities we could take, hotel recommendations, restaurant suggestions, and even a checklist with timelines for me to
+keep track of the planning progress, all the information needed in order to plan and decide about our family vacation.&lt;/p&gt;
 &lt;p&gt;You can check the website &lt;a href="https://mariatta.ca/portugal-trip/" target="_blank" rel="noopener"&gt;here&lt;/a&gt;. It was created 100% with Claude. I wrote no code.
 I didn&amp;rsquo;t even write the commit messages. I told Claude Code to do it on my behalf, even the creation of the
 &lt;a href="https://github.com/mariatta/portugal-trip" target="_blank" rel="noopener"&gt;GitHub Repo&lt;/a&gt; and pushing it to my GitHub account, were all done by Claude.&lt;/p&gt;</description></item><item><title>Disabling Signup in Django allauth</title><link>https://mariatta.ca/posts/disabling-signup-django-allauth/</link><pubDate>Fri, 03 Oct 2025 11:50:00 -0800</pubDate><guid>https://mariatta.ca/posts/disabling-signup-django-allauth/</guid><description>&lt;h2 id="django-allauth"&gt;Django allauth&lt;/h2&gt;
-&lt;p&gt;&lt;a href="https://allauth.org/" target="_blank" rel="noopener"&gt;Django allauth&lt;/a&gt; is a popular third party package that provides a lot of functionality for handling user authentication,
-with support for social authentication, email verification, multi-factor authentication, and more.&lt;/p&gt;
+&lt;p&gt;&lt;a href="https://allauth.org/" target="_blank" rel="noopener"&gt;Django allauth&lt;/a&gt; is a popular third party package that provides a lot of functionality for
+handling user authentication, with support for social authentication, email verification, multi-factor authentication,
+and more.&lt;/p&gt;
 &lt;p&gt;It is a powerful library that greatly expands the built-in Django authentication system. It comes with its own basic
 forms and models for user registration, login, logout, and password management.&lt;/p&gt;
 &lt;p&gt;I like using it because often I just wanted to get a new Django project up and running quickly without having to write
-up all the authentication-related views, forms, and templates myself. I&amp;rsquo;m using &lt;code&gt;django-allauth&lt;/code&gt; in &lt;a href="https://portal.pyladies.com" target="_blank" rel="noopener"&gt;PyLadiesCon
-Portal&lt;/a&gt;, and in my personal project &lt;a href="https://secretcodes.dev" target="_blank" rel="noopener"&gt;Secret Codes&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Generating (and Sending) Conference Certificates Using Python</title><link>https://mariatta.ca/posts/create-send-certificates-with-python/</link><pubDate>Thu, 12 Dec 2024 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/create-send-certificates-with-python/</guid><description>&lt;h2 id="pyladiescon-certificate-of-attendance"&gt;PyLadiesCon Certificate of Attendance&lt;/h2&gt;
-&lt;p&gt;Not sure how common is this practice of giving out certificates to conference attendees. I&amp;rsquo;ve been attending mostly Python-related conferences in North America,
-and we don&amp;rsquo;t usually get any certificates here.
-However, when I went to Python Brasil in Manaus 2022, they gave me a certificate of attendance.
-And as a conference organizer, occasionally I&amp;rsquo;d receive request from a few attendees and volunteers about such certificate, saying that
-their employer or school requires it as proof of attendance.&lt;/p&gt;</description></item><item><title>Extending the Django OAuth Toolkit Application Model Mid-project</title><link>https://mariatta.ca/posts/extending-dj-oauth-toolkit-model/</link><pubDate>Fri, 30 Aug 2024 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/extending-dj-oauth-toolkit-model/</guid><description>&lt;h2 id="django-oauth-toolkit"&gt;Django Oauth Toolkit&lt;/h2&gt;
+up all the authentication-related views, forms, and templates myself. I&amp;rsquo;m using &lt;code&gt;django-allauth&lt;/code&gt; in
+&lt;a href="https://portal.pyladies.com" target="_blank" rel="noopener"&gt;PyLadiesCon Portal&lt;/a&gt;, and in my personal project &lt;a href="https://secretcodes.dev" target="_blank" rel="noopener"&gt;Secret Codes&lt;/a&gt;.&lt;/p&gt;</description></item><item><title>Generating (and Sending) Conference Certificates Using Python</title><link>https://mariatta.ca/posts/create-send-certificates-with-python/</link><pubDate>Thu, 12 Dec 2024 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/create-send-certificates-with-python/</guid><description>&lt;h2 id="pyladiescon-certificate-of-attendance"&gt;PyLadiesCon Certificate of Attendance&lt;/h2&gt;
+&lt;p&gt;Not sure how common is this practice of giving out certificates to conference attendees. I&amp;rsquo;ve been attending mostly
+Python-related conferences in North America, and we don&amp;rsquo;t usually get any certificates here. However, when I went to
+Python Brasil in Manaus 2022, they gave me a certificate of attendance. And as a conference organizer, occasionally I&amp;rsquo;d
+receive request from a few attendees and volunteers about such certificate, saying that their employer or school
+requires it as proof of attendance.&lt;/p&gt;</description></item><item><title>Extending the Django OAuth Toolkit Application Model Mid-project</title><link>https://mariatta.ca/posts/extending-dj-oauth-toolkit-model/</link><pubDate>Fri, 30 Aug 2024 00:00:00 -0800</pubDate><guid>https://mariatta.ca/posts/extending-dj-oauth-toolkit-model/</guid><description>&lt;h2 id="django-oauth-toolkit"&gt;Django Oauth Toolkit&lt;/h2&gt;
 &lt;p&gt;The &lt;a href="https://django-oauth-toolkit.readthedocs.io/en/latest/index.html" target="_blank" rel="noopener"&gt;Django Oauth Toolkit&lt;/a&gt; is a powerful library for
-adding OAuth2 functionalities out of the box for your Django app.
-The library comes with pre-defined models, views, urls, and templates for managing OAuth2 authorization and flow.&lt;/p&gt;
+adding OAuth2 functionalities out of the box for your Django app. The library comes with pre-defined models, views,
+urls, and templates for managing OAuth2 authorization and flow.&lt;/p&gt;
 &lt;h2 id="the-application-model"&gt;The Application Model&lt;/h2&gt;
-&lt;p&gt;Django OAuth Toolkit provides a basic model for the OAuth2 Application, this is a model that represents a Client on
-the Authorization server. It has fields like &lt;code&gt;client_id&lt;/code&gt;, &lt;code&gt;user&lt;/code&gt;, &lt;code&gt;redirect_uris&lt;/code&gt;, &lt;code&gt;client_secret&lt;/code&gt;, etc.&lt;/p&gt;</description></item></channel></rss>
+&lt;p&gt;Django OAuth Toolkit provides a basic model for the OAuth2 Application, this is a model that represents a Client on the
+Authorization server. It has fields like &lt;code&gt;client_id&lt;/code&gt;, &lt;code&gt;user&lt;/code&gt;, &lt;code&gt;redirect_uris&lt;/code&gt;, &lt;code&gt;client_secret&lt;/code&gt;, etc.&lt;/p&gt;</description></item></channel></rss>
