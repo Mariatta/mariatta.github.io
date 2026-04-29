@@ -6,62 +6,64 @@
 <section class="page-section">
   <div class="page-wrap">
 
-    <header class="page-header">
+    <header class="page-header" id="top">
       <p class="page-eyebrow">{{ if eq .Section "posts" }}{{ if .IsSection }}{{ .Title | default "Writing" }}{{ end }}{{ end }}</p>
-      <h1 class="page-title">{{ .Title | default "Writing" }}</h1>
+      {{ if .Params.showCount }}
+        <h1 class="page-title page-count">{{ len .RegularPagesRecursive }}</h1>
+        {{ with .Params.countLabel }}<p class="page-count-label">{{ . }}</p>{{ end }}
+      {{ else }}
+        <h1 class="page-title">{{ .Title | default "Writing" }}</h1>
+      {{ end }}
       {{ with .Description }}
         <p class="page-intro">{{ . }}</p>
       {{ end }}
     </header>
 
     {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
-    {{ $paginator := .Paginate $pages }}
     {{ if $pages }}
-      <ul class="feed-list">
-        {{ range $paginator.Pages }}
-          <li class="feed-entry{{ with .Params.hero }} has-thumb{{ end }}">
-            <div class="feed-entry-text">
-              <p class="feed-entry-meta">
-                <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
-                {{- if site.Params.features.readingTime }}<span class="sep">&middot;</span>{{ .ReadingTime }} min read{{ end -}}
-              </p>
-              <h2 class="feed-entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
-              {{- with or .Description (.Summary | plainify) }}
-                <p class="feed-entry-excerpt">{{ . | truncate 200 }}</p>
-              {{- end }}
-              {{- with .Params.tags }}
-                <p class="feed-entry-tags">
-                  {{- range first 4 . }}<span class="tag">{{ . | lower }}</span>{{ end -}}
-                </p>
-              {{- end }}
-            </div>
-            {{- with .Params.hero }}
-              <a class="feed-entry-thumb-link" href="{{ $.Permalink }}" aria-hidden="true" tabindex="-1">
-                <img class="feed-entry-thumb" src="{{ . | absURL }}" alt="" loading="lazy" />
-              </a>
-            {{- end }}
-          </li>
-        {{ end }}
-      </ul>
-
-      {{ if gt $paginator.TotalPages 1 }}
-        <nav class="pager" aria-label="Pagination">
-          {{ if $paginator.HasPrev }}
-            <a class="pager-link pager-prev" href="{{ $paginator.Prev.URL }}">&larr; Newer</a>
-          {{ else }}
-            <span class="pager-link pager-disabled">&larr; Newer</span>
-          {{ end }}
-
-          <span class="pager-status">
-            Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
-          </span>
-
-          {{ if $paginator.HasNext }}
-            <a class="pager-link pager-next" href="{{ $paginator.Next.URL }}">Older &rarr;</a>
-          {{ else }}
-            <span class="pager-link pager-disabled">Older &rarr;</span>
+      {{ if .Params.archive }}
+        {{ $byYear := $pages.GroupByDate "2006" }}
+        <nav class="archive-years" aria-label="Jump to year">
+          {{ range $byYear }}
+            <a href="#year-{{ .Key }}">{{ .Key }} <span class="archive-year-count">{{ len .Pages }}</span></a>
           {{ end }}
         </nav>
+        {{ range $byYear }}
+          <h2 class="archive-year" id="year-{{ .Key }}">{{ .Key }}</h2>
+          <ul class="feed-list">
+            {{ range .Pages }}
+              {{ partial "feed-entry.html" . }}
+            {{ end }}
+          </ul>
+        {{ end }}
+        <p class="archive-top"><a href="#top">&uarr; Back to top</a></p>
+      {{ else }}
+        {{ $paginator := .Paginate $pages }}
+        <ul class="feed-list">
+          {{ range $paginator.Pages }}
+            {{ partial "feed-entry.html" . }}
+          {{ end }}
+        </ul>
+
+        {{ if gt $paginator.TotalPages 1 }}
+          <nav class="pager" aria-label="Pagination">
+            {{ if $paginator.HasPrev }}
+              <a class="pager-link pager-prev" href="{{ $paginator.Prev.URL }}">&larr; Newer</a>
+            {{ else }}
+              <span class="pager-link pager-disabled">&larr; Newer</span>
+            {{ end }}
+
+            <span class="pager-status">
+              Page {{ $paginator.PageNumber }} of {{ $paginator.TotalPages }}
+            </span>
+
+            {{ if $paginator.HasNext }}
+              <a class="pager-link pager-next" href="{{ $paginator.Next.URL }}">Older &rarr;</a>
+            {{ else }}
+              <span class="pager-link pager-disabled">Older &rarr;</span>
+            {{ end }}
+          </nav>
+        {{ end }}
       {{ end }}
     {{ else }}
       <p class="page-prose">Nothing here yet.</p>
@@ -107,6 +109,21 @@
     letter-spacing: -0.02em;
     line-height: 1.1;
     color: var(--c-text);
+    margin: 0 0 16px;
+  }
+  .page-title.page-count {
+    font-size: clamp(72px, 12vw, 140px);
+    font-weight: 600;
+    letter-spacing: -0.04em;
+    margin: 0 0 4px;
+    color: var(--c-rose);
+  }
+  .page-count-label {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+    color: var(--c-muted);
     margin: 0 0 16px;
   }
   .page-intro {
@@ -201,6 +218,67 @@
     color: var(--c-muted);
     margin: 0;
   }
+
+  .archive-years {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+    margin: 0 0 40px;
+    padding: 14px 0;
+    border-top: 1px solid var(--c-rule);
+    border-bottom: 1px solid var(--c-rule);
+    position: sticky;
+    top: 0;
+    background: var(--c-bg);
+    z-index: 5;
+  }
+  .archive-years a {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    color: var(--c-rose);
+    text-decoration: none;
+    padding: 4px 10px;
+    border-radius: 14px;
+    border: 1px solid transparent;
+    letter-spacing: 0.02em;
+    white-space: nowrap;
+  }
+  .archive-years a:hover {
+    border-color: var(--c-rose);
+    color: var(--c-text);
+  }
+  .archive-year-count {
+    color: var(--c-muted);
+    font-size: 11px;
+    margin-left: 4px;
+  }
+  .archive-year {
+    font-family: var(--font-sans);
+    font-weight: 500;
+    font-size: 28px;
+    letter-spacing: -0.01em;
+    color: var(--c-text);
+    margin: 56px 0 16px;
+    padding-top: 16px;
+    border-top: 1px solid var(--c-rule);
+    scroll-margin-top: 80px;
+  }
+  .archive-year:first-of-type {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: 0;
+  }
+  .archive-top {
+    font-family: var(--font-mono);
+    font-size: 13px;
+    margin-top: 48px;
+    text-align: right;
+  }
+  .archive-top a {
+    color: var(--c-rose);
+    text-decoration: none;
+  }
+  .archive-top a:hover { color: var(--c-text); }
 
   .pager {
     display: flex;
