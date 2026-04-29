@@ -1,0 +1,22 @@
+<li class="feed-entry{{ with .Params.hero }} has-thumb{{ end }}">
+  <div class="feed-entry-text">
+    <p class="feed-entry-meta">
+      <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
+      {{- if site.Params.features.readingTime }}<span class="sep">&middot;</span>{{ .ReadingTime }} min read{{ end -}}
+    </p>
+    <h2 class="feed-entry-title"><a href="{{ .Permalink }}">{{ .Title }}</a></h2>
+    {{- with or .Description (.Summary | plainify) }}
+      <p class="feed-entry-excerpt">{{ . | truncate 200 }}</p>
+    {{- end }}
+    {{- with .Params.tags }}
+      <p class="feed-entry-tags">
+        {{- range first 4 . }}<span class="tag">{{ . | lower }}</span>{{ end -}}
+      </p>
+    {{- end }}
+  </div>
+  {{- with .Params.hero }}
+    <a class="feed-entry-thumb-link" href="{{ $.Permalink }}" aria-hidden="true" tabindex="-1">
+      <img class="feed-entry-thumb" src="{{ . | absURL }}" alt="" loading="lazy" />
+    </a>
+  {{- end }}
+</li>
