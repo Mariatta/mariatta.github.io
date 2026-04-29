@@ -1,10 +1,10 @@
 ---
-title: "Typo of the Day: "Thanks for bossting my post""
+title: 'Typo of the Day: "Thanks for bossting my post"'
 date: 2023-11-28T15:47:44.310Z
 weight: 20
 menu:
   sidebar:
-    name: ""Thanks for bossting my post""
+    name: '"Thanks for bossting my post"'
     identifier: Thanksforbosstingmypost
     weight: 20
     parent: typo_of_the_day

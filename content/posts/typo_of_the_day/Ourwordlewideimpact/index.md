@@ -1,10 +1,10 @@
 ---
-title: "Typo of the Day: "Our wordlewide impact""
+title: 'Typo of the Day: "Our wordlewide impact"'
 date: 2023-09-18T19:39:33.544Z
 weight: 20
 menu:
   sidebar:
-    name: ""Our wordlewide impact""
+    name: '"Our wordlewide impact"'
     identifier: Ourwordlewideimpact
     weight: 20
     parent: typo_of_the_day

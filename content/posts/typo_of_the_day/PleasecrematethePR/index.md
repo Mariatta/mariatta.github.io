@@ -1,10 +1,10 @@
 ---
-title: "Typo of the Day: "Please cremate the PR""
+title: 'Typo of the Day: "Please cremate the PR"'
 date: 2025-07-10T20:20:33.212Z
 weight: 20
 menu:
   sidebar:
-    name: ""Please cremate the PR""
+    name: '"Please cremate the PR"'
     identifier: PleasecrematethePR
     weight: 20
     parent: typo_of_the_day

@@ -1,10 +1,10 @@
 ---
-title: "Typo of the Day: "in the meattime""
+title: 'Typo of the Day: "in the meattime"'
 date: 2025-07-08T22:06:04.676Z
 weight: 20
 menu:
   sidebar:
-    name: ""in the meattime""
+    name: '"in the meattime"'
     identifier: inthemeattime
     weight: 20
     parent: typo_of_the_day
