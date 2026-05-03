@@ -31,6 +31,7 @@ jobs:
         with:
           branch: typo-of-the-day/import
           commit-message: 'Import new #typooftheday posts from Mastodon'
+          sign-commits: true
           title: 'Import new #typooftheday posts from Mastodon'
           body: |
             Automated import of new `#typooftheday` toots from Mastodon.
