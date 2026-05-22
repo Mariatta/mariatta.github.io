@@ -36,7 +36,7 @@
   <meta property="og:type" content="website">
 {{- end }}
 
-{{/* Resolve a primary image (per-post → site default) for og:image and twitter:image */}}
+{{/* Resolve a primary image (per-post images → per-post hero → site default) for og:image and twitter:image */}}
 {{- $pageImages := partial "_funcs/get-page-images" . -}}
 {{- $primaryImage := "" -}}
 {{- if $pageImages -}}
@@ -45,6 +45,20 @@
     <meta property="og:image:alt" content="{{ $.Title | plainify }}">
     {{- if not $primaryImage }}{{ $primaryImage = .Permalink }}{{ end -}}
   {{- end }}
+{{- else if .Params.hero -}}
+  {{- $heroPath := .Params.hero -}}
+  {{- $heroURL := urls.Parse $heroPath -}}
+  {{- if eq $heroURL.Scheme "" -}}
+    {{- with .Resources.GetMatch $heroPath -}}
+      {{- $primaryImage = .Permalink -}}
+    {{- else -}}
+      {{- $primaryImage = absURL $heroPath -}}
+    {{- end -}}
+  {{- else -}}
+    {{- $primaryImage = $heroPath -}}
+  {{- end -}}
+  <meta property="og:image" content="{{ $primaryImage }}">
+  <meta property="og:image:alt" content="{{ or $.Title site.Title | plainify }}">
 {{- else -}}
   {{- with site.Params.defaultOgImage -}}
     {{- $primaryImage = . | absURL -}}
