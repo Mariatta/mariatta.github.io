@@ -21,12 +21,15 @@ tags:
 PyCascades 2026 took place in Vancouver this year. I only get to attend on the first day, because I had a 5 a.m. flight
 to Washington DC the morning after.
 
-Still, the first day's talks were all very insightful and interesting. I'm waiting for all the talks to be published so
-that I could catch up on the ones I missed.
+Still, the first day's talks were all very insightful and interesting. The talks have now all been published, so I can
+finally catch up on the ones I missed. You can watch the
+[full PyCascades 2026 playlist](https://www.youtube.com/playlist?list=PLcNrB7gPa-NeyTIFSdtjnREcW6X9uxwsN) on YouTube.
 
 Here are notes on the talks I got to see.
 
 ## [Permacomputing and Python](https://2026.pycascades.com/program/talks/permacomputing-and-python/) by Łukasz Langa
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=wpuneOh9ZVQ)
 
 Łukasz introduced the idea of _permacomputing_, borrowing from permaculture, as a way of thinking about sustainable,
 dependable computing. The core idea: your devices and your software shouldn't become e-waste the moment a vendor decides
@@ -65,6 +68,8 @@ _You shouldn't have to bear the burden of systemic change, but you can make the 
 
 ## [Climbing Out of Fixture Hell, Indirectly](https://2026.pycascades.com/program/talks/climbing-out-of-fixture-hell-indirectly/) by Sammie Jiang
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=v2XlE4IQfCA)
+
 Writing pytest fixtures may not scale well. Sammie's talk was a practical walk through fixture hell and how to climb out
 of it using indirect parametrization.
 
@@ -81,6 +86,8 @@ Best practices:
 - Avoid the God fixture: that one giant fixture that does too much
 
 ## [The Future of Python: Evolution or Succession?](https://2026.pycascades.com/program/talks/the-future-of-python/) by Brett Slatkin
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=vkwyKN0fDBE)
 
 Will Python evolve into the language everyone needs, or will it be succeeded by something else? Programming language
 communities tend to migrate roughly every 30 years, and we are _overdue_. BASIC → Pascal → C → Objective-C → Swift.
@@ -117,6 +124,8 @@ Will Python evolve? Will _we_?
 
 ## [Airflow Beyond the Cloud](https://2026.pycascades.com/program/talks/airflow-beyond-the-cloud/) by Constance Martineau
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=8prpbVsO_20)
+
 Constance gave one of those wonderfully over-engineered project talks I love. She ran Apache Airflow on a Raspberry Pi
 Zero, to orchestrate an On-Air sign in her office so her family members wouldn't disturb her during Zoom meetings.
 
@@ -143,6 +152,8 @@ thing to remember.
 
 ## [To Notebook or Not to Notebook](https://2026.pycascades.com/program/talks/to-notebook-or-not-to-notebook/) by Rodrigo Silva Ferreira
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=Q4WuuANQRy8)
+
 _Nature_ named Jupyter one of the ten projects that transformed science, and there are over 10 million notebooks on
 GitHub.
 
@@ -162,6 +173,8 @@ He pointed us toward [marketplace.orbrx.io](http://marketplace.orbrx.io) for Jup
 `ipywidgets`, `variableinspector`, `spellchecker`.
 
 ## [Getting Started with Open Source Contributions](https://2026.pycascades.com/program/talks/getting-started-with-open-source-contributions/) by Stefanie Molin
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=YXex_F_NiQY)
 
 Stefanie's talk was perfect for newcomers, and a good reminder for the rest of us. She busted two myths up front:
 
@@ -189,6 +202,8 @@ Stefanie's talk.
 
 ## [Variables and Objects in Python: It's Pointers All the Way Down](https://2026.pycascades.com/program/talks/variables-and-objects-in-python/) by Trey Hunner
 
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=81IA1LJrYvo)
+
 Trey's talk was a clear walk through one of the trickiest mental models in Python.
 
 Python doesn't officially call them "pointers". The docs say "binding" or "reference", but Trey prefers "pointer"
@@ -206,6 +221,8 @@ and memory. Python made a tradeoff. Every language design decision is a tradeoff
 Slides are at [trey.io/pycascades26](http://trey.io/pycascades26).
 
 ## My Own Talk: [No More Spreadsheets](https://2026.pycascades.com/program/talks/no-more-spreadsheets-building-pyladiescon-infrastructure-with-python-and-django/)
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=DK0fmhcisRc)
 
 I also gave my own talk: No More Spreadsheets!
 
@@ -232,3 +249,6 @@ Ice cream selfie at Bella Gelateria with Mario Munoz, Trey Hunner, Stefanie Moli
 
 Thanks to the PyCascades organizers, volunteers, and speakers for making this happen. Looking forward to seeing you at
 some other conference!
+
+In the meantime, catch up on every talk from the conference in the
+[full PyCascades 2026 playlist](https://www.youtube.com/playlist?list=PLcNrB7gPa-NeyTIFSdtjnREcW6X9uxwsN) on YouTube.
