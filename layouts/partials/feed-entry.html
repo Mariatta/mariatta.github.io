@@ -10,7 +10,7 @@
     {{- end }}
     {{- with .Params.tags }}
       <p class="feed-entry-tags">
-        {{- range first 4 . }}<span class="tag">{{ . | lower }}</span>{{ end -}}
+        {{- range first 4 . }}<a class="tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">{{ . | lower }}</a>{{ end -}}
       </p>
     {{- end }}
   </div>
