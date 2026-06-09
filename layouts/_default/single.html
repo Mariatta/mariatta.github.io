@@ -21,7 +21,7 @@
       </p>
       {{ with .Params.tags }}
         <p class="post-tags">
-          {{ range first 6 . }}<span class="tag">{{ . | lower }}</span>{{ end }}
+          {{ range first 6 . }}<a class="tag" href="{{ (printf "/tags/%s/" (. | urlize)) | relURL }}">{{ . | lower }}</a>{{ end }}
         </p>
       {{ end }}
     </header>
@@ -124,6 +124,12 @@
     color: var(--c-rose);
     letter-spacing: 0.06em;
     margin-right: 12px;
+    text-decoration: none;
+    border-bottom: 1px solid transparent;
+  }
+  .post-tags a.tag:hover {
+    color: var(--c-text);
+    border-bottom-color: var(--c-rose);
   }
 
   .post-hero {
