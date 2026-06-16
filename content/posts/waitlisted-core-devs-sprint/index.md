@@ -2,7 +2,7 @@
 title: "Waitlisted for the Core Devs Sprint: When the Bad News was Also the Good News"
 draft: false
 date: 2026-06-16T09:00:00-07:00
-tags: [python, conferences, travel, budgeting]
+tags: [python, conferences, travel, budgeting, "No more spreadsheets"]
 hero: /posts/waitlisted-core-devs-sprint/waitlist-hero.png
 images:
   - /posts/waitlisted-core-devs-sprint/waitlist-hero.png
