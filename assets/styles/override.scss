@@ -204,6 +204,29 @@ a {
 .footer-meta a:hover { color: var(--c-text); }
 .footer-meta .footer-sep { margin: 0 8px; color: var(--c-faint); }
 
+// Content tables (e.g. budget breakdowns): the theme's default header had
+// near-invisible text on its header fill. Anchor both to brand tokens so the
+// header reads clearly in light and dark mode.
+.post-content table {
+  border-collapse: collapse;
+  width: 100%;
+  margin: 1.5em 0;
+}
+.post-content table th,
+.post-content table td {
+  padding: 0.55em 0.85em;
+  border: 1px solid var(--c-rule);
+}
+.post-content table th {
+  background: var(--c-bg-soft);
+  color: var(--c-text);
+  font-weight: 600;
+  text-align: left;
+}
+.post-content table tbody tr:nth-child(even) td {
+  background: var(--c-bg-soft);
+}
+
 // Navbar: when in "transparent" state (at top of page), the theme uses
 // inverse-text-color for link text — which equals our background color.
 // Anchor it to the body text token so it works in both modes.
