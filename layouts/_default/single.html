@@ -15,6 +15,7 @@
     <header class="post-header">
       {{ with .Section }}<p class="post-eyebrow">{{ . | humanize }}</p>{{ end }}
       <h1 class="post-title">{{ .Title }}</h1>
+      {{ with .Params.subtitle }}<p class="post-subtitle">{{ . }}</p>{{ end }}
       <p class="post-meta-line">
         <time datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "Jan 2, 2006" }}</time>
         {{ if site.Params.features.readingTime }}<span class="sep">&middot;</span>{{ .ReadingTime }} min read{{ end }}
@@ -105,7 +106,14 @@
     line-height: 1.15;
     letter-spacing: -0.02em;
     color: var(--c-text);
-    margin: 0 0 14px;
+    margin: 0 0 10px;
+  }
+  .post-subtitle {
+    font-family: var(--font-sans);
+    font-size: clamp(17px, 2.2vw, 21px);
+    line-height: 1.35;
+    color: var(--c-muted);
+    margin: 0 0 16px;
   }
   .post-meta-line {
     font-family: var(--font-mono);
