@@ -37,12 +37,14 @@
     <section class="home-projects" aria-labelledby="home-projects-heading">
       <p class="home-section-label" id="home-projects-heading">Other projects</p>
       <div class="projects">
-        {{- range (index site.Data site.Language.Lang "sideprojects") }}
+        {{- range (index site.Data site.Language.Lang "sideprojects").groups }}
+        {{- range .projects }}
         <a class="project" href="{{ .url }}">
           <div class="project-name">{{ .name }}</div>
           <div class="project-url">{{ .urlLabel }} &rarr;</div>
           <div class="project-desc">{{ .tagline }}</div>
         </a>
+        {{- end }}
         {{- end }}
       </div>
     </section>

@@ -8,24 +8,28 @@
 
     <header class="page-header">
       <p class="page-eyebrow">Projects</p>
-      <h1 class="page-title">Side projects, small tools, and other things I&rsquo;m building outside of work.</h1>
-      <p class="page-intro">Each project below has its own home — these cards are a quick tour. They&rsquo;re different in tone and topic, but they share a common thread: scratching my own itch.</p>
+      <h1 class="page-title">Things I build, and things I help keep running.</h1>
+      <p class="page-intro">A mix of small tools I&rsquo;ve made to scratch my own itch, and open source and community projects I help maintain. Each one has its own home &mdash; these cards are a quick tour.</p>
     </header>
 
+    {{- range (index site.Data site.Language.Lang "sideprojects").groups }}
+    <h2 class="project-group-title">{{ .title }}</h2>
     <ul class="project-list">
-      {{- range (index site.Data site.Language.Lang "sideprojects") }}
+      {{- range .projects }}
       <li class="project-detail">
         <a class="project-detail-card" href="{{ .url }}">
           <div class="project-detail-head">
             <p class="project-detail-name">{{ .name }}</p>
             <p class="project-detail-url">{{ .urlLabel }} &rarr;</p>
           </div>
+          {{- with .role }}<p class="project-detail-role">{{ . }}</p>{{- end }}
           <p class="project-detail-tagline">{{ .tagline }}</p>
           {{- with .desc }}<p class="project-detail-desc">{{ . }}</p>{{- end }}
         </a>
       </li>
       {{- end }}
     </ul>
+    {{- end }}
 
     <p class="page-back"><a href="{{ "/" | relLangURL }}">&larr; Back home</a></p>
   </div>
@@ -67,6 +71,23 @@
     color: var(--c-muted);
     max-width: 56ch;
     margin: 0;
+  }
+
+  .project-group-title {
+    font-family: var(--font-mono);
+    font-size: 12px;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--c-muted);
+    margin: 44px 0 16px;
+  }
+  .project-group-title:first-of-type { margin-top: 0; }
+  .project-detail-role {
+    font-family: var(--font-mono);
+    font-size: 11px;
+    letter-spacing: 0.04em;
+    color: var(--c-rose);
+    margin: 0 0 8px;
   }
 
   .project-list {
