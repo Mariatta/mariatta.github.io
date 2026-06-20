@@ -1,0 +1,29 @@
+# Side-project cards — single source of truth shared by:
+#   - the homepage "Other projects" section (layouts/index.html)
+#   - the /projects/ page (layouts/projects/list.html)
+# Add a project here once and it shows up in both places.
+#
+# Fields:
+#   name     — project name
+#   url      — link target
+#   urlLabel — short display label for the link (no scheme)
+#   tagline  — one-line summary (shown on both the homepage card and /projects/)
+#   desc     — longer description (shown only on the /projects/ page; optional)
+
+- name: Travels
+  url: https://travel.mariatta.ca
+  urlLabel: travel.mariatta.ca
+  tagline: Travel planning without spreadsheets.
+  desc: A field log of trips, places, and the meals worth remembering.
+
+- name: Secret Codes
+  url: https://secretcodes.dev
+  urlLabel: secretcodes.dev
+  tagline: Small, useful automations. Runs without third-party trackers or cookie gauntlets.
+  desc: Where I keep the small tools I've built for myself.
+
+- name: Hot Lunch Handbook
+  url: https://mariatta.ca/lunch-handbook/
+  urlLabel: mariatta.ca/lunch-handbook
+  tagline: An open handbook for the parent volunteers who run school hot lunch.
+  desc: Everything I learned running my kids' school hot lunch program, documented openly for whoever runs it next.

@@ -13,47 +13,18 @@
     </header>
 
     <ul class="project-list">
-
+      {{- range (index site.Data site.Language.Lang "sideprojects") }}
       <li class="project-detail">
-        <a class="project-detail-card" href="https://travel.mariatta.ca">
+        <a class="project-detail-card" href="{{ .url }}">
           <div class="project-detail-head">
-            <p class="project-detail-name">Travels</p>
-            <p class="project-detail-url">travel.mariatta.ca &rarr;</p>
+            <p class="project-detail-name">{{ .name }}</p>
+            <p class="project-detail-url">{{ .urlLabel }} &rarr;</p>
           </div>
-          <p class="project-detail-tagline">Travel planning without spreadsheets.</p>
-          <p class="project-detail-desc">A field log of trips, places, and the meals worth remembering.</p>
-
+          <p class="project-detail-tagline">{{ .tagline }}</p>
+          {{- with .desc }}<p class="project-detail-desc">{{ . }}</p>{{- end }}
         </a>
       </li>
-
-      <li class="project-detail">
-        <a class="project-detail-card" href="https://secretcodes.dev">
-          <div class="project-detail-head">
-            <p class="project-detail-name">Secret Codes</p>
-            <p class="project-detail-url">secretcodes.dev &rarr;</p>
-          </div>
-          <p class="project-detail-tagline">Small, useful automations. Runs without third-party trackers or cookie gauntlets.</p>
-          <p class="project-detail-desc">
-
-            Where I keep the small tools I've built for myself.
-
-          </p>
-
-        </a>
-      </li>
-
-      {{/* Hidden until nospreadsheet.dev is live.
-      <li class="project-detail">
-        <a class="project-detail-card" href="https://nospreadsheet.dev">
-          <div class="project-detail-name-only">No Spreadsheet</div>
-          <p class="project-detail-tagline">Tools for people who&rsquo;d rather not open another sheet today.</p>
-          <p class="project-detail-desc">A small home for tiny utilities that replace spreadsheet workflows I kept finding myself in. Built one tool at a time, when the spreadsheet finally annoys me enough.</p>
-          <p class="project-detail-url">nospreadsheet.dev &rarr;</p>
-
-        </a>
-      </li>
-      */}}
-
+      {{- end }}
     </ul>
 
     <p class="page-back"><a href="{{ "/" | relLangURL }}">&larr; Back home</a></p>

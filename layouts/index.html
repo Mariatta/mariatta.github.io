@@ -37,28 +37,13 @@
     <section class="home-projects" aria-labelledby="home-projects-heading">
       <p class="home-section-label" id="home-projects-heading">Other projects</p>
       <div class="projects">
-        <a class="project" href="https://travel.mariatta.ca">
-          <div class="project-name">Travels</div>
-          <div class="project-url">travel.mariatta.ca &rarr;</div>
-          <div class="project-desc">Travel planning without spreadsheets.</div>
+        {{- range (index site.Data site.Language.Lang "sideprojects") }}
+        <a class="project" href="{{ .url }}">
+          <div class="project-name">{{ .name }}</div>
+          <div class="project-url">{{ .urlLabel }} &rarr;</div>
+          <div class="project-desc">{{ .tagline }}</div>
         </a>
-        <a class="project" href="https://secretcodes.dev">
-          <div class="project-name">Secret Codes</div>
-          <div class="project-url">secretcodes.dev &rarr;</div>
-          <div class="project-desc">Small, useful automations. Runs without third-party trackers or cookie gauntlets.</div>
-        </a>
-        <a class="project" href="https://mariatta.ca/lunch-handbook/">
-          <div class="project-name">Hot Lunch Handbook</div>
-          <div class="project-url">mariatta.ca/lunch-handbook &rarr;</div>
-          <div class="project-desc">An open handbook for the parent volunteers who run school hot lunch.</div>
-        </a>
-        {{/* Hidden until nospreadsheet.dev is live.
-        <a class="project" href="https://nospreadsheet.dev">
-          <div class="project-name">No Spreadsheet</div>
-          <div class="project-url">nospreadsheet.dev &rarr;</div>
-          <div class="project-desc">Tools for people who'd rather not open another sheet today.</div>
-        </a>
-        */}}
+        {{- end }}
       </div>
     </section>
 
