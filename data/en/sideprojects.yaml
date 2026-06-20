@@ -1,0 +1,70 @@
+# Shared project data — single source of truth for:
+#   - the homepage "Other projects" section (layouts/index.html), shown flat
+#   - the /projects/ page (layouts/projects/list.html), shown as labeled groups
+# Add a project under the right group once and it appears in both places.
+#
+# Per-project fields:
+#   name     — project name
+#   url      — link target
+#   urlLabel — short display label for the link (no scheme)
+#   role     — your role (optional; e.g. "Co-maintainer"). Shown on /projects/.
+#   tagline  — one-line summary (homepage card + /projects/)
+#   desc     — longer description (only on /projects/; optional)
+
+groups:
+  - title: Things I build
+    projects:
+      - name: Travels
+        url: https://travel.mariatta.ca
+        urlLabel: travel.mariatta.ca
+        tagline: Travel planning without spreadsheets.
+        desc: A field log of trips, places, and the meals worth remembering.
+
+      - name: Secret Codes
+        url: https://secretcodes.dev
+        urlLabel: secretcodes.dev
+        tagline: Small, useful automations. Runs without third-party trackers or cookie gauntlets.
+        desc: Where I keep the small tools I've built for myself.
+
+      - name: Hot Lunch Handbook
+        url: https://mariatta.ca/lunch-handbook/
+        urlLabel: mariatta.ca/lunch-handbook
+        tagline: An open handbook for the parent volunteers who run school hot lunch.
+        desc: Everything I learned running my kids' school hot lunch program, documented openly for whoever runs it next.
+
+  - title: Things I help maintain
+    projects:
+      - name: gidgethub
+        url: https://gidgethub.readthedocs.io
+        urlLabel: gidgethub.readthedocs.io
+        role: Co-maintainer
+        tagline: An async GitHub API library for Python.
+        desc: A small async wrapper around the GitHub API — the library behind the bots that help keep CPython's pull requests moving.
+
+      - name: Python Docs Editorial Board
+        url: https://python.github.io/editorial-board/
+        urlLabel: python.github.io/editorial-board
+        role: Board member
+        tagline: Stewarding the contribution process for Python's official documentation.
+        desc: The board that supports and guides documentation contributors across the CPython project.
+
+      - name: PyCon Maintainers Summit
+        url: https://pycon-maintainers-summit.github.io/
+        urlLabel: pycon-maintainers-summit.github.io
+        role: Co-organizer
+        tagline: A gathering for open source maintainers at PyCon US.
+        desc: A space at PyCon US for the people who keep open source projects running to share what they've learned and support one another.
+
+      - name: PyLadiesCon
+        url: https://conference.pyladies.com
+        urlLabel: conference.pyladies.com
+        role: Core organizer
+        tagline: A free, global, online conference by and for the PyLadies community.
+        desc: An annual online conference celebrating PyLadies and women in the Python community around the world.
+
+      - name: PyLadiesCon Portal
+        url: https://portal.pyladies.com
+        urlLabel: portal.pyladies.com
+        role: Co-maintainer
+        tagline: The open source platform that powers PyLadiesCon.
+        desc: A web app for running PyLadiesCon — handling sign-ups, volunteers, and the coordination behind the conference.

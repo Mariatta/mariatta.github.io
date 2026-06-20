@@ -20,6 +20,19 @@
     </header>
 
     {{ $pages := .RegularPagesRecursive.ByDate.Reverse }}
+    {{/* On the top-level /posts/ page, hide sub-sections that have their own pages
+         (talks, ice cream selfies, typo of the day, speaker bio). */}}
+    {{ if eq .RelPermalink "/posts/" }}
+      {{ $excludes := slice "posts/talks" "posts/ice_cream_selfies" "posts/typo_of_the_day" "posts/speaker_bio" }}
+      {{ $blog := slice }}
+      {{ range $pages }}
+        {{ $dir := path.Dir .File.Path }}
+        {{ $skip := false }}
+        {{ range $excludes }}{{ if hasPrefix $dir . }}{{ $skip = true }}{{ end }}{{ end }}
+        {{ if not $skip }}{{ $blog = $blog | append . }}{{ end }}
+      {{ end }}
+      {{ $pages = $blog }}
+    {{ end }}
     {{ if $pages }}
       {{ if .Params.archive }}
         {{ $byYear := $pages.GroupByDate "2006" }}
