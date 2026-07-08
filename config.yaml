@@ -34,6 +34,7 @@ privacy:
 module:
   imports:
   - path: github.com/hugo-toha/toha/v4
+  - path: github.com/mfg92/hugo-shortcode-gallery
   mounts:
   - source: static/files
     target: static/files
