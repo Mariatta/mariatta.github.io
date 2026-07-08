@@ -13,6 +13,23 @@ taxonomies:
 languageCode: en-us
 title: "Mariatta"
 
+# Privacy hardening: no third-party cookies from Hugo's built-in embeds.
+# YouTube embeds are served from youtube-nocookie.com; Disqus and
+# Google Analytics internal templates are hard-disabled as a backstop.
+privacy:
+  disqus:
+    disable: true
+  googleAnalytics:
+    disable: true
+  youTube:
+    privacyEnhanced: true
+  x:
+    enableDNT: true
+  vimeo:
+    enableDNT: true
+  instagram:
+    simple: true
+
 # Use Hugo modules to add theme
 module:
   imports:
@@ -117,20 +134,13 @@ params:
     notes:
       enable: false
 
-    # Enable comment feature. There, should be only one of them.
+    # Comments are disabled (Disqus removed to avoid third-party cookies).
     comment:
-      enable: true
-      services:
-        disqus:
-          shortName: mariatta
+      enable: false
 
-    # Enable Analytics
+    # Analytics disabled (Google Analytics sets cookies).
     analytics:
-      enabled: true
-      services:
-        # Google Analytics
-        google:
-          id: G-1T2VT3L88K
+      enabled: false
 
     # Enable Support
     support:
