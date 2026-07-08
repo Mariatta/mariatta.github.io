@@ -26,6 +26,12 @@ groups:
         tagline: Small, useful automations. Runs without third-party trackers or cookie gauntlets.
         desc: Where I keep the small tools I've built for myself.
 
+      - name: Popular
+        url: https://mariatta.ca/hugo-theme-popular
+        urlLabel: mariatta.ca/hugo-theme-popular
+        tagline: A warm, community-first theme for meetups, clubs and fan communities, available for both Hugo and Astro.
+        desc: Named after the Darren Hayes song. Twin themes (hugo-theme-popular and astro-theme-popular) kept in lockstep by a parity contract, with events, speakers, venues, runbooks, and a blog out of the box.
+
       - name: Hot Lunch Handbook
         url: https://mariatta.ca/lunch-handbook/
         urlLabel: mariatta.ca/lunch-handbook
