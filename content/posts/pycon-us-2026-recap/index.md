@@ -1,7 +1,7 @@
 ---
 title: "PyCon US 2026 recap"
 slug: "pycon-us-2026-recap"
-date: 2026-05-25T08:00:00-07:00
+date: 2026-07-20T08:00:00-07:00
 description: "A recap of PyCon US 2026. The hallways, volunteering, speaking, socializing, sprints, etc."
 draft: false
 menu:
@@ -115,6 +115,23 @@ chaired my friend Piper Thrustrom's CSS talk, which pointed us at stealthiswebsi
 stop using `!important`, and made me want to rewrite my own site from scratch.
 
 ## My own talk
+
+📺 [Watch on YouTube](https://www.youtube.com/watch?v=bU_6lovnre0)
+
+On Saturday I gave my talk:
+[No More Spreadsheets! Building PyLadiesCon Infrastructure with Python and Django](https://us.pycon.org/2026/schedule/presentation/80/).
+
+If you've been following along, you know this is my passion topic. It started as a lightning talk at last year's
+Community Organizers Summit, grew into a full talk at
+[PyCascades in April](https://mariatta.ca/posts/pycascades-2026-recap/), and this was the refined version I promised
+back then. PyLadiesCon runs on a portal we built ourselves with Python and Django, instead of a pile of spreadsheets,
+sign-up forms, and scheduling polls. The talk is the story of that portal: why we built it, what it does for our
+volunteers and speakers, and why I think more communities should own their infrastructure instead of renting it one
+spreadsheet at a time.
+
+This was the third time I've told this story and it finally felt the way I wanted it to feel. A talk is never done, it
+just gets rehearsed in enough hotel room mirrors. PyCon US was the last stop for this version, so if you missed it, the
+recording is right up there.
 
 {{<fosstodon user="mariatta" id="116588308950120363">}}
 
