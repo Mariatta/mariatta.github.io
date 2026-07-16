@@ -20,22 +20,22 @@ tags:
 
 Every PyCon is a little different from the one before. This year, for the first time in a long while, I came as someone
 who could volunteer. I still had a talk. I still had MC duties for the Charlas track. But I wasn't running the thing. I
-could sit in someone else's session and just listen. I could chair a room — Charlas, and my friend Piper's talk — and
-the work was small, contained, generous. I want to remember that.
+could sit in someone else's session and just listen. I could chair a room: Charlas, and my friend Piper's talk. The work
+was small, contained, generous. I want to remember that.
 
 {{<fosstodon user="mariatta" id="116573501213240070">}}
 
-The conference for me is the hallways. It always has been. The hallways are where the conference gets stitched together
-— in line for coffee, on the way to the next room, sitting outside on a bench while someone tells you about the thing
+The conference for me is the hallways. It always has been. The hallways are where the conference gets stitched together:
+in line for coffee, on the way to the next room, sitting outside on a bench while someone tells you about the thing
 they're working on that they haven't told anyone else yet. This year I had the rare luxury of being just an attendee,
 just a speaker. (I still managed to do too much. We'll get to that.)
 
 I ran into more people than I can count, and some of those run-ins did something to me. Old friends starting to
-contribute to CPython for the first time — Jeff, Stephanie, Dan, Cheuk — being shepherded by core devs like Emma, Petr,
-Cam, and others I'm not naming because I'd never finish the list. Cody Maloney, one of the newest folks on the core
-triage team, came up to me to say he had some PRs against blurb-it that I should review. I should. I want to. I've been
-away from CPython for the last couple of years — PyLadiesCon, the portal, the rest of it — and the door has stayed open
-without me. That meant something to see.
+contribute to CPython for the first time: Jeff, Stephanie, Dan, Cheuk, all being shepherded by core devs like Emma,
+Petr, Cam, and others I'm not naming because I'd never finish the list. Cody Maloney, one of the newest folks on the
+core triage team, came up to me to say he had some PRs against blurb-it that I should review. I should. I want to. I've
+been away from CPython for the last couple of years, busy with PyLadiesCon, the portal, the rest of it, and the door has
+stayed open without me. That meant something to see.
 
 ## On helping, and being helped
 
@@ -45,11 +45,11 @@ they had already given to this conference, I wanted to give them something back.
 {{<fosstodon user="mariatta" id="116579496946012679">}}
 
 I don't speak Spanish. I took one year of Spanish in college, twenty-five years ago. I have forgotten most of it. What I
-have left is enough to read a menu and pronounce things — enough to know that _buenos días_ is not _buenos dias_ — but
-not enough to host a track in. So I asked Denny and Andres to review my opening lines. They were kind about it. I went
-up and I read what they had helped me write.
+have left is enough to read a menu and pronounce things, enough to know that _buenos días_ is not _buenos dias_, but not
+enough to host a track in. So I asked Denny and Andres to review my opening lines. They were kind about it. I went up
+and I read what they had helped me write.
 
-What I didn't expect was that I would enjoy practicing again — in front of a hotel room mirror, of all places.
+What I didn't expect was that I would enjoy practicing again, in front of a hotel room mirror, of all places.
 
 So I was helping my friends. And in helping them, they were helping me. Volunteering is mutual. It is supposed to be.
 
@@ -66,18 +66,18 @@ room more than once before the slots filled. There were Spanish-speaking people 
 could volunteer? Did they decide not to? I have been having that conversation with other community organizers and
 conference chairs since I got home. I am still sitting with it.
 
-> **A small ask, while we're here:** if you saw someone volunteering at PyCon — at a booth, in a session, anywhere — say
+> **A small ask, while we're here:** if you saw someone volunteering at PyCon, at a booth, in a session, anywhere: say
 > thanks. Better, nominate them for an award. The work is mostly invisible, and the people doing it could use the
 > visibility. More on this in my older post:
 > [How to Say Thanks to Python People](https://mariatta.ca/posts/how-to-thank-python-people/).
 
-There is more I want to say here — about who in this community has been told no for so long that they no longer believe
+There is more I want to say here, about who in this community has been told no for so long that they no longer believe
 yes when they hear it, and what it takes to bring them back. That is its own post.
 
 ## The sprints
 
 At the sprints I helped the CPython team a little by sharing the QR code generator I built. People needed QR codes for
-the sprint room — pointing to Discord, GitHub, the venue — and I had a thing that makes them. No ads. No payment. (I
+the sprint room: codes pointing to Discord, GitHub, the venue. I had a thing that makes them. No ads. No payment. (I
 built it partly because I was tired of paying for software that should be a one-page Python script. That's another
 post.) It got used. That felt good.
 
@@ -95,11 +95,11 @@ workflow. That one's a longer conversation; it's getting its own post.
 
 ## Keynotes and talks
 
-Pablo Galindo's keynote was in Spanish with English subtitles, which I loved — given I was MCing Charlas, the symbolism
+Pablo Galindo's keynote was in Spanish with English subtitles, which I loved: given I was MCing Charlas, the symbolism
 wasn't lost on me. He framed Python as a cathedral, the way Gaudí's Sagrada Família has been under construction for 144
-years and is only now nearing completion. What he built on top of that metaphor — about what AI is doing to open source
-contribution, how it is draining trust faster than the community can replenish it, the eternal September we are walking
-into — landed hard. I have been thinking about it since.
+years and is only now nearing completion. What he built on top of that metaphor landed hard: what AI is doing to open
+source contribution, how it is draining trust faster than the community can replenish it, the eternal September we are
+walking into. I have been thinking about it since.
 
 Amanda Casari's keynote was the one I dragged myself to before going to a clinic, not after, because I wasn't going to
 miss it. She talked about hope, autonomy, and agency. The difference between automating and enabling. The difference
@@ -109,10 +109,10 @@ while.
 
 {{< gallery match="images/keynotes/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
 
-I sat in on Mike Fiedler's talk on PyPI safety, which was funny and bleak in equal measure — legitimate-looking
-malicious packages now start at v1.0.4 instead of v0.0.1, because that's what an LLM told someone "legitimate" looks
-like. And I chaired my friend Piper Thrustrom's CSS talk, which pointed us at stealthiswebsite.art and specifishity.com,
-told us to stop using `!important`, and made me want to rewrite my own site from scratch.
+I sat in on Mike Fiedler's talk on PyPI safety, which was funny and bleak in equal measure: legitimate-looking malicious
+packages now start at v1.0.4 instead of v0.0.1, because that's what an LLM told someone "legitimate" looks like. And I
+chaired my friend Piper Thrustrom's CSS talk, which pointed us at stealthiswebsite.art and specifishity.com, told us to
+stop using `!important`, and made me want to rewrite my own site from scratch.
 
 ## My own talk
 
@@ -121,16 +121,16 @@ told us to stop using `!important`, and made me want to rewrite my own site from
 ## The PyLadies lunch, and Laura
 
 The PyLadies lunch is where I always remember why I started. I didn't go up myself this year. I wanted to hear other
-people's stories. Not the big ones — not "I became a core developer." Just any story. Anything personal. I want us to
+people's stories. Not the big ones, not "I became a core developer." Just any story. Anything personal. I want us to
 normalize sharing in this room, because there is no better room in which to share. We are all _us_ here, not _I_ and
 _you_. We belong because we're all here.
 
-Elaine had asked me to help encourage people to share at the lunch — as conference chair she had a hundred other things
+Elaine had asked me to help encourage people to share at the lunch: as conference chair she had a hundred other things
 to tend to. So I did. Not just a general invitation. I went to people directly. I told them their stories were worth
 sharing. I told them the people in this room wanted to see them up there, that someone would walk out of the lunch
 braver because of them.
 
-One woman told me she wanted to share but wasn't comfortable speaking in English — her language was Portuguese. I asked
+One woman told me she wanted to share but wasn't comfortable speaking in English: her language was Portuguese. I asked
 my friend Lais, who speaks Portuguese, to encourage her. Lais did. She went up.
 
 Georgi, Lais, Cheuk, Carol and I went up together to remember Laura Funderburk, who we lost a couple of months ago. I
@@ -143,7 +143,7 @@ should have been here. She loved this room.
 
 I watched friends I work alongside win things. Maria Jose and Denny got PyLadies Outstanding awards. Hwayoung Cha too.
 Jay got the PSF Community Service Award. I have spent enough hours in planning calls with these people to know what's
-behind each of those — none of it is by accident, none of it is small.
+behind each of those: none of it is by accident, none of it is small.
 
 {{< gallery match="images/awards/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
 
@@ -197,16 +197,16 @@ are practical. Some of them are the conference quietly changing shape.
 {{<fosstodon user="mariatta" id="116604061393820218">}}
 
 A conference is a thousand things happening at once, and almost none of them happen without people doing the work no one
-sees. Elaine chaired this one. She did it with the kind of leadership you only notice if you're paying attention — the
+sees. Elaine chaired this one. She did it with the kind of leadership you only notice if you're paying attention: the
 kind that makes everything look easy. Thanks to the PSF staff who worked entirely in the background; Olivia especially.
-Thanks to the volunteers who showed up, and to Jon, who is taking over as chair next year — I am grateful, and a little
+Thanks to the volunteers who showed up, and to Jon, who is taking over as chair next year: I am grateful, and a little
 relieved on his behalf.
 
 Thanks to everyone who came to my talk, and to everyone who came up to me afterward to say kind things, about the talk
 and about the Python documentary. I do not always know what to do with kind words. I keep them anyway.
 
 Thanks to the PyLadiesCon team, who are the best people I get to work with. Thanks to everyone who came to the
-PyLadiesCon open space — some of what you said in that room, I will be carrying for a while.
+PyLadiesCon open space: some of what you said in that room, I will be carrying for a while.
 
 Thanks to Inessa and Leah, who I ran the Maintainer Summit with.
 
