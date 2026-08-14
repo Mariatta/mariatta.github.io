@@ -1,5 +1,32 @@
-resources/*
-node_modules/*
-.env*
+# Hugo build output
+public/
+resources/
+.hugo_build.lock
+
+# Stray build output from a mis-specified `hugo -d` / `hugo server` run.
+# Delete these directories rather than letting them accumulate.
+f/
+
+# Node
+node_modules/
+
+# Python (scripts/)
+__pycache__/
+*.py[cod]
+venv/
+.venv/
+.pytest_cache/
+
+# Secrets and environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+
+# Editors
 .idea/
+.vscode/
+
+# macOS
 .DS_Store

@@ -83,12 +83,17 @@
         <ul class="award-list">
           {{ range . }}
             <li class="award">
+              {{ with .badge }}
+                <img class="award-badge" src="{{ .image | relLangURL }}" alt="{{ .alt }}" loading="lazy" width="360" height="135">
+              {{ end }}
               <p class="award-name">
                 {{ if .organization.url }}<a href="{{ .organization.url }}" target="_blank" rel="noopener">{{ .name }}</a>{{ else }}{{ .name }}{{ end }}
               </p>
               <p class="award-meta">
                 {{ with .organization.name }}{{ . }}{{ end }}
                 {{ with .timeline }}<span class="sep">&middot;</span><time>{{ . }}</time>{{ end }}
+                {{ with .certificateURL }}<span class="sep">&middot;</span><a href="{{ . | relLangURL }}" target="_blank" rel="noopener">Certificate</a>{{ end }}
+                {{ with .letterURL }}<span class="sep">&middot;</span><a href="{{ . | relLangURL }}" target="_blank" rel="noopener">Letter</a>{{ end }}
               </p>
             </li>
           {{ end }}
@@ -292,6 +297,13 @@
   .degree-meta .sep { margin: 0 8px; color: var(--c-faint); }
 
   .award { margin-bottom: 14px; }
+  .award-badge {
+    display: block;
+    width: 180px;
+    height: auto;
+    border-radius: 4px;
+    margin: 0 0 10px;
+  }
   .award-name {
     font-family: var(--font-sans);
     font-weight: 500;
