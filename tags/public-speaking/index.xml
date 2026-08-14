@@ -15,13 +15,12 @@ support you in submitting your talk.&lt;/p&gt;
 &lt;p&gt;I&amp;rsquo;ve been through all of the above before myself, and I know how you feel. Having a supportive community, and having
 mentors who were willing to give personalized 1:1 feedback, have helped me overcome my fears and self-doubt, and be a
 better speaker. The PyLadies community is here to support you.&lt;/p&gt;</description></item><item><title>Speaker Bio</title><link>https://mariatta.ca/posts/speaker_bio/</link><pubDate>Mon, 14 Aug 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/speaker_bio/</guid><description>&lt;h2 id="speaker-bio"&gt;Speaker Bio&lt;/h2&gt;
-&lt;p&gt;Mariatta is a Python Core Developer. She co-hosts the podcast series PyPodcats: Hidden Figures of Python, highlighting
-the voices of underrepresented group members in the Python community. She is the author of PEP 581 for migrating
-CPython&amp;rsquo;s issue tracker to GitHub, a change that significantly improved the contributors&amp;rsquo; experience. She is currently a
-member of Python Docs Editorial Board. As a serial conference organizer, she has chaired various Python community
-conferences, including PyCascades, PyCon US, and PyLadiesCon. For her contributions to the Python community, she
-received the PSF Community Service Award and is a PSF Fellow member. You might also know her from the internet hashtags
-#IceCreamSelfie and #TypoOfTheDay&lt;/p&gt;</description></item><item><title>PEP Talk</title><link>https://mariatta.ca/posts/talks/pep_talk/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/talks/pep_talk/</guid><description>&lt;h2 id="talk-abstract"&gt;Talk Abstract&lt;/h2&gt;
+&lt;p&gt;Mariatta is a multi-award winning open source maintainer and a Python Core Developer. She is a Microsoft Most Valuable
+Professional (MVP) in Developer Technologies, a Fellow member of the Python Software Foundation, and a recipient of the
+PSF Community Service Award and the Google Open Source Peer Bonus.&lt;/p&gt;
+&lt;p&gt;She is the author of PEP 581 for migrating CPython&amp;rsquo;s issue tracker to GitHub, a change that significantly improved the
+contributors&amp;rsquo; experience, and she serves on the Python Docs Editorial Board. As a serial conference organizer, she has
+chaired PyCascades, PyCon US, and PyLadiesCon, and she is a global advisor and administrator for PyLadies.&lt;/p&gt;</description></item><item><title>PEP Talk</title><link>https://mariatta.ca/posts/talks/pep_talk/</link><pubDate>Sat, 29 Jul 2023 00:00:00 +0600</pubDate><guid>https://mariatta.ca/posts/talks/pep_talk/</guid><description>&lt;h2 id="talk-abstract"&gt;Talk Abstract&lt;/h2&gt;
 &lt;p&gt;If you use Python, chances are you&amp;rsquo;ve heard of PEP 8, the Python style guide.&lt;/p&gt;
 &lt;p&gt;But do you know what PEPs really are? PEPs are more than just a style guide. A PEP stands for Python Enhancement
 Proposal. It&amp;rsquo;s a proposal documentation for when you want to change the Python programming language in a big way, for
