@@ -71,8 +71,9 @@ Live, and rendered somewhere:
 - `sideprojects.yaml` — **single source of truth** for both the homepage "Other projects" section and `/projects/`
 - `sections/about.yaml` — the `/about/` summary prose and the "Elsewhere" social links
 - `sections/experiences.yaml`, `sections/education.yaml` — the Experience and Education blocks on `/about/`
-- `sections/accomplishments.yaml` — the Recognition block on `/about/`; supports `certificateURL` (links a PDF in
-  `static/files/`) and an optional `badge: {image, alt}` for an award logo
+- `sections/accomplishments.yaml` — the Recognition block on `/about/`. Optional per-award fields: `certificateURL` and
+  `letterURL` (each links a PDF in `static/files/` and renders as a "Certificate" / "Letter" link), and
+  `badge: {image, alt}` for an award logo
 
 Leftovers from the Toha era that **no layout reads**. Editing these changes nothing on the site:
 

@@ -93,6 +93,7 @@
                 {{ with .organization.name }}{{ . }}{{ end }}
                 {{ with .timeline }}<span class="sep">&middot;</span><time>{{ . }}</time>{{ end }}
                 {{ with .certificateURL }}<span class="sep">&middot;</span><a href="{{ . | relLangURL }}" target="_blank" rel="noopener">Certificate</a>{{ end }}
+                {{ with .letterURL }}<span class="sep">&middot;</span><a href="{{ . | relLangURL }}" target="_blank" rel="noopener">Letter</a>{{ end }}
               </p>
             </li>
           {{ end }}

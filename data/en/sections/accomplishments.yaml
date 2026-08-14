@@ -19,6 +19,7 @@ accomplishments:
     url: https://mvp.microsoft.com/
   courseOverview: "The Microsoft MVP Award is an annual award that recognizes exceptional technology community leaders worldwide who actively share their high-quality, real-world expertise with users and Microsoft. Awarded in the Developer Technologies category, for contributions in Python and Web Development."
   certificateURL: '/files/MVP Award Certificate.pdf'
+  letterURL: '/files/MVP Recognition Letter.pdf'
   badge:
     image: /images/mvp-badge.png
     alt: Microsoft Most Valuable Professional
