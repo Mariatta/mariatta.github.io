@@ -1,3 +1,7 @@
+{{ define "header" }}
+<meta name="description" content="{{ .Description | default .Title }}" />
+{{ end }}
+
 {{ define "navbar" }}
   {{ partial "navigators/navbar.html" . }}
 {{ end }}
