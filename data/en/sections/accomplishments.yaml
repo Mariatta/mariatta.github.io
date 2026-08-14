@@ -12,6 +12,17 @@ section:
 # Your accomplishments
 accomplishments:
 
+- name: Microsoft Most Valuable Professional (MVP), Developer Technologies
+  timeline: "June 2026"
+  organization:
+    name: Microsoft MVP Program
+    url: https://mvp.microsoft.com/
+  courseOverview: "The Microsoft MVP Award is an annual award that recognizes exceptional technology community leaders worldwide who actively share their high-quality, real-world expertise with users and Microsoft. Awarded in the Developer Technologies category, for contributions in Python and Web Development."
+  certificateURL: '/files/MVP Award Certificate.pdf'
+  badge:
+    image: /images/mvp-badge.png
+    alt: Microsoft Most Valuable Professional
+
 - name: Google Open Source Peer Bonus
   timeline: "October 2020"
   organization:
