@@ -1,3 +1,14 @@
+# Toolchain versions are pinned here and in .github/workflows/deploy-site.yaml.
+# Keep the two in sync: Netlify builds the previews, that workflow builds the
+# site that actually ships. If they drift, a preview can pass on one Hugo and
+# production build on another.
+#
+# HUGO_VERSION must stay >= the theme's minimum (toha v4.16.0 needs 0.163.0
+# extended); `hugo mod graph` reports it.
+#
+# NPM_VERSION is deliberately unset: Netlify then uses the npm bundled with
+# NODE_VERSION, rather than pinning an npm from an older Node line.
+
 [build]
 command = "hugo --gc --minify"
 publish = "public"
@@ -5,34 +16,30 @@ publish = "public"
 [context.production.environment]
 HUGO_ENABLEGITINFO = "true"
 HUGO_ENV           = "production"
-HUGO_VERSION       = "0.157.0"
-NODE_VERSION       = "v18.12.1"
-NPM_VERSION        = "8.19.2"
+HUGO_VERSION       = "0.165.0"
+NODE_VERSION       = "22"
 
 [context.split1]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --enableGitInfo"
 
     [context.split1.environment]
     HUGO_ENV     = "production"
-    HUGO_VERSION = "0.157.0"
-    NODE_VERSION = "v18.12.1"
-    NPM_VERSION  = "8.19.2"
+    HUGO_VERSION = "0.165.0"
+    NODE_VERSION = "22"
 
 [context.deploy-preview]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify --buildFuture -b $DEPLOY_PRIME_URL"
 
     [context.deploy-preview.environment]
-    HUGO_VERSION = "0.157.0"
-    NODE_VERSION = "v18.12.1"
-    NPM_VERSION  = "8.19.2"
+    HUGO_VERSION = "0.165.0"
+    NODE_VERSION = "22"
 
 [context.branch-deploy]
 command = "hugo mod tidy && hugo mod npm pack && npm install && hugo --gc --minify -b $DEPLOY_PRIME_URL"
 
     [context.branch-deploy.environment]
-    HUGO_VERSION = "0.157.0"
-    NODE_VERSION = "v18.12.1"
-    NPM_VERSION  = "8.19.2"
+    HUGO_VERSION = "0.165.0"
+    NODE_VERSION = "22"
 
 [context.next.environment]
 HUGO_ENABLEGITINFO = "true"

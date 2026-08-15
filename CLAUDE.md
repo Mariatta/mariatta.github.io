@@ -32,7 +32,16 @@ hugo mod npm pack
 pytest scripts/ -v
 ```
 
-**Required toolchain:** Hugo 0.157.0 extended, Node v18.12.1, Go 1.21.
+**Required toolchain:** Hugo 0.165.0 extended, Node 22, Go 1.21.
+
+Hugo is pinned in **two** places that must stay in sync: `netlify.toml` (all four contexts, previews) and
+`.github/workflows/deploy-site.yaml` (production). If they drift, a preview can pass on one version while production
+builds on another. The floor is set by the theme: toha v4.16.0 needs Hugo 0.163.0 extended, and `hugo mod tidy` warns
+when the pin is below it.
+
+`package.json` and `packages/hugoautogen/` are **generated** by `hugo mod npm pack` from the theme, and CI regenerates
+them on every build, so hand-edits there do not survive. `package-lock.json` is not regenerated, which is where
+`npm audit fix` lands and why those fixes stick.
 
 ## Architecture
 
