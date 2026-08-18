@@ -3,7 +3,7 @@ title: "No More Rebuilding the Community Website"
 subtitle: "Introducing Popular: Hugo and Astro theme for community groups and meetups"
 date: 2026-08-18T09:00:00-08:00
 weight: 20
-draft: true
+draft: false
 menu:
   sidebar:
     name: "No More Rebuilding the Community Website"
