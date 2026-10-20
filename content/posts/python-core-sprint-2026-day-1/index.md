@@ -21,14 +21,14 @@ tags:
   - Core Dev
 ---
 
-This week I'm in San Francisco for the annual Python Core Sprint. This year the sprint is hosted at OpenAI's office, and
-runs Monday to Friday, October 19 to 23. I'm only here for the first three days. On Thursday I fly out to Seattle for
-[SeaGL](https://seagl.org/), where I'm one of the keynote speakers :)
+This week I'm in San Francisco for the annual Python Core Sprint. This year the sprint is hosted by Brandt Bucher from
+OpenAI, at OpenAI's office, and runs Monday to Friday, October 19 to 23. I'm only here for the first three days. On
+Thursday I fly out to Seattle for [SeaGL](https://seagl.org/), where I'm one of the keynote speakers :)
 
 I could not make it to last year's sprint at Arm in Cambridge, UK, and it is unlikely I'll be able to make it to next
 year's European sprint either, so I'm glad this one is on the West Coast and within reach. The sprint is one of the very
 few times in a year when this many Python core team members are in the same room, focused on nothing but Python. It is
-still one of my favorite Python events of the year. Thank you to OpenAI for hosting us!
+still one of my favorite Python events of the year. Thank you to Brandt and OpenAI for hosting us!
 
 I'm here thanks to a travel grant from the PSF, which covers my lodging and airfare. Thank you, PSF!
 
