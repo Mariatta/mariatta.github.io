@@ -34,6 +34,7 @@ The facts first. The downtime was announced for 11 AM to 12 noon Pacific. Here i
 
 - **11:00 AM**: posted on Discord that the downtime was starting.
 - **11:35 AM**: bedevere switched over to Cabotage.
+- **11:58 AM**: blurb_it switched over, and bedevere #717 merged to point at it.
 - **12:08 PM**: miss-islington switched over.
 - **12:17 PM**: first backport created on Cabotage.
 - **12:36 PM**: updated the [Discourse thread](https://discuss.python.org/t/planned-downtime-for-our-github-bots/109556)
@@ -66,8 +67,8 @@ Yesterday I woke up to a notification on my phone: two GitHub security advisorie
 [unbounded memory and CPU use on crafted requests](https://github.com/advisories/GHSA-2g87-pp6c-29x5), both rated high,
 both fixed in `aiohttp` 3.14.4. Not what I wanted to see on the day I was about to rebuild and redeploy all three bots.
 
-But by the time I got up, the team had already acted on it. The advisories had gone out the afternoon before, Dependabot
-had opened the `aiohttp` bump in each repo, and other core devs had merged them: Ezio Melotti in
+But by the time I got up, the team had already acted on it. The advisories had gone out the day before, Dependabot had
+opened the `aiohttp` bump in each repo, and other core devs had merged them: Ezio Melotti in
 [miss-islington](https://github.com/python/miss-islington/pull/747) overnight, Stan in
 [blurb_it](https://github.com/python/blurb_it/pull/468) and Jelle Zijlstra in
 [bedevere](https://github.com/python/bedevere/pull/716) first thing in the morning. So the images I built for Cabotage
@@ -209,8 +210,8 @@ updated the Discourse thread.
 One of those three merged PRs was mine. The [datetime docs PR](https://github.com/python/cpython/pull/125009) I wrote
 about in the day 1 post, the one that had been open for two years, got its last approval, and I merged it at 12:23, in
 the middle of watching the new backport bot. It was the third PR miss-islington backported on Cabotage, to 3.14 and
-3.15, and both backports were merged within the hour. A small change that took two years to land, and it got to be part
-of the first batch of backports on the new platform.
+3.15, and both backports were merged about an hour later. A small change that took two years to land, and it got to be
+part of the first batch of backports on the new platform.
 
 ### The part that did not go well: a token in the logs
 
@@ -235,9 +236,10 @@ And then it leaked a second time. When I deployed the fix, the rollout interrupt
 clone, the old code's traceback printed its argv one last time, and the freshly rotated token went into the log too. So
 I rotated it again, after the new code was confirmed live. Both tokens that ever appeared in a log are now dead.
 
-The longer-term fix, which Sviatoslav suggested on the original PR, is to stop using a long-lived personal token at all
-and have miss-islington push with short-lived GitHub App installation tokens, the way patchback does. That is on the
-follow-up list.
+The longer-term fix, which Sviatoslav
+[suggested on the original Cabotage support PR](https://github.com/python/miss-islington/pull/729#discussion_r2987962719),
+is to stop using a long-lived personal token at all and have miss-islington push with short-lived GitHub App
+installation tokens, the way patchback does. That is on the follow-up list.
 
 I could have left this part out of the post. I'm including it because I want to be transparent about it, and because I
 think it is a useful lesson for people like me, who build web apps without being security experts: a token in a URL is a
