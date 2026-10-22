@@ -199,10 +199,10 @@ triagers to vote, and then into the mentorship process. A thirty-minute session 
 coming out of the room is to tighten the triage process and raise that bar.
 
 I need time to digest and reflect on this, and to see it apart from my personal feelings. The outcome also feels further
-away from the initial wish I brought up in 2024. I think more people deserve to have their voice heard and be part of
-Python without needing to be on the core team. That is the point of view I'm looking at this from. I see the core devs
-looking at it from a different angle. I recognize that we are looking at this from different points of view. I will be
-thinking more about this.
+away from my initial wish of getting more people's voice in core Python development. I think more people deserve to have
+their voice heard and be part of Python without needing to be on the core team. That is the point of view I'm looking at
+this from. I see the core devs looking at it from a different angle. I recognize that we are looking at this from
+different points of view. I will be thinking more about this.
 
 ### Dinner and ice cream
 
