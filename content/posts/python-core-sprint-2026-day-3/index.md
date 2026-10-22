@@ -186,12 +186,12 @@ scrutiny. I think it is more important than ever that we form more trust among u
 Unlike my initial proposal back in 2024, which also considered PSF Fellows and third-party maintainers, I feel triagers
 are the natural choice. They are the people we already trust.
 
-The room had somewhere between fifteen and twenty people, both triagers and core devs, mostly core devs. Most people
-hesitated because of the existing process: they like the idea, but they want to see the criteria for who counts as an
-active triager, and for who gets to become a triager, further defined and tightened first. Right now it takes a single
-core dev vouching for you, and it was made that lightweight on purpose. The Python triage team was something I proposed
-back in 2019. It was meant to give people a way to contribute, to recognize them, and to enable them to continue
-contributing, and the lightweight process came out of
+The room had somewhere between fifteen and twenty people, both triagers and core devs, mostly core devs. There were
+hesitations because of the existing process: people like the idea, but they want to see the criteria for who counts as
+an active triager, and for who gets to become a triager, further defined and tightened first. Right now it takes a
+single core dev vouching for you, and it was made that lightweight on purpose. The Python triage team was something I
+proposed back in 2019. It was meant to give people a way to contribute, to recognize them, and to enable them to
+continue contributing, and the lightweight process came out of
 [that discussion](https://discuss.python.org/t/criteria-for-promoting-people-to-the-python-triage-team/2105/6). There
 was also the concern of what happens if core devs promote their friends into triagers to get more votes. From there, the
 session drifted into the requirements for becoming a triager and a core dev in general, rather than whether we can trust
