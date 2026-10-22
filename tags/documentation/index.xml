@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?><rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom"><channel><title>Documentation on Mariatta</title><link>https://mariatta.ca/tags/documentation/</link><description>Recent content in Documentation on Mariatta</description><generator>Hugo -- gohugo.io</generator><language>en-us</language><lastBuildDate>Thu, 22 Oct 2026 07:00:00 -0700</lastBuildDate><atom:link href="https://mariatta.ca/tags/documentation/index.xml" rel="self" type="application/rss+xml"/><item><title>Python Core Sprint 2026: Day 3</title><link>https://mariatta.ca/posts/python-core-sprint-2026-day-3/</link><pubDate>Thu, 22 Oct 2026 07:00:00 -0700</pubDate><guid>https://mariatta.ca/posts/python-core-sprint-2026-day-3/</guid><description>&lt;p&gt;Day 3 of the &lt;a href="https://mariatta.ca/posts/python-core-sprint-2026-day-1/"&gt;Python Core Sprint&lt;/a&gt;, yesterday, was my last day in the room. Today
+I&amp;rsquo;m traveling to Seattle for &lt;a href="https://seagl.org/" target="_blank" rel="noopener"&gt;SeaGL&lt;/a&gt;, where I&amp;rsquo;m one of the keynote speakers. With the bots
+&lt;a href="https://mariatta.ca/posts/python-core-sprint-2026-day-2/"&gt;settled on Cabotage&lt;/a&gt; and Heroku scaled to zero, I had the day for the smaller
+things that had been waiting on the follow-up list.&lt;/p&gt;
+&lt;h3 id="a-prompt-generator-for-news-entries-and-why-i-closed-it"&gt;A prompt generator for NEWS entries, and why I closed it&lt;/h3&gt;
+&lt;p&gt;One of the open pull requests in blurb_it was &lt;a href="https://github.com/python/blurb_it/pull/456" target="_blank" rel="noopener"&gt;#456&lt;/a&gt;, from An Long (aisk),
+opened back in July. It added a button to the &amp;ldquo;add blurb&amp;rdquo; page that generates a prompt. The contributor copies the
+prompt into ChatGPT, Claude, Gemini, or DeepSeek, and pastes the resulting NEWS entry back into blurb_it. The prompt
+includes links to the issue, the PR, the diff, and the changed files, plus the devguide&amp;rsquo;s guidance on how to write a
+NEWS entry.&lt;/p&gt;</description></item></channel></rss>
