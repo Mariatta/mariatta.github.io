@@ -168,6 +168,21 @@
     margin-top: 1.8em;
     margin-bottom: 0.5em;
   }
+  .post-content :is(h1, h2, h3, h4, h5, h6) { scroll-margin-top: 80px; }
+  .post-content .heading-anchor {
+    margin-left: 0.3em;
+    color: var(--c-faint);
+    text-decoration: none;
+    opacity: 0;
+    transition: opacity 0.15s;
+  }
+  .post-content .heading-anchor::before { content: "#"; }
+  .post-content :is(h1, h2, h3, h4, h5, h6):hover .heading-anchor,
+  .post-content .heading-anchor:focus { opacity: 1; }
+  .post-content .heading-anchor:hover { color: var(--c-rose); }
+  @media (hover: none) {
+    .post-content .heading-anchor { opacity: 1; }
+  }
   .post-content h2 { font-size: 26px; }
   .post-content h3 { font-size: 21px; }
   .post-content h4 { font-size: 18px; }
