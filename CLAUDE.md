@@ -137,7 +137,9 @@ Raw HTML is allowed in markdown (`markup.goldmark.renderer.unsafe: true`).
 ### Shortcodes
 
 - `{{< fosstodon user="mariatta" id="..." >}}` — embeds a Mastodon post (custom, `layouts/shortcodes/`)
-- `{{< gallery match="images/foo/*" ... >}}` — image gallery, from the `hugo-shortcode-gallery` module
+- Do not use `{{< gallery >}}` (from the `hugo-shortcode-gallery` module) in posts. It needs jQuery, which the Toha
+  theme no longer loads, so galleries render empty. Embed each photo with `![alt](images/topic/file.jpg)` instead, and
+  for two photos side by side use a flex `<div>` of `<img>` tags (see the polyglot-unconference-2026-recap post).
 - `{{< img src="..." align="center" title="..." >}}` — from Toha
 
 ## Automation
