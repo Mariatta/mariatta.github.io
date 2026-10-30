@@ -2,7 +2,8 @@
 I&amp;rsquo;m traveling to Seattle for &lt;a href="https://seagl.org/" target="_blank" rel="noopener"&gt;SeaGL&lt;/a&gt;, where I&amp;rsquo;m one of the keynote speakers. With the bots
 &lt;a href="https://mariatta.ca/posts/python-core-sprint-2026-day-2/"&gt;settled on Cabotage&lt;/a&gt; and Heroku scaled to zero, I had the day for the smaller
 things that had been waiting on the follow-up list.&lt;/p&gt;
-&lt;h3 id="a-prompt-generator-for-news-entries-and-why-i-closed-it"&gt;A prompt generator for NEWS entries, and why I closed it&lt;/h3&gt;
+&lt;h3 id="a-prompt-generator-for-news-entries-and-why-i-closed-it"&gt;A prompt generator for NEWS entries, and why I closed it&lt;a class="heading-anchor" href="https://mariatta.ca/posts/python-core-sprint-2026-day-3/#a-prompt-generator-for-news-entries-and-why-i-closed-it" aria-label="Link to this section"&gt;&lt;/a&gt;
+&lt;/h3&gt;
 &lt;p&gt;One of the open pull requests in blurb_it was &lt;a href="https://github.com/python/blurb_it/pull/456" target="_blank" rel="noopener"&gt;#456&lt;/a&gt;, from An Long (aisk),
 opened back in July. It added a button to the &amp;ldquo;add blurb&amp;rdquo; page that generates a prompt. The contributor copies the
 prompt into ChatGPT, Claude, Gemini, or DeepSeek, and pastes the resulting NEWS entry back into blurb_it. The prompt
