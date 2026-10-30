@@ -1,4 +1,4 @@
 <h{{ .Level }} id="{{ .Anchor | safeURL }}"{{ range $k, $v := .Attributes }}{{ if ne $k "id" }} {{ $k }}="{{ $v }}"{{ end }}{{ end }}>
   {{- .Text | safeHTML -}}
-  <a class="heading-anchor" href="{{ .Page.RelPermalink }}#{{ .Anchor | safeURL }}" aria-label="Link to section: {{ .PlainText }}"></a>
+  <a class="heading-anchor" href="{{ .Page.RelPermalink }}#{{ .Anchor | safeURL }}" aria-label="Link to this section"></a>
 </h{{ .Level }}>
