@@ -42,7 +42,7 @@ groups:
         url: https://mariatta.ca/starlight-violet/
         urlLabel: mariatta.ca/starlight-violet
         tagline: A Starlight plugin for architecture notes, plans and decisions that live beside the code.
-        desc: Renders a folder of Markdown notes as a documentation site, read in place, with page kinds checked against their front matter, plans as data, and tables built at build time.
+        desc: Renders a folder of Markdown notes as a documentation site, read in place, with each page checked against the schema of its kind, plans as data, and tables built at build time.
 
       - name: Hot Lunch Handbook
         url: https://mariatta.ca/lunch-handbook/
