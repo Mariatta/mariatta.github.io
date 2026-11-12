@@ -32,6 +32,18 @@ groups:
         tagline: A warm, community-first theme for meetups, clubs and fan communities, available for both Hugo and Astro.
         desc: Named after the Darren Hayes song. Twin themes (hugo-theme-popular and astro-theme-popular) kept in lockstep by a parity contract, with events, speakers, venues, runbooks, and a blog out of the box.
 
+      - name: Flashlights
+        url: https://flashlights.app
+        urlLabel: flashlights.app
+        tagline: The organizers' portal for events, summits and meetups.
+        desc: Named after the Darren Hayes song Tiny Little Flashlights. Handles the parts of an event nobody in the audience sees, from speaker intake and volunteers to sponsors, the schedule, and the emails that hold it together. Derived from the PyLadiesCon Portal and self-hosted, one instance per community.
+
+      - name: Violet
+        url: https://mariatta.ca/starlight-violet/
+        urlLabel: mariatta.ca/starlight-violet
+        tagline: A Starlight plugin for architecture notes, plans and decisions that live beside the code.
+        desc: Renders a folder of Markdown notes as a documentation site, read in place, with each page checked against the schema of its kind, plans as data, and tables built at build time.
+
       - name: Hot Lunch Handbook
         url: https://mariatta.ca/lunch-handbook/
         urlLabel: mariatta.ca/lunch-handbook
