@@ -63,6 +63,14 @@ markup:
   goldmark:
     renderer:
       unsafe: true
+  # Code blocks are highlighted server-side by Hugo (Chroma) as CSS classes,
+  # styled by assets/styles/_chroma.scss with a light and a dark palette.
+  # Don't switch to noClasses: true: inline styles can't follow the dark-mode
+  # toggle, so the block background stays fixed while the layout's text color
+  # flips, leaving one of the two themes unreadable. The theme's own
+  # highlight.js feature is disabled below for the same reason.
+  highlight:
+    noClasses: false
   tableOfContents:
     startLevel: 2
     endLevel: 6
@@ -215,8 +223,11 @@ params:
     #   # this disables hugo's syntax highlighting.
     #   codeFences: false
     # ```
+    # Disabled: Hugo's builtin Chroma highlighting (markup.highlight above)
+    # styles code blocks server-side. Running highlight.js on top of it gave
+    # low-contrast, inconsistent blocks.
     syntaxHighlight:
-      enable: true
+      enable: false
       services:
         hljs:
           # see: https://highlightjs.readthedocs.io/en/latest/api.html#configure
