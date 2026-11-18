@@ -12,7 +12,7 @@ tags: ["Open Source", "AI", "Astro", "Starlight", "Documentation"]
 I'm happy to announce my new personal project: [Violet](https://mariatta.ca/starlight-violet/), which is a plugin for
 [Starlight](https://starlight.astro.build/), Astro's documentation framework. Violet is for the notes that live beside
 your code: plans, decisions, runbooks, and handoffs. It takes the Markdown files already sitting in your repo and turns
-them into a documentation site you can actually read.
+them into a documentation site you can actually read. It's named after "Violet", a song by Savage Garden.
 
 ## What it does
 
@@ -151,10 +151,10 @@ Some kept everything in Google Docs.
 What these had in common is that they were all freeform. Each author wrote in their own style and decided for themselves
 how much detail to include. Two design docs from the same team could look nothing alike.
 
-Another thing they had in common: everyone had to work in the same tool. All the employees were in the same Confluence
-space, or had access to the same Google Doc. That works fine for a company, where everyone gets the same accounts on
-their first day. But what about personal projects? Or open source projects, where contributors come and go, and nobody
-is going to sign up for your Confluence just to send a pull request?
+The Confluence and Google Docs setups had something else in common: everyone had to work in the same tool. All the
+employees were in the same Confluence space, or had access to the same Google Doc. That works fine for a company, where
+everyone gets the same accounts on their first day. But what about personal projects? Or open source projects, where
+contributors come and go, and nobody is going to sign up for your Confluence just to send a pull request?
 
 And in all of these setups, I've seen many of the initial docs go stale. They described the plan at the start, and then
 the project moved on without them, until they no longer matched the current state of the project. Now, I instruct my
@@ -189,8 +189,8 @@ That's what Violet does.
 
 ## How to use it
 
-You'll need Astro 7 and Starlight 0.42. Create a Starlight site next to your notes, then install Violet along with
-Starlight 0.42, since the Starlight template now starts on a newer version:
+You'll need Astro 7. Create a Starlight site next to your notes, then install Violet, pinning Starlight to 0.42 (the
+template now starts on 0.43):
 
 ```sh
 npm create astro@latest -- --template starlight docs-site
@@ -267,8 +267,8 @@ The agent can read it straight from `node_modules` without the site running. I a
 Docs live in `docs/` and are rendered by the site in `docs-site/`. Before
 writing or editing any file under `docs/`, read
 `docs-site/node_modules/starlight-violet/pages/writing.md`, then the repo's
-own additions in `docs-site/src/content/docs/writing.md`. Run `make build` in
-`docs-site/` when done.
+own additions in `docs-site/src/content/docs/writing.md`, if it exists. Run
+`npm run build` in `docs-site/` when done.
 ```
 
 The agent writes the note, the build checks it, and if the front matter is wrong, the agent finds out right away instead
@@ -279,11 +279,12 @@ of me finding out three weeks later.
 I don't know if Violet is the right way for everyone. It's what works for me right now, but I'm still figuring out how I
 want to work with AI agents, and this may well change.
 
-But it's definitely better than reading raw Markdown files on GitHub. Two things in particular made a difference for me.
+But it's definitely better than reading a folder of plain Markdown files. Two things in particular made a difference for
+me.
 
 **I can see images and mockups rendered next to the writing.** A design discussion often includes a mockup or a
-screenshot. In a raw Markdown file, that's a link to an image I have to open separately. In Violet, the mockup sits
-right there on the page, next to the discussion it belongs to.
+screenshot. I read most of my notes in my editor or terminal, where a mockup is just a file path I have to open
+separately. In Violet, the mockup sits right there on the page, next to the discussion it belongs to.
 
 ![A brainstorm page with a paragraph describing the export screen, followed by a rendered mockup of the screen with a form and a list of recent exports](images/mockup.png)
 
@@ -293,11 +294,10 @@ handoff in Violet has fixed sections: Summary, Context, What is decided, What is
 questions live in front matter with IDs, so whoever picks it up next can answer them in place. It doesn't matter which
 agent wrote it or which agent reads it. It's just a file in the repo.
 
+Here's the handoff from the example notes. It goes from a planning session to an implementing session, but the page
+would look the same if one of them were Claude and the other Codex.
+
 ![A handoff page showing its status, who it is from and to, the decisions it relies on, what to read first, and four open questions with IDs Q1 to Q4, what each blocks, who owns it, and the answer, with one answered and three still open](images/handoff.png)
-
-## Why "Violet"?
-
-Violet is named after "Violet", a song by Savage Garden.
 
 ## Why I'm sharing this
 
