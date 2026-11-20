@@ -1,8 +1,8 @@
 ---
 title: "PyCon US 2026 recap"
 slug: "pycon-us-2026-recap"
-date: 2026-07-20T08:00:00-07:00
-description: "A recap of PyCon US 2026. The hallways, volunteering, speaking, socializing, sprints, etc."
+date: 2026-11-19T08:00:00-08:00
+description: "A recap of PyCon US 2026: volunteering, keynotes, my talk, the PyLadies lunch, sprints, and Pierogicon."
 draft: false
 menu:
   sidebar:
@@ -18,101 +18,73 @@ tags:
   - Open Source
 ---
 
-Every PyCon is a little different from the one before. This year, for the first time in a long while, I came as someone
-who could volunteer. I still had a talk. I still had MC duties for the Charlas track. But I wasn't running the thing. I
-could sit in someone else's session and just listen. I could chair a room: Charlas, and my friend Piper's talk. The work
-was small, contained, generous. I want to remember that.
+The [PyCon US 2027 website](https://us.pycon.org/2027/) just launched, and the call for proposals is open. Yet my PyCon
+US 2026 recap post has been sitting in draft for six months. So I thought I should finally finish it up now. Here goes.
 
 {{<fosstodon user="mariatta" id="116573501213240070">}}
 
-The conference for me is the hallways. It always has been. The hallways are where the conference gets stitched together:
-in line for coffee, on the way to the next room, sitting outside on a bench while someone tells you about the thing
-they're working on that they haven't told anyone else yet. This year I had the rare luxury of being just an attendee,
-just a speaker. (I still managed to do too much. We'll get to that.)
-
-I ran into more people than I can count, and some of those run-ins did something to me. Old friends starting to
-contribute to CPython for the first time: Jeff, Stephanie, Dan, Cheuk, all being shepherded by core devs like Emma,
-Petr, Cam, and others I'm not naming because I'd never finish the list. Cody Maloney, one of the newest folks on the
-core triage team, came up to me to say he had some PRs against blurb-it that I should review. I should. I want to. I've
-been away from CPython for the last couple of years, busy with PyLadiesCon, the portal, the rest of it, and the door has
-stayed open without me. That meant something to see.
+It was a great conference, and turned out to be a busy conference for me. Before heading to PyCon US, I actually felt
+"free", like I didn't have many responsibilities other than running the Maintainer Summit and giving my talk. In the
+end, I felt like every moment was filled with meeting and chatting with various people. I guess I tried to make the most
+out of it by ensuring I get to actually speak face to face with people who I normally only interacted with online via
+video calls and text messages.
 
 ## On helping, and being helped
 
-The Charlas organizers and Elaine, who chaired the conference, needed volunteers. There weren't enough. After everything
-they had already given to this conference, I wanted to give them something back. So I said yes.
+When I arrived at the venue I ran into Elaine, who chaired the conference this year, and asked how things were going.
+One of the things she brought up was that they needed more volunteers. Denny and Maria Jose, who run the Charlas track
+and the En Español community booth, said the same: they needed more MCs for Charlas and more people to staff the booth.
+As a conference organizer myself, I know that feeling well.
+
+None of them actually asked me to volunteer. They were just sharing some frustrations about the issue. But then I signed
+up to volunteer anyway. After everything they had already given to this conference, I wanted to give them something
+back. So I ended up volunteering as an MC for the Charlas track, and I sat at the En Español community booth for an hour
+to keep Maria Jose company.
 
 {{<fosstodon user="mariatta" id="116579496946012679">}}
 
-I don't speak Spanish. I took one year of Spanish in college, twenty-five years ago. I have forgotten most of it. What I
-have left is enough to read a menu and pronounce things, enough to know that _buenos días_ is not _buenos dias_, but not
-enough to host a track in. So I asked Denny and Andres to review my opening lines. They were kind about it. I went up
-and I read what they had helped me write.
+I don't speak Spanish, but I could still help. For the MC part, I wrote what I would say in English to introduce a
+speaker, ran it through a translation tool, and asked Denny and Andres to check the translation. Then I practiced saying
+it out loud in Spanish, and they checked that I pronounced it correctly. That was all it took.
 
-What I didn't expect was that I would enjoy practicing again, in front of a hotel room mirror, of all places.
-
-So I was helping my friends. And in helping them, they were helping me. Volunteering is mutual. It is supposed to be.
-
-There is a less good half to this story. Many volunteer slots at the conference went unfilled this year. The En Español
-community booth didn't have anyone staffing it for stretches. I sat there with Maria Jose for one of those stretches. A
-few attendees came up and started speaking Spanish to me. I apologized. I am grateful they did not say "you must speak
-Spanish to help at this booth." They could have. They didn't. They let me sit in a chair I wasn't fully qualified for,
-and the booth got staffed.
+While I was at the En Español booth with Maria Jose, a few attendees came up and started speaking Spanish to me. I
+apologized.
 
 {{<fosstodon user="mariatta" id="116581522106061325">}}
 
-What I keep coming back to is the math. Two thousand attendees. One hundred fifty volunteers. Elaine having to ask the
-room more than once before the slots filled. There were Spanish-speaking people in this room. Did they not know they
-could volunteer? Did they decide not to? I have been having that conversation with other community organizers and
-conference chairs since I got home. I am still sitting with it.
+In both cases, Denny and Maria Jose could have said that only Spanish speakers can MC Charlas, or that only Spanish
+speakers can staff the booth. They didn't. They let me help anyway.
 
-> **A small ask, while we're here:** if you saw someone volunteering at PyCon, at a booth, in a session, anywhere: say
-> thanks. Better, nominate them for an award. The work is mostly invisible, and the people doing it could use the
-> visibility. More on this in my older post:
+So I was helping my friends. And in helping them, they were helping me: I got to practice and learn some Spanish.
+Volunteering is mutual. It is supposed to be. I'm really glad I was able to help.
+
+> **A small ask, while we're here:** if you saw someone volunteering at a conference, at a booth, in a session,
+> anywhere: say thanks. Better, nominate them for an award. The work is mostly invisible, and the people doing it could
+> use the visibility. More on this in my older post:
 > [How to Say Thanks to Python People](https://mariatta.ca/posts/how-to-thank-python-people/).
-
-There is more I want to say here, about who in this community has been told no for so long that they no longer believe
-yes when they hear it, and what it takes to bring them back. That is its own post.
-
-## The sprints
-
-At the sprints I helped the CPython team a little by sharing the QR code generator I built. People needed QR codes for
-the sprint room: codes pointing to Discord, GitHub, the venue. I had a thing that makes them. No ads. No payment. (I
-built it partly because I was tired of paying for software that should be a one-page Python script. That's another
-post.) It got used. That felt good.
-
-{{<fosstodon user="mariatta" id="116596529377122719">}}
-
-{{<fosstodon user="mariatta" id="116596672034550995">}}
-
-Paul and I talked about the datetime docs. Keith showed me a framework he's been building for interactive docs and
-tutorials aimed at beginners who aren't programmers yet. Daniel Chen and I talked about the PyLadiesCon portal, Django,
-what's next for PyLadies Vancouver. Inessa and I did a quick retro on the Maintainer Summit, which she and Leah and I
-ran together. (Past tense already. The conference moves fast.) I showed her how I've been using agentic AI in my own
-workflow. That one's a longer conversation; it's getting its own post.
-
-{{<fosstodon user="mariatta" id="116599737266844534">}}
 
 ## Keynotes and talks
 
-Pablo Galindo's keynote was in Spanish with English subtitles, which I loved: given I was MCing Charlas, the symbolism
-wasn't lost on me. He framed Python as a cathedral, the way Gaudí's Sagrada Família has been under construction for 144
-years and is only now nearing completion. What he built on top of that metaphor landed hard: what AI is doing to open
-source contribution, how it is draining trust faster than the community can replenish it, the eternal September we are
-walking into. I have been thinking about it since.
+[Pablo Galindo's keynote](https://www.youtube.com/watch?v=e8uozuvRf7g) was in Spanish. We had the option to listen to an
+auto-translated English version, but it sounded too robotic. I wanted to hear Pablo's real emotion in his voice, so I
+read the English subtitles instead. He framed Python as a cathedral, the way Gaudí's Sagrada Família has been under
+construction for 144 years and is only now nearing completion. What he built on top of that metaphor landed hard: what
+AI is doing to open source contribution, how it is draining trust faster than the community can replenish it, the
+eternal September we are walking into.
 
-Amanda Casari's keynote was the one I dragged myself to before going to a clinic, not after, because I wasn't going to
-miss it. She talked about hope, autonomy, and agency. The difference between automating and enabling. The difference
-between speed sold to us and pace we choose. _There are no solutions, only trade-offs._ _Equal autonomy has never been
-granted or given, but it can be collectively won and defended._ I have notes from that talk that I'll be carrying for a
-while.
+[Amanda Casari's keynote](https://www.youtube.com/watch?v=Z90Ax4SrhDQ) was the one I dragged myself to before going to a
+clinic, not after, because I wasn't going to miss it. She talked about hope, autonomy, and agency. The difference
+between automating and enabling. The difference between speed sold to us and pace we choose. _There are no solutions,
+only trade-offs._ _Equal autonomy has never been granted or given, but it can be collectively won and defended._ I took
+a lot of notes from that talk.
 
-{{< gallery match="images/keynotes/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
+<!-- TODO photo: keynotes and talks (put files in images/keynotes/ and embed with ![alt](images/keynotes/file.jpg)) -->
 
-I sat in on Mike Fiedler's talk on PyPI safety, which was funny and bleak in equal measure: legitimate-looking malicious
-packages now start at v1.0.4 instead of v0.0.1, because that's what an LLM told someone "legitimate" looks like. And I
-chaired my friend Piper Thrustrom's CSS talk, which pointed us at stealthiswebsite.art and specifishity.com, told us to
-stop using `!important`, and made me want to rewrite my own site from scratch.
+At the Maintainer Summit, Mike Fiedler gave a talk on PyPI safety, which was funny and bleak in equal measure:
+legitimate-looking malicious packages now start at v1.0.4 instead of v0.0.1, because that's what an LLM told someone
+"legitimate" looks like. And I chaired my friend Piper Thunstrom's
+[CSS talk](https://www.youtube.com/watch?v=LIEsWtEUxrQ), which pointed us at stealthiswebsite.art and specifishity.com,
+and told us to stop using `!important`.
 
 ## My own talk
 
@@ -129,85 +101,91 @@ sign-up forms, and scheduling polls. The talk is the story of that portal: why w
 volunteers and speakers, and why I think more communities should own their infrastructure instead of renting it one
 spreadsheet at a time.
 
-This was the third time I've told this story and it finally felt the way I wanted it to feel. A talk is never done, it
-just gets rehearsed in enough hotel room mirrors. PyCon US was the last stop for this version, so if you missed it, the
-recording is right up there.
+I'm happy with this talk.
 
 {{<fosstodon user="mariatta" id="116588308950120363">}}
 
 ## The PyLadies lunch, and Laura
 
-The PyLadies lunch is where I always remember why I started. I didn't go up myself this year. I wanted to hear other
-people's stories. Not the big ones, not "I became a core developer." Just any story. Anything personal. I want us to
-normalize sharing in this room, because there is no better room in which to share. We are all _us_ here, not _I_ and
-_you_. We belong because we're all here.
+The main activity at the PyLadies lunch is sharing. Anyone can go up and talk about their story, their experience, or
+something they accomplished in the past year. Honestly, to me, simply hearing about someone's journey is inspiring. It
+really doesn't need to be about something super big.
 
-Elaine had asked me to help encourage people to share at the lunch: as conference chair she had a hundred other things
-to tend to. So I did. Not just a general invitation. I went to people directly. I told them their stories were worth
-sharing. I told them the people in this room wanted to see them up there, that someone would walk out of the lunch
-braver because of them.
+At this lunch, we took the opportunity to share with the community the news about Laura Funderburk, who was an important
+member of the PyLadies and Python community. We lost her in February. Georgi, Lais, Cheuk, Carol and I went up together
+to remember her. I shared messages from her mother that had been read at her memorial. There isn't a clean way to write
+about this. The room took a moment of silence in her honor. She was so motivated, and we truly miss her.
 
-One woman told me she wanted to share but wasn't comfortable speaking in English: her language was Portuguese. I asked
-my friend Lais, who speaks Portuguese, to encourage her. Lais did. She went up.
+[![LinkedIn post from PyLadies Vancouver: We are deeply saddened to share the news of the passing of Laura Funderburk, a cherished and influential member of the Python and PyLadies Vancouver community. Laura was a brilliant speaker, a passionate developer advocate, and a leading figure in AI and data science, specializing in LLM applications, RAG systems, and agentic workflows. She shared her knowledge with our community, locally and globally, on stages like PyLadiesCon, PyLadies International Women's Day, Data Umbrella, and PyCon Charlas, always bringing clarity, curiosity, and care to complex topics. She authored a book, Building Natural Language and LLM Pipelines, helped practitioners build production-grade RAG systems, design thoughtful tool contracts, and approach context engineering with rigor. Through her writing and talks, she made advanced ideas accessible and practical for so many in our community. Laura's impact extends far beyond the events she spoke at or the pages she wrote. Laura will be profoundly missed in the Python community and beyond. Our thoughts are with her family, friends, and everyone whose life she enriched. For those who wish to pay their respects in person, a visitation and viewing is scheduled for Wednesday, March 4, 2026, from 3:00 to 4:00 pm at 219 6th Street, New Westminster, BC V3L 3A3. Laura will be profoundly missed in the Python community and beyond. Our thoughts are with her family, friends, and everyone whose life she enriched. Thank you, Laura, for everything you gave to this community.](images/pyladies-lunch/laura-linkedin-post.png)](https://www.linkedin.com/posts/pyladies-vancouver_laura-daniela-gutierrez-funderburk-obituary-activity-7435035650204184576-59w8)
 
-Georgi, Lais, Cheuk, Carol and I went up together to remember Laura Funderburk, who we lost a couple of months ago. I
-shared messages from her mother that had been read at her memorial. There isn't a clean way to write about this. She
-should have been here. She loved this room.
+<!-- TODO photo: the PyLadies lunch (put files in images/pyladies-lunch/ and embed with ![alt](images/pyladies-lunch/file.jpg)) -->
 
-{{< gallery match="images/pyladies-lunch/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
+## The sprints
+
+At the sprints, the CPython team needed to print QR codes to clearly mark the sprint tables: codes pointing to Discord,
+GitHub, and so on. Cam asked if I knew how to make them. Easy. I went to the QR code generator app I built myself,
+generated the QR codes, and that was it. I felt like my purpose in life was complete.
+
+{{<fosstodon user="mariatta" id="116596529377122719">}}
+
+{{<fosstodon user="mariatta" id="116596672034550995">}}
+
+Paul and I talked about the datetime docs, which was one of my follow-up items from the
+[Python Docs Editorial Board meeting](https://python.github.io/editorial-board/updates/2026-04-14/#notes). Keith showed
+me a framework he's been building for interactive docs and tutorials aimed at beginners who aren't programmers yet.
+Daniel Chen and I talked about the PyLadiesCon portal, Django, and what's next for PyLadies Vancouver. Inessa and I did
+a quick retro on the Maintainer Summit, which she and Leah and I ran together.
+
+{{<fosstodon user="mariatta" id="116599737266844534">}}
 
 ## Friends winning things
 
-I watched friends I work alongside win things. Maria Jose and Denny got PyLadies Outstanding awards. Hwayoung Cha too.
-Jay got the PSF Community Service Award. I have spent enough hours in planning calls with these people to know what's
-behind each of those: none of it is by accident, none of it is small.
+I watched friends win things. Maria Jose and Denny got PyLadies Outstanding awards. Hwayoung Cha too. Jay got the PSF
+Community Service Award. Congratulations to all of them! They truly deserve the recognition.
 
-{{< gallery match="images/awards/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
+<!-- TODO photo: friends receiving their awards (put files in images/awards/ and embed with ![alt](images/awards/file.jpg)) -->
 
-The ice cream selfie flash mob open space happened, and it worked. Maybe a hundred people showed up. It took the whole
-hour for everyone to get their ice cream from Long Beach Creamery, who were extraordinary about holding the line for us.
-It turned out to be their eleventh anniversary the same day. That felt like the universe being a little kind.
+## Ice cream selfie flash mob
+
+The ice cream selfie flash mob open space happened, and I was in awe. Maybe a hundred people showed up. I really didn't
+expect so many. It took the whole hour for everyone to get their ice cream from Long Beach Creamery, who were
+extraordinary about holding the line for us. It turned out to be their eleventh anniversary the same day. That felt like
+the universe being a little kind. Thank you to everyone who showed up for the 41st ice cream selfie, ten years after the
+first one.
 
 {{<fosstodon user="mariatta" id="116590577506855911">}}
 
 {{<fosstodon user="mariatta" id="116595796112900397">}}
 
-{{< gallery match="images/ice-cream-selfie/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
+<!-- TODO photo: the ice cream selfie flash mob (put files in images/ice-cream-selfie/ and embed with ![alt](images/ice-cream-selfie/file.jpg)) -->
 
-Pierogicon was a taco truck this year. Last year it was Thai. The name stays; the cuisine rotates. I love that we have a
-tradition where the whole point is that the tradition is loose.
+## Pierogicon
+
+Pierogicon started the first time PyCon US was in Cleveland. The first Pierogicon was just me, Anna Ossowski, and Jeff
+Triplett going out to get pierogi together. The year after that, we brought more people to join us, and so it became a
+tradition. However, not every PyCon US location has a pierogi culture, so we've had to improvise. Last year we did Thai
+food instead. This year we went to a taco truck. The name stays; the cuisine rotates. Jeff even made an official
+Pierogicon website: [pierogicon.com](https://pierogicon.com/). I love that we have a tradition where the whole point is
+that the tradition is loose.
 
 {{<fosstodon user="mariatta" id="116588421799835476">}}
 
-{{< gallery match="images/pierogicon/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
-
-## What my body did
-
-I should be honest about the rest. After my talk on Saturday I was drained in a way I underestimated. The migraine came
-that night, mid-Pierogicon, with the kind of nausea that makes you excuse yourself and go to bed. I missed the
-Maintainer Summit. Sunday I went to a clinic after Amanda's keynote. Monday I went back for an injection, after I had
-already paid for the Queen Mary tour and decided to skip it.
-
-I am someone who has spent years showing up. This year my body said: not all the way, not this time. I am very grateful
-for health insurance, a clinic nearby, a doctor who could see me right away. Not everyone has that soft a place to land.
+<!-- TODO photo: Pierogicon at the taco truck (put files in images/pierogicon/ and embed with ![alt](images/pierogicon/file.jpg)) -->
 
 ## The quieter absences
 
 There are also the people who weren't at PyCon at all this year. People who couldn't get a travel grant. People for whom
-entry into the US has gotten harder. People who wouldn't come on principle. That's a real part of the story of PyCon
-2026, and I want to name it without trying to wrap it up in a sentence here. It's part of what I'm going to write about
-separately.
+entry into the US has gotten harder. People who wouldn't come on principle. I think this part is worth acknowledging.
 
-For context: I spent about $3,700 Canadian on this trip. Registration was free because I am a core developer, and about
-$2,000 will be reimbursed from a core developer travel grant. My application for the conference's main travel grant was
-denied. I am three hours by plane from Long Beach, in the same time zone, with no visa friction. The full breakdown of
-what it actually cost to be in that room is its own post.
+## What my body did
 
-I didn't run into Guido. There's an avatar of him on display this year, and I took a picture with that. I won't lie, it
-felt strange. Usually I get to chat with him at the Language Summit. There wasn't one this time. Some of these absences
-are practical. Some of them are the conference quietly changing shape.
+Those who saw me in person knew I wasn't feeling well. I started having a terrible migraine after my talk, and took the
+rest of the day to rest. I went to an urgent care clinic and got some medication, but I still wasn't feeling 100%. I
+pushed myself to take part in the rest of the conference anyway. I really shouldn't have.
 
-{{< gallery match="images/misc/*" rowHeight="200" margins="3" thumbnailResizeOptions="800x800 q90 Lanczos" previewType="blur" embedPreview=true >}}
+When I got back home, I spent a few hours in the ER and finally got treated properly. I even got a brain scan, but the
+result was nothing scary or concerning, so at least that was ruled out. Even then, it took another month of constantly
+taking pain medication for me to feel normal again.
 
 ## Thanks
 
@@ -223,18 +201,11 @@ Thanks to everyone who came to my talk, and to everyone who came up to me afterw
 and about the Python documentary. I do not always know what to do with kind words. I keep them anyway.
 
 Thanks to the PyLadiesCon team, who are the best people I get to work with. Thanks to everyone who came to the
-PyLadiesCon open space: some of what you said in that room, I will be carrying for a while.
+PyLadiesCon open space.
 
 Thanks to Inessa and Leah, who I ran the Maintainer Summit with.
 
-And thanks to everyone who showed up for the ice cream selfie flash mob open space. It was the forty-first one I have
-hosted. Ten years of giving talks now, somewhere north of forty of those. There is a separate post brewing about that.
-
 ## Coming home
 
-So that was the good, the limited, and the loved. There is one more piece I owe this conference, and I'm working on it:
-the reflection. It is about who gets to change things in our community and who doesn't, and what we owe each other in
-2026 and beyond. That one's going to take a minute. It deserves more than a section in a recap.
-
-For now: I'm grateful. I came home with too many small joys to count, a few quiet regrets, and a much better
-understanding of where my own limits sit. I'll take it.
+So that was the good, the limited, and the loved. I'm grateful. I came home with too many small joys to count, a few
+quiet regrets, and a much better understanding of where my own limits sit. I'll take it.
