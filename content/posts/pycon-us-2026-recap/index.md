@@ -9,7 +9,7 @@ menu:
     name: PyCon US 2026 Recap
     identifier: pycon-us-2026-recap
     parent: posts
-hero: /posts/pycon-us-2026-recap/pycon-us-2026-recap.png
+hero: /posts/pycon-us-2026-recap/pycon-us-2026-recap.jpg
 tags:
   - PyCon
   - PyCon US
@@ -36,7 +36,7 @@ One of the things she brought up was that they needed more volunteers. Denny and
 and the En Español community booth, said the same: they needed more MCs for Charlas and more people to staff the booth.
 As a conference organizer myself, I know that feeling well.
 
-None of them actually asked me to volunteer. They were just sharing some frustrations about the issue. But then I signed
+None of them asked me directly to volunteer. They were just sharing some frustrations about the issue. But then I signed
 up to volunteer anyway. After everything they had already given to this conference, I wanted to give them something
 back. So I ended up volunteering as an MC for the Charlas track, and I sat at the En Español community booth for an hour
 to keep Maria Jose company.
@@ -61,16 +61,16 @@ Volunteering is mutual. It is supposed to be. I'm really glad I was able to help
 > **A small ask, while we're here:** if you saw someone volunteering at a conference, at a booth, in a session,
 > anywhere: say thanks. Better, nominate them for an award. The work is mostly invisible, and the people doing it could
 > use the visibility. More on this in my older post:
-> [How to Say Thanks to Python People](https://mariatta.ca/posts/how-to-thank-python-people/).
+> [How to Say Thanks to Python People](/posts/how-to-thank-python-people/).
 
 ## Keynotes and talks
 
-[Pablo Galindo's keynote](https://www.youtube.com/watch?v=e8uozuvRf7g) was in Spanish. We had the option to listen to an
-auto-translated English version, but it sounded too robotic. I wanted to hear Pablo's real emotion in his voice, so I
-read the English subtitles instead. He framed Python as a cathedral, the way Gaudí's Sagrada Família has been under
-construction for 144 years and is only now nearing completion. What he built on top of that metaphor landed hard: what
-AI is doing to open source contribution, how it is draining trust faster than the community can replenish it, the
-eternal September we are walking into.
+[Pablo Galindo Salgado's keynote](https://www.youtube.com/watch?v=e8uozuvRf7g) was in Spanish. We had the option to
+listen to an auto-translated English version, but it sounded too robotic. I wanted to hear Pablo's real emotion in his
+voice, so I read the English subtitles instead. He framed Python as a cathedral, the way Gaudí's Sagrada Família has
+been under construction for 144 years and is only now nearing completion. What he built on top of that metaphor landed
+hard: what AI is doing to open source contribution, how it is draining trust faster than the community can replenish it,
+the eternal September we are walking into.
 
 [Amanda Casari's keynote](https://www.youtube.com/watch?v=Z90Ax4SrhDQ) was the one I dragged myself to before going to a
 clinic, not after, because I wasn't going to miss it. She talked about hope, autonomy, and agency. The difference
@@ -92,12 +92,11 @@ On Saturday I gave my talk:
 [No More Spreadsheets! Building PyLadiesCon Infrastructure with Python and Django](https://us.pycon.org/2026/schedule/presentation/80/).
 
 If you've been following along, you know this is my passion topic. It started as a lightning talk at last year's
-Community Organizers Summit, grew into a full talk at
-[PyCascades in April](https://mariatta.ca/posts/pycascades-2026-recap/), and this was the refined version I promised
-back then. PyLadiesCon runs on a portal we built ourselves with Python and Django, instead of a pile of spreadsheets,
-sign-up forms, and scheduling polls. The talk is the story of that portal: why we built it, what it does for our
-volunteers and speakers, and why I think more communities should own their infrastructure instead of renting it one
-spreadsheet at a time.
+Community Organizers Summit, grew into a full talk at [PyCascades in April](/posts/pycascades-2026-recap/), and this was
+the refined version I promised back then. PyLadiesCon runs on a portal we built ourselves with Python and Django,
+instead of a pile of spreadsheets, sign-up forms, and scheduling polls. The talk is the story of that portal: why we
+built it, what it does for our volunteers and speakers, and why I think more communities should own their infrastructure
+instead of renting it one spreadsheet at a time.
 
 I'm happy with this talk.
 
@@ -197,5 +196,5 @@ Thanks to Inessa and Leah, who I ran the Maintainer Summit with.
 
 ## Coming home
 
-So that was the good, the limited, and the loved. I'm grateful. I came home with too many small joys to count, a few
-quiet regrets, and a much better understanding of where my own limits sit. I'll take it.
+I'm grateful. I came home with too many small joys to count, a few quiet regrets, and a much better understanding of
+where my own limits sit. I'll take it.
