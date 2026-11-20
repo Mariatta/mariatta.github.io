@@ -78,8 +78,6 @@ between automating and enabling. The difference between speed sold to us and pac
 only trade-offs._ _Equal autonomy has never been granted or given, but it can be collectively won and defended._ I took
 a lot of notes from that talk.
 
-<!-- TODO photo: keynotes and talks (put files in images/keynotes/ and embed with ![alt](images/keynotes/file.jpg)) -->
-
 At the Maintainer Summit, Mike Fiedler gave a talk on PyPI safety, which was funny and bleak in equal measure:
 legitimate-looking malicious packages now start at v1.0.4 instead of v0.0.1, because that's what an LLM told someone
 "legitimate" looks like. And I chaired my friend Piper Thunstrom's
@@ -118,8 +116,6 @@ about this. The room took a moment of silence in her honor. She was so motivated
 
 [![LinkedIn post from PyLadies Vancouver: We are deeply saddened to share the news of the passing of Laura Funderburk, a cherished and influential member of the Python and PyLadies Vancouver community. Laura was a brilliant speaker, a passionate developer advocate, and a leading figure in AI and data science, specializing in LLM applications, RAG systems, and agentic workflows. She shared her knowledge with our community, locally and globally, on stages like PyLadiesCon, PyLadies International Women's Day, Data Umbrella, and PyCon Charlas, always bringing clarity, curiosity, and care to complex topics. She authored a book, Building Natural Language and LLM Pipelines, helped practitioners build production-grade RAG systems, design thoughtful tool contracts, and approach context engineering with rigor. Through her writing and talks, she made advanced ideas accessible and practical for so many in our community. Laura's impact extends far beyond the events she spoke at or the pages she wrote. Laura will be profoundly missed in the Python community and beyond. Our thoughts are with her family, friends, and everyone whose life she enriched. For those who wish to pay their respects in person, a visitation and viewing is scheduled for Wednesday, March 4, 2026, from 3:00 to 4:00 pm at 219 6th Street, New Westminster, BC V3L 3A3. Laura will be profoundly missed in the Python community and beyond. Our thoughts are with her family, friends, and everyone whose life she enriched. Thank you, Laura, for everything you gave to this community.](images/pyladies-lunch/laura-linkedin-post.png)](https://www.linkedin.com/posts/pyladies-vancouver_laura-daniela-gutierrez-funderburk-obituary-activity-7435035650204184576-59w8)
 
-<!-- TODO photo: the PyLadies lunch (put files in images/pyladies-lunch/ and embed with ![alt](images/pyladies-lunch/file.jpg)) -->
-
 ## The sprints
 
 At the sprints, the CPython team needed to print QR codes to clearly mark the sprint tables: codes pointing to Discord,
@@ -143,8 +139,6 @@ a quick retro on the Maintainer Summit, which she and Leah and I ran together.
 I watched friends win things. Maria Jose and Denny got PyLadies Outstanding awards. Hwayoung Cha too. Jay got the PSF
 Community Service Award. Congratulations to all of them! They truly deserve the recognition.
 
-<!-- TODO photo: friends receiving their awards (put files in images/awards/ and embed with ![alt](images/awards/file.jpg)) -->
-
 ## Ice cream selfie flash mob
 
 The ice cream selfie flash mob open space happened, and I was in awe. Maybe a hundred people showed up. I really didn't
@@ -157,8 +151,6 @@ first one.
 
 {{<fosstodon user="mariatta" id="116595796112900397">}}
 
-<!-- TODO photo: the ice cream selfie flash mob (put files in images/ice-cream-selfie/ and embed with ![alt](images/ice-cream-selfie/file.jpg)) -->
-
 ## Pierogicon
 
 Pierogicon started the first time PyCon US was in Cleveland. The first Pierogicon was just me, Anna Ossowski, and Jeff
@@ -169,8 +161,6 @@ Pierogicon website: [pierogicon.com](https://pierogicon.com/). I love that we ha
 that the tradition is loose.
 
 {{<fosstodon user="mariatta" id="116588421799835476">}}
-
-<!-- TODO photo: Pierogicon at the taco truck (put files in images/pierogicon/ and embed with ![alt](images/pierogicon/file.jpg)) -->
 
 ## The quieter absences
 
