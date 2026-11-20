@@ -72,7 +72,7 @@ been under construction for 144 years and is only now nearing completion. What h
 hard: what AI is doing to open source contribution, how it is draining trust faster than the community can replenish it,
 the eternal September we are walking into.
 
-[amanda casari's keynote](https://www.youtube.com/watch?v=Z90Ax4SrhDQ) was the one I dragged myself to before going to a
+[Amanda Casari's keynote](https://www.youtube.com/watch?v=Z90Ax4SrhDQ) was the one I dragged myself to before going to a
 clinic, not after, because I wasn't going to miss it. She talked about hope, autonomy, and agency. The difference
 between automating and enabling. The difference between speed sold to us and pace we choose. _There are no solutions,
 only trade-offs._ _Equal autonomy has never been granted or given, but it can be collectively won and defended._ I took
