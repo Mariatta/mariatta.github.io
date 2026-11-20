@@ -6,7 +6,7 @@ draft: false
 description:
   "Since v6.0.0, gidgethub has been in maintenance-only mode: bug reports are welcome, feature requests and external
   pull requests are not. We said so on social media and not much louder. v6.0.1 fixes that."
-tags: ["gidgethub", "Open Source", "Python", "Maintainership"]
+tags: ["gidgethub", "Open Source", "Python", "Maintainers"]
 images:
   - /posts/gidgethub-maintenance-only/gidgethub-maintenance-only.jpg
 hero: /posts/gidgethub-maintenance-only/gidgethub-maintenance-only.jpg
@@ -19,7 +19,7 @@ What that means in practice:
 
 - **Bug reports are welcome.** We'll make a best-effort attempt at fixing them.
 - **Feature requests are not accepted**, and will be closed.
-- **Pull requests from external contributors are not accepted.** PRs are disabled on the repository.
+- **Pull requests from external contributors are not accepted.** Only maintainers can open them.
 
 It still works, it still gets bug fixes, and v6.0.0 was a big release. It just isn't growing anymore.
 
@@ -30,9 +30,9 @@ The CPython core workflow bots still run on it: [bedevere](https://github.com/py
 
 It was a short conversation, and it happened on Labour Day.
 
-Brett had been taking stock of the open source projects that take up his time without giving much back, and gidgethub
-was one of them. He asked whether I wanted to keep it going, or wind it down instead: close it to outside contributors,
-work through what was still open, and eventually archive it.
+[Brett Cannon](https://github.com/brettcannon) had been taking stock of the open source projects that take up his time
+without giving much back, and gidgethub was one of them. He asked whether I wanted to keep it going, or wind it down
+instead: close it to outside contributors, work through what was still open, and eventually archive it.
 
 I was already feeling the same way. I haven't been building anything with gidgethub, so I didn't feel like a good judge
 of which new features it should have. We settled on doing what the [requests](https://github.com/psf/requests) library
@@ -42,7 +42,7 @@ that was the whole decision.
 ## Why you're hearing about it now
 
 Brett and I didn't keep this a secret, but we didn't exactly shout it either. Brett
-[posted about it on Mastodon](https://mastodon.social/@brettcannon/117271883257045196):
+[posted about it on Mastodon](https://mastodon.social/@brettcannon/117271883065229398):
 
 > On Labour Day, @mariatta and I decided to put Gidgethub into maintenance mode; we will accept bug reports but no
 > feature requests, PRs only by us.
@@ -58,7 +58,7 @@ down. That was about it.
 
 [C.A.M. Gerlach](https://github.com/CAM-Gerlach) pointed out in
 [issue #255](https://github.com/gidgethub/gidgethub/issues/255) that this wasn't enough. He only found out because
-[Hugo](https://github.com/hugovk) mentioned it in passing on
+[Hugo van Kemenade](https://github.com/hugovk) mentioned it in passing on
 [cherry-picker#192](https://github.com/python/cherry-picker/issues/192). It wasn't in the docs, it wasn't in the
 changelog, and there was no issue template to catch anyone before they filed a feature request.
 
@@ -86,7 +86,9 @@ v6.0.1 is a documentation-only change.
 Since 6.0.0 is the release that went quietly into maintenance mode, its changes are worth a mention too. The highlights:
 
 - Managed GitHub App authentication: pass `app_id` and `private_key` to `GitHubAPI`, and JWTs are generated, cached, and
-  refreshed for you. ([#252](https://github.com/gidgethub/gidgethub/pull/252))
+  refreshed for you. Inspired by
+  [Jonathan Sick's earlier implementation](https://github.com/gidgethub/gidgethub/pull/201).
+  ([#252](https://github.com/gidgethub/gidgethub/pull/252))
 - New `manage_rate_limit()` and `handle_rate_limit_error()` hooks, so you can plug in your own rate-limit and retry
   strategy. ([#19](https://github.com/gidgethub/gidgethub/issues/19))
 - 422 responses with string `errors` now raise `ValidationError` instead of `TypeError`.
